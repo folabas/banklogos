@@ -1,0 +1,20 @@
+{
+  "id": "aso-savings",
+  "name": "ASO Savings and Loans",
+  "shortName": "ASO Savings",
+  "aliases": ["ASO Savings and Loans Plc", "ASO Savings & Loans PLC"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://www.asoplc.com",
+  "bankCodes": ["401"],
+  "source": {
+    "url": "https://web.archive.org/web/20221225194538/https://www.asoplc.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

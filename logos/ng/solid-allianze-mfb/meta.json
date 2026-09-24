@@ -1,0 +1,20 @@
+{
+  "id": "solid-allianze-mfb",
+  "name": "Solid Allianze Microfinance Bank",
+  "shortName": "Solid Allianze",
+  "aliases": ["Solid Allianze MFB", "Solid Allianze MicroFinance Bank Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://solidallianzemfb.com",
+  "bankCodes": ["51062"],
+  "source": {
+    "url": "https://web.archive.org/web/20191120232918/http://solidallianzemfb.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

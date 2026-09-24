@@ -1,0 +1,20 @@
+{
+  "id": "grants-mfb",
+  "name": "Grants Microfinance Bank",
+  "shortName": "Grants MFB",
+  "aliases": ["GRANTS MFB", "GrantsMFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://grantsmfb.com",
+  "bankCodes": ["90335"],
+  "source": {
+    "url": "https://web.archive.org/web/20250119015932/https://grantsmfb.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

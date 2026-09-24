@@ -20,6 +20,8 @@ export const LICENSES = [
   'official-site',
   /** The institution's own app icon from Google Play or the App Store. */
   'official-app-icon',
+  /** Profile picture of the institution's own verified/official social media page. */
+  'official-social',
   'cc-by-sa',
   'cc-by',
   'cc0',

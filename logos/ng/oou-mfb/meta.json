@@ -1,0 +1,24 @@
+{
+  "id": "oou-mfb",
+  "name": "OOU Microfinance Bank",
+  "shortName": "OOU MFB",
+  "aliases": [
+    "Olabisi Onabanjo University Microfinance Bank Limited",
+    "OOUMFB",
+    "Olabisi Onabanjo University Microfinance Bank"
+  ],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://ooumfb.com",
+  "bankCodes": ["50689"],
+  "source": {
+    "url": "https://www.facebook.com/ooumfb",
+    "license": "official-social",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "chanelle-mfb",
+  "name": "Chanelle Microfinance Bank",
+  "shortName": "Chanelle MFB",
+  "aliases": ["Chanelle Microfinance Bank Limited", "Chanelle MFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://chanellemicrofinancebank.com",
+  "bankCodes": ["50171"],
+  "source": {
+    "url": "https://web.archive.org/web/20230113131330/https://chanellemicrofinancebank.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://web.archive.org/web/20220625/https://chanellemicrofinancebank.com/",
+      "license": "official-site",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

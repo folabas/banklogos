@@ -1,0 +1,20 @@
+{
+  "id": "movasco-mfb",
+  "name": "Movasco Microfinance Bank",
+  "shortName": "Movasco MFB",
+  "aliases": ["MOVASCO MFB", "Movasco-op Microfinance Bank Limited", "Mouau Vasmucs Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://mouauvasmucsmfb.com",
+  "bankCodes": ["90979"],
+  "source": {
+    "url": "https://web.archive.org/web/2024/https://mouauvasmucsmfb.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

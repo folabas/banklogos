@@ -1,0 +1,216 @@
+[
+  {
+    "bankCode": "90102",
+    "id": "adamawa-mortgage-bank",
+    "name": "Adamawa Mortgage Bank",
+    "shortName": "Adamawa Mortgage",
+    "aliases": ["Adamawa Mortgage Bank Limited"],
+    "website": "https://adamawamortgagebank.com.ng",
+    "types": ["bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Skipped: only reachable over an expired TLS certificate (not bypassed); image is a house icon without the bank name. NO Wayback copy exists (CDX and availability API return nothing for the domain), so the Wayback route suggested in GAPS.md is not possible. The live site's TLS certificate is expired (SEC_E_CERT_EXPIRED); the files return 200 image/png only with certificate verification disabled (curl -k), and plain http redirects to https. The importer must fetch with TLS verification off or the owner should grab it manually. logo.png is 1532x580 RGBA: house icon plus 'RC No. 7167143' text, with no bank name. logoround.png is 1585x1585, the same house icon on a white circle. No Apple app found."
+  },
+  {
+    "bankCode": "50036",
+    "id": "abu-mfb",
+    "name": "ABU Microfinance Bank",
+    "shortName": "ABU MFB",
+    "aliases": ["Ahmadu Bello University Microfinance Bank", "Ahmadu Bello University Microfinance Bank Nig. Ltd"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://graph.facebook.com/myabubank/picture?type=large",
+      "format": "png",
+      "license": "official-social",
+      "sourceUrl": "https://www.facebook.com/myabubank"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Official Facebook page 'Ahmadu Bello University Microfinance Bank Nig. Ltd | Zaria', about 2.7k followers. The profile picture is a 188x188 JPEG, the ABUMFB emblem (green arch with pink figures and ABUMFB text); not a silhouette. No Apple or Google Play app. Do not confuse with ABUCOOP MFB (com.abucoopmfb.abucoopmfbmobile), which is a different institution."
+  },
+  {
+    "bankCode": "401",
+    "id": "aso-savings",
+    "name": "ASO Savings and Loans",
+    "shortName": "ASO Savings",
+    "aliases": ["ASO Savings and Loans Plc", "ASO Savings & Loans PLC"],
+    "website": "https://www.asoplc.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://web.archive.org/web/20230108091351im_/https://www.asoplc.com/resources/img/global/logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://web.archive.org/web/20221225194538/https://www.asoplc.com/"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Header logo from the pre-hijack Wayback snapshot (page 2022-12-25, image 2023-01-08). The image digest has been unchanged since 2012. It is small: 140x50 RGBA, red/black ASO mark with 'SAVINGS & LOANS PLC, RC No. 283162'. The og:image aso_logo1.jpg (180x68) is only archived at 2025-12-16, possibly after the hijack, so I did not use it. No Apple app found."
+  },
+  {
+    "bankCode": "90451",
+    "id": "atbu-mfb",
+    "name": "ATBU Microfinance Bank",
+    "shortName": "ATBU MFB",
+    "aliases": ["ATBU MFB", "Abubakar Tafawa Balewa University Microfinance Bank Limited"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Located at ATBU Yelwa campus, Bauchi (RC 1294064). No logo found. Tried: Apple ('ATBU', 'ATBU MFB', 'Bauchi microfinance'); Google Play; web search for a website or Facebook/Instagram/X page (only the university's own pages exist); guessed domains atbumfb.com/.ng (no DNS, no Wayback). Possible fallback: the parent university's crest, which is not the bank's own logo."
+  },
+  {
+    "bankCode": "50117",
+    "id": "banccorp-mfb",
+    "name": "Banccorp Microfinance Bank",
+    "shortName": "Banccorp MFB",
+    "aliases": ["Banc Corp Microfinance Bank", "Bancorp Microfinance Bank Limited", "Banccorp Microfinance Bank Ltd"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Idemili House, Int'l Trade Fair Complex, Lagos. Its Facebook page (facebook.com/p/Banccorp-Microfinance-Bank-Ltd-100070251009654) has only the default silhouette avatar, so I rejected it. bancorpmfb.com in Wayback (2021) is a parked domain page. No Apple or Google Play app. Bancorp Finance Limited (LinkedIn) is a different, finance-company entity."
+  },
+  {
+    "bankCode": "50171",
+    "id": "chanelle-mfb",
+    "name": "Chanelle Microfinance Bank",
+    "shortName": "Chanelle MFB",
+    "aliases": ["Chanelle Microfinance Bank Limited", "Chanelle MFB"],
+    "website": "https://chanellemicrofinancebank.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://web.archive.org/web/20230113131335im_/https://chanellemicrofinancebank.com/wp-content/uploads/2022/03/web-logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://web.archive.org/web/20230113131330/https://chanellemicrofinancebank.com/"
+    },
+    "mark": {
+      "url": "https://web.archive.org/web/20220625111036im_/https://chanellemicrofinancebank.com/wp-content/uploads/2022/03/cropped-Chanelle-Logo-New-180x180.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://web.archive.org/web/20220625/https://chanellemicrofinancebank.com/"
+    },
+    "sameBrandAs": null,
+    "notes": "Wayback copy (2023-01-13) of the header logo from the now-dead WordPress site (live site gives Cloudflare 525). The logo is 1098x354 RGBA: red 'Chanelle' plus 'MICROFINANCE BANK LIMITED'. The mark is the 180x180 red 'C' site icon (2022-06-25). Alternative: the official Facebook page facebook.com/ChanelleMFBL (Ikeja) has a 200x200 red circle 'Chanelle MFB' avatar at https://graph.facebook.com/ChanelleMFBL/picture?type=large. No Apple app."
+  },
+  {
+    "bankCode": "FC40128",
+    "id": "county-finance",
+    "name": "County Finance",
+    "shortName": "County Finance",
+    "aliases": ["County Finance Limited", "County Finance Ltd"],
+    "website": "https://www.countyfinanceng.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://web.archive.org/web/20230610132638im_/https://www.countyfinanceng.com/wp-content/uploads/2020/03/county-logo-Recovered.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://web.archive.org/web/20220117001041/https://www.countyfinanceng.com/"
+    },
+    "mark": {
+      "url": "https://web.archive.org/web/20230610142257im_/https://www.countyfinanceng.com/wp-content/uploads/2019/02/cropped-logo-png-180x180.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://web.archive.org/web/20220117001041/https://www.countyfinanceng.com/"
+    },
+    "sameBrandAs": null,
+    "notes": "Domain countyfinanceng.com found through the ELAN contact list; the live site no longer responds. The logo is a Wayback copy (2023-06-10) of the stacked lockup, 375x347: gold/brown 'C' orb with 'COUNTY Finance'. The horizontal header version (300x80) is at https://web.archive.org/web/20220117001041im_/https://www.countyfinanceng.com/wp-content/uploads/2019/08/logo-big.png. The mark is the 180x180 site icon. Note: the official Facebook page facebook.com/countyfinancelimited (Ikeja) now shows a newer, different gold 'C' mark (graph.facebook.com/countyfinancelimited/picture?type=large, 200x200), so the brand may have been refreshed. 49 Wemco Road, Ogba, Ikeja."
+  },
+  {
+    "bankCode": "50922",
+    "id": "ebsu-mfb",
+    "name": "EBSU Microfinance Bank",
+    "shortName": "EBSU MFB",
+    "aliases": ["Ebonyi State University Microfinance Bank Ltd", "University MFB (EBSU)"],
+    "website": "https://ebsumfb.com",
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "ebsumfb.com is still up but only shows a 2016 Christmas greeting page with a photo (ebsumfb-christmas-tree.jpg), which is not a logo. Wayback has only that page, a favicon.ico and a 2021 'suspended' page. No Apple or Google Play app. No Facebook page for the bank found (only the university's pages)."
+  },
+  {
+    "bankCode": "090678",
+    "id": "excel-mfb",
+    "name": "Excel Microfinance Bank",
+    "shortName": "Excel MFB",
+    "aliases": ["EXCEL FINANCE BANK", "Excel Microfinance Bank Limited"],
+    "website": "https://excelmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://excelmfb.com/public/assets/images/logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://excelmfb.com/"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "LOW CONFIDENCE on identity. I could not confirm that code 090678 'EXCEL FINANCE BANK' is the live site excelmfb.com ('Excel Microfinance Bank Limited', 1 Hospital Road, Sango Eruwa, Oyo). No other Excel bank or finance company was found. The logo is tiny: 82x90 RGBA, a circular 'emb' badge with a bird. The site's favicon.png returns 404. No Apple or Google Play app."
+  },
+  {
+    "bankCode": "832",
+    "id": "futminna-mfb",
+    "name": "FUTMINNA Microfinance Bank",
+    "shortName": "FUTMINNA MFB",
+    "aliases": ["FUTMINNA MICROFINANCE BANK", "FUT Minna Microfinance Bank Limited"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Located at the Federal University of Technology, Minna, Niger State. No logo found. Tried: Apple ('FUTMINNA', 'FUT Minna', 'Minna microfinance'); Google Play ('com.futminna' is the university's app, not the bank's); web search for a Facebook/Instagram/X/LinkedIn page (only university accounts); guessed domains futminnamfb.com/.ng and futmfb.com (none exist). Possible fallback: the university crest."
+  },
+  {
+    "bankCode": "MFB51093",
+    "id": "garun-mallam-mfb",
+    "name": "Garun Mallam Microfinance Bank",
+    "shortName": "Garun Mallam MFB",
+    "aliases": ["Garun Mallam MFB", "Garun Mallam Microfinance Bank Limited"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Garun Mallam town, Kano State. No website, app or social page found. Tried: Apple ('Garun Mallam', 'Garun'); Google Play; web search for a Facebook page; guessed domains garunmallammfb.com and gmmfb.com."
+  },
+  {
+    "bankCode": "50739",
+    "id": "goodnews-mfb",
+    "name": "Goodnews Microfinance Bank",
+    "shortName": "Goodnews MFB",
+    "aliases": ["Good News Microfinance Bank Limited", "Goodnews MFB"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Ibadan, Oyo (RC 395695). Goodnews MFB is the licensed bank that issues account numbers (NUBANs) for Prospa (getprospa.com) and was reportedly acquired by Prospa in 2024. The Prospa logo is a different brand, so I did not use it. The owner could consider sameBrandAs 'prospa' if transfers to this code are mostly Prospa accounts. goodnewsmfb.com in Wayback (2021-2025) is empty or a parked '/lander' page. The Facebook page 'Goodnews Mfbank' (id 100039325844459) has only the default silhouette avatar, so I rejected it. No Apple app; Google Play com.gnmfb.mobile is Good Neighbours MFB, a different bank."
+  },
+  {
+    "bankCode": "90335",
+    "id": "grants-mfb",
+    "name": "Grants Microfinance Bank",
+    "shortName": "Grants MFB",
+    "aliases": ["GRANTS MFB", "GrantsMFB"],
+    "website": "https://grantsmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://web.archive.org/web/20240715114423im_/https://grantsmfb.com/wp-content/uploads/2022/02/grants-logo-5.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://web.archive.org/web/20250119015932/https://grantsmfb.com/"
+    },
+    "mark": {
+      "url": "https://web.archive.org/web/20240715113815im_/https://grantsmfb.com/wp-content/uploads/2022/02/logo-thumnail2.jpg",
+      "format": "jpg",
+      "license": "official-site",
+      "sourceUrl": "https://web.archive.org/web/20250119015932/https://grantsmfb.com/"
+    },
+    "sameBrandAs": null,
+    "notes": "Head office in Gwagwalada, Abuja FCT (from the archived contact-us page). grantsmfb.com is now a parked Sedo domain, so both images are Wayback copies from 2024-07-15. The logo is the site's 'grants-logo-5.png' (1424x532): green 'GRANTS MFB' text in a thin blue box above a gold cowrie shell, on a dark gradient background. It is a banner-style image, not a clean transparent logo, so medium confidence. The mark is the site icon/header logo: a gold cowrie shell, 150x106 JPEG, not square. No Apple or Google Play app."
+  }
+]

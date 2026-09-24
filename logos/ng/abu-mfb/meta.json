@@ -1,0 +1,19 @@
+{
+  "id": "abu-mfb",
+  "name": "ABU Microfinance Bank",
+  "shortName": "ABU MFB",
+  "aliases": ["Ahmadu Bello University Microfinance Bank", "Ahmadu Bello University Microfinance Bank Nig. Ltd"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "bankCodes": ["50036"],
+  "source": {
+    "url": "https://www.facebook.com/myabubank",
+    "license": "official-social",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

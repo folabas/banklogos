@@ -1,0 +1,19 @@
+{
+  "id": "pfi-finance",
+  "name": "PFI Finance",
+  "aliases": ["PFI FINANCE COMPANY LIMITED", "Paypady"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://paypady.com",
+  "bankCodes": ["050021"],
+  "source": {
+    "url": "https://apps.apple.com/ng/app/paypady-pfi-finance/id6504173960",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

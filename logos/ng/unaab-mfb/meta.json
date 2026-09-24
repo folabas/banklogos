@@ -1,0 +1,20 @@
+{
+  "id": "unaab-mfb",
+  "name": "UNAAB Microfinance Bank",
+  "shortName": "UNAAB MFB",
+  "aliases": ["Unaab Microfinance Bank Limited", "UMFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "http://microfinancebank.unaab.edu.ng",
+  "bankCodes": ["50870"],
+  "source": {
+    "url": "https://www.facebook.com/pages/UNAAB-Microfinance-BANK/100340306428172",
+    "license": "official-social",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

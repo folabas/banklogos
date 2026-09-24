@@ -1,0 +1,20 @@
+{
+  "id": "platinum-mortgage-bank",
+  "name": "Platinum Mortgage Bank",
+  "shortName": "Platinum Mortgage",
+  "aliases": ["Platinum Mortgage Bank Limited", "PMBL"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://pmbl-ng.com",
+  "bankCodes": ["268"],
+  "source": {
+    "url": "https://web.archive.org/web/20220221171849/https://pmbl-ng.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

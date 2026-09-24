@@ -1,0 +1,203 @@
+[
+  {
+    "bankCode": "51251",
+    "id": "hackman-mfb",
+    "name": "Hackman Microfinance Bank",
+    "shortName": "Hackman",
+    "aliases": ["Hackman Microfinance Bank Ltd", "HMB", "HackmanMFB"],
+    "website": "https://hackmanmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://web.archive.org/web/20190402015122im_/http://hackmanmfb.com/sites/default/files/sm_logo.jpg",
+      "format": "jpg",
+      "license": "official-site",
+      "sourceUrl": "https://web.archive.org/web/20190402015122/http://hackmanmfb.com/"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Live site returns HTTP 500. Header logo (228x87, 'HMB Hackman Microfinance Bank' with hands/people emblem) from Wayback snapshot 2019-04-02. The 2022 WordPress snapshot uses the same design (cropped-hackman-cropped-155x57.jpg, smaller); its full-size 2x file was not archived. 192px site icon is a badly cropped slice of the wordmark, so no mark. No Apple/Google Play app. Instagram @hackmanmfb exists but no stable image URL."
+  },
+  {
+    "bankCode": "51308",
+    "id": "kano-poly-mfb",
+    "name": "Kano Poly Microfinance Bank",
+    "shortName": "Kano Poly MFB",
+    "aliases": ["KANOPOLY MFB", "Kano Poly Micro-Finance Bank Limited"],
+    "website": "https://kanopolymfb.ng",
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "NOT FOUND. kanopolymfb.ng unreachable; CBN revoked its licence effective 1 July 2026. Wayback has homepage snapshots 2023-2024 whose header uses img/logo3.jpg, but that image (and favicon) was never archived (404 at every timestamp; CDX shows no images). No Apple or Google Play app; no official Facebook page found (graph lookup 'kanopolymfb' does not exist)."
+  },
+  {
+    "bankCode": "90979",
+    "id": "movasco-mfb",
+    "name": "Movasco Microfinance Bank",
+    "shortName": "Movasco MFB",
+    "aliases": ["MOVASCO MFB", "Movasco-op Microfinance Bank Limited", "Mouau Vasmucs Microfinance Bank"],
+    "website": "https://mouauvasmucsmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://web.archive.org/web/20220923141705im_/https://mouauvasmucsmfb.com/wp-content/uploads/2018/05/cropped-MOUAU-VASMUCS-MFB-LOGO.jpg",
+      "format": "jpg",
+      "license": "official-site",
+      "sourceUrl": "https://web.archive.org/web/2024/https://mouauvasmucsmfb.com/"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "LOW-MEDIUM confidence. Circular seal 'MOUAU VASMUCS Microfinance Bank Ltd' (220x220) from Wayback 2022-09-23 of mouauvasmucsmfb.com (live site unreachable). Movasco-op MFB (Umudike, Abia) is the successor of Mouau Vasmucs MFB following an NDIC purchase-and-assumption (2026 reports); this is the predecessor's last official logo, and Movasco may have rebranded. Distinct from MOUAU MFB (mouaumfb.com). No app found on Apple/Google Play."
+  },
+  {
+    "bankCode": "51392",
+    "id": "nuvion-mfb",
+    "name": "Nuvion Microfinance Bank",
+    "shortName": "Nuvion MFB",
+    "aliases": ["NUVION MFB"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "NOT FOUND. No website (nuvionmfb.com/.ng/.com.ng unresolvable; nuvionbank.com is a parked lander), no Apple app (only unrelated 'NUVION MEDIA S.R.L'), no Google Play app, no Facebook page or news found. Possibly a newly licensed MFB. Do not use the unrelated US/Romanian 'Nuvion' brands."
+  },
+  {
+    "bankCode": "50689",
+    "id": "oou-mfb",
+    "name": "OOU Microfinance Bank",
+    "shortName": "OOU MFB",
+    "aliases": ["Olabisi Onabanjo University Microfinance Bank Limited", "OOUMFB"],
+    "website": "https://ooumfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://graph.facebook.com/ooumfb/picture?type=large",
+      "format": "png",
+      "license": "official-social",
+      "sourceUrl": "https://www.facebook.com/ooumfb"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "LOW-MEDIUM quality. Official Facebook page (Ago-Iwoye) profile picture: the 'oumfb' wordmark cropped to a square by Facebook (edges of text cut off). Website ooumfb.com (and old ooumfb.com.ng) unreachable; Wayback 2022-03-10 homepage references wp-content/uploads/2021/08/logo2.png (699x344) but that file was not archived. No app on Apple/Google Play."
+  },
+  {
+    "bankCode": "090680",
+    "id": "pathfinder-mfb",
+    "name": "Pathfinder Microfinance Bank",
+    "shortName": "Pathfinder MFB",
+    "aliases": ["PATHFINDER MICROFINANCE BANK LIMITED"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "NOT FOUND. Facebook page facebook.com/people/PATHFINDER-MICROFINANCE-BANK/100068166938044 (Ila Orangun, Osun) has only the default silhouette avatar (rejected). No website (pathfindermfb.* unresolvable), no Apple or Google Play app. Beware the unrelated US 'Pathfinder Bank' (New York)."
+  },
+  {
+    "bankCode": "050021",
+    "id": "pfi-finance",
+    "name": "PFI Finance",
+    "shortName": "PFI Finance",
+    "aliases": ["PFI FINANCE COMPANY LIMITED", "Paypady"],
+    "website": "https://paypady.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/b9/a5/a7b9a509-541c-b724-3f49-edfbdf0cf86c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.png",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://apps.apple.com/ng/app/paypady-pfi-finance/id6504173960"
+    },
+    "mark": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/b9/a5/a7b9a509-541c-b724-3f49-edfbdf0cf86c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.png",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://apps.apple.com/ng/app/paypady-pfi-finance/id6504173960"
+    },
+    "sameBrandAs": null,
+    "notes": "App icon of 'Paypady - PFI Finance' (seller: PFI Finance Company Limited) — white 'pp' on blue. This is the consumer product brand (Paypady), not a separate PFI corporate logo; none found (paypady.com unreachable now, pficapital.com parked)."
+  },
+  {
+    "bankCode": "268",
+    "id": "platinum-mortgage-bank",
+    "name": "Platinum Mortgage Bank",
+    "shortName": "Platinum Mortgage",
+    "aliases": ["Platinum Mortgage Bank Limited", "PMBL"],
+    "website": "https://pmbl-ng.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://web.archive.org/web/20220221171849im_/https://pmbl-ng.com/uploads/setting/1557609466.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://web.archive.org/web/20220221171849/https://pmbl-ng.com/"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Full site logo (805x300): yellow bank-building emblem + 'PLATINUM Mortgage Bank Ltd' in navy + tagline '...from hope to home', from Wayback 2022-02-21 (identical to the 2019 images/logo.png). Note the artwork contains a placeholder-looking 'RC:123456' — it is what the bank actually used; crop if desired. The yellow building alone (1557609467.png, the favicon) is generic and was not used as mark. No app on Apple/Google Play."
+  },
+  {
+    "bankCode": "090496",
+    "id": "randalpha-mfb",
+    "name": "Randalpha Microfinance Bank",
+    "shortName": "Randalpha MFB",
+    "aliases": ["RANDALPHA MICROFINANCE BANK", "Randalpha Micro Finance Bank Ogbomoso"],
+    "website": "https://randalphamfbank.com",
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "NOT FOUND. Live WordPress site (and 2024 Wayback) shows only a text site title and branch photos (IMG-20220114-WA00xx.jpg); 2021 snapshot was an 'under construction' page. Both Facebook pages (ids 305819262769557, 262195774575675) have default silhouette avatars. No Apple/Google Play app."
+  },
+  {
+    "bankCode": "51062",
+    "id": "solid-allianze-mfb",
+    "name": "Solid Allianze Microfinance Bank",
+    "shortName": "Solid Allianze",
+    "aliases": ["Solid Allianze MFB", "Solid Allianze MicroFinance Bank Limited"],
+    "website": "https://solidallianzemfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://web.archive.org/web/20191120232918im_/http://solidallianzemfb.com/images/logotxt.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://web.archive.org/web/20191120232918/http://solidallianzemfb.com/"
+    },
+    "mark": {
+      "url": "https://web.archive.org/web/20191120232918im_/http://solidallianzemfb.com/images/logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://web.archive.org/web/20191120232918/http://solidallianzemfb.com/"
+    },
+    "sameBrandAs": null,
+    "notes": "Live site returns HTTP 500. Wayback 2019-11-20 header uses two images side by side: logotxt.png (314x76 wordmark 'Solid Allianze MicroFinance Bank Limited') and logo.png (97x120 grey/green hexagon emblem) — used as logo and mark respectively. Small/old (site design from ~2016). Facebook page (Lagos) has silhouette avatar only. No app."
+  },
+  {
+    "bankCode": "50870",
+    "id": "unaab-mfb",
+    "name": "UNAAB Microfinance Bank",
+    "shortName": "UNAAB MFB",
+    "aliases": ["Unaab Microfinance Bank Limited", "UMFB"],
+    "website": "http://microfinancebank.unaab.edu.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://graph.facebook.com/100340306428172/picture?type=large",
+      "format": "png",
+      "license": "official-social",
+      "sourceUrl": "https://www.facebook.com/pages/UNAAB-Microfinance-BANK/100340306428172"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Circular green seal 'UNAAB Microfinance Bank Ltd, Abeokuta, UMFB — Your dependable partner in wealth creation' from the bank's Facebook page (Abeokuta). Only 200x200 JPEG. Website microfinancebank.unaab.edu.ng unreachable; FUNAAB's page about the bank shows only the university logo. The other page facebook.com/unaabmicrofinance has a silhouette avatar. No 'unaabmobile' app found on Apple or Google Play."
+  },
+  {
+    "bankCode": "51085",
+    "id": "victory-mfb",
+    "name": "Victory Microfinance Bank",
+    "shortName": "Victory MFB",
+    "aliases": ["Victory MFB", "Victory Microfinance Bank Limited"],
+    "website": "https://victorymfb.com.ng",
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "NOT FOUND. Victory MFB is in Onitsha, Anambra (CBN list; site names chairman Elder (Dr) Paul Ulasi). victorymfb.com.ng unreachable now; Wayback snapshots 2022-2025 reference images/logo.png but no image from the domain was ever archived (CDX has only HTML). No Apple/Google Play app or official Facebook page found. Ignore unrelated US 'Victory Bank'."
+  }
+]
