@@ -1,0 +1,20 @@
+{
+  "id": "gombe-mfb",
+  "name": "Gombe MFB",
+  "shortName": "Gombe",
+  "aliases": ["GOMBE MFB", "Gombe Microfinance Bank Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://gombemfbank.com",
+  "bankCodes": ["90586"],
+  "source": {
+    "url": "https://gombemfbank.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

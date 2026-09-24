@@ -1,0 +1,20 @@
+{
+  "id": "prosperis-finance",
+  "name": "Prosperis Finance",
+  "shortName": "Prosperis",
+  "aliases": ["PROSPERIS FINANCE LIMITED", "Prosperis Holdings"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://prosperisgroup.com",
+  "bankCodes": ["050023"],
+  "source": {
+    "url": "https://prosperisgroup.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

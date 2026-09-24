@@ -1,0 +1,20 @@
+{
+  "id": "imperial-homes-mortgage-bank",
+  "name": "Imperial Homes Mortgage Bank",
+  "shortName": "Imperial Homes",
+  "aliases": ["IMPERIAL HOMES MORTAGE BANK", "Imperial Homes Mortgage Bank Ltd"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.imperialmortgagebank.com",
+  "bankCodes": ["415"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=africa.ivantage.app",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

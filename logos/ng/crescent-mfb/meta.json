@@ -1,0 +1,20 @@
+{
+  "id": "crescent-mfb",
+  "name": "Crescent Microfinance Bank",
+  "shortName": "Crescent MFB",
+  "aliases": ["Crescent MFB", "Crescent Microfinance Bank Limited", "CMFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://crescentmfb.ng",
+  "bankCodes": ["51297"],
+  "source": {
+    "url": "https://crescentmfb.ng/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

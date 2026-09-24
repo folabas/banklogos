@@ -1,0 +1,20 @@
+{
+  "id": "petra-mfb",
+  "name": "Petra Microfinance Bank",
+  "shortName": "Petra MFB",
+  "aliases": ["Petra Mircofinance Bank Plc", "Petra Microfinance Bank Plc"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://petramfbank.com",
+  "bankCodes": ["50746"],
+  "source": {
+    "url": "https://petramfbank.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ibank-mfb",
+  "name": "iBank MFB",
+  "shortName": "iBank",
+  "aliases": ["IBANK Microfinance Bank", "iBank Microfinance Bank Limited", "TCF Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": {
+    "logo": "png"
+  },
+  "website": "https://ibankmfb.com",
+  "bankCodes": ["51211"],
+  "source": {
+    "url": "https://apps.apple.com/ng/app/innovative-mfb/id1482057553",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

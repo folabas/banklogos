@@ -1,0 +1,27 @@
+{
+  "id": "above-only-mfb",
+  "name": "Above Only MFB",
+  "shortName": "Above Only",
+  "aliases": ["Above Only Microfinance Bank", "AboveOnly MFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.aboveonlymfb.com",
+  "bankCodes": ["51204"],
+  "source": {
+    "url": "https://www.aboveonlymfb.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.aboveonlymfb.aboveonlymfbmobile",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

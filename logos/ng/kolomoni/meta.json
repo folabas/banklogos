@@ -1,0 +1,26 @@
+{
+  "id": "kolomoni",
+  "name": "Kolomoni",
+  "aliases": ["Kolomoni MFB", "Kolomoni Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://kolomonimfb.com",
+  "bankCodes": ["899", "100025"],
+  "source": {
+    "url": "https://kolomonimfb.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.teqpace.kolomoni",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

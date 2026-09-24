@@ -1,0 +1,26 @@
+{
+  "id": "bainescredit",
+  "name": "BainesCredit",
+  "aliases": ["Bainescredit MFB", "Baines Credit Microfinance Bank Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png" },
+  "website": "https://www.bainescredit.com",
+  "bankCodes": ["51229"],
+  "source": {
+    "url": "https://apps.apple.com/ng/app/baines-credit/id1484476423",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://www.bainescredit.com/",
+      "license": "official-site",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "trustbanc-mfb",
+  "name": "TrustBanc MFB",
+  "shortName": "TrustBanc",
+  "aliases": ["TRUSTBANC J6 MICROFINANCE BANK", "TrustBanc J6 MFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://trustbancmfb.com",
+  "bankCodes": ["51118"],
+  "source": {
+    "url": "https://app.trustbancgroup.com/accounts/login/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.cwg.trustbanc",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

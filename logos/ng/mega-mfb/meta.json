@@ -1,0 +1,26 @@
+{
+  "id": "mega-mfb",
+  "name": "Mega MFB",
+  "aliases": ["Mega Microfinance Bank", "Farmers.ng"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://farmers.ng",
+  "bankCodes": ["50570"],
+  "source": {
+    "url": "https://farmers.ng",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.megamfb.megamfbmobile",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

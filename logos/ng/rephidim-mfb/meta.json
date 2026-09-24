@@ -1,0 +1,20 @@
+{
+  "id": "rephidim-mfb",
+  "name": "Rephidim Microfinance Bank",
+  "shortName": "Rephidim",
+  "aliases": ["Rephidim MFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://rephidimmfb.com",
+  "bankCodes": ["50994"],
+  "source": {
+    "url": "https://rephidimmfb.com/logo.svg",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

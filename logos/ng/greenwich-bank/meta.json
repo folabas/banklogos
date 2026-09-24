@@ -1,0 +1,25 @@
+{
+  "id": "greenwich-bank",
+  "name": "Greenwich Bank",
+  "shortName": "Greenwich",
+  "aliases": ["Greenwich Merchant Bank", "Greenwich Merchant Bank Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://www.greenwichbankgroup.com",
+  "bankCodes": ["562"],
+  "source": {
+    "url": "https://www.greenwichbankgroup.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "merchant-bank",
+    "registryId": "3184"
+  }
+}

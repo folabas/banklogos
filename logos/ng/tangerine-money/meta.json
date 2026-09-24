@@ -1,0 +1,19 @@
+{
+  "id": "tangerine-money",
+  "name": "Tangerine Money",
+  "shortName": "Tangerine",
+  "aliases": ["Tangerine Money MFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["e-wallet"],
+  "variants": ["logo"],
+  "website": "https://money.tangerine.africa",
+  "bankCodes": ["51269"],
+  "source": {
+    "url": "https://tangerine.africa",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

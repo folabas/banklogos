@@ -1,0 +1,27 @@
+{
+  "id": "bway-mfb",
+  "name": "BWay MFB",
+  "shortName": "BWay",
+  "aliases": ["BWAY MFB", "BWay Microfinance Bank Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.bway.ng",
+  "bankCodes": ["90774"],
+  "source": {
+    "url": "https://www.bway.ng/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.bwaymfb.bwaymfbmobile",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

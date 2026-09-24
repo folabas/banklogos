@@ -7,9 +7,7 @@
   "markets": ["NG"],
   "types": ["bank"],
   "variants": ["logo"],
-  "colors": {
-    "primary": "#B89B45"
-  },
+  "colors": { "primary": "#B89B45" },
   "website": "https://altbank.ng",
   "bankCodes": ["000304"],
   "source": {
@@ -18,5 +16,10 @@
     "fetchedAt": "2026-09-24"
   },
   "verified": false,
-  "addedIn": "0.1.0"
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "non-interest-bank",
+    "registryId": "9845"
+  }
 }

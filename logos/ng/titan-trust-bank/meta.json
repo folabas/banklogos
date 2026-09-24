@@ -1,0 +1,32 @@
+{
+  "id": "titan-trust-bank",
+  "name": "Titan Trust Bank",
+  "shortName": "Titan",
+  "aliases": ["Titan Bank", "Titan Trust Bank Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.titantrustbank.com",
+  "bankCodes": ["102"],
+  "source": {
+    "url": "https://web.archive.org/web/2021/https://titantrustbank.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.titantrustbank.titan1",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "commercial-bank",
+    "registryId": "19"
+  }
+}

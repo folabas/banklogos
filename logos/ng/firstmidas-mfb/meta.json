@@ -1,0 +1,27 @@
+{
+  "id": "firstmidas-mfb",
+  "name": "FirstMidas Microfinance Bank",
+  "shortName": "FirstMidas",
+  "aliases": ["FIRSTMIDAS MFB", "Firstmidas Microfinance Bank Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://firstmidasmfb.com",
+  "bankCodes": ["51333"],
+  "source": {
+    "url": "https://firstmidasmfb.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.firstmidasmfb.firstmidasmobile",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

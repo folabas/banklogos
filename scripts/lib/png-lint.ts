@@ -1,5 +1,6 @@
 export const MAX_PNG_BYTES = 100 * 1024;
-export const MIN_PNG_SIDE = 48;
+// Wide wordmarks are often ~40px tall on bank sites; below 32px they are unusable.
+export const MIN_PNG_SIDE = 32;
 export const MAX_PNG_SIDE = 1024;
 
 const SIGNATURE = [0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a];

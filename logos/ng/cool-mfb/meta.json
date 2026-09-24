@@ -1,0 +1,20 @@
+{
+  "id": "cool-mfb",
+  "name": "Cool Microfinance Bank",
+  "shortName": "Cool MFB",
+  "aliases": ["Cool Microfinance Bank Limited", "Cool Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://mycoolbank.com",
+  "bankCodes": ["51458"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.coolmfb.coolmfbmobile",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

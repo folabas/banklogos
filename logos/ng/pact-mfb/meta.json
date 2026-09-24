@@ -1,0 +1,19 @@
+{
+  "id": "pact-mfb",
+  "name": "Pact Microfinance Bank",
+  "shortName": "Pact",
+  "aliases": ["Pact Bank", "PACT MICROFINANCE BANK LTD"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "bankCodes": ["51477"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.pactmfb.app",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

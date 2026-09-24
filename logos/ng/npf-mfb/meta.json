@@ -1,0 +1,27 @@
+{
+  "id": "npf-mfb",
+  "name": "NPF Microfinance Bank",
+  "shortName": "NPF MFB",
+  "aliases": ["NPF MICROFINANCE BANK", "NPF Microfinance Bank Plc"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://npfmicrofinancebankplc.ng",
+  "bankCodes": ["50629"],
+  "source": {
+    "url": "https://npfmicrofinancebankplc.ng",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.npfmicrofinancebank.ibank",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

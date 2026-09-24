@@ -1,0 +1,26 @@
+{
+  "id": "advancly",
+  "name": "Advancly",
+  "aliases": ["Advancly MFB", "Advancly Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "mark": "png" },
+  "website": "https://advancly.com",
+  "bankCodes": ["090759"],
+  "source": {
+    "url": "https://advancly.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.advancly",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

@@ -1,0 +1,683 @@
+[
+  {
+    "bankCode": "502",
+    "id": "rand-merchant-bank",
+    "name": "Rand Merchant Bank",
+    "shortName": "RMB",
+    "aliases": ["RMB Nigeria", "Rand Merchant Bank Nigeria Limited"],
+    "website": "https://www.rmb.com.ng",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/eyJvYXV0aCI6eyJjbGllbnRfaWQiOiJjbGllbnQtZGl6dzZvZ3Q2ODJrcnczMyJ9LCJwYXRoIjoiZmlyc3QtcmFuZC1ncm91cFwvZmlsZVwvZkJ0U3J3RFBLMkJqNTVWUUJYTW0uc3ZnIn0:first-rand-group:aYCePaAaI2RzrOSIu8Y268bSjvfdY5VwAqGBIJzN9bw",
+      "format": "svg",
+      "license": "official-site",
+      "sourceUrl": "https://www.rmb.com.ng/"
+    },
+    "mark": {
+      "url": "https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/eyJvYXV0aCI6eyJjbGllbnRfaWQiOiJjbGllbnQtZGl6dzZvZ3Q2ODJrcnczMyJ9LCJwYXRoIjoiZmlyc3QtcmFuZC1ncm91cFwvZmlsZVwvQTUzNzhwNVpNZ0M3V1pycFlSbWEuc3ZnIn0:first-rand-group:WSkplcEl3idMpOWLUjy13qH-thKDmEuEBD4M_a77pqE",
+      "format": "svg",
+      "license": "official-site",
+      "sourceUrl": "https://www.rmb.co.za/"
+    },
+    "sameBrandAs": null,
+    "notes": "FirstRand group Frontify CDN assets referenced by rmb.com.ng. Logo = elephant + 'RMB' wordmark (4 paths), pure vector, single colour #0a0a0d (black); a white-only variant on the same page was rejected. Mark = RMB elephant only (black), og:image of rmb.co.za. No base64/image/script."
+  },
+  {
+    "bankCode": "090496",
+    "id": "randalpha-mfb",
+    "name": "Randalpha Microfinance Bank",
+    "shortName": "Randalpha",
+    "aliases": ["RANDALPHA MICROFINANCE BANK", "Randalpha Micro Finance Bank Nig. Ltd"],
+    "website": "https://randalphamfbank.com",
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Ogbomoso, Oyo State. randalphamfbank.com has only a text site title (no logo image; only image is a building photo). No Google Play app found. Apple search API returned 403 during this run. logo null."
+  },
+  {
+    "bankCode": "50130",
+    "id": "rank-mfb",
+    "name": "Rank",
+    "shortName": "Rank",
+    "aliases": ["Rank MFB", "Rank Microfinance Bank", "Zazzau Microfinance Bank"],
+    "website": "https://rank.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/ji4wB-z4QQ6QeVQdPEim7cAnURr_X9OIlcIOdr6ygYEpOwruKRIY7pa9yOZFnp3WGL1mLJ5yl_j8bi-q4OZpHQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.rank.moni"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/ji4wB-z4QQ6QeVQdPEim7cAnURr_X9OIlcIOdr6ygYEpOwruKRIY7pa9yOZFnp3WGL1mLJ5yl_j8bi-q4OZpHQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.rank.moni"
+    },
+    "sameBrandAs": null,
+    "notes": "Rank (formerly Moni; Rank Capital Ltd) acquired Zazzau MFB in Nov 2025 and renamed it Rank Microfinance Bank. App 'Rank - Bank, Invest, Grow' by Rank Capital Limited. rank.ng timed out. Medium-high confidence."
+  },
+  {
+    "bankCode": "90067",
+    "id": "refuge-mortgage-bank",
+    "name": "Refuge Mortgage Bank",
+    "shortName": "Refuge",
+    "aliases": ["Refuge Home Savings and Loans"],
+    "website": "https://www.refugemortgagebank.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/1OaBIRvazKPkwK46tTJC_IA6DIzSdTSKL__vJ2eQy1T5dZ-Wv_nbLL7El9EzeCrgySBgYxT-2CJwKB4-xqTttC0=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.refugebank.refugebankmobile"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/1OaBIRvazKPkwK46tTJC_IA6DIzSdTSKL__vJ2eQy1T5dZ-Wv_nbLL7El9EzeCrgySBgYxT-2CJwKB4-xqTttC0=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.refugebank.refugebankmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Play app 'Refuge Bank App', developer 'Refuge Mortgage Bank'. Website timed out."
+  },
+  {
+    "bankCode": "50761",
+    "id": "rehoboth-mfb",
+    "name": "Rehoboth Microfinance Bank",
+    "shortName": "Rehoboth",
+    "aliases": ["REHOBOTH MICROFINANCE BANK", "Rehoboth MFB"],
+    "website": "https://www.rehobothmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.rehobothmfb.com/images/logo/logo_01.png",
+      "format": "png",
+      "license": "official-site"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/5gNnxkZ3MXezXA6M0PkO130jBA_6PkXFoR1QWjpf_NBYIVijPqZeBGiwXEPmdy7juESRjIbXB1gHV5ELi6KFVWU=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.rehobothmfb.rehobothmfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Header PNG 438x108, red wordmark on transparent. App dev 'Rehoboth MFB'."
+  },
+  {
+    "bankCode": "51049",
+    "id": "renmoney",
+    "name": "Renmoney",
+    "shortName": "Renmoney",
+    "aliases": ["RenMoney Microfinance Bank", "Renmoney MFB"],
+    "website": "https://renmoney.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/dzBS1yfwWgqevW8qyaOmPiIKdoIxXr-YTrpKbh77IOsmXI3S257eVD4OUWcKBrZFjw3uAQ2z761WgYJGMVZKqqo=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.renmoney.android"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/dzBS1yfwWgqevW8qyaOmPiIKdoIxXr-YTrpKbh77IOsmXI3S257eVD4OUWcKBrZFjw3uAQ2z761WgYJGMVZKqqo=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.renmoney.android"
+    },
+    "sameBrandAs": null,
+    "notes": "Both renmoney.com header SVGs (framerusercontent yDGvK9Yf288wkyR8U743ibF0.svg, 7FVn15QJfxTQ5xBJW7W0ElXrw.svg) have a white #fff wordmark - rejected. Using official app icon (dev 'Renmoney MFB')."
+  },
+  {
+    "bankCode": "50994",
+    "id": "rephidim-mfb",
+    "name": "Rephidim Microfinance Bank",
+    "shortName": "Rephidim",
+    "aliases": ["Rephidim MFB"],
+    "website": "https://rephidimmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://rephidimmfb.com/logo.svg",
+      "format": "svg",
+      "license": "official-site"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Header SVG, pure vector, red #ED3126 / green #02AD4F with white 20%-opacity highlights. Isolo, Lagos. No app found."
+  },
+  {
+    "bankCode": "51375",
+    "id": "retrust-mfb",
+    "name": "Retrust Microfinance Bank",
+    "shortName": "Retrust",
+    "aliases": ["Retrust MFB"],
+    "website": "https://retrustmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://retrustmfb.com/wp-content/uploads/2025/10/logo.jpeg",
+      "format": "jpg",
+      "license": "official-site"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/CdF55hrpxndy68DEdU5Kt4jYBc8AMfdVGUkXLBgB3iut13n_10-7ztaIuVo9qSqO5q_iBfO-coyOsXvOIlw9=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.retrustmfb.retrustmfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Header JPEG 225x104 (white background, small). App dev 'Retrust MFB Tech'."
+  },
+  {
+    "bankCode": "51108",
+    "id": "rex-mfb",
+    "name": "Rex",
+    "shortName": "Rex",
+    "aliases": ["Rex Microfinance Bank", "RexAfrica", "Rex MFB"],
+    "website": "https://www.rexafrica.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/RqEUbNQD5XcAbi2GMNe7IVtMjIty4vzAAtMr14dkWIIL0IV2h8xhy_Al00mr8sgNFdyAD66EY9lWpoXSvsDr=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.rexmfb.mobile"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/RqEUbNQD5XcAbi2GMNe7IVtMjIty4vzAAtMr14dkWIIL0IV2h8xhy_Al00mr8sgNFdyAD66EY9lWpoXSvsDr=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.rexmfb.mobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Package com.rexmfb.mobile, dev RexAfrica. Site header SVG rexicon.svg is light-only (#F1F5FF) - rejected. Play serves this icon as JPEG despite format png."
+  },
+  {
+    "bankCode": "51286",
+    "id": "rigo-mfb",
+    "name": "Rigo Microfinance Bank",
+    "shortName": "Rigo",
+    "aliases": ["Rigo Microfinance Bank Limited", "Rigo Finance"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/oZqUhFu11rrN_BF155SAJJ1-YydEPQlSmSkQBoK78Vt22bDJRuHxYEgwoLf2uFeGuMnJACxRhh6qATLT705NlQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.rigohealth"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/oZqUhFu11rrN_BF155SAJJ1-YydEPQlSmSkQBoK78Vt22bDJRuHxYEgwoLf2uFeGuMnJACxRhh6qATLT705NlQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.rigohealth"
+    },
+    "sameBrandAs": null,
+    "notes": "LOW-MEDIUM confidence: Rigo MFB was acquired by NucleusIS Africa (Dec 2024); app 'Rigo Finance' by NUCLEUS INFORMATION SYSTEMS LIMITED (package com.rigohealth). rigomfb.com is an expired domain."
+  },
+  {
+    "bankCode": "50767",
+    "id": "rockshield-mfb",
+    "name": "Rockshield Microfinance Bank",
+    "shortName": "Rockshield",
+    "aliases": ["ROCKSHIELD MICROFINANCE BANK"],
+    "website": "https://www.rockshieldmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.rockshieldmfb.com/__l5e/assets-v1/0b6b1303-4e4e-42c7-9e03-339d0204a7b8/rockshield-logo.png",
+      "format": "png",
+      "license": "official-site"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/2BCn2fqgkGsZMZ6B_ToxyfrjGY0SlkNxV75ErOacrmH8qhkaSaYKQcjQUPqhxIOiemoeEGZSiU8nUMsUCk3XDQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.fintellia.rockshieldmfb"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo PNG 798x486 on white background. App dev 'Rockshield Microfinance Bank'."
+  },
+  {
+    "bankCode": "50622",
+    "id": "rsu-mfb",
+    "name": "RSU Microfinance Bank",
+    "shortName": "RSU MFB",
+    "aliases": ["RSU MICROFINANCE BANK"],
+    "website": "https://rsumfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/hC4wPvzkN1A6zp0OrjTRX71kfVWPG9oI61c0lAuuFOvVY97ANjuDZ_wLJ46AKzj1VlIAxCz9UeqH0YckYSIDKw=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.rsumfb.rsumfbmobile"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/hC4wPvzkN1A6zp0OrjTRX71kfVWPG9oI61c0lAuuFOvVY97ANjuDZ_wLJ46AKzj1VlIAxCz9UeqH0YckYSIDKw=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.rsumfb.rsumfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "App 'RSU MFB', dev 'RSU MFB'. Site favicon is a Google Drive thumbnail - not used. Medium confidence."
+  },
+  {
+    "bankCode": "125",
+    "id": "rubies",
+    "name": "Rubies",
+    "shortName": "Rubies",
+    "aliases": ["Rubies MFB", "Rubies Microfinance Bank"],
+    "website": "https://www.rubies.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.rubies.ng/images/Rubies-New-Logo-Web.png",
+      "format": "png",
+      "license": "official-site"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/-yqkOmuIIWr0c7HcUVh9w2sAC_qv17p2ncR7pr0IMYNzHzIzkL4WfTNG75xBcGDg1AzLHjHk32fjNTX-e9ik=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.qucoon.rubies"
+    },
+    "sameBrandAs": null,
+    "notes": "PNG only (466x117). App dev 'Rubies MFB'."
+  },
+  {
+    "bankCode": "51113",
+    "id": "safe-haven-mfb",
+    "name": "SafeHaven",
+    "shortName": "SafeHaven",
+    "aliases": ["Safe Haven MFB", "Safe Haven Microfinance Bank"],
+    "website": "https://www.safehavenmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/i5GYdU08dEt9MBPYoNwUtGzmkOU5rxZzxEa4K6T_B7r673IePcZFAVntwszEjDzv-uZ8BfHJ68KtRpw1O0gfsg=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.safehavenmfb.app"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/i5GYdU08dEt9MBPYoNwUtGzmkOU5rxZzxEa4K6T_B7r673IePcZFAVntwszEjDzv-uZ8BfHJ68KtRpw1O0gfsg=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.safehavenmfb.app"
+    },
+    "sameBrandAs": null,
+    "notes": "Website exposes only favicon.ico. App 'SafeHaven Mobile' (com.safehavenmfb.app), dev Sudo Africa, Inc. (affiliated)."
+  },
+  {
+    "bankCode": "40165",
+    "id": "sage-grey-finance",
+    "name": "Sage Grey Finance",
+    "shortName": "Sage Grey",
+    "aliases": ["SAGE GREY FINANCE LIMITED"],
+    "website": null,
+    "types": ["bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/Filr6-VFrUDxdwargruJz0VAKm8ttT50hrO-PMgUvjGiOxiEP0gwrOOPpn8v4aJVDKoSk78ST1Se0ythwx6AmmM=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.sagamy.sagegreymobile"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/Filr6-VFrUDxdwargruJz0VAKm8ttT50hrO-PMgUvjGiOxiEP0gwrOOPpn8v4aJVDKoSk78ST1Se0ythwx6AmmM=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.sagamy.sagegreymobile"
+    },
+    "sameBrandAs": null,
+    "notes": "App 'Sage Grey Mobile' published by vendor Sagamy Technologies Nigeria Ltd; icon is the Sage Grey wordmark. Website not reachable. Medium confidence."
+  },
+  {
+    "bankCode": "50582",
+    "id": "shield-mfb",
+    "name": "Shield Microfinance Bank",
+    "shortName": "Shield MFB",
+    "aliases": ["Shield MFB"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/K5ig5r1oqBUgcX4Bj_RI7JAksprYsvPiY4DpahuIMgHDN5HEBfwfnvcNCTiDg1aYvFxhyur-ZXcPpwG6QCsHeQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.shieldapp.pay"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/K5ig5r1oqBUgcX4Bj_RI7JAksprYsvPiY4DpahuIMgHDN5HEBfwfnvcNCTiDg1aYvFxhyur-ZXcPpwG6QCsHeQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.shieldapp.pay"
+    },
+    "sameBrandAs": null,
+    "notes": "App 'Shield MFB' published by vendor Jekalo/Maxisoft. shieldmfb.com timed out. Medium confidence."
+  },
+  {
+    "bankCode": "51062",
+    "id": "solid-allianze-mfb",
+    "name": "Solid Allianze Microfinance Bank",
+    "shortName": "Solid Allianze",
+    "aliases": ["Solid Allianze MFB", "Solid Allianz Microfinance Bank"],
+    "website": "http://www.solidallianzemfb.com",
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Lagos. solidallianzemfb.com returns HTTP 500; no Play app found; Apple API returned 403. logo null."
+  },
+  {
+    "bankCode": "50800",
+    "id": "solid-rock-mfb",
+    "name": "Solid Rock Microfinance Bank",
+    "shortName": "Solid Rock",
+    "aliases": ["Solid Rock MFB"],
+    "website": "https://solidrockmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://solidrockmfb.com/wp-content/themes/solidrock/img/logo.png",
+      "format": "png",
+      "license": "official-site"
+    },
+    "mark": {
+      "url": "https://solidrockmfb.com/wp-content/uploads/2025/09/cropped-logo-270x270.png",
+      "format": "png",
+      "license": "official-site"
+    },
+    "sameBrandAs": null,
+    "notes": "Ogun State (formerly Oke-Ona Egba Community Bank). Header PNG 274x80. Mark = WP site icon 270x270."
+  },
+  {
+    "bankCode": "90641",
+    "id": "source-mfb",
+    "name": "Source Microfinance Bank",
+    "shortName": "Source",
+    "aliases": ["SOURCE MFB"],
+    "website": "https://mysourcebank.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/n5XGAB1X8ftr6T5KueYoI0J38YewDNojweRy11RaWmM9-u9D6UPnCTm5cBETz6of2bAk-mnCFhJB6A3mv-7KzJI=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.mysourcebank.mobile"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/n5XGAB1X8ftr6T5KueYoI0J38YewDNojweRy11RaWmM9-u9D6UPnCTm5cBETz6of2bAk-mnCFhJB6A3mv-7KzJI=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.mysourcebank.mobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Site header logo is 'brand-logo-inverse' (for dark backgrounds), served via _next/image; og:image 404. Using app icon (dev SOURCE MICROFINANCE BANK LIMITED)."
+  },
+  {
+    "bankCode": "51310",
+    "id": "sparkle",
+    "name": "Sparkle",
+    "shortName": "Sparkle",
+    "aliases": ["Sparkle Microfinance Bank", "Sparkle MFB"],
+    "website": "https://sparkle.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://sparkle.ng/icons/icon-512x512.png",
+      "format": "png",
+      "license": "official-site"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/2KCdQtXyDFDqizsCRCYHohsgcQIeym_rnlHehXf3PRAI_U9KnKa4gvayuDKT1vluJTCxnZC-GtLt96sfsKRpRGQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=ng.sparkle.Sparkle_android.prod"
+    },
+    "sameBrandAs": null,
+    "notes": "PNG only; site PWA icon 512x512. App dev 'Sparkle Nigeria'."
+  },
+  {
+    "bankCode": "50756",
+    "id": "spectrum-mfb",
+    "name": "Spectrum Microfinance Bank",
+    "shortName": "Spectrum",
+    "aliases": ["SPECTRUM MFB LTD"],
+    "website": "https://spectrummfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://spectrummfb.com/img/logo1.png",
+      "format": "png",
+      "license": "official-site"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/LdJmnOMERnuuQktRmzA7AX8cG_z5PHf3Bu0igUTglekieBhp_CKpxZFo6JMI5z8916zzFq29H1B_9UEkhL3Y=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.spectrummfb.spectrum_pay"
+    },
+    "sameBrandAs": null,
+    "notes": "Header PNG is small (170x38). App 'Spectrum Pay', dev 'Spectrum MFB'."
+  },
+  {
+    "bankCode": "51429",
+    "id": "springfield-mfb",
+    "name": "Springfield Microfinance Bank",
+    "shortName": "Springfield",
+    "aliases": ["Springfield MFB"],
+    "website": "https://www.springfieldmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.springfieldmfb.com/_next/static/media/logo.bd6accac.svg",
+      "format": "svg",
+      "license": "official-site"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Header SVG, pure vector (#2B2B2B + #F0B929). Igando, Lagos. Hashed Next.js path may change on redeploy. No app found."
+  },
+  {
+    "bankCode": "221",
+    "id": "stanbic-ibtc",
+    "name": "Stanbic IBTC Bank",
+    "shortName": "Stanbic IBTC",
+    "aliases": ["Stanbic IBTC Bank Plc"],
+    "website": "https://www.stanbicibtcbank.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://www.stanbicibtcbank.com/static_file/assets/favicons/apple-icon-180x180.png",
+      "format": "png",
+      "license": "official-site"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/ADBxbMFVgq65XJr5LkURhgFZQY92xEfDVGptwxYB8LODYNUulN5kOLHyH---_4U3D9FwEpxoRdghj-UqYqE9Bg=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.StanbicMobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Site SVGs embed a base64 PNG - rejected. Logo = apple-touch-icon 180x180 (shield only). Mark = Play icon (dev Stanbic IBTC; small shield on white)."
+  },
+  {
+    "bankCode": "090162",
+    "id": "stanford-mfb",
+    "name": "Stanford Microfinance Bank",
+    "shortName": "Stanford",
+    "aliases": ["STANFORD MICROFINANCE BANK"],
+    "website": "https://stanfordmfb.com.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://stanfordmfb.com.ng/wp-content/uploads/2015/06/Stanford-Microfinance-Bank-Logo.png",
+      "format": "png",
+      "license": "official-site"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Uyo, Akwa Ibom. Uncropped header PNG 297x67. No app (Play results are unrelated Stanford University/FCU)."
+  },
+  {
+    "bankCode": "50809",
+    "id": "stateside-mfb",
+    "name": "Stateside Microfinance Bank",
+    "shortName": "Stateside",
+    "aliases": ["STATESIDE MICROFINANCE BANK", "Stateside Bank"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/sLrxo0P8LeFGlx7e8IBc7GepwhTUbop_SUfbuwK0Z9mbZ0_3ED8yn_GCwA_2sgClX3qqMtH7tOtCUUNHyBgLHQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.stateside.statesidemfb"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/sLrxo0P8LeFGlx7e8IBc7GepwhTUbop_SUfbuwK0Z9mbZ0_3ED8yn_GCwA_2sgClX3qqMtH7tOtCUUNHyBgLHQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.stateside.statesidemfb"
+    },
+    "sameBrandAs": null,
+    "notes": "App 'Stateside Bank', dev 'STATESIDE BANK' (package com.stateside.statesidemfb). statesidemfb.com timed out."
+  },
+  {
+    "bankCode": "070022",
+    "id": "stb-mortgage-bank",
+    "name": "STB Mortgage Bank",
+    "shortName": "STB Mortgage",
+    "aliases": ["STB Mortgage Bank Limited"],
+    "website": "https://www.stbmortgagebank.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://www.stbmortgagebank.com/imaging/stb%20logo.jpg",
+      "format": "jpg",
+      "license": "official-site"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/MtMSua_Wr9awXdQ7T0K_2-6lmdDl1CZKnPyjY-a61HKsdFjaow8Q5RcycfNwHwCnGqvMBAtLHf9LINz0SD17=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.stbmortgagebank.mobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Header JPEG 303x167 on white. App published by vendor WISETREE CONSULT, but its icon matches the site logo. Play serves this icon as JPEG."
+  },
+  {
+    "bankCode": "51253",
+    "id": "stellas",
+    "name": "Stellas",
+    "shortName": "Stellas",
+    "aliases": ["Stellas MFB", "Stellas Microfinance Bank"],
+    "website": "https://stellas.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/geNTmiBciymF7akkN1Nj8fnViN-STrwlkOSPgm7XfLK8ZlC-_sTBoMDuz5WzXJD2KF1nEConzeamsFASzBhtK6k=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.androidapp.stellas"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/geNTmiBciymF7akkN1Nj8fnViN-STrwlkOSPgm7XfLK8ZlC-_sTBoMDuz5WzXJD2KF1nEConzeamsFASzBhtK6k=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.androidapp.stellas"
+    },
+    "sameBrandAs": null,
+    "notes": "App 'Stellas: Bank. Invest. Privacy', dev 'Stellas Apps'. stellas.com timed out."
+  },
+  {
+    "bankCode": "100",
+    "id": "suntrust-bank",
+    "name": "SunTrust Bank",
+    "shortName": "SunTrust",
+    "aliases": ["SunTrust Bank Nigeria Limited"],
+    "website": "https://suntrustng.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://suntrustng.com/wp-content/uploads/2021/06/cropped-SUNTRUST-LOGO-1.png",
+      "format": "png",
+      "license": "official-site"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/2B_X30t6_XxxgYJ4UOP0_swVVNQDQun44vHCgLgDXZaIjgKhbV8ze_pFU_C8zJRPiYcpUbFv61IjYxtk4Y_y=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.icsfs.mobile.suntrust"
+    },
+    "sameBrandAs": null,
+    "notes": "Nigerian SunTrust (not the US bank). PNG only, 150x150. App 'SunTrust Digital Bank', dev 'Suntrust Bank'."
+  },
+  {
+    "bankCode": "50968",
+    "id": "supreme-mfb",
+    "name": "Supreme Microfinance Bank",
+    "shortName": "Supreme",
+    "aliases": ["Supreme MFB"],
+    "website": "https://www.suprememfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/ux0erzf90NYFpz9UKVk_gHSAsAGYak-SugxXsSdIcKJZUqYR-Fjqy11dlJVXYlX1pWDRS9yvkOwsKUM4MzaORg=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.fintellia.suprememfbss"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/ux0erzf90NYFpz9UKVk_gHSAsAGYak-SugxXsSdIcKJZUqYR-Fjqy11dlJVXYlX1pWDRS9yvkOwsKUM4MzaORg=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.fintellia.suprememfbss"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo is an emblem-only PNG 147x129 on an opaque background (wp-content/uploads/2022/11/supremelogo.png); the app icon (dev Supreme Microfinance Bank Ltd) is cleaner."
+  },
+  {
+    "bankCode": "51056",
+    "id": "sycamore",
+    "name": "Sycamore",
+    "shortName": "Sycamore",
+    "aliases": ["Sycamore Microfinance Bank", "Sycamore MFB"],
+    "website": "https://sycamore.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/k-MjfO7BwfdXAhUyui1ZHGTn4XNuDIFMfvxcKnm1z1k69_V92LNOd7h9L2rYmK2_-_sd6wTvRSeJD_puq3Ox=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=ng.sycamore.app2"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/k-MjfO7BwfdXAhUyui1ZHGTn4XNuDIFMfvxcKnm1z1k69_V92LNOd7h9L2rYmK2_-_sd6wTvRSeJD_puq3Ox=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=ng.sycamore.app2"
+    },
+    "sameBrandAs": null,
+    "notes": "sycamore.ng header PNG is light/white (for dark backgrounds) - rejected. App dev Sycamore Integrated Solutions Ltd; banking via a CBN-licensed MFB."
+  },
+  {
+    "bankCode": "302",
+    "id": "taj-bank",
+    "name": "TAJBank",
+    "shortName": "TAJBank",
+    "aliases": ["TAJ Bank Limited", "TAJ Bank"],
+    "website": "https://tajbank.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://tajbank.com/wp-content/uploads/2022/07/logo.png",
+      "format": "png",
+      "license": "official-site"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/Faho9es_lZ2iF5RILaGUlPzdhC9YyObgejpNxKDf3oXbEuhFhVYJFd5KuexbqB-fVsWW8RtV50LL8YmVRmcV=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.taj.taj_mobile"
+    },
+    "sameBrandAs": null,
+    "notes": "PNG only (144x70). App 'TAJWay', dev tajbankltd."
+  },
+  {
+    "bankCode": "51269",
+    "id": "tangerine-money",
+    "name": "Tangerine Money",
+    "shortName": "Tangerine",
+    "aliases": ["Tangerine Money MFB"],
+    "website": "https://money.tangerine.africa",
+    "types": ["e-wallet"],
+    "logo": {
+      "url": "https://tangerine.africa/images/logo.svg",
+      "format": "svg",
+      "license": "official-site",
+      "sourceUrl": "https://tangerine.africa"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Logo is the Tangerine Africa group header SVG (pure vector, navy/green/orange); Tangerine Money is the group's money app. money.tangerine.africa timed out; no Play app found for Tangerine Money. Medium confidence that the group logo is what the Money product uses."
+  }
+]

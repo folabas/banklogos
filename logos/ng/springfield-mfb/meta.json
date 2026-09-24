@@ -1,0 +1,19 @@
+{
+  "id": "springfield-mfb",
+  "name": "Springfield Microfinance Bank",
+  "shortName": "Springfield",
+  "aliases": ["Springfield MFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "website": "https://www.springfieldmfb.com",
+  "bankCodes": ["51429"],
+  "source": {
+    "url": "https://www.springfieldmfb.com/_next/static/media/logo.bd6accac.svg",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

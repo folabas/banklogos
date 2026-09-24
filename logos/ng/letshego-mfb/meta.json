@@ -1,0 +1,26 @@
+{
+  "id": "letshego-mfb",
+  "name": "Letshego",
+  "aliases": ["Letshego Microfinance Bank", "Letshego MFB Nigeria"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.letshego.com/nigeria",
+  "bankCodes": ["090420"],
+  "source": {
+    "url": "https://www.letshego.com/nigeria",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.letshego.dasdigital",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

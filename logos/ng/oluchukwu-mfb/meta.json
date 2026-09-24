@@ -1,0 +1,27 @@
+{
+  "id": "oluchukwu-mfb",
+  "name": "Oluchukwu Microfinance Bank",
+  "shortName": "Oluchukwu MFB",
+  "aliases": ["OLUCHUKWU MICROFINANCE BANK LTD"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.oluchukwumfb.com",
+  "bankCodes": ["50697"],
+  "source": {
+    "url": "https://oluchukwumfb.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.mdot.oluchukwumfb",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

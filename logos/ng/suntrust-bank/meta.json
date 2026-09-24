@@ -1,0 +1,32 @@
+{
+  "id": "suntrust-bank",
+  "name": "SunTrust Bank",
+  "shortName": "SunTrust",
+  "aliases": ["SunTrust Bank Nigeria Limited", "Suntrust Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://suntrustng.com",
+  "bankCodes": ["100"],
+  "source": {
+    "url": "https://suntrustng.com/wp-content/uploads/2021/06/cropped-SUNTRUST-LOGO-1.png",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.icsfs.mobile.suntrust",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "commercial-bank",
+    "registryId": "18"
+  }
+}

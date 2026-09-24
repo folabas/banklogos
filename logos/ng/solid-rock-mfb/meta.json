@@ -1,0 +1,27 @@
+{
+  "id": "solid-rock-mfb",
+  "name": "Solid Rock Microfinance Bank",
+  "shortName": "Solid Rock",
+  "aliases": ["Solid Rock MFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://solidrockmfb.com",
+  "bankCodes": ["50800"],
+  "source": {
+    "url": "https://solidrockmfb.com/wp-content/themes/solidrock/img/logo.png",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://solidrockmfb.com/wp-content/uploads/2025/09/cropped-logo-270x270.png",
+      "license": "official-site",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

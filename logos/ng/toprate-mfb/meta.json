@@ -1,0 +1,20 @@
+{
+  "id": "toprate-mfb",
+  "name": "Toprate MFB",
+  "shortName": "Toprate",
+  "aliases": ["TOPRATE MFB", "Toprate Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.topratemfbank.com",
+  "bankCodes": ["90801"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.qucoon.middlewaremobile.topratemfb",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

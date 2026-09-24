@@ -1,0 +1,26 @@
+{
+  "id": "paga",
+  "name": "Paga",
+  "aliases": ["Paga Group", "Paga Group Ltd", "mypaga"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["mobile-money", "e-wallet"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.mypaga.com",
+  "bankCodes": ["100002"],
+  "source": {
+    "url": "https://www.mypaga.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.mypaga.customer",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

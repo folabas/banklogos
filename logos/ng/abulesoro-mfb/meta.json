@@ -1,0 +1,20 @@
+{
+  "id": "abulesoro-mfb",
+  "name": "Abulesoro MFB",
+  "shortName": "Abulesoro",
+  "aliases": ["Abulesoro Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://abulesoromfb.com",
+  "bankCodes": ["51312"],
+  "source": {
+    "url": "https://abulesoromfb.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

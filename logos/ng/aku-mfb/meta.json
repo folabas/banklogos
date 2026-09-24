@@ -1,0 +1,25 @@
+{
+  "id": "aku-mfb",
+  "name": "Aku",
+  "aliases": ["AKU Microfinance Bank", "Aku MFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "website": "https://aku.africa",
+  "bankCodes": ["51336"],
+  "source": {
+    "url": "https://aku.africa",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://aku.africa/favicon.svg",
+      "license": "official-site",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

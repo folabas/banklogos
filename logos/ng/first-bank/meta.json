@@ -7,9 +7,7 @@
   "markets": ["NG"],
   "types": ["bank"],
   "variants": ["logo", "mark"],
-  "colors": {
-    "primary": "#003B65"
-  },
+  "colors": { "primary": "#003B65" },
   "website": "https://firstbankgroup.com/ng/",
   "bankCodes": ["011"],
   "source": {
@@ -25,5 +23,10 @@
     }
   },
   "verified": false,
-  "addedIn": "0.1.0"
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "commercial-bank",
+    "registryId": "5"
+  }
 }

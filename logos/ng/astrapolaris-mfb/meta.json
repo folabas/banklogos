@@ -1,0 +1,20 @@
+{
+  "id": "astrapolaris-mfb",
+  "name": "Astra Polaris MFB",
+  "shortName": "Astra Polaris",
+  "aliases": ["Astrapolaris MFB LTD", "Astra-Polaris Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://astrapolaris.com",
+  "bankCodes": ["MFB50094"],
+  "source": {
+    "url": "https://astrapolaris.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

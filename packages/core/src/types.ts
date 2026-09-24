@@ -21,6 +21,8 @@ export const LICENSES = [
   /** The institution's own app icon from Google Play or the App Store. */
   'official-app-icon',
   'cc-by-sa',
+  'cc-by',
+  'cc0',
   'public-domain-textlogo',
   'manual',
 ] as const;

@@ -1,0 +1,27 @@
+{
+  "id": "jubilee-life-mortgage-bank",
+  "name": "Jubilee-Life Mortgage Bank",
+  "shortName": "Jubilee-Life",
+  "aliases": ["Jubilee Life Mortgage Bank", "Jubilee-Life Mortgage Bank Plc"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://jubileelifeng.com",
+  "bankCodes": ["402"],
+  "source": {
+    "url": "https://jubileelifeng.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.digicore.jubilee",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

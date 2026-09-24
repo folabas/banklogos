@@ -1,0 +1,27 @@
+{
+  "id": "fortress-mfb",
+  "name": "Fortress MFB",
+  "shortName": "Fortress",
+  "aliases": ["Fortress Microfinance Bank Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.fortressmicrofinancebank.com",
+  "bankCodes": ["D53"],
+  "source": {
+    "url": "https://www.fortressmicrofinancebank.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.fortressmfb.app",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

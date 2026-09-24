@@ -1,0 +1,20 @@
+{
+  "id": "stanford-mfb",
+  "name": "Stanford Microfinance Bank",
+  "shortName": "Stanford",
+  "aliases": ["STANFORD MICROFINANCE BANK"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://stanfordmfb.com.ng",
+  "bankCodes": ["090162"],
+  "source": {
+    "url": "https://stanfordmfb.com.ng/wp-content/uploads/2015/06/Stanford-Microfinance-Bank-Logo.png",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

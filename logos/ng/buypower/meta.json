@@ -1,0 +1,27 @@
+{
+  "id": "buypower",
+  "name": "BuyPower MFB",
+  "shortName": "BuyPower",
+  "aliases": ["BuyPower Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://buypower.ng",
+  "bankCodes": ["50645"],
+  "source": {
+    "url": "https://buypower.ng/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://apps.apple.com/ng/app/buypower/id1454231179",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

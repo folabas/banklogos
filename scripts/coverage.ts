@@ -6,17 +6,28 @@
 import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import type { SourceSnapshot } from '../sources/types.js';
-import { readLogoFolders, ROOT } from './lib/logos.js';
+import { writeJson } from './lib/json.js';
+import { LOGOS_DIR, readLogoFolders, ROOT } from './lib/logos.js';
 import { matchCoverage } from './lib/match.js';
 import { validateFolders } from './lib/validate.js';
 
 const SNAPSHOT_DIR = join(ROOT, 'sources/snapshots');
 const markdown = process.argv.includes('--markdown');
+// --link writes the regulator id into meta.json for entities that only match a register entry by name.
+const link = process.argv.includes('--link');
+const linked: string[] = [];
 const { entities } = validateFolders(readLogoFolders());
 
 for (const file of readdirSync(SNAPSHOT_DIR).filter((f) => f.endsWith('.json'))) {
   const snapshot: SourceSnapshot = JSON.parse(readFileSync(join(SNAPSHOT_DIR, file), 'utf8'));
   const { covered, nameOnly, missing, stale } = matchCoverage(snapshot, entities);
+  if (link && snapshot.matchBy === 'registryId') {
+    for (const { entry, entity } of nameOnly) {
+      entity.regulatorRef = { body: snapshot.regulator, category: entry.category, registryId: entry.registryId };
+      await writeJson(join(LOGOS_DIR, entity.scope.toLowerCase(), entity.id, 'meta.json'), entity);
+      linked.push(`${entity.id} -> ${snapshot.regulator} ${entry.registryId}`);
+    }
+  }
   const total = snapshot.entries.length;
   const pct = total ? Math.round((covered.length / total) * 100) : 0;
 
@@ -52,3 +63,7 @@ for (const file of readdirSync(SNAPSHOT_DIR).filter((f) => f.endsWith('.json')))
     for (const n of names) console.log(`    - ${n}`);
   }
 }
+
+if (link)
+  console.log(`
+linked ${linked.length}: ${linked.join(', ')}`);

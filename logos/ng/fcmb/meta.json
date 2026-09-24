@@ -7,9 +7,7 @@
   "markets": ["NG"],
   "types": ["bank"],
   "variants": ["logo"],
-  "colors": {
-    "primary": "#5C068C"
-  },
+  "colors": { "primary": "#5C068C" },
   "website": "https://www.fcmb.com",
   "bankCodes": ["214"],
   "source": {
@@ -18,5 +16,10 @@
     "fetchedAt": "2026-09-24"
   },
   "verified": false,
-  "addedIn": "0.1.0"
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "commercial-bank",
+    "registryId": "6"
+  }
 }

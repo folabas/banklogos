@@ -1,0 +1,692 @@
+[
+  {
+    "bankCode": "51337",
+    "id": "aztec-mfb",
+    "name": "Aztec MFB",
+    "shortName": "Aztec",
+    "aliases": ["AZTEC MICROFINANCE BANK LIMITED", "Aztec MFBank"],
+    "website": "https://aztecmfbank.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://aztecmfbank.com/wp-content/uploads/2024/03/azteclog.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://aztecmfbank.com/"
+    },
+    "mark": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2f/4c/03/2f4c0316-090b-9318-403a-5d16db7bd686/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.png",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://apps.apple.com/ng/app/aztec-mfb-mobile/id1658947539"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo is small (118x100, green tile). aztecfull.png rejected: white wordmark on transparent. App icon (Apple, seller AZTEC MICROFINANCE BANK LIMITED) is the same design at 512px."
+  },
+  {
+    "bankCode": "51229",
+    "id": "bainescredit",
+    "name": "BainesCredit",
+    "shortName": "BainesCredit",
+    "aliases": ["Bainescredit MFB", "Baines Credit Microfinance Bank Limited"],
+    "website": "https://www.bainescredit.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/e2/ff/58e2ff5d-7ec1-613b-d130-20d0c3694c34/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.png",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://apps.apple.com/ng/app/baines-credit/id1484476423"
+    },
+    "mark": {
+      "url": "https://www.bainescredit.com/icon.svg",
+      "format": "svg",
+      "license": "official-site",
+      "sourceUrl": "https://www.bainescredit.com/"
+    },
+    "sameBrandAs": null,
+    "notes": "Site header PNG (baines_logo) is a white-only wordmark, rejected; app icon (Apple, seller Baines Credit Microfinance Bank Limited) used as logo. Mark is the site's pure-vector favicon SVG (two blue squares)."
+  },
+  {
+    "bankCode": "50117",
+    "id": "banc-corp-mfb",
+    "name": "Banc Corp MFB",
+    "shortName": "Banc Corp",
+    "aliases": ["Banc Corp Microfinance Bank", "Bancorp Microfinance Bank Limited"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Not found: no website (banccorpmfb.com, bancorpmfb.com etc. do not resolve), no app on Google Play; Apple search returned only unrelated US Banc-Corps (then rate-limited). Located at Idemili House (BBA), Trade Fair Complex, Lagos."
+  },
+  {
+    "bankCode": "90367",
+    "id": "bank-of-agriculture",
+    "name": "Bank of Agriculture",
+    "shortName": "BOA",
+    "aliases": ["BANK OF AGRICULTURE", "Bank of Agriculture Limited"],
+    "website": "https://boanig.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://boanig.com/wp-content/uploads/2025/09/LOGO.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://boanig.com/"
+    },
+    "mark": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e2/b6/c2/e2b6c2a4-465f-615f-f577-bfe313e059d5/AppIcon-boa-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.png",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://apps.apple.com/ng/app/bank-of-agriculture/id6757990669"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo 1354x679 PNG. Apple app seller BANK OF AGRICULTURE LIMITED."
+  },
+  {
+    "bankCode": "11072",
+    "id": "bank78",
+    "name": "Bank78",
+    "shortName": "Bank78",
+    "aliases": ["Bank78 Microfinance Bank", "Bank78 MFB"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/Apwhafzaoh0BlFHxUo_IRv6zsTMyjWO3VFBto4oUcevrI-8XXmg6M6h9TW790mmgKw6u6ftL6POALQXJLT9x=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.bank78.mobile_app"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/Apwhafzaoh0BlFHxUo_IRv6zsTMyjWO3VFBto4oUcevrI-8XXmg6M6h9TW790mmgKw6u6ftL6POALQXJLT9x=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.bank78.mobile_app"
+    },
+    "sameBrandAs": null,
+    "notes": "No website found (bank78.com is a parked for-sale domain). App icon from Google Play (developer 'Bank 78'). Apple listing is under seller BLAAIZ INNOVATIONS TECHNOLOGY LTD (tech partner), not used."
+  },
+  {
+    "bankCode": "50572",
+    "id": "bankit",
+    "name": "Bankit",
+    "shortName": "Bankit",
+    "aliases": ["BANKIT MFB", "Bankit Microfinance Bank Limited", "Bankit Africa"],
+    "website": "https://bankitafrica.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://bankitafrica.com/images/bankit_logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://bankitafrica.com/"
+    },
+    "mark": {
+      "url": "https://bankitafrica.com/icon.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://bankitafrica.com/"
+    },
+    "sameBrandAs": null,
+    "notes": "Site header logo is small (124x55). Mark is site icon.png 512x512. Play app com.bankitmfbapp.app (developer Bankit Microfinance Bank) also available."
+  },
+  {
+    "bankCode": "51341",
+    "id": "bankly",
+    "name": "Bankly",
+    "shortName": "Bankly",
+    "aliases": ["BANKLY MFB", "Bankly Microfinance Bank"],
+    "website": "https://bankly.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://bankly-cms.onrender.com/media/Logo.svg",
+      "format": "svg",
+      "license": "official-site",
+      "sourceUrl": "https://bankly.ng/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/XvL8-UT44Cp5Q97Kkh05jurfkIvA9TP5adh8Ji_iiGUjaggI7kFi1Jf3qh5Trtef5IeNyslT3O_8NMKDKE77Hg=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.bankly.bloomm"
+    },
+    "sameBrandAs": null,
+    "notes": "SVG from bankly.ng header (served from its CMS host bankly-cms.onrender.com); pure vector, blue #296CF0."
+  },
+  {
+    "bankCode": "MFB50992",
+    "id": "baobab-mfb",
+    "name": "Baobab",
+    "shortName": "Baobab",
+    "aliases": ["Baobab Microfinance Bank", "Baobab Microfinance Bank Nigeria Limited"],
+    "website": "https://baobab.com/ng/",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://baobab.com/ng/wp-content/uploads/sites/14/2020/12/Baobab-BMBK-Logo-rubine.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://baobab.com/ng/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/UQBWvZSdPwBXabglp7fFLlS1BEtEoRoPJmKww0qEImQVkfiwpPGHoHG-C2vrwRObNwzndLz8lIeZJwh9Lt_b=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.baobabgroup.customer.mobile.app"
+    },
+    "sameBrandAs": null,
+    "notes": "Group SVG on baobab.com is white-only, not used. Logo is the Nigerian site's rubine PNG (3574x1292). Mark is 'My Baobab' app icon by Baobab Groupe (parent); JOLLOF+ app by Baobab MFB Nigeria is a sub-product, not used."
+  },
+  {
+    "bankCode": "51212",
+    "id": "bc-kash-mfb",
+    "name": "BC Kash MFB",
+    "shortName": "BC Kash",
+    "aliases": ["BC Kash Microfinance Bank", "BC KASH MICROFINANCE BANK LTD"],
+    "website": "https://www.bckashmfb.com.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.bckashmfb.com.ng/assets/images/bc%20kash%20logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.bckashmfb.com.ng/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/PxUWiXXZpFfUCj4dkaUOPUFJj6nKYjxMStFdEAT8GnfYWkpJOuwf_ELNfe5_QB28OI41iLgpXsZvRT3atP59zw=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.bckashmfb.bckashmfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo 768x357 PNG. Apple app also exists (seller BC KASH MICROFINANCE BANK LTD)."
+  },
+  {
+    "bankCode": "51100",
+    "id": "bellbank",
+    "name": "BellBank MFB",
+    "shortName": "BellBank",
+    "aliases": ["BellBank Microfinance Bank", "BellMonie"],
+    "website": "https://bellmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://bellmfb.com/images/icons/bellmonie-logo-green.svg",
+      "format": "svg",
+      "license": "official-site",
+      "sourceUrl": "https://bellmfb.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/ZXalWnTK-fq6QwbfwBmwy9HCxGC7mkDlwvJZUijlS1VCh4Yviv_HqAe6M7LV232nvN-5e5EJ-JMJTLFQV04BGg=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.bellmonie.user"
+    },
+    "sameBrandAs": null,
+    "notes": "bellmfb.com presents the consumer brand BellMonie; SVG is the green BellMonie wordmark (pure vector). Play developer 'BellBank MFB'. Not related to US Bell Bank."
+  },
+  {
+    "bankCode": "51267",
+    "id": "benysta-mfb",
+    "name": "Benysta MFB",
+    "shortName": "Benysta",
+    "aliases": ["Benysta Microfinance Bank Limited"],
+    "website": "https://benystamfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://benystamfb.com/wp-content/themes/benystamicrofinance/images/assets/logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://benystamfb.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/EostJ-Bu6CrY_AqFVSih8Hw7Ap4y8vCeZOdCaeS03hLPob7J_PPm8-ZewJTsfEFMvbYj98svISv06A_Wl7gr=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.benystamfb.benystamfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo PNG 530x658 (stacked mark + wordmark)."
+  },
+  {
+    "bankCode": "50122",
+    "id": "berachah-mfb",
+    "name": "Berachah MFB",
+    "shortName": "Berachah",
+    "aliases": ["Berachah Microfinance Bank Ltd.", "BERACHAH MICRO - FINANCE BANK LIMITED"],
+    "website": "https://www.berachahmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/c0/87/ebc087ea-5667-e2fd-a761-b27e9cab791e/AppIcon-0-0-1x_U007epad-0-85-220.png/512x512bb.png",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://apps.apple.com/ng/app/berachah-mobile/id6465792768"
+    },
+    "mark": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/c0/87/ebc087ea-5667-e2fd-a761-b27e9cab791e/AppIcon-0-0-1x_U007epad-0-85-220.png/512x512bb.png",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://apps.apple.com/ng/app/berachah-mobile/id6465792768"
+    },
+    "sameBrandAs": null,
+    "notes": "Site header PNG has white wordmark text (for dark header), rejected. Logo is Apple 'Berachah Mobile' icon, seller BERACHAH MICRO - FINANCE BANK LIMITED (Lagos). Play app com.berachahmfb.berachahmobile shows the same design."
+  },
+  {
+    "bankCode": "50123",
+    "id": "beststar-mfb",
+    "name": "Beststar MFB",
+    "shortName": "Beststar",
+    "aliases": ["Beststar Microfinance Bank"],
+    "website": "https://beststarmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://res.cloudinary.com/dj5wh1pcv/image/upload/v1768558884/beststar_seo_xecpoz.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://beststarmfb.com/"
+    },
+    "mark": {
+      "url": "https://beststarmfb.com/favicon.ico",
+      "format": "ico",
+      "license": "official-site"
+    },
+    "sameBrandAs": null,
+    "notes": "LOW CONFIDENCE on quality: site SVG beststarLogoRed.svg rejected (contains <image>/base64 raster). Logo is the site's og:image (750x600, white logo on red with an orange strip - banner-like, may need cropping). Mark is 64px favicon.ico. Site's app links point to Raven (Raven Bank runs on Beststar MFB), so no Beststar-branded app icon."
+  },
+  {
+    "bankCode": "51411",
+    "id": "bloc-mfb",
+    "name": "Bloc MFB",
+    "shortName": "Bloc",
+    "aliases": ["BLOC MFB", "BLOC MICROFINANCE BANK LIMITED"],
+    "website": "https://blocmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/fZDoVOqs3GqV_0xImkTpgweQUjW6kSo5-hakvKJS55gpGkiWWqF6Y3zHH2EIAh_Hi9IK0COmAi3lrzDzO7yF81U=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.blocmfb.mobile"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/fZDoVOqs3GqV_0xImkTpgweQUjW6kSo5-hakvKJS55gpGkiWWqF6Y3zHH2EIAh_Hi9IK0COmAi3lrzDzO7yF81U=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.blocmfb.mobile"
+    },
+    "sameBrandAs": null,
+    "notes": "blocmfb.com is an SPA; favicon.svg/apple-touch-icon URLs return HTML, so no site image. App icon from Play (developer BLOC MICROFINANCE BANK LIMITED)."
+  },
+  {
+    "bankCode": "50725",
+    "id": "bold-mfb",
+    "name": "Bold MFB",
+    "shortName": "Bold",
+    "aliases": ["BOLD MFB", "Bold Microfinance Bank Limited", "Kele"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/DXWVLInTxcPNsvmIJld7nCRQL2x2I-m9sGMcnMZ-kTo2FwnUtAM1fd_3iJi5I959GlEgKfVC5oTZFEhKGDJr0B8=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.boldmfb.mobile"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/DXWVLInTxcPNsvmIJld7nCRQL2x2I-m9sGMcnMZ-kTo2FwnUtAM1fd_3iJi5I959GlEgKfVC5oTZFEhKGDJr0B8=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.boldmfb.mobile"
+    },
+    "sameBrandAs": null,
+    "notes": "No working website (boldmfb.com HTTP 500, www does not resolve). Consumer brand is 'Kele' (Kele Personal Banking, package com.boldmfb.mobile, developer 'Bold Banking', Osogbo). Icon shows the Kele 'K' - product brand, not a 'Bold' wordmark."
+  },
+  {
+    "bankCode": "51449",
+    "id": "boost-mfb",
+    "name": "Boost MFB",
+    "shortName": "Boost",
+    "aliases": ["Boost Microfinance Bank", "Boost Microfinance Bank Limited", "Boost Bank"],
+    "website": "https://www.boostmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://oss-public-prod.boostmfb.com/logo/boostmfbLogo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.boostmfb.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/juTXqr3u405pjK5XOiqck25mzVjWUR2s5t0LmCpWPHbaWd97eJo6FSdQeTx0dTH33zWJvKZr1UAm5bAuAvvbZT8=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=uni.app.UNI5E4FE4E"
+    },
+    "sameBrandAs": null,
+    "notes": "Logo from boostmfb.com JSON-LD Organization.logo (124x124 icon-style, small). Play developer BOOST MFB (Ikorodu, Lagos)."
+  },
+  {
+    "bankCode": "650",
+    "id": "bosak-mfb",
+    "name": "Bosak MFB",
+    "shortName": "Bosak",
+    "aliases": ["Bosak Microfinance Bank", "Bosak Micro Finance Bank Limited"],
+    "website": "https://www.bosakmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.bosakmfb.com/wp-content/uploads/2021/10/BOSAK-LOGO-RE-SKETCH1-615ed3e62cd5d.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.bosakmfb.com/"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Site header PNG is small (165x61). Site favicon is a badly cropped version of the logo, rejected as mark. No app found on Play (Apple search rate-limited)."
+  },
+  {
+    "bankCode": "50931",
+    "id": "bowen-mfb",
+    "name": "Bowen MFB",
+    "shortName": "Bowen",
+    "aliases": ["Bowen Microfinance Bank"],
+    "website": "https://www.bowenmfb.org",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.bowenmfb.org/wp-content/uploads/2021/10/bowen-logo-1024x196-3.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.bowenmfb.org/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/AGO5mb2_9JOAS4uzVVkIBXLukQhtzEeaeMMNa5SQzyz48Z-TBvbcd6PMM-FJRk2ujEGJEMju6Tb6WD-uNRzo=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.bowenmfb.bowenmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo 500x96 PNG. Owned by the Nigerian Baptist Convention."
+  },
+  {
+    "bankCode": "FC40163",
+    "id": "branch",
+    "name": "Branch",
+    "shortName": "Branch",
+    "aliases": ["Branch International Finance Company Limited", "Branch International Financial Services Limited"],
+    "website": "https://branch.co/ng/",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://d2c5ectx2y1vm9.cloudfront.net/assets/branch_logo_navy-7e548f86d075abfb2faf4d2097d5349d1da404030f5825a01f6e24d36cc60c46.svg",
+      "format": "svg",
+      "license": "official-site",
+      "sourceUrl": "https://branch.co/ng/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/XT4U66Oce5BD-ege-7dK5nSP8eCkAs4-XIygehZ3mfKat_hwIL2t1oz73fiAOxSvTTywC9NNMOElTK1ZVvqLieQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.branch_international.branch.branch_demo_android"
+    },
+    "sameBrandAs": null,
+    "notes": "Finance company (lending app). SVG is the branch.co header navy wordmark (served from Branch's CloudFront), pure vector #19355E. Mark: Play icon (light-blue tile), developer Branch International Financial Services Limited."
+  },
+  {
+    "bankCode": "90070",
+    "id": "brent-mortgage-bank",
+    "name": "Brent Mortgage Bank",
+    "shortName": "Brent",
+    "aliases": ["Brent Mortgage bank", "Brent Mortgage Bank Ltd", "Skyfield Savings and Loans"],
+    "website": "https://brentng.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://brentng.com/wp-content/uploads/2020/07/brent-1.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://brentng.com/"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Site header PNG 160x68 (with tagline 'building relationships...'); alternative logo-2.png 113x41 without tagline. The Play app linked from the site (bankonemobile.brentmortgage) returns 404."
+  },
+  {
+    "bankCode": "50645",
+    "id": "buypower",
+    "name": "BuyPower MFB",
+    "shortName": "BuyPower",
+    "aliases": ["BuyPower MFB", "BuyPower Microfinance Bank"],
+    "website": "https://buypower.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://buypower.ng/buypower-icon.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://buypower.ng/"
+    },
+    "mark": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/70/f9/5e70f9c0-d4a0-729c-20f8-108e3d1ea275/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://apps.apple.com/ng/app/buypower/id1454231179"
+    },
+    "sameBrandAs": null,
+    "notes": "Site icon 512x512 (green card + lightning). Apple seller Buypower Inc. Assumed BuyPower MFB is the same brand as the Buypower bill-payment company."
+  },
+  {
+    "bankCode": "90774",
+    "id": "bway-mfb",
+    "name": "BWay MFB",
+    "shortName": "BWay",
+    "aliases": ["BWAY MFB", "BWay Microfinance Bank Limited"],
+    "website": "https://www.bway.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.bway.ng/assets/images/Bway%20Logo%20380x76.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.bway.ng/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/MHOGNN-jfrWqN_L4fcCEQICI3abnJ8p-8_HpE2ImOk9y97DvLXlM8sgC-pwERxwzWBbIyCr3dVjvUPb4ePXwMg=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.bwaymfb.bwaymfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo PNG 163x76. Play developer BWAY MICROFINANCE BANK LIMITED."
+  },
+  {
+    "bankCode": "565",
+    "id": "carbon",
+    "name": "Carbon",
+    "shortName": "Carbon",
+    "aliases": ["Carbon Microfinance Bank", "Paylater"],
+    "website": "https://www.getcarbon.co",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/_gDIeFcltJ5_nVcyeVH9fbtrvYIBDETtNf3iM2znvmNMAd3fYvbjUcwtQA8dvQrLTfBjnSxtbd6kA0uszsg5Pw=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.lenddo.mobile.paylater"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/_gDIeFcltJ5_nVcyeVH9fbtrvYIBDETtNf3iM2znvmNMAd3fYvbjUcwtQA8dvQrLTfBjnSxtbd6kA0uszsg5Pw=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.lenddo.mobile.paylater"
+    },
+    "sameBrandAs": null,
+    "notes": "getcarbon.co now presents 'Carbon Business'; its SVGs are the Business sub-brand, not used. Logo is the consumer app icon (Play, developer Carbon Microfinance Bank). Batch category was 'bank' but Carbon is licensed as an MFB."
+  },
+  {
+    "bankCode": "51353",
+    "id": "cashbridge-mfb",
+    "name": "Cashbridge MFB",
+    "shortName": "Cashbridge",
+    "aliases": ["Cashbridge Microfinance Bank Limited"],
+    "website": "https://cashbridgemfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://cashbridgemfb.com/images/main-logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://cashbridgemfb.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/DHb0-W34a-glVM0qBus8gXz0QPOaXeSd2a9rohfWdaFm6ZSJlZhky0ZeTruUDceIXXAqsaZ-JzKaLrbaJbZEZg=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.cashbridgemfb.cashbridgemfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo PNG is very large (13829x5808, ~800KB); may want downscaling."
+  },
+  {
+    "bankCode": "865",
+    "id": "cashconnect-mfb",
+    "name": "CashConnect MFB",
+    "shortName": "CashConnect",
+    "aliases": ["CASHCONNECT MFB", "Cashconnect Microfinance Bank Limited"],
+    "website": "https://cashconnectng.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://cashconnectng.com/wp-content/uploads/2022/01/Header-Logo-1.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://cashconnectng.com/"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Header logo 166x39 (colored). Footer-Logo.png is white-only. No app found on Play."
+  },
+  {
+    "bankCode": "51437",
+    "id": "cedrus-mfb",
+    "name": "Cedrus MFB",
+    "shortName": "Cedrus",
+    "aliases": ["Cedrus Microfinance Bank"],
+    "website": "https://cedrusmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/eSt3Z5E8KhLoSHTbAktheLdtnRjQbap5_SD04PKT3ZplpLDudDLJjICH5XWpHXs9XNMwTOVmu25OKzciPHH8Uw=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.fintellia.cedrus"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/eSt3Z5E8KhLoSHTbAktheLdtnRjQbap5_SD04PKT3ZplpLDudDLJjICH5XWpHXs9XNMwTOVmu25OKzciPHH8Uw=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.fintellia.cedrus"
+    },
+    "sameBrandAs": null,
+    "notes": "cedrusmfb.com returns HTTP 500 to scripts. Logo is the Play icon (developer 'Cedrus MFB Mobile Application', built by Fintellia) - medium confidence it matches the Abeokuta Cedrus MFB."
+  },
+  {
+    "bankCode": "50823",
+    "id": "cemcs-mfb",
+    "name": "CEMCS MFB",
+    "shortName": "CEMCS",
+    "aliases": ["CEMCS Microfinance Bank", "CEMCS Microfinance Bank Limited"],
+    "website": "https://cemcsmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://cemcsmfb.com/wp-content/uploads/2021/09/cemcs_logo-139x55-1.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://cemcsmfb.com/"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Chevron employees' MFB; site logo (139x55) includes the Chevron hallmark. Site favicon is the plain Chevron logo, not used as mark. Play app linked from site returns 404."
+  },
+  {
+    "bankCode": "050032",
+    "id": "centrum-finance",
+    "name": "Centrum Finance",
+    "shortName": "Centrum",
+    "aliases": ["Centrum Finance Company Limited"],
+    "website": "https://centrumfinanceltd.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://centrumfinanceltd.com/wp-content/uploads/2023/03/cropped-Centrum-Blue.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://centrumfinanceltd.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/QXnIJRop4GBlzb_arA0GeZVoVJ8TipRm6Gf1Qi7UPUVrqCCoeff9NrRSpczdacIaVkQChIIjyGVL0NErJ2dnwg=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.centrumfinanceltd.mobileapp"
+    },
+    "sameBrandAs": null,
+    "notes": "Finance company (Abuja). Site logo 512x512 PNG (mark + 'CENTRUM FINANCE')."
+  },
+  {
+    "bankCode": "100036",
+    "id": "chams-mobile",
+    "name": "ChamsMobile",
+    "shortName": "ChamsMobile",
+    "aliases": ["CHAMS MOBILE MFB", "Kegow"],
+    "website": "https://chamsmobile.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://chamsmobile.com/wp-content/uploads/2020/01/chams-main-logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://chamsmobile.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/NEgFXbfvQXhqUb_lQu6EoGnFcpC8ge-uMm7xrO2IETPSZIJsu0YhXdoA7e5qVFp8Z1DxUnCaMaJIjsg2aWE-hA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.chamsmobile.android"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo 500x288. Consumer product is the Kegow wallet; mark is the Kegow app icon (developer Chamsmobile) - product brand."
+  },
+  {
+    "bankCode": "50171",
+    "id": "chanelle-mfb",
+    "name": "Chanelle MFB",
+    "shortName": "Chanelle",
+    "aliases": ["Chanelle Microfinance Bank Limited"],
+    "website": "https://chanellemicrofinancebank.com",
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Not found: chanellemicrofinancebank.com returns Cloudflare 525 (SSL error); chanellemfb.com refuses connection. No app on Google Play; Apple search rate-limited. Ikeja, Lagos."
+  },
+  {
+    "bankCode": "312",
+    "id": "chikum-mfb",
+    "name": "Chikum MFB",
+    "shortName": "Chikum",
+    "aliases": ["Chikum Microfinance bank", "CHIKUM MFB"],
+    "website": "https://www.chikummfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.chikummfb.com/wp-content/uploads/2017/10/chikum_logo_small.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.chikummfb.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/hj24-b_HYRUKC3YqkeFdeybO_iQl6QMS3Cwp55rT4EaA9ls-Aaszzno9qSRNsvtCS3ZYWEijoRH9zXgYghvOjA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.chikum.chikummfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo 272x80."
+  },
+  {
+    "bankCode": "070027",
+    "id": "citycode-mortgage-bank",
+    "name": "Citycode Mortgage Bank",
+    "shortName": "Citycode",
+    "aliases": ["CITYCODE MORTAGE BANK", "CityCode Mortgage Bank Ltd"],
+    "website": "https://citycodemortgagebank.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://citycodemortgagebank.com/wp-content/uploads/2020/03/citycode_logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://citycodemortgagebank.com/"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Site logo 263x294 PNG. No app found."
+  }
+]

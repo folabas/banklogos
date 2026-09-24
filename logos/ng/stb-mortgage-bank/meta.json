@@ -1,0 +1,27 @@
+{
+  "id": "stb-mortgage-bank",
+  "name": "STB Mortgage Bank",
+  "shortName": "STB Mortgage",
+  "aliases": ["STB Mortgage Bank Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.stbmortgagebank.com",
+  "bankCodes": ["070022"],
+  "source": {
+    "url": "https://www.stbmortgagebank.com/imaging/stb%20logo.jpg",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.stbmortgagebank.mobile",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

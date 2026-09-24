@@ -1,0 +1,26 @@
+{
+  "id": "pecantrust-mfb",
+  "name": "Pecan",
+  "aliases": ["PECANTRUST MICROFINANCE BANK LIMITED", "PecanTrust MFB", "My Pecan Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://mypecanbank.com",
+  "bankCodes": ["51226"],
+  "source": {
+    "url": "https://mypecanbank.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.pecanmfb.pecanmfbmobile",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

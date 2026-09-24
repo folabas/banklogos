@@ -1,0 +1,659 @@
+[
+  {
+    "bankCode": "51361",
+    "id": "net-mfb",
+    "name": "NET Microfinance Bank",
+    "shortName": "NET MFB",
+    "aliases": ["NET MICROFINANCE BANK", "NET MFB"],
+    "website": "https://netmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://netmfb.com/NET%20MFB%20LOGO%20_%20PRIMARY.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://netmfb.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/40pR0quvy0uxoiNbgzl4vB3mQIMpTy74FUvZKxYV2u2cz7vLTfnZA0E7tyPdLdb0NfhcefpJCna1-XiKhlS8CA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.netmfb.mobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Header logo PNG 12735x3278 (served via next/image on site). Play app com.netmfb.mobile by NET MICROFINANCE BANK LTD; ignored older com.fintellia.netmfb (third-party dev). Site favicon.png (2991x3278) is the symbol alone."
+  },
+  {
+    "bankCode": "51142",
+    "id": "nigerian-navy-mfb",
+    "name": "Nigerian Navy Microfinance Bank",
+    "shortName": "Navy MFB",
+    "aliases": ["Nigerian Navy Microfinance Bank Limited", "NNMFB", "NAVY MFB"],
+    "website": "https://nigerianavymfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://nigerianavymfb.com/wp-content/uploads/2024/03/cropped-NNMFBL-Logo-Sit-Icon.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://nigerianavymfb.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/skYs4FvLONIOaw9DXrjIKFSUhCrhI33gjF-OI3i9VPJMat-3pWkeS0GaXr7K_jMFQmx44MsJdD1rSPcWn_SQ2w=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.navymfb.navymobile"
+    },
+    "sameBrandAs": null,
+    "notes": "The logo is a circular seal; used the 512x512 site icon (the header uses NNMFBL-Logo-Small.png, only 180x60). Play dev 'NAVY MFB'."
+  },
+  {
+    "bankCode": "51304",
+    "id": "nirsal-mfb",
+    "name": "NIRSAL Microfinance Bank",
+    "shortName": "NIRSAL MFB",
+    "aliases": ["NIRSAL MICROFINANCE", "NIRSAL Microfinance Bank Limited", "NMFB"],
+    "website": "https://www.nmfb.com.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.nmfb.com.ng/assets/img/nmfb/nmfb-logo-new.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.nmfb.com.ng"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/MxQo1ZiryCSt4_o-x6FOmO1ECxC_9F6jw80dUbbQnWS9cTAKIzVScR6_hC5DIfu9G4fa1b1R_M5N_ap1mXMBfA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.nmfb.mobile2"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo PNG 1748x1240 (has a lot of empty padding). App 'FaRM by NIRSAL MFB', dev NIRSAL MICROFINANCE BANK."
+  },
+  {
+    "bankCode": "50072",
+    "id": "nombank",
+    "name": "Nombank",
+    "shortName": "Nombank",
+    "aliases": ["Nombank MFB", "Nombank Microfinance Bank"],
+    "website": "https://nomba.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/TWQMqopkn2jDWuFP0RyGJqp3b0zuouFGKH9znHGyPScLcFZazvRd0p6J5jdJ75yYv_N8AlUWqboGqFKljyek9Q=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.nomba.business"
+    },
+    "mark": {
+      "url": "https://nomba.com/apple-touch-icon.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://nomba.com"
+    },
+    "sameBrandAs": null,
+    "notes": "Nombank MFB is the microfinance bank subsidiary of the fintech Nomba (licensed Dec 2024); Nomba accounts show 'Nombank MFB' as the bank name. No separate Nombank logo found (nombank.com is a parked lander); using the Nomba app icon (dev Nomba Inc.). nomba.com/logo.png returns HTML, rejected. Medium confidence that Nomba branding is the right thing to show."
+  },
+  {
+    "bankCode": "561",
+    "id": "nova-bank",
+    "name": "Nova Bank",
+    "shortName": "Nova",
+    "aliases": ["NOVA BANK", "Nova Merchant Bank", "Nova Merchant Bank Limited"],
+    "website": "https://www.novabank.ng",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://www.novabank.ng/wp-content/uploads/2025/03/logo-1.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.novabank.ng"
+    },
+    "mark": {
+      "url": "https://www.novabank.ng/wp-content/uploads/2025/03/icon_512.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.novabank.ng"
+    },
+    "sameBrandAs": null,
+    "notes": "Formerly Nova Merchant Bank; rebranded 2025. Logo is PNG only (1344x490). Mark is the 512x512 site icon. Play app com.nova.banking (dev NOVA Bank NG) is another option."
+  },
+  {
+    "bankCode": "51371",
+    "id": "novus-mfb",
+    "name": "Novus MFB",
+    "shortName": "Novus",
+    "aliases": ["Novus MFB", "Novus Microfinance Bank"],
+    "website": "https://novusmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/yGH8m8T7oNzQ5fuh1Wa9BproUjkuDAPZtUeXSiolyCXFisbsm5V-RMSUaI9cPukJmrY4IBEtM_sLwUzLVPtSbA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.novusmfb.novusmfbmobile"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "novusmfb.com is a client-side Nuxt SPA with no logo URL in its static HTML/JS; used the app icon (dev Novus MFB). Not to be confused with 'Trusted Novus Bank' (Gibraltar)."
+  },
+  {
+    "bankCode": "50629",
+    "id": "npf-mfb",
+    "name": "NPF Microfinance Bank",
+    "shortName": "NPF MFB",
+    "aliases": ["NPF MICROFINANCE BANK", "NPF Microfinance Bank Plc"],
+    "website": "https://npfmicrofinancebankplc.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://img1.wsimg.com/isteam/ip/fbe4c78c-e04e-4d9c-bfda-2b4d0ad9fb32/NPF%20logo.png",
+      "format": "jpg",
+      "license": "official-site",
+      "sourceUrl": "https://npfmicrofinancebankplc.ng"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/BNg_PEV52ZjyiGDk41RwJrxD--djGRWDOxXaLw1wx0VW8P56bSjOEW_GOgQybH37t2l_ke0wzlfUXzBz2J0K0w=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.npfmicrofinancebank.ibank"
+    },
+    "sameBrandAs": null,
+    "notes": "The site logo (the site's own GoDaddy/wsimg CDN) is small, 285x107, and served as JPEG despite the .png name. The app icon (dev NPF Microfinance Bank) is 512 and shows the same logo."
+  },
+  {
+    "bankCode": "51261",
+    "id": "nsuk-mfb",
+    "name": "NSUK Microfinance Bank",
+    "shortName": "NSUK MFB",
+    "aliases": ["NSUK MICROFINANACE BANK", "NSUK Microfinance Bank Limited"],
+    "website": "https://nsukmfb.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://nsukmfb.ng/assets/images/nsuk%20logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://nsukmfb.ng"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Nasarawa State University Keffi MFB. Site logo is only 216x97. No app found (Play 'Nsukka MFB' is a different bank)."
+  },
+  {
+    "bankCode": "51392",
+    "id": "nuvion-mfb",
+    "name": "Nuvion MFB",
+    "shortName": "Nuvion",
+    "aliases": ["NUVION MFB"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "NOT FOUND: no website, Play app or news for a Nigerian 'Nuvion MFB'. The Apple search API returned 403 (rate-limited) the whole time. A US fintech 'Nuvion' (nuvion.co) exists, but nothing links it to Nigeria or an MFB, so it was not used."
+  },
+  {
+    "bankCode": "50689",
+    "id": "oou-mfb",
+    "name": "Olabisi Onabanjo University Microfinance Bank",
+    "shortName": "OOU MFB",
+    "aliases": ["Olabisi Onabanjo University Microfinance Bank Limited", "OOU MFB"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "NOT FOUND: only a Facebook page (facebook.com/ooumfb); no website (ooumfb.com does not resolve), no Play app. The Apple search API returned 403 the whole time; worth retrying."
+  },
+  {
+    "bankCode": "50697",
+    "id": "oluchukwu-mfb",
+    "name": "Oluchukwu Microfinance Bank",
+    "shortName": "Oluchukwu MFB",
+    "aliases": ["OLUCHUKWU MICROFINANCE BANK LTD"],
+    "website": "https://www.oluchukwumfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://oluchukwumfb.com/sites/default/files/Screen%20Shot%202016-12-18%20at%208.37.11%20AM.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://oluchukwumfb.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/QBLGL6WOE69bgt7OJIlyTD8LN3mBL2YDxTkgtwygOHZ-AoUZLN9HaXIHa_wo5VUWvKOa9YkMF4xIyYEfXuucnII=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.mdot.oluchukwumfb"
+    },
+    "sameBrandAs": null,
+    "notes": "Header logo 338x100 (the file is named like a screenshot but it is the logo). App dev Oluchukwu Microfinance Bank."
+  },
+  {
+    "bankCode": "51477",
+    "id": "pact-mfb",
+    "name": "Pact Microfinance Bank",
+    "shortName": "Pact",
+    "aliases": ["Pact Bank", "PACT MICROFINANCE BANK LTD"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/rFS3OrIwZ1quaePiirEa46UaMkP505ym44wdifkte0Nz4LH86c0ZY0s1JIXBnTJEEA1_ot-WBw-Ec-ZXw91ppag=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.pactmfb.app"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "App 'Pact Bank' by PACT MICROFINANCE BANK LTD. pactmfb.com does not resolve; no website logo found."
+  },
+  {
+    "bankCode": "100002",
+    "id": "paga",
+    "name": "Paga",
+    "shortName": "Paga",
+    "aliases": ["Paga Group", "Paga Group Ltd", "mypaga"],
+    "website": "https://www.mypaga.com",
+    "types": ["mobile-money", "e-wallet"],
+    "logo": {
+      "url": "https://framerusercontent.com/images/A4sIYAftMOui9peI9v5jM9DUAM.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.mypaga.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/j0Ias5dZtC3ZzeYMxzphRCtGfOijYNFaKyqAeaJXYYhDYml7onIQGCHc14gsnqHfGViRff09M6VgfQyHQHr1=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.mypaga.customer"
+    },
+    "sameBrandAs": null,
+    "notes": "Header logo PNG (alt 'Paga logo') from Paga's Framer-hosted site; only 324x96. No SVG logo file found. The site apple-touch-icon (framerusercontent.com/images/wBWR0azkpjUFRnNA0JnwEb1h26A.png, 720x720) is another mark option."
+  },
+  {
+    "bankCode": "999991",
+    "id": "palmpay",
+    "name": "PalmPay",
+    "shortName": "PalmPay",
+    "aliases": ["PalmPay Limited"],
+    "website": "https://www.palmpay.com",
+    "types": ["mobile-money", "e-wallet"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/pT-RdPoKxq_JRizBJsS99SgrtF9qeQ4Oq3gyhl4TSmK6w7GI_7x2OC9pQOSGo52b1yWBOugQv4w27QDA8mhzZg=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.transsnet.palmpay"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "palmpay.com renders in the browser (Next.js); no logo file found in its HTML/JS chunks. Used the app icon (dev PalmPay Limited) as the logo."
+  },
+  {
+    "bankCode": "104",
+    "id": "parallex-bank",
+    "name": "Parallex Bank",
+    "shortName": "Parallex",
+    "aliases": ["Parallex Bank Limited"],
+    "website": "https://www.parallexbank.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/TTlNNelZGCTiWDNJObilPnttQtv72uM7ZYNdi55pOeCIi3N9SOIOSLsvrqtchGvIH3BxRkkdXkxwWZCBRwCQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.parallex.mobileapp"
+    },
+    "mark": {
+      "url": "https://www.parallexbank.com/favicon_io/apple-touch-icon.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.parallexbank.com"
+    },
+    "sameBrandAs": null,
+    "notes": "The site's SVGs (e.g. assets/svg/logo2.svg) wrap embedded raster images, so they were rejected. Used the app icon (dev Parallex Bank) as the logo and the 180x180 site apple-touch-icon as the mark."
+  },
+  {
+    "bankCode": "311",
+    "id": "readycash",
+    "name": "Readycash",
+    "shortName": "Readycash",
+    "aliases": ["Parkway - ReadyCash", "Parkway ReadyCash", "Readycash by Parkway", "Parkway Projects"],
+    "website": "https://readycash.parkway.ng",
+    "types": ["mobile-money", "e-wallet"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/WUDSofok27yZ6-UaL4XhgaFgtCaABedfJiopQ0WT3ryD4p2-s8GEm_jK0wRHUIuZiyPXLCBqcB3APsA0ExcyuSA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.readycash.app"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "The site only has a white-on-transparent logo (https://readycash.parkway.ng/_nuxt/readycash-logo-light.Db03d9_N.png, 250x74, verified 200) that disappears on light backgrounds, so the app icon (dev Parkway Projects) was chosen as the logo. readycash.com.ng redirects to readycash.parkway.ng."
+  },
+  {
+    "bankCode": "090680",
+    "id": "pathfinder-mfb",
+    "name": "Pathfinder Microfinance Bank",
+    "shortName": "Pathfinder MFB",
+    "aliases": ["PATHFINDER MICROFINANCE BANK LIMITED"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "NOT FOUND: only a Facebook page (Ila Orangun, Osun State). No website, no Play app; the Apple search API returned 403 the whole time."
+  },
+  {
+    "bankCode": "90317",
+    "id": "patrickgold-mfb",
+    "name": "PatrickGold Microfinance Bank",
+    "shortName": "PatrickGold",
+    "aliases": ["PATRICKGOLD MFB", "PatrickGold Microfinance Bank Limited"],
+    "website": "https://pgoldmfbank.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://pgoldmfbank.com/wp/wp-content/uploads/2019/10/PNG-PATRICKGOLD.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://pgoldmfbank.com"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Header logo PNG 3552x3810 (a roughly square 'pg' symbol with small name text). An Apple developer page exists (PATRICKGOLD MICROFINANCE BANK LIMITED, id1604544837), but the Apple API returned 403 so its icon was not checked. Digital brand is 'GetriPay'."
+  },
+  {
+    "bankCode": "51457",
+    "id": "paystack-mfb",
+    "name": "Paystack MFB",
+    "shortName": "Paystack MFB",
+    "aliases": ["Paystack Microfinance Bank", "Ladder Microfinance Bank"],
+    "website": "https://paystack.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Paystack_Logo.svg",
+      "format": "svg",
+      "license": "public-domain-textlogo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paystack_Logo.svg"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/dXENP8aKJac9Ovz2_gasvrkryaMi_YYyf-CEsWBywf0wIkk8u8tRPZhzqbFkCm_IP9S76d91gHCZOHYRguyKvA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.paystack.go"
+    },
+    "sameBrandAs": null,
+    "notes": "Paystack bought Ladder MFB and renamed it Paystack MFB (Jan 2026); it is a separate entity from Paystack Payments. No MFB-specific logo found, so the Paystack wordmark is used. The Commons SVG is pure vector and matches the inline header logo on https://paystack.com (same viewBox 0 0 157 28; inlineIndex 0 in the raw HTML). Mark = Paystack Merchant app icon (dev Paystack Inc.)."
+  },
+  {
+    "bankCode": "50743",
+    "id": "peace-mfb",
+    "name": "Peace Microfinance Bank",
+    "shortName": "Peace MFB",
+    "aliases": ["Peace Microfinance Bank Limited"],
+    "website": "https://peacemfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/KjHV5oAt_oSmKRWP9_tJI_JRi-wjFA8W5vzWYuPFndbwefeUlDAFc_094MrEFO29bIJlQJve3jRa0hEpmWpr=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.peacemfb.peacemobile"
+    },
+    "mark": {
+      "url": "https://peacemfb.com/images/PeaceLogo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://peacemfb.com"
+    },
+    "sameBrandAs": null,
+    "notes": "The app icon (dev Peace Microfinance Bank Limited) shows the full 'PEACE MICROFINANCE BANK' lockup at 512px, so it is the logo; the site's PeaceLogo.png (200x190, symbol only) is the mark. The symbol matches on app and site. Medium confidence this is the bank with code 50743 (the name is generic); location not checked."
+  },
+  {
+    "bankCode": "51226",
+    "id": "pecantrust-mfb",
+    "name": "Pecan",
+    "shortName": "Pecan",
+    "aliases": ["PECANTRUST MICROFINANCE BANK LIMITED", "PecanTrust MFB", "My Pecan Bank"],
+    "website": "https://mypecanbank.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://mypecanbank.com/brand/pecan-logo-full.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://mypecanbank.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/STHkg0Ptw1rVEmO_6tp5NOGTnrFv33MB_Y2oJA572hvq_ijrWnk-_5F05I_BBWW5dMQenNkjOltQrKwFAcrtWQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.pecanmfb.pecanmfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Consumer brand is 'Pecan' / 'My Pecan Bank', run by PecanTrust MFB; the 3822x1194 logo reads 'pecan PECANTRUST MICROFINANCE BANK'."
+  },
+  {
+    "bankCode": "51146",
+    "id": "first-ally-mfb",
+    "name": "First Ally Microfinance Bank",
+    "shortName": "First Ally",
+    "aliases": [
+      "Personal Trust MFB",
+      "Personal Trust Microfinance Bank",
+      "PTMFB",
+      "First Ally Trust Microfinance Bank",
+      "FAMFB"
+    ],
+    "website": "https://first-allymfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://first-allymfb.com/wp-content/uploads/2026/04/cropped-FAMFB-RC.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://first-allymfb.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/1mLCqreuBuJBKzjwgVFvHDclxT59hFJIMzUmxegCekqexsBQ7M8B36FEU-8Ef7usI3iy_UuLgNZ9HT9ts-Tglw=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.moninow.ptmfb"
+    },
+    "sameBrandAs": null,
+    "notes": "REBRAND: Personal Trust MFB is now First Ally (Trust) Microfinance Bank; personaltrustmfb.com redirects to first-allymfb.com. Logo 1141x282. The 'PTrust Mobile' app (dev First Ally Trust MFB) icon does not use the new First Ally design."
+  },
+  {
+    "bankCode": "50746",
+    "id": "petra-mfb",
+    "name": "Petra Microfinance Bank",
+    "shortName": "Petra MFB",
+    "aliases": ["Petra Mircofinance Bank Plc", "Petra Microfinance Bank Plc"],
+    "website": "https://petramfbank.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://petramfbank.com/wp-content/uploads/2024/07/LOGO.jpg",
+      "format": "jpg",
+      "license": "official-site",
+      "sourceUrl": "https://petramfbank.com"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Header logo is a 697x423 JPEG on a white background. No app found (Play 'Petra Wallet' is an unrelated Aptos crypto wallet)."
+  },
+  {
+    "bankCode": "MFB51452",
+    "id": "pettysave-mfb",
+    "name": "Pettysave MFB",
+    "shortName": "Pettysave",
+    "aliases": ["Pettysave Microfinance Bank", "Pettysave Limited"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/jEnQb7lPs6o5EWPDpKJbBEQquBZQlpOtZEWq7JzXi9pDdzqy7ds-o2xyM2-_vVV9uKzwFZg6GeYywhJODCPuH8I=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.pettysavemfb.pettysavemfbmobile"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "App 'Pettysave MFB' (dev Pettysave Limited). pettysave.com does not resolve."
+  },
+  {
+    "bankCode": "050021",
+    "id": "pfi-finance",
+    "name": "PFI Finance Company",
+    "shortName": "PFI Finance",
+    "aliases": ["PFI FINANCE COMPANY LIMITED"],
+    "website": null,
+    "types": ["bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "NOT FOUND: finance company RC-1806020 in Lekki, Lagos; seems related to PFI Capital Ltd, but no website (pficapital.com is a parked redirect) or app found. The Play 'PFI' app belongs to PFI International (unrelated)."
+  },
+  {
+    "bankCode": "268",
+    "id": "platinum-mortgage-bank",
+    "name": "Platinum Mortgage Bank",
+    "shortName": "Platinum Mortgage",
+    "aliases": ["Platinum Mortgage Bank Ltd", "PMBL"],
+    "website": "https://pmbl-ng.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://pmbl-ng.com/uploads/setting/1557609467.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://pmbl-ng.com"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "LOW CONFIDENCE: the only image found is the site favicon (401x332), a generic yellow bank-building icon rather than a real logo. The site is a JS app with no other logo in its HTML. No app found."
+  },
+  {
+    "bankCode": "00716",
+    "id": "pocket-app",
+    "name": "Pocket",
+    "shortName": "Pocket",
+    "aliases": ["Pocket App", "PocketApp", "Pocket by PiggyVest", "Abeg"],
+    "website": "https://pocketapp.com",
+    "types": ["e-wallet"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/VhN6-9xq0FigoM846GOpHdzHUaBIAE2RNnPaD8qO9o4jc-95G9vyjgukVw4pnTZeEeUTqWI1WdHxDJqSmj8wAw=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.abegapp"
+    },
+    "mark": {
+      "url": "https://pocketapp.com/favicons/apple-icon-180x180.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://pocketapp.com"
+    },
+    "sameBrandAs": null,
+    "notes": "PiggyVest's Pocket app (formerly Abeg). App 'PocketApp', dev PocketApp Global Limited. No wordmark logo file on the site; the og:image (cloudinary pocket.png) returns 404."
+  },
+  {
+    "bankCode": "076",
+    "id": "polaris-bank",
+    "name": "Polaris Bank",
+    "shortName": "Polaris",
+    "aliases": ["Polaris Bank Limited"],
+    "website": "https://www.polarisbanklimited.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/POLARIS_LOGO.png",
+      "format": "png",
+      "license": "cc-by-sa",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:POLARIS_LOGO.png"
+    },
+    "mark": {
+      "url": "https://www.polarisbanklimited.com/wp-content/uploads/2022/12/logo-new-small.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.polarisbanklimited.com"
+    },
+    "sameBrandAs": null,
+    "notes": "The official site only has the 105x105 logo-new-small.png (used as mark). The logo is a Wikimedia Commons PNG, 954x951 (CC BY-SA 4.0, user-uploaded; looks the same as the official logo). Polaris apps (VULTe, SafeToken, ACE) use sub-brand icons and do not fit."
+  },
+  {
+    "bankCode": "50864",
+    "id": "polyunwana-mfb",
+    "name": "Polyunwana Microfinance Bank",
+    "shortName": "Polyunwana MFB",
+    "aliases": ["Polyunwana MFB", "Polyunwana Microfinance Bank Nigeria Limited"],
+    "website": "https://www.polyunwanamfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.polyunwanamfb.com/images/logos/logo_big.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.polyunwanamfb.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/j5J15ySRDC20RlTWaqelMI5r3jBF4tfRtoBNl4pO6FAi_aGUcgnr0HFF1nThUyjZoU65yib2rf6KISNPIY4l=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.interswitch.polyunwana"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo 284x53 (small). App dev POLYUNWANA MICROFINANCE BANK; its icon is the seal at 512."
+  },
+  {
+    "bankCode": "050023",
+    "id": "prosperis-finance",
+    "name": "Prosperis Finance",
+    "shortName": "Prosperis",
+    "aliases": ["PROSPERIS FINANCE LIMITED", "Prosperis Holdings"],
+    "website": "https://prosperisgroup.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://prosperisgroup.com/wp-content/uploads/2024/06/Prosperis-Holdings-Logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://prosperisgroup.com"
+    },
+    "mark": {
+      "url": "https://prosperisgroup.com/wp-content/uploads/2024/06/LOGO-MARK-PROSPERIS.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://prosperisgroup.com"
+    },
+    "sameBrandAs": null,
+    "notes": "Parent group (Prosperis Holdings) logo, 2351x742; prosperisholdings.com redirects to prosperisgroup.com. No logo specific to Prosperis Finance found. Mark is 2207x939 (not square)."
+  },
+  {
+    "bankCode": "101",
+    "id": "providusunity-bank",
+    "name": "ProvidusUnity Bank",
+    "shortName": "ProvidusUnity",
+    "aliases": ["Providus Bank", "Providus Bank Limited", "Unity Bank"],
+    "website": "https://providusbank.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://providusbank.com/img/navlogo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://providusbank.com"
+    },
+    "mark": {
+      "url": "https://providusbank.com/img/Shape.svg",
+      "format": "svg",
+      "license": "official-site",
+      "sourceUrl": "https://providusbank.com"
+    },
+    "sameBrandAs": null,
+    "notes": "REBRAND: Providus Bank merged with Unity Bank and is now ProvidusUnity Bank. Full logo is a 4000x1970 PNG from the site; the mark Shape.svg is pure vector. Commons also has File:ProvidusUnity_Bank_Logo.png (2700x2700, CC0)."
+  },
+  {
+    "bankCode": "51293",
+    "id": "quickfund-mfb",
+    "name": "QuickFund MFB",
+    "shortName": "QuickFund",
+    "aliases": ["QuickFund Microfinance Bank"],
+    "website": "https://www.quickfundmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.quickfundmfb.com/logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.quickfundmfb.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/IXQQdwyVwLqdhhzPoPt9F4CB-1V0WbOZqB9oa8Dh04sDhQl0wduvuxS3lnU5dtoja6XWTRgM8ssyQdkWjMQ6zA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.quickfund.quickfundmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo 279x107. App 'QuickFund Mobile', dev RimoTechnology (listed as a partner on the MFB site; the icon shows the QuickFund Microfinance Bank wordmark)."
+  }
+]

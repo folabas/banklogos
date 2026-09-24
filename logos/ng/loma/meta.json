@@ -1,0 +1,19 @@
+{
+  "id": "loma",
+  "name": "Loma",
+  "aliases": ["LOMA MFB", "Loma Bank", "Loma Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.lomabank.com",
+  "bankCodes": ["50491"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.lomabankapp",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

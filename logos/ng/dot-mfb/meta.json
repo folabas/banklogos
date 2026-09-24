@@ -1,0 +1,27 @@
+{
+  "id": "dot-mfb",
+  "name": "Dot Microfinance Bank",
+  "shortName": "Dot",
+  "aliases": ["Dot MFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "mark": "png" },
+  "website": "https://dotmfb.com",
+  "bankCodes": ["50162"],
+  "source": {
+    "url": "https://dotmfb.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.digicore.dot",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

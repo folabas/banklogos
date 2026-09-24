@@ -1,0 +1,27 @@
+{
+  "id": "bank-of-agriculture",
+  "name": "Bank of Agriculture",
+  "shortName": "BOA",
+  "aliases": ["BANK OF AGRICULTURE", "Bank of Agriculture Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://boanig.com",
+  "bankCodes": ["90367"],
+  "source": {
+    "url": "https://boanig.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://apps.apple.com/ng/app/bank-of-agriculture/id6757990669",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

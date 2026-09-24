@@ -1,0 +1,20 @@
+{
+  "id": "novus-mfb",
+  "name": "Novus MFB",
+  "shortName": "Novus",
+  "aliases": ["Novus Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://novusmfb.com",
+  "bankCodes": ["51371"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.novusmfb.novusmfbmobile",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

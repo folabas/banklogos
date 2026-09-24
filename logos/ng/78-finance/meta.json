@@ -1,0 +1,19 @@
+{
+  "id": "78-finance",
+  "name": "78 Finance",
+  "shortName": "78",
+  "aliases": ["78 Finance Company Ltd", "78 Financials"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo"],
+  "website": "https://78financials.com",
+  "bankCodes": ["40195"],
+  "source": {
+    "url": "https://78financials.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

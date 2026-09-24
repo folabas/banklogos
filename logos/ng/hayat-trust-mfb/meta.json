@@ -1,0 +1,27 @@
+{
+  "id": "hayat-trust-mfb",
+  "name": "Hayat Trust MFB",
+  "shortName": "Hayat Trust",
+  "aliases": ["Hayat Trust Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.hayattrustmfb.com",
+  "bankCodes": ["51364"],
+  "source": {
+    "url": "https://www.hayattrustmfb.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.hayattrust.hayattrustmobile",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

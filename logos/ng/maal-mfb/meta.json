@@ -1,0 +1,19 @@
+{
+  "id": "maal-mfb",
+  "name": "Maal",
+  "aliases": ["Maal MFB", "Maal Non-Interest Microfinance Bank", "Maal NI MFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.maalbanking.com",
+  "bankCodes": ["51444"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.bilyak.tanadi",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

@@ -12,6 +12,7 @@
 import { execFileSync } from 'node:child_process';
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import type { License, LogoEntity, LogoFormat, LogoType, LogoVariant } from '../packages/core/src/types.js';
 import type { SourceEntry, SourceSnapshot } from '../sources/types.js';
 import { writeJson } from './lib/json.js';
@@ -83,6 +84,8 @@ function sourceEntry(entry: ManifestEntry): { snap: SourceSnapshot; source: Sour
 }
 
 async function download(url: string): Promise<Uint8Array> {
+  // Files already extracted locally (e.g. from an official press-kit zip); sourceUrl records the real origin.
+  if (url.startsWith('file:')) return new Uint8Array(readFileSync(fileURLToPath(url)));
   let lastError: unknown;
   for (let attempt = 0; attempt < 3; attempt++) {
     try {
@@ -124,6 +127,14 @@ async function prepare(ref: FileRef, variant: LogoVariant): Promise<{ format: Lo
     const svg = ref.inlineIndex !== undefined ? extractInlineSvg(full, ref.inlineIndex) : full;
     const optimized = optimizeSvg(svg);
     const problems = lintSvg(optimized);
+    // An official SVG that is only too heavy (detailed artwork) is rendered to PNG rather than dropped.
+    if (problems.length === 1 && problems[0]!.includes('KB (max')) {
+      const png = await toShippablePng(new TextEncoder().encode(optimized), variant);
+      const pngProblems = lintPng(png);
+      if (pngProblems.length) throw new Error(`${variant}.png ${pngProblems.join('; ')}`);
+      console.warn(`warn  ${variant}.svg ${problems[0]}; rendered to PNG instead`);
+      return { format: 'png', bytes: png };
+    }
     if (problems.length) throw new Error(`${variant}.svg ${problems.join('; ')}`);
     return { format: 'svg', bytes: new TextEncoder().encode(optimized) };
   }
@@ -148,9 +159,17 @@ for (const entry of manifest.filter((e) => !e.sameBrandAs)) {
     const dir = join(LOGOS_DIR, snap.scope.toLowerCase(), entry.id);
     if (existsSync(dir) || newEntities.has(entry.id)) throw new Error(`entity "${entry.id}" already exists`);
 
-    const files: Partial<Record<LogoVariant, { format: LogoFormat; bytes: Uint8Array }>> = {
-      logo: await prepare(entry.logo, 'logo'),
-    };
+    const files: Partial<Record<LogoVariant, { format: LogoFormat; bytes: Uint8Array }>> = {};
+    try {
+      files.logo = await prepare(entry.logo, 'logo');
+    } catch (err) {
+      // A logo that fails the quality checks (oversized SVG, tiny PNG) falls back to the official app icon.
+      if (!entry.mark) throw err;
+      console.warn(`warn  ${entry.id}: logo rejected (${(err as Error).message}); using the mark as the logo`);
+      files.logo = await prepare(entry.mark, 'logo');
+      entry.logo = entry.mark;
+      entry.mark = null;
+    }
     if (entry.mark) {
       try {
         files.mark = await prepare(entry.mark, 'mark');

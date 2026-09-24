@@ -1,0 +1,19 @@
+{
+  "id": "palmpay",
+  "name": "PalmPay",
+  "aliases": ["PalmPay Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["mobile-money", "e-wallet"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://www.palmpay.com",
+  "bankCodes": ["999991"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.transsnet.palmpay",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

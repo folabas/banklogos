@@ -1,0 +1,31 @@
+{
+  "id": "baobab-mfb",
+  "name": "Baobab",
+  "aliases": ["Baobab Microfinance Bank", "Baobab Microfinance Bank Nigeria Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://baobab.com/ng/",
+  "bankCodes": ["MFB50992"],
+  "source": {
+    "url": "https://baobab.com/ng/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.baobabgroup.customer.mobile.app",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "microfinance-bank",
+    "registryId": "3287"
+  }
+}

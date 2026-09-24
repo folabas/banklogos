@@ -1,0 +1,19 @@
+{
+  "id": "safe-haven-mfb",
+  "name": "SafeHaven",
+  "aliases": ["Safe Haven MFB", "Safe Haven Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.safehavenmfb.com",
+  "bankCodes": ["51113"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.safehavenmfb.app",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

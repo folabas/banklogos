@@ -1,0 +1,27 @@
+{
+  "id": "kayvee-mfb",
+  "name": "Kayvee MFB",
+  "shortName": "Kayvee",
+  "aliases": ["Kayvee Microfinance Bank Limited", "Kayvee Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://kayveemfb.com.ng",
+  "bankCodes": ["5129"],
+  "source": {
+    "url": "https://kayveemfb.com.ng",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.kayveemfb.kayveemfbmobile",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

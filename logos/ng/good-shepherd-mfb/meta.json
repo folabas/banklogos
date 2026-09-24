@@ -1,0 +1,20 @@
+{
+  "id": "good-shepherd-mfb",
+  "name": "Good Shepherd MFB",
+  "shortName": "Good Shepherd",
+  "aliases": ["GOOD SHEPHERD MICROFINANCE BANK"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://www.goodshepherdmfb.com",
+  "bankCodes": ["090664"],
+  "source": {
+    "url": "https://www.goodshepherdmfb.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

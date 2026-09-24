@@ -1,0 +1,20 @@
+{
+  "id": "uzondu-mfb",
+  "name": "Uzondu MFB",
+  "shortName": "Uzondu",
+  "aliases": ["Uzondu Microfinance Bank Awka Anambra State", "Uzondu Microfinance Bank Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.uzondumfb.com",
+  "bankCodes": ["50894"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.uzondumfb.uzondumobile",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

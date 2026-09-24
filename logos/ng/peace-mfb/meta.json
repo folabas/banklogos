@@ -1,0 +1,27 @@
+{
+  "id": "peace-mfb",
+  "name": "Peace Microfinance Bank",
+  "shortName": "Peace MFB",
+  "aliases": ["Peace Microfinance Bank Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://peacemfb.com",
+  "bankCodes": ["50743"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.peacemfb.peacemobile",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://peacemfb.com",
+      "license": "official-site",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

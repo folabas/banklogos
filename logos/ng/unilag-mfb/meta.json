@@ -1,0 +1,26 @@
+{
+  "id": "unilag-mfb",
+  "name": "Unilag MFB",
+  "aliases": ["Unilag Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.unilagmfbank.com",
+  "bankCodes": ["51316"],
+  "source": {
+    "url": "https://www.unilagmfbank.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.unilagmfbank.app",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

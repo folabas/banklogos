@@ -1,0 +1,20 @@
+{
+  "id": "bosak-mfb",
+  "name": "Bosak MFB",
+  "shortName": "Bosak",
+  "aliases": ["Bosak Microfinance Bank", "Bosak Micro Finance Bank Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://www.bosakmfb.com",
+  "bankCodes": ["650"],
+  "source": {
+    "url": "https://www.bosakmfb.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

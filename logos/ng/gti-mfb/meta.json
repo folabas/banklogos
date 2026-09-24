@@ -1,0 +1,19 @@
+{
+  "id": "gti-mfb",
+  "name": "GTI MFB",
+  "shortName": "GTI",
+  "aliases": ["GTI Microfinance Bank Ltd"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "bankCodes": ["50368"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.saha.sahaplus",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

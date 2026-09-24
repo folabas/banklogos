@@ -1,0 +1,27 @@
+{
+  "id": "mahfuz-mfb",
+  "name": "Al-Mahfuz MFB",
+  "shortName": "Mahfuz",
+  "aliases": ["MAHFUZ MFB", "Al-Mahfuz Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://mahfuzmfb.com",
+  "bankCodes": ["90825"],
+  "source": {
+    "url": "https://mahfuzmfb.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.qucoon.middlewaremobile.mahfuz",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

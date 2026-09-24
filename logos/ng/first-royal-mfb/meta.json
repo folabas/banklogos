@@ -1,0 +1,20 @@
+{
+  "id": "first-royal-mfb",
+  "name": "First Royal Microfinance Bank",
+  "shortName": "First Royal",
+  "aliases": ["FIRST ROYAL MICROFINANCE BANK"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://firstroyalmfb.com",
+  "bankCodes": ["090164"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.firstroyalmfb.firstroyalmfbmobile",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "think-finance-mfb",
+  "name": "Think Finance MFB",
+  "shortName": "Think Finance",
+  "aliases": ["Think Finance Microfinance Bank", "TF Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://thinkfinancemfb.com",
+  "bankCodes": ["677"],
+  "source": {
+    "url": "https://thinkfinancemfb.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

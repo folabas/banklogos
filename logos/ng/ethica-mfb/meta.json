@@ -1,0 +1,27 @@
+{
+  "id": "ethica-mfb",
+  "name": "Ethica Microfinance Bank",
+  "shortName": "Ethica",
+  "aliases": ["Ethica MFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://ethicamfb.com",
+  "bankCodes": ["51475"],
+  "source": {
+    "url": "https://ethicamfb.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.ethica.app",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

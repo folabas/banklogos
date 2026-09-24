@@ -1,0 +1,32 @@
+{
+  "id": "moneymaster-psb",
+  "name": "MoneyMaster PSB",
+  "shortName": "MoneyMaster",
+  "aliases": ["Money Master PSB", "MoneyMaster Payment Service Bank", "Glo MoneyMaster"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["mobile-money"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://moneymasterpsb.com",
+  "bankCodes": ["946"],
+  "source": {
+    "url": "https://moneymasterpsb.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.moneymasterpsb.app",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "payment-service-bank",
+    "registryId": "4115"
+  }
+}

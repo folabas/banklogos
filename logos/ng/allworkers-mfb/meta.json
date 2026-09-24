@@ -1,0 +1,20 @@
+{
+  "id": "allworkers-mfb",
+  "name": "Allworkers MFB",
+  "shortName": "Allworkers",
+  "aliases": ["ALLWORKERS MFB", "Allworkers Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://allworkersmfb.com",
+  "bankCodes": ["50059"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.allworkersmfb.allworkersmfbmobile",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

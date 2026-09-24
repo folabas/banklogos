@@ -1,0 +1,27 @@
+{
+  "id": "beststar-mfb",
+  "name": "Beststar MFB",
+  "shortName": "Beststar",
+  "aliases": ["Beststar Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://beststarmfb.com",
+  "bankCodes": ["50123"],
+  "source": {
+    "url": "https://beststarmfb.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://beststarmfb.com/favicon.ico",
+      "license": "official-site",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "source-mfb",
+  "name": "Source Microfinance Bank",
+  "shortName": "Source",
+  "aliases": ["SOURCE MFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://mysourcebank.com",
+  "bankCodes": ["90641"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.mysourcebank.mobile",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

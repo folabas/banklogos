@@ -1,0 +1,27 @@
+{
+  "id": "firsttrust-mortgage-bank",
+  "name": "FirstTrust Mortgage Bank",
+  "shortName": "FirstTrust",
+  "aliases": ["FirstTrust Mortgage Bank Nigeria", "FirstTrust Mortgage Bank Plc"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "mark": "png" },
+  "website": "https://www.ftmortgagebankplc.com",
+  "bankCodes": ["413"],
+  "source": {
+    "url": "https://www.ftmortgagebankplc.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.firsttrust",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

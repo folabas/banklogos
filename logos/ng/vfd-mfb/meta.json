@@ -1,0 +1,25 @@
+{
+  "id": "vfd-mfb",
+  "name": "VFD Microfinance Bank",
+  "shortName": "VFD MFB",
+  "aliases": ["VFD Microfinance Bank Limited", "V by VFD", "VBank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://vbank.ng",
+  "bankCodes": ["566"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.vfd.app",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "microfinance-bank",
+    "registryId": "4039"
+  }
+}

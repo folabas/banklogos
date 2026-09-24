@@ -1,0 +1,25 @@
+{
+  "id": "mint-mfb",
+  "name": "Mint MFB",
+  "shortName": "Mint",
+  "aliases": ["Mint Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://mintng.com",
+  "bankCodes": ["50304"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.mintmfb.app",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "non-interest-bank",
+    "registryId": "10055"
+  }
+}

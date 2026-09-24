@@ -1,0 +1,27 @@
+{
+  "id": "nigerian-navy-mfb",
+  "name": "Nigerian Navy Microfinance Bank",
+  "shortName": "Navy MFB",
+  "aliases": ["Nigerian Navy Microfinance Bank Limited", "NNMFB", "NAVY MFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://nigerianavymfb.com",
+  "bankCodes": ["51142"],
+  "source": {
+    "url": "https://nigerianavymfb.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.navymfb.navymobile",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

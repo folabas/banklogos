@@ -1,0 +1,20 @@
+{
+  "id": "ilaro-poly-mfb",
+  "name": "Ilaro Poly MFB",
+  "shortName": "Ilaro Poly",
+  "aliases": ["Ilaro Poly Microfinance Bank", "Ilaro Polytechnic Microfinance Bank Ltd"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://ilaropolymfb.org",
+  "bankCodes": ["50442"],
+  "source": {
+    "url": "https://ilaropolymfb.org/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

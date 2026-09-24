@@ -1,0 +1,20 @@
+{
+  "id": "ibile-mfb",
+  "name": "Ibile MFB",
+  "shortName": "Ibile",
+  "aliases": ["Ibile Microfinance Bank", "IBILE Microfinance Bank Nigeria Ltd"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://ibilemfb.com",
+  "bankCodes": ["51244"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.ibilemfb.ibilemfbmobile",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

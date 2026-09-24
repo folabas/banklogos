@@ -1,0 +1,18 @@
+{
+  "id": "eyowo",
+  "name": "Eyowo",
+  "aliases": ["Eyowo Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["e-wallet"],
+  "variants": ["logo"],
+  "website": "https://eyowo.com",
+  "bankCodes": ["50126"],
+  "source": {
+    "url": "https://eyowo.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

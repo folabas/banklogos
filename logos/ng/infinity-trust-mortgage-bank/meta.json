@@ -1,0 +1,27 @@
+{
+  "id": "infinity-trust-mortgage-bank",
+  "name": "Infinity Trust Mortgage Bank",
+  "shortName": "Infinity Trust",
+  "aliases": ["Infinity trust Mortgage Bank", "Infinity Trust Mortgage Bank Plc", "ITMB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.infinitytrustmortgagebank.com",
+  "bankCodes": ["070016"],
+  "source": {
+    "url": "https://www.infinitytrustmortgagebank.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.techzultant.infinitymobileapp",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

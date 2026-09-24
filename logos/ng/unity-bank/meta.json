@@ -1,0 +1,25 @@
+{
+  "id": "unity-bank",
+  "name": "Unity Bank",
+  "shortName": "Unity",
+  "aliases": ["Unity Bank Plc"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://www.unitybankng.com",
+  "bankCodes": ["215"],
+  "source": {
+    "url": "https://web.archive.org/web/2022/https://www.unitybankng.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "commercial-bank",
+    "registryId": "22"
+  }
+}

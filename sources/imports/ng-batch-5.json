@@ -1,0 +1,693 @@
+[
+  {
+    "bankCode": "50502",
+    "id": "kadpoly-mfb",
+    "name": "Kadpoly MFB",
+    "shortName": "Kadpoly",
+    "aliases": ["Kadpoly Microfinance Bank", "Kaduna Polytechnic MFB"],
+    "website": "https://kadpolymfb.com.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/_samBA_ugfUPtYEFII3w1CJdf2hscEydO-PR7jnI0F-C24FtyTMdPNWihX5Sv1yVMRCRexZAe6OHoS17vQe3xWc=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.kadpolymfb.kadpolymfbmobile"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/_samBA_ugfUPtYEFII3w1CJdf2hscEydO-PR7jnI0F-C24FtyTMdPNWihX5Sv1yVMRCRexZAe6OHoS17vQe3xWc=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.kadpolymfb.kadpolymfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "App icon only (Play dev 'Kadpoly Microfinance'). Site kadpolymfb.com.ng is a bare template; its 180px apple-touch-icon looks like a template placeholder, not used."
+  },
+  {
+    "bankCode": "51308",
+    "id": "kanopoly-mfb",
+    "name": "Kano Poly MFB",
+    "shortName": "Kanopoly",
+    "aliases": ["KANOPOLY MFB", "Kano Poly Microfinance Bank Limited"],
+    "website": "https://kanopolymfb.ng",
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Not found. kanopolymfb.ng unreachable (connection fails); no Play app found; Apple search API returned 429/403. Reported among Kano MFBs whose licences CBN revoked in July 2026."
+  },
+  {
+    "bankCode": "90667",
+    "id": "kayi-mfb",
+    "name": "Kayi",
+    "shortName": "Kayi",
+    "aliases": ["KAYI MFB", "Kayi Microfinance Bank Limited", "KMC-Kayi Microfinance Bank", "KayiApp"],
+    "website": "https://www.kayi.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/dgJxG74Tob0dD5rkrT7GVUcC31ZzotMTq6cyueL8H3NGnQnzPlw2CW0WfYtPTo9QmmvZMG9IpSMNQ6iKMtL_Jbg=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.kayiapp"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/dgJxG74Tob0dD5rkrT7GVUcC31ZzotMTq6cyueL8H3NGnQnzPlw2CW0WfYtPTo9QmmvZMG9IpSMNQ6iKMtL_Jbg=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.kayiapp"
+    },
+    "sameBrandAs": null,
+    "notes": "App icon only: MyKayiApp (support email on kayi.ng domain). kayi.ng unreachable from here. Medium confidence."
+  },
+  {
+    "bankCode": "5129",
+    "id": "kayvee-mfb",
+    "name": "Kayvee MFB",
+    "shortName": "Kayvee",
+    "aliases": ["Kayvee Microfinance Bank Limited"],
+    "website": "https://kayveemfb.com.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://kayveemfb.com.ng/wp-content/uploads/2023/09/cropped-KV-Logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://kayveemfb.com.ng"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/5gmd_JoSDxBISpvIbbd4bPPbqCfoVH7h4rTazVBlC4yBB98fdoAGIQ4IJMgmjF-civ41wWOGbbYn1uKw0_-MSw=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.kayveemfb.kayveemfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Logo is the site's 512x512 site-icon PNG (full-size of cropped-KV-Logo). Small KV-Logo.png is only 132x76. Ignored an unrelated iOS app 'Kayvee MFB' by Escrow and Trust International."
+  },
+  {
+    "bankCode": "90028",
+    "id": "kebbi-homes",
+    "name": "Kebbi Home Savings",
+    "shortName": "Kebbi Homes",
+    "aliases": ["Kebbi Homes Savings and Loans Limited", "Kebbi State Home Savings and Loans Ltd", "KHSL"],
+    "website": "https://kebbihomesavings.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://kebbihomesavings.com/wp-content/uploads/2025/06/khsl-logo.jpg",
+      "format": "jpg",
+      "license": "official-site",
+      "sourceUrl": "https://kebbihomesavings.com"
+    },
+    "mark": {
+      "url": "https://kebbihomesavings.com/wp-content/uploads/2025/06/cropped-khsl-favicon-logo-scaled-1-270x270.jpg",
+      "format": "jpg",
+      "license": "official-site",
+      "sourceUrl": "https://kebbihomesavings.com"
+    },
+    "sameBrandAs": null,
+    "notes": "Header logo JPG 570x238 (white background). No app found. Primary mortgage bank."
+  },
+  {
+    "bankCode": "082",
+    "id": "keystone-bank",
+    "name": "Keystone Bank",
+    "shortName": "Keystone",
+    "aliases": ["Keystone Bank Limited"],
+    "website": "https://www.keystonebankng.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://www.keystonebankng.com/wp-content/uploads/2020/11/cropped-keystone-bank-logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.keystonebankng.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/bvt8RHJ2DGWlXtVGtFb-9zSN7X2AYBguh_E8TLL9Y_NtIc4ivWNSUHa1DaE4e5w00ZAJRMaHtWL9vbfO0oFkHA=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.qucoon.keystonemobilebankingapp"
+    },
+    "sameBrandAs": null,
+    "notes": "PNG only (348x108, also og:image). No SVG logo on site. Mark = KeyMobile app icon (served as JPEG)."
+  },
+  {
+    "bankCode": "899",
+    "id": "kolomoni",
+    "name": "Kolomoni",
+    "shortName": "Kolomoni",
+    "aliases": ["Kolomoni MFB", "Kolomoni Microfinance Bank"],
+    "website": "https://kolomonimfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://kolomonimfb.com/assets/images/kolomoni-logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://kolomonimfb.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/mwbPyqiISrekg2-E5kLeIMIiKSNZOGSXPx5ej2_EAqMFBSwxpHnBm_xUOz9_RNeUKBG97QJQygvSzcoTIJH_Fw=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.teqpace.kolomoni"
+    },
+    "sameBrandAs": null,
+    "notes": "Header logo PNG 1570x334. kolomoni.ng unreachable. Also a Business Banking app (com.kolomoni.phlox)."
+  },
+  {
+    "bankCode": "100025",
+    "id": "kolomoni-mfb-100025",
+    "name": "Kolomoni",
+    "shortName": "Kolomoni",
+    "aliases": ["Kolomoni Microfinance Bank"],
+    "website": "https://kolomonimfb.com",
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": "899",
+    "notes": "Same brand as code 899."
+  },
+  {
+    "bankCode": "50200",
+    "id": "kredi",
+    "name": "Kredi",
+    "shortName": "Kredi",
+    "aliases": ["Kredi Money MFB LTD", "Kredimoney MFB Limited", "TheKrediBank"],
+    "website": "https://thekredibank.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://thekredibank.com/wp-content/uploads/2024/09/Kredi_Full-Color.svg",
+      "format": "svg",
+      "license": "official-site",
+      "sourceUrl": "https://thekredibank.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/x3W8wjsYm2TDKYwZbu0gDiL4S6Ts-lXV1wVwPw_TyBOzxtuawwVHUF9KTTHbCIDVVuttOIuH_0Fjpy0Onn_1PA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.kredibank"
+    },
+    "sameBrandAs": null,
+    "notes": "Pure-vector full-colour SVG from site. Header PNG theKrediLogo-1.png is a tiny white version (rejected)."
+  },
+  {
+    "bankCode": "50211",
+    "id": "kuda",
+    "name": "Kuda",
+    "shortName": "Kuda",
+    "aliases": ["Kuda Bank", "Kuda Microfinance Bank", "Kuda Technologies"],
+    "website": "https://www.kuda.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "file:///C:/Users/user/AppData/Local/Temp/claude/C--Users-user-Documents/479628b6-45f7-424e-b548-936442293da6/scratchpad/kuda/kuda-logo.svg",
+      "format": "svg",
+      "license": "official-press-kit",
+      "sourceUrl": "https://www.kuda.com/wp-content/uploads/2026/05/Kuda-press-kit.zip"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/itHwXR2V4El4sE1Zd0a32MIIdx7YFmikjkqh72wl_R4Nl5pUTvYjQHrnUWVZ-KxKWzx0NvwPCwDHHTmLlxM_=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.kudabank.app"
+    },
+    "sameBrandAs": null,
+    "notes": "Press kit zip (2,086,705 bytes) contains pure-vector purple (#40196d) primary SVG (no image/base64/script). Kit also has purple/black/white PNGs and lockups. Site PNG https://www.kuda.com/wp-content/uploads/2026/05/Kuda-logo.png (1244x347, purple) is a fallback. Sprite logo is currentColor (rejected)."
+  },
+  {
+    "bankCode": "90052",
+    "id": "lbic",
+    "name": "LBIC",
+    "shortName": "LBIC",
+    "aliases": ["Lagos Building Investment Company Plc.", "LBIC Mortgage Bank"],
+    "website": "https://www.lbicplc.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://www.lbicplc.com/images/logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.lbicplc.com"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Header logo PNG 992x896 (green/yellow). No SVG, no app found. Mortgage bank."
+  },
+  {
+    "bankCode": "091003",
+    "id": "lemmy-mfb",
+    "name": "Lemmy MFB",
+    "shortName": "Lemmy",
+    "aliases": ["Lemmy Microfinance Bank"],
+    "website": "https://lemfi.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://lemfi.com/en-ng/",
+      "format": "svg",
+      "license": "official-site",
+      "inlineIndex": 0
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/SzAer6o8nyLRshz1gUyseUpiozJjwlLc7FRYdsFdYQ07kZAsX-9WXMtrIU0wRLETYG0jmQs338sHbtCqt5ej=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.lemonadeFinance.android"
+    },
+    "sameBrandAs": null,
+    "notes": "LOW CONFIDENCE on brand: Lemmy MFB is LemFi's CBN-licensed MFB (per LemFi legal terms); no standalone Lemmy website/app found, so LemFi branding used. Logo = first inline SVG in lemfi.com/en-ng/ header (pure vector, black + #5CC793). Consider sameBrandAs 'lemfi' if LemFi exists elsewhere."
+  },
+  {
+    "bankCode": "090420",
+    "id": "letshego-mfb",
+    "name": "Letshego",
+    "shortName": "Letshego",
+    "aliases": ["Letshego Microfinance Bank", "Letshego MFB Nigeria"],
+    "website": "https://www.letshego.com/nigeria",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.letshego.com/sites/default/files/logo_0.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.letshego.com/nigeria"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/KmrMrmiIkcv7VRqcm57zFBCG1c1MXY6igttw7x8laOyim-g5tEdV5FCVwaHQ7nMfRB1k-nnx_YqEl0Atk0t8qw=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.letshego.dasdigital"
+    },
+    "sameBrandAs": null,
+    "notes": "Group site header PNG 2836x910. Mark = LetsGo (Letshego Digital) app icon."
+  },
+  {
+    "bankCode": "50549",
+    "id": "links-mfb",
+    "name": "Links MFB",
+    "shortName": "Links MFB",
+    "aliases": ["Links Microfinance Bank", "Sofri", "Sofri Trust"],
+    "website": "https://linksmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/tpsQYWrR2PkrGpiBG90zYS2MohbWIfHBOoY3sG4c65HzQIq3saQqnbmubiTijMASeNcxqE015WQJ7fv14x1K=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.sofrimobileapp"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/tpsQYWrR2PkrGpiBG90zYS2MohbWIfHBOoY3sG4c65HzQIq3saQqnbmubiTijMASeNcxqE015WQJ7fv14x1K=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.sofrimobileapp"
+    },
+    "sameBrandAs": null,
+    "notes": "Links MFB trades as 'Sofri' (linksmfb.com; app 'Sofri Trust'). Site logo SofritrustLogo.png is only 97x79, so app icon used. Name choice (Links MFB vs Sofri) is a judgement call."
+  },
+  {
+    "bankCode": "031",
+    "id": "living-trust-mortgage-bank",
+    "name": "LivingTrust Mortgage Bank",
+    "shortName": "LivingTrust",
+    "aliases": ["Living Trust Mortgage Bank", "LivingTrust Mortgage Bank Plc", "LTMB"],
+    "website": "https://www.livingtrustng.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://www.livingtrustng.com/assets/assets2/images/ltmb-logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.livingtrustng.com"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Header PNG 313x192 (blue). No SVG, no app found."
+  },
+  {
+    "bankCode": "50491",
+    "id": "loma",
+    "name": "Loma",
+    "shortName": "Loma",
+    "aliases": ["LOMA MFB", "Loma Bank", "Loma Microfinance Bank"],
+    "website": "https://www.lomabank.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/Z506deWp64fERSuWRsi91qRxLQCOFf3AB8uT6Gr1zosxTccvEE8TxHZCLDpFX8S3bBM7biYQjm8OifXbmk-X3lI=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.lomabankapp"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/Z506deWp64fERSuWRsi91qRxLQCOFf3AB8uT6Gr1zosxTccvEE8TxHZCLDpFX8S3bBM7biYQjm8OifXbmk-X3lI=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.lomabankapp"
+    },
+    "sameBrandAs": null,
+    "notes": "Site header loma-logo.svg wraps an embedded raster (<image>/base64) - rejected; og.webp 404. Other inline SVGs are app-store badges. App icon used."
+  },
+  {
+    "bankCode": "303",
+    "id": "lotus-bank",
+    "name": "Lotus Bank",
+    "shortName": "Lotus",
+    "aliases": ["Lotus Bank Limited"],
+    "website": "https://www.lotusbank.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/i8hVzOdLYl-aAoIo9SDIjY7Lc1Y4Vco_olO76WFKTARppGw6KkniVNXrm_smmDhbZC1rUPXya-wEMep-7cNETA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.lotusbank.ibank"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/i8hVzOdLYl-aAoIo9SDIjY7Lc1Y4Vco_olO76WFKTARppGw6KkniVNXrm_smmDhbZC1rUPXya-wEMep-7cNETA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.lotusbank.ibank"
+    },
+    "sameBrandAs": null,
+    "notes": "Site is an Angular SPA; its SVG wraps a raster (rejected) and /apple-touch-icon.png returns HTML. App icon (LOTUS Mobile App, dev LOTUS Bank) used."
+  },
+  {
+    "bankCode": "51444",
+    "id": "maal-mfb",
+    "name": "Maal",
+    "shortName": "Maal",
+    "aliases": ["Maal MFB", "Maal Non-Interest Microfinance Bank", "Maal NI MFB"],
+    "website": "https://www.maalbanking.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/kKhe34ZwN3WTv1f3CT8SPmkrD4dHvTBtxH1FSoxDTWsHJC8AE41YeSIKG7Xp3aNv9Nk4omen-Q0f8oz2UWsBVg=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.bilyak.tanadi"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/kKhe34ZwN3WTv1f3CT8SPmkrD4dHvTBtxH1FSoxDTWsHJC8AE41YeSIKG7Xp3aNv9Nk4omen-Q0f8oz2UWsBVg=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.bilyak.tanadi"
+    },
+    "sameBrandAs": null,
+    "notes": "maal_logo.svg on site is auto-traced (86 paths, near-duplicate light-purple fills, tracer-style output) - rejected. App 'MAAL Bank App' (dev Tanadi) is the one linked from maalbanking.com. Ignored unrelated com.mobile.maal."
+  },
+  {
+    "bankCode": "90825",
+    "id": "mahfuz-mfb",
+    "name": "Al-Mahfuz MFB",
+    "shortName": "Mahfuz",
+    "aliases": ["MAHFUZ MFB", "Al-Mahfuz Microfinance Bank"],
+    "website": "https://mahfuzmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://mahfuzmfb.com/logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://mahfuzmfb.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/UU8Nnwaz63PA8J6dkmFQDpOlZU5wePoTKeSP7qcubsxnCOJk8QGtNyzzBKpOFQ6Hbcq9ZnTDh3AV94Iq-L3yGA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.qucoon.middlewaremobile.mahfuz"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo PNG 202x41 (small; linked as icon with type svg but is PNG). App published by NIBSS on the bank's behalf (support email on mahfuzmfb.com)."
+  },
+  {
+    "bankCode": "090171",
+    "id": "mainstreet-mfb",
+    "name": "Mainstreet MFB",
+    "shortName": "Mainstreet",
+    "aliases": ["MAINSTREET MICROFINANCE BANK"],
+    "website": "https://www.mainstreetmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.mainstreetmfb.com/wp-content/uploads/2018/11/mainstreetmfb-logo-1.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.mainstreetmfb.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/2w0prLdLqdh4-3cggyfV8P6TktxVkgfmPXnRz9kIL9txvg72hAdqPSwsZtWPJSPZJy2w680WJGzPi6MkGiL9=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.mainstreetmfb.mainstreetmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Header PNG 691x170. Not the defunct Mainstreet Bank Limited."
+  },
+  {
+    "bankCode": "51474",
+    "id": "mayden-mfb",
+    "name": "Mayden MFB",
+    "shortName": "Mayden",
+    "aliases": ["Mayden Microfinance Bank", "MaydenLite"],
+    "website": "https://maydenmfbank.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://maydenmfbank.com/website/maydenassets/img/logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.maydenmfbank.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/E80dgSN7t6eTx3_HKAxE_UuLyzqjC28GvhtaooPIZXgXb0QHO8d-jsUGTxyZgkSqcp_r1_r8k0Z8bhXPYlJp=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.maydenmfb.maydenmfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Header PNG 349x92 (magenta). App icon served as JPEG."
+  },
+  {
+    "bankCode": "50563",
+    "id": "mayfair-mfb",
+    "name": "Mayfair MFB",
+    "shortName": "Mayfair",
+    "aliases": ["Mayfair Microfinance Bank Ltd"],
+    "website": "https://mayfairmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://assets.zyrosite.com/RnaXo6hYjnZLK19o/file_000000007344720cb0e22983d84a9246-2-uGRrdqmYXpTccgG0.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://mayfairmfb.com"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "LOW-MEDIUM CONFIDENCE. Old site mayfairbankng.com returns 522. mayfairmfb.com (Zyro site builder, Lagos Idi-Oro address) header logo PNG 1254x1254 hosted on the builder's asset CDN; site looks new. No app found."
+  },
+  {
+    "bankCode": "90003",
+    "id": "mayfresh-mortgage-bank",
+    "name": "Mayfresh Mortgage Bank",
+    "shortName": "Mayfresh",
+    "aliases": ["Mayfresh Mortgage Bank Ltd"],
+    "website": "https://mayfreshmb.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://mayfreshmb.com/static/uploads/site_logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://mayfreshmb.com"
+    },
+    "mark": {
+      "url": "https://mayfreshmb.com/static/uploads/app_icon_192.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://mayfreshmb.com"
+    },
+    "sameBrandAs": null,
+    "notes": "Header PNG 1578x314. Mark is the site's 192px app icon. Also mayfreshmortgagebankltd.com exists (redirect page)."
+  },
+  {
+    "bankCode": "50570",
+    "id": "mega-mfb",
+    "name": "Mega MFB",
+    "shortName": "Mega MFB",
+    "aliases": ["Mega Microfinance Bank", "Farmers.ng"],
+    "website": "https://farmers.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://farmers.ng/wp-content/uploads/2023/01/farmersng-logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://farmers.ng"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/kjuXYXQht_t9GsGaH1PO8Q1QOHN5qrf3bxCc97GuAjIepsGRRfR3x6oW5FsH3KS_r3ram5Fa4GLEyhPWiSZbFw=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.megamfb.megamfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Mega MFB's consumer brand is Farmers.ng (app 'Farmers.ng by Mega MFB', dev Mega Microfinance Bank). Logo is farmers.ng header PNG 425x61; no separate Mega MFB site found. Name choice (Mega MFB vs Farmers.ng) is a judgement call."
+  },
+  {
+    "bankCode": "MFB51116M",
+    "id": "mouau-mfb",
+    "name": "MOUAU MFB",
+    "shortName": "MOUAU MFB",
+    "aliases": ["Michael Okpara UniAgric Microfinance Bank", "Michael Okpara UniAgric MFB"],
+    "website": "https://mouaumfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://mouaumfb.com/wp-content/uploads/2023/08/MOUAUMFB-Logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://mouaumfb.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/pP5Hk4mKu4fcuHHLKwsUlqa3-QEuVgruiSG6cWz_Ro8K77Qmt7DBASx-cDjQLtQGoF1BQqyvWdC9jXrCLJlvdOY=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.codelk.vino.moua"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo PNG 165x120 (small). App published by vendor 'Viral Computers Inc' for the bank."
+  },
+  {
+    "bankCode": "50304",
+    "id": "mint-mfb",
+    "name": "Mint MFB",
+    "shortName": "Mint",
+    "aliases": ["Mint Microfinance Bank"],
+    "website": "https://mintng.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/qXbX6srrNaAPEAdLWdCHAmUX3VNDo0s3seaV7zoUndxkhHPjgdXoFnLHBbTc5xzsbwnxxiHhvCGCinF0PaHHDw=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.mintmfb.app"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/qXbX6srrNaAPEAdLWdCHAmUX3VNDo0s3seaV7zoUndxkhHPjgdXoFnLHBbTc5xzsbwnxxiHhvCGCinF0PaHHDw=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.mintmfb.app"
+    },
+    "sameBrandAs": null,
+    "notes": "NOT Mintyn. mintng.com favicon.svg (CorelDRAW, UTF-16) has no raster but draws the 'mint' wordmark with <text> in an embedded SVG font (Nexa Light), which browsers do not render faithfully - not used; mint-logo JPG is a 591x1280 splash. App icon (dev FlitwireInc, support email on mintng.com) used."
+  },
+  {
+    "bankCode": "09",
+    "id": "mintyn",
+    "name": "Mintyn",
+    "shortName": "Mintyn",
+    "aliases": ["MINT-FINEX MFB", "Finex MFB", "Mint Finex Microfinance Bank"],
+    "website": "https://mintyn.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://mintyn.com/wp-content/uploads/2024/08/Vector.svg",
+      "format": "svg",
+      "license": "official-site",
+      "sourceUrl": "https://mintyn.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/RUVQDkiD4OkgDz8NutvVKxa-OgoevV_M5tnmf7wXfchHBcTAiUwA0jrIpLvAPyuHYnsiQ1aax3B-JrU6cdJLfxo=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.mintfintech.app"
+    },
+    "sameBrandAs": null,
+    "notes": "Vector.svg is the site favicon: the gold-gradient Mintyn bar-mark only (20x45, pure vector), no wordmark. Header uses Mintyn_logo_App_icon_white-removebg-preview.png (500x500, same mark). Different brand from Mint MFB (50304)."
+  },
+  {
+    "bankCode": "946",
+    "id": "moneymaster-psb",
+    "name": "MoneyMaster PSB",
+    "shortName": "MoneyMaster",
+    "aliases": ["Money Master PSB", "MoneyMaster Payment Service Bank", "Glo MoneyMaster"],
+    "website": "https://moneymasterpsb.com",
+    "types": ["mobile-money"],
+    "logo": {
+      "url": "https://moneymasterpsb.com/wp-content/uploads/2022/04/cropped-MMPSB-Favicon.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://moneymasterpsb.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/mdhNqzdZFi3gysKwAJr79UvMZ5u5733Oxhs4qem3QThpf7dsZgZ8Q7EfTMNImOSbnt9vj1iPp4ogm7Ca0ps=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.moneymasterpsb.app"
+    },
+    "sameBrandAs": null,
+    "notes": "Globacom's PSB. PNG only: 512x512 site icon (MMPSB-Favicon). Header 9595-logo.png referenced via ShortPixel returns 404. Play dev 'G-Kala Mobile Wallet'."
+  },
+  {
+    "bankCode": "90979",
+    "id": "movasco-mfb",
+    "name": "Movasco MFB",
+    "shortName": "Movasco",
+    "aliases": ["MOVASCO MFB", "Movasco-op Microfinance Bank"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Not found. Successor (via NDIC purchase & assumption) of Mouau Vasmucs MFB, Abia State - distinct from MOUAU MFB. No website, no Play app found; Apple search API blocked (429/403)."
+  },
+  {
+    "bankCode": "120003",
+    "id": "mtn-momo",
+    "name": "MTN MoMo",
+    "shortName": "MoMo",
+    "aliases": ["MTN Momo PSB", "MoMo Payment Service Bank"],
+    "website": "https://www.momo.ng",
+    "types": ["mobile-money"],
+    "logo": {
+      "url": "https://www.momo.ng/wp-content/uploads/2024/10/logo-yellow-1.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.momo.ng"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/CsuIQMalVtrdZYOANBBSPxKZdKMBxeLTaCeEA6w4cfoa34-J9MC0Wlyn96-V23OBgFuZq9l144JVW_WvWTgZ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.mtngroupfintech.consumerapp"
+    },
+    "sameBrandAs": null,
+    "notes": "PNG 4907x2239. Host returns 421 Misdirected Request to some clients (Python urllib); curl gets 200. favicon.svg is auto-traced - rejected. Mark = 'MoMo PSB NG' app (MTN Group Fintech)."
+  },
+  {
+    "bankCode": "090190",
+    "id": "mutual-benefits-mfb",
+    "name": "Mutual Benefits MFB",
+    "shortName": "Mutual Benefits",
+    "aliases": ["MUTUAL BENEFITS MICROFINANCE BANK"],
+    "website": "https://www.mutualbenefitsmfb.com.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.mutualbenefitsmfb.com.ng/img/logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.mutualbenefitsmfb.com.ng"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/FOkk6dRctn23zyxannwoL5Xzt74mk2vvpJKz984qUMxNo0GuAUcRJEsE0C6o4fkUxqXHTND42uVGGGGCvbdx-Q=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.mutualbenefitsmfb.mutualbenefitsmfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo PNG 175x189 (white background)."
+  },
+  {
+    "bankCode": "090679",
+    "id": "nddc-mfb",
+    "name": "NDDC MFB",
+    "shortName": "NDDC MFB",
+    "aliases": ["NDCC MICROFINANCE BANK", "NDDC Staff Microfinance Bank Limited"],
+    "website": "https://nsmbanklimited.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/eoSkTdaJWPG3ZfO74xBR3yAvkv2FKL4e1v5BPzePNdXkBHLc3_4tXv7xSWigxZPkeEHCqi7sX6pyB_MYrhg9=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.nddcmfb.nddcmobile"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/eoSkTdaJWPG3ZfO74xBR3yAvkv2FKL4e1v5BPzePNdXkBHLc3_4tXv7xSWigxZPkeEHCqi7sX6pyB_MYrhg9=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.nddcmfb.nddcmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "LOW CONFIDENCE on identity: no 'NDCC' MFB found online; assumed register typo for NDDC Staff MFB (nsmbanklimited.com; the app's support email matches that name). Site is JS-only; its favicon is a JPEG and img/elogo png is a 1080x1350 poster. App icon used."
+  }
+]

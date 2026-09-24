@@ -1,0 +1,19 @@
+{
+  "id": "awacash-mfb",
+  "name": "Awacash",
+  "aliases": ["AWACASH MICROFINANCE BANK", "Awacash MFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://awacashmfb.com",
+  "bankCodes": ["51351"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.kreateng.awacash",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "civic-mfb",
+  "name": "Civic Microfinance Bank",
+  "shortName": "Civic",
+  "aliases": ["Civic Microfinance Bank Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://civicmfb.com",
+  "bankCodes": ["50186"],
+  "source": {
+    "url": "https://civicmfb.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

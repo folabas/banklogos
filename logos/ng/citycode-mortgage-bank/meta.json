@@ -1,0 +1,20 @@
+{
+  "id": "citycode-mortgage-bank",
+  "name": "Citycode Mortgage Bank",
+  "shortName": "Citycode",
+  "aliases": ["CITYCODE MORTAGE BANK", "CityCode Mortgage Bank Ltd"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://citycodemortgagebank.com",
+  "bankCodes": ["070027"],
+  "source": {
+    "url": "https://citycodemortgagebank.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

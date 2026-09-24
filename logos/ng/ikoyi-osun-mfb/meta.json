@@ -1,0 +1,20 @@
+{
+  "id": "ikoyi-osun-mfb",
+  "name": "Ikoyi Osun MFB",
+  "shortName": "Ikoyi Osun",
+  "aliases": ["Ikoyi Osun Microfinance Bank Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://ikoyiosunmfb.com",
+  "bankCodes": ["50439"],
+  "source": {
+    "url": "https://ikoyiosunmfb.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

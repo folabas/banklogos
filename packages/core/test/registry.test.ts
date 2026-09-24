@@ -1,16 +1,18 @@
 import { existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
-import { getLogo, listAll, listByCountry, listByType, searchLogos } from '../src/index.js';
+import { formatOf, getLogo, listAll, listByCountry, listByType, searchLogos } from '../src/index.js';
 
-const svgModule = (name: string) => fileURLToPath(new URL(`../src/generated/svg/${name}.ts`, import.meta.url));
+const module = (kind: 'svg' | 'img', name: string) =>
+  fileURLToPath(new URL(`../src/generated/${kind}/${name}.ts`, import.meta.url));
 
 describe('generated registry', () => {
-  it('has an SVG module for every variant of every entity', () => {
+  it('has an img module for every variant, and an svg module for every SVG variant', () => {
     for (const entity of listAll()) {
       for (const variant of entity.variants) {
         const name = variant === 'logo' ? entity.id : `${entity.id}-${variant}`;
-        expect(existsSync(svgModule(name)), name).toBe(true);
+        expect(existsSync(module('img', name)), name).toBe(true);
+        expect(existsSync(module('svg', name)), name).toBe(formatOf(entity, variant) === 'svg');
       }
     }
   });
@@ -32,8 +34,8 @@ describe('generated registry', () => {
     expect(getLogo({ name: 'Moniepoint MFB' })?.id).toBe('moniepoint');
     expect(searchLogos('zen')[0]?.id).toBe('zenith-bank');
     expect(listByCountry('NG').map((e) => e.id)).toContain('visa');
-    expect(listByType('e-wallet').map((e) => e.id)).toEqual(['opay']);
-    expect(listByType('crypto').map((e) => e.id)).toEqual(['usdt']);
+    expect(listByType('e-wallet').map((e) => e.id)).toContain('opay');
+    expect(listByType('crypto').map((e) => e.id)).toContain('usdt');
     expect(getLogo('usdt')?.variants).toEqual(['logo', 'mark']);
     expect(getLogo({ bankCode: '058' })?.id).toBe('gtbank');
     expect(getLogo({ bankCode: '50515' })?.id).toBe('moniepoint');

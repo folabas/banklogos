@@ -1,0 +1,19 @@
+{
+  "id": "xpress-wallet",
+  "name": "Xpress Wallet",
+  "aliases": ["Xpress Payments"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["e-wallet"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://www.xpresspayments.com",
+  "bankCodes": ["100040"],
+  "source": {
+    "url": "https://www.xpresspayments.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "links-mfb",
+  "name": "Links MFB",
+  "aliases": ["Links Microfinance Bank", "Sofri", "Sofri Trust"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://linksmfb.com",
+  "bankCodes": ["50549"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.sofrimobileapp",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

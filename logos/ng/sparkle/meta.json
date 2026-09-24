@@ -1,0 +1,31 @@
+{
+  "id": "sparkle",
+  "name": "Sparkle",
+  "aliases": ["Sparkle Microfinance Bank", "Sparkle MFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://sparkle.ng",
+  "bankCodes": ["51310"],
+  "source": {
+    "url": "https://sparkle.ng/icons/icon-512x512.png",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=ng.sparkle.Sparkle_android.prod",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "microfinance-bank",
+    "registryId": "3952"
+  }
+}

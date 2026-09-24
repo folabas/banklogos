@@ -1,0 +1,19 @@
+{
+  "id": "lbic",
+  "name": "LBIC",
+  "aliases": ["Lagos Building Investment Company Plc.", "LBIC Mortgage Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://www.lbicplc.com",
+  "bankCodes": ["90052"],
+  "source": {
+    "url": "https://www.lbicplc.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

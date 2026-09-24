@@ -1,0 +1,20 @@
+{
+  "id": "ibbu-mfb",
+  "name": "IBBU MFB",
+  "shortName": "IBBU",
+  "aliases": ["IBBU Microfinance Bank Ltd"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://www.ibbumfb.com",
+  "bankCodes": ["51279"],
+  "source": {
+    "url": "https://www.ibbumfb.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

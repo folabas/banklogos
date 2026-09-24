@@ -1,0 +1,27 @@
+{
+  "id": "polyunwana-mfb",
+  "name": "Polyunwana Microfinance Bank",
+  "shortName": "Polyunwana MFB",
+  "aliases": ["Polyunwana MFB", "Polyunwana Microfinance Bank Nigeria Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.polyunwanamfb.com",
+  "bankCodes": ["50864"],
+  "source": {
+    "url": "https://www.polyunwanamfb.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.interswitch.polyunwana",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

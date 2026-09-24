@@ -1,0 +1,20 @@
+{
+  "id": "uniabuja-mfb",
+  "name": "UNIABUJA MFB",
+  "shortName": "Uniabuja MFB",
+  "aliases": ["University of Abuja Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://uniabujamfb.com",
+  "bankCodes": ["51447"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.qucoon.middlewaremobile.uniabuja",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

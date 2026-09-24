@@ -1,0 +1,19 @@
+{
+  "id": "bankit",
+  "name": "Bankit",
+  "aliases": ["BANKIT MFB", "Bankit Microfinance Bank Limited", "Bankit Africa"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://bankitafrica.com",
+  "bankCodes": ["50572"],
+  "source": {
+    "url": "https://bankitafrica.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "supreme-mfb",
+  "name": "Supreme Microfinance Bank",
+  "shortName": "Supreme",
+  "aliases": ["Supreme MFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.suprememfb.com",
+  "bankCodes": ["50968"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.fintellia.suprememfbss",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

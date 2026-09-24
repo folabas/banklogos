@@ -1,0 +1,19 @@
+{
+  "id": "unimaid-mfb",
+  "name": "Unimaid MFB",
+  "aliases": ["UNIMAID MICROFINANCE BANK"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://unimaidmicrofinancebank.com.ng",
+  "bankCodes": ["50875"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.unimaidmfb.unimaidmfbmobile",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

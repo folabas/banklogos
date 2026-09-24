@@ -1,0 +1,27 @@
+{
+  "id": "dash-mfb",
+  "name": "Dash Microfinance Bank",
+  "shortName": "Dash",
+  "aliases": ["Dash Microfinance Bank Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://dash-mfb.com",
+  "bankCodes": ["51368"],
+  "source": {
+    "url": "https://dash-mfb.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.dashbank",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

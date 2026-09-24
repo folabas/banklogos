@@ -1,0 +1,20 @@
+{
+  "id": "ffs-mfb",
+  "name": "FFS Microfinance Bank",
+  "shortName": "FFS MFB",
+  "aliases": [],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://ffsmfb.com",
+  "bankCodes": ["51110"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.ffsmfb.ffsmobile",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

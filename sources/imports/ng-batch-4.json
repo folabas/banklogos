@@ -1,0 +1,658 @@
+[
+  {
+    "bankCode": "D53",
+    "id": "fortress-mfb",
+    "name": "Fortress MFB",
+    "shortName": "Fortress",
+    "aliases": ["Fortress Microfinance Bank Limited"],
+    "website": "https://www.fortressmicrofinancebank.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.fortressmicrofinancebank.com/images/logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.fortressmicrofinancebank.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/D49jg_irEc-8cHXIxNhSMPSHlq7_eq13_R8N03TFwpueuGDUhbIe2B6NqVEPk5xBSjElgMsev0k4RSdhpQEgXQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.fortressmfb.app"
+    },
+    "sameBrandAs": null,
+    "notes": "Ilupeju, Lagos. Site header logo is small (160x69 PNG); site also has a 256px apple-touch-icon images/webclip.png. Play developer 'Fortress Microfinance Bank'. No SVG found."
+  },
+  {
+    "bankCode": "501",
+    "id": "fsdh-merchant-bank",
+    "name": "FSDH Merchant Bank",
+    "shortName": "FSDH",
+    "aliases": ["FSDH Merchant Bank Limited"],
+    "website": "https://fsdhmerchantbank.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://fsdhmerchantbank.com/wp-content/uploads/2020/09/Merchant-logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://fsdhmerchantbank.com/"
+    },
+    "mark": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/81/53/af815316-69cb-f790-6991-c3b3bacaa5e7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://apps.apple.com/ng/app/fsdh-mb/id1491030746"
+    },
+    "sameBrandAs": null,
+    "notes": "Official logo is PNG only (99x80, also og:image). fsdh-logo-svg.svg on the site wraps a raster, so it was rejected. Mark = 'FSDH MB' iOS app icon (seller FSDH MERCHANT BANK LIMITED)."
+  },
+  {
+    "bankCode": "832",
+    "id": "futminna-mfb",
+    "name": "FUTMINNA Microfinance Bank",
+    "shortName": "FUTMINNA MFB",
+    "aliases": ["FUTMINNA MICROFINANCE BANK", "FUT Minna Microfinance Bank Limited"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Not found: no website and no Play app (searches return only the university's own app com.futminna, which is not the bank). The Apple search API was blocked (403) during this run. University-owned MFB in Minna, Niger State."
+  },
+  {
+    "bankCode": "MFB51093",
+    "id": "garun-mallam-mfb",
+    "name": "Garun Mallam MFB",
+    "shortName": "Garun Mallam",
+    "aliases": ["Garun Mallam Microfinance Bank Limited"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Not found: unit MFB in Garun Mallam LGA, Kano. No website or app found. Play has 'GMB MFB Mobile' (com.sagamy.gmbmobile, dev Sagamy Technologies), but nothing ties it to Garun Mallam, so it was rejected."
+  },
+  {
+    "bankCode": "812",
+    "id": "gateway-mortgage-bank",
+    "name": "Gateway Mortgage Bank",
+    "shortName": "Gateway Mortgage",
+    "aliases": ["Gateway Mortgage Bank LTD", "Gateway Primary Mortgage Bank Limited"],
+    "website": "https://gatewaymortgagebankng.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://gatewaymortgagebankng.com/wp-content/uploads/2024/01/logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://gatewaymortgagebankng.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/hHhmJZ009SjlwX4VJ_ZlVSZNMRoCdAEOQlm7QN7cgK9rUNDV79lF0TAWe3JXbzBNEkcF7aaGTJflNlMym3S3r3Y=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.wisetree.gatewaymortgagebank.gateway"
+    },
+    "sameBrandAs": null,
+    "notes": "Ogun State govt-owned PMB, Abeokuta. Logo is a 293x209 PNG that includes the tagline 'Licensed by CBN RC: 625383'. og:image gmb.png (200x200) is an alternative. App published by vendor WISETREE CONSULT. Not the US Gateway Mortgage (Gateway First)."
+  },
+  {
+    "bankCode": "90278",
+    "id": "glory-mfb",
+    "name": "Glory MFB",
+    "shortName": "Glory",
+    "aliases": ["GLORY MFB", "Glory Microfinance Bank"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/Llw6RTb3xNoei1bfSOIn36ebke0Y-2Yq7SW2z4M2oJ-OPW_bXP1Elddq8Clzezv_pCEAND_1wP2AUBXLTXTd=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.qucoon.middlewaremobile.gloryMfb"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/Llw6RTb3xNoei1bfSOIn36ebke0Y-2Yq7SW2z4M2oJ-OPW_bXP1Elddq8Clzezv_pCEAND_1wP2AUBXLTXTd=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.qucoon.middlewaremobile.gloryMfb"
+    },
+    "sameBrandAs": null,
+    "notes": "Medium confidence: 'GLORY MFB App' published by NIBSS (multi-tenant MFB app). Icon is a green 'GMFB' wordmark. No website found. Location not verified, and the name is generic."
+  },
+  {
+    "bankCode": "090574",
+    "id": "goldman-mfb",
+    "name": "Goldman MFB",
+    "shortName": "Goldman",
+    "aliases": ["Goldman Microfinance Bank"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/3aBFUm27Bles3De0WyQ-sjLZ9j08q0GXTpa2s45NvXNeemLTOe0mxLEGKXqXw_ObzK0eqEytEDTUdX9BeMe-ibQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.goldman.digitbank"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/3aBFUm27Bles3De0WyQ-sjLZ9j08q0GXTpa2s45NvXNeemLTOe0mxLEGKXqXw_ObzK0eqEytEDTUdX9BeMe-ibQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.goldman.digitbank"
+    },
+    "sameBrandAs": null,
+    "notes": "App 'GoldMan-Mobile Banking', developer 'Goldman MFB'. goldmanmfb.com did not resolve."
+  },
+  {
+    "bankCode": "90586",
+    "id": "gombe-mfb",
+    "name": "Gombe MFB",
+    "shortName": "Gombe",
+    "aliases": ["GOMBE MFB", "Gombe Microfinance Bank Limited"],
+    "website": "https://gombemfbank.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://gombemfbank.com/logo1.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://gombemfbank.com/"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Site header logo is a 1503x1680 PNG (round 'G' emblem plus 'Gombe MFB'). The bank's app is the NIBSS multi-tenant app, so there is no icon of its own."
+  },
+  {
+    "bankCode": "100022",
+    "id": "gomoney",
+    "name": "GoMoney",
+    "shortName": "GoMoney",
+    "aliases": ["gomoney", "gomoney - The Digital Bank"],
+    "website": "https://gomoney.global",
+    "types": ["e-wallet"],
+    "logo": {
+      "url": "https://gomoney.global/",
+      "format": "svg",
+      "license": "official-site",
+      "inlineIndex": 0
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/wli05SRbYy13CwsCCYLujajj1OJsEdKwkqI23ltjcE6GGleprrOTQucnO0BPsA5Zs1YboILYZqkioHqZeq0SBg=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.global.gomoney"
+    },
+    "sameBrandAs": null,
+    "notes": "Logo = inline <svg> #0 in the gomoney.global HTML (page-loader brand mark, viewBox 0 0 66 54, one black path, pure vector). It is the 'go' face mark, not the full wordmark, and was not rendered or visually checked. Fallback: Play icon (white 'go money' on navy), dev 'gomoney'."
+  },
+  {
+    "bankCode": "090664",
+    "id": "good-shepherd-mfb",
+    "name": "Good Shepherd MFB",
+    "shortName": "Good Shepherd",
+    "aliases": ["GOOD SHEPHERD MICROFINANCE BANK"],
+    "website": "https://www.goodshepherdmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.goodshepherdmfb.com/live/image/favicon.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.goodshepherdmfb.com/"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Low res. Enugu (Anglican Diocese). The site header logo is embedded as a base64 data URI with no linkable file, so the 72x72 favicon PNG is used. Play app com.goodshepherdmfb.goodshepherdmfbmobile now returns 404."
+  },
+  {
+    "bankCode": "50739",
+    "id": "goodnews-mfb",
+    "name": "Goodnews MFB",
+    "shortName": "Goodnews",
+    "aliases": ["Goodnews Microfinance Bank"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Not found: no website or app found (searches return Good Neighbours MFB, a different bank). Apple search was blocked this run."
+  },
+  {
+    "bankCode": "90335",
+    "id": "grants-mfb",
+    "name": "Grants MFB",
+    "shortName": "Grants",
+    "aliases": ["GRANTS MFB", "Grants Microfinance Bank Limited"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Not found: no website and no Play app found. Apple search was blocked this run."
+  },
+  {
+    "bankCode": "562",
+    "id": "greenwich-bank",
+    "name": "Greenwich Bank",
+    "shortName": "Greenwich",
+    "aliases": ["Greenwich Merchant Bank", "Greenwich Merchant Bank Limited"],
+    "website": "https://www.greenwichbankgroup.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://www.greenwichbankgroup.com/wp-content/uploads/2026/08/GREENWICH-BANK-scaled.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.greenwichbankgroup.com/"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Rebranded from Greenwich Merchant Bank to Greenwich Bank (~Aug 2026). New logo is a 2560x721 PNG. cropped-GREENWICH-BANK-scaled-1.png is a cropped variant. The old white logo Greenwich-Bank-White-scaled.png was ignored. No app icon of its own found (G-Ease belongs to Greenwich Registrars)."
+  },
+  {
+    "bankCode": "51276",
+    "id": "grooming-mfb",
+    "name": "Grooming MFB",
+    "shortName": "Grooming",
+    "aliases": ["GROOMING MICROFINANCE BANK", "Grooming Microfinance Bank Limited"],
+    "website": "https://groomingmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://groomingmfb.com/assets/grooming-2uU6tsKV.svg",
+      "format": "svg",
+      "license": "official-site",
+      "sourceUrl": "https://groomingmfb.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/r4O0UTmf_x1tIq4-rHNlsACMZOuZ4QRTV2yqhbVII3Q3nC1uwJW6372TlE6m-2BR_xdFCUvBpWYDMLFTZvc=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.groomingmfb.groomingmfb"
+    },
+    "sameBrandAs": null,
+    "notes": "Pure-vector SVG (fill #891C69, no image/base64/script) found in the site's JS bundle. White variant: /assets/footer-logo-BBUybqvL.svg. The hashed asset filenames may change when the site is redeployed."
+  },
+  {
+    "bankCode": "50368",
+    "id": "gti-mfb",
+    "name": "GTI MFB",
+    "shortName": "GTI",
+    "aliases": ["GTI MFB", "GTI Microfinance Bank Ltd"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/CkmCFpnoGr8NtYRRaADMJAuR4UFisM57_5fxeB7w-6ihbLwiv9O_KsvOjJ-H9ZDEFTs4-SR8YYs0mslv4a-0Zw=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.saha.sahaplus"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/CkmCFpnoGr8NtYRRaADMJAuR4UFisM57_5fxeB7w-6ihbLwiv9O_KsvOjJ-H9ZDEFTs4-SR8YYs0mslv4a-0Zw=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.saha.sahaplus"
+    },
+    "sameBrandAs": null,
+    "notes": "Medium confidence: the icon belongs to the 'SAHA+' app (developer 'GTI Microfinance Bank Ltd'), a product brand, not a GTI wordmark. gtimfb.com did not resolve. Rejected the 'GTI Bank' app (GTI Technologies LLC, unrelated)."
+  },
+  {
+    "bankCode": "51251",
+    "id": "hackman-mfb",
+    "name": "Hackman MFB",
+    "shortName": "Hackman",
+    "aliases": ["Hackman Microfinance Bank"],
+    "website": "https://hackmanmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Not found: hackmanmfb.com returns HTTP 500, hmb-epayments.com is unreachable, and no Play app was found (a 'HackmanPay' search returned nothing). Apple search was blocked this run. Lagos-based."
+  },
+  {
+    "bankCode": "90065",
+    "id": "haggai-mortgage-bank",
+    "name": "Haggai Mortgage Bank",
+    "shortName": "Haggai",
+    "aliases": ["Haggai Mortgage Bank Limited", "Haggai Bank"],
+    "website": "https://haggaibank.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/ceLH8fVb8ztc1Mo3jPNXXzVU-BpAmOuL2xSyXeFXUsxmTWrf6jdJjbN6jIIjs1RLLT_VxUWkbv8UB2qhor3bsQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.haggaibank.app"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/ceLH8fVb8ztc1Mo3jPNXXzVU-BpAmOuL2xSyXeFXUsxmTWrf6jdJjbN6jIIjs1RLLT_VxUWkbv8UB2qhor3bsQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.haggaibank.app"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo https://haggaibank.com/img/core-img/logo.png exists but is tiny (118x61), so the app icon (dev 'Haggai Bank') is used as the logo."
+  },
+  {
+    "bankCode": "50383",
+    "id": "hasal-mfb",
+    "name": "Hasal MFB",
+    "shortName": "Hasal",
+    "aliases": ["Hasal Microfinance Bank", "HASAL Microfinance Bank Limited"],
+    "website": "https://hasalmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://hasalmfb.com/wp-content/uploads/2021/03/HASAL-LOGO-1-1024x338.jpg",
+      "format": "jpg",
+      "license": "official-site",
+      "sourceUrl": "https://hasalmfb.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/VQVu3nTcX5DL3BX5ygQ2-PV5AV-rkS_22ZzOYXKL_2eUbYI5N65XTedIqJ6yCM4VP3vlnGwtaO7FXJ259VOpJHc=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.iswbanking.hasalapp"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo is a 1024x338 JPG (no transparency)."
+  },
+  {
+    "bankCode": "51364",
+    "id": "hayat-trust-mfb",
+    "name": "Hayat Trust MFB",
+    "shortName": "Hayat Trust",
+    "aliases": ["Hayat Trust Microfinance Bank"],
+    "website": "https://www.hayattrustmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.hayattrustmfb.com/wp-content/uploads/2024/11/cropped-cropped-cropped-cropped-hayatlogo-2-1.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.hayattrustmfb.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/3rLRHEsomHNfbPV9WXQ3knfpkua2tfob-T1zO3xu2WOx8zoyboGor1s4XBEVrSDqRD2gkaEqd0tDn6nWMg4O=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.hayattrust.hayattrustmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo is a 462x598 PNG (emblem only). App developer is listed as 'Al-Hayat Relief Foundation' (the bank's promoter)."
+  },
+  {
+    "bankCode": "51211",
+    "id": "ibank-mfb",
+    "name": "iBank MFB",
+    "shortName": "iBank",
+    "aliases": ["IBANK Microfinance Bank", "iBank Microfinance Bank Limited", "TCF Microfinance Bank"],
+    "website": "https://ibankmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://ibankmfb.com/wp-content/uploads/2024/07/logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://ibankmfb.com/"
+    },
+    "mark": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/09/13/800913c0-5723-40ca-c5b4-69211bcdb3e4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.png",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://apps.apple.com/ng/app/innovative-mfb/id1482057553"
+    },
+    "sameBrandAs": null,
+    "notes": "Formerly TCF MFB, Lagos. Logo is a 400x100 PNG (header iBankLogo1.png is 170x64). Mark is from the iOS app 'Innovative MFB', seller iBank Microfinance Bank Limited. Not NPF's 'ibank' app."
+  },
+  {
+    "bankCode": "51279",
+    "id": "ibbu-mfb",
+    "name": "IBBU MFB",
+    "shortName": "IBBU",
+    "aliases": ["IBBU Microfinance Bank Ltd"],
+    "website": "https://www.ibbumfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.ibbumfb.com/assets/images/logoIcon/logo_dark.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.ibbumfb.com/"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Ibrahim Badamasi Babangida University, Lapai. Circular badge logo, 480x480 PNG."
+  },
+  {
+    "bankCode": "51244",
+    "id": "ibile-mfb",
+    "name": "Ibile MFB",
+    "shortName": "Ibile",
+    "aliases": ["Ibile Microfinance Bank", "IBILE Microfinance Bank Nigeria Ltd"],
+    "website": "https://ibilemfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/zHRmPlet2eN3LKIKXT9F_1l3IHGhfcl0AIjkY_-sqzoK59wSzAhcVsvDtiykb3_L6cCuK1xYHLC9hETzzzbKDQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.ibilemfb.ibilemfbmobile"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/zHRmPlet2eN3LKIKXT9F_1l3IHGhfcl0AIjkY_-sqzoK59wSzAhcVsvDtiykb3_L6cCuK1xYHLC9hETzzzbKDQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.ibilemfb.ibilemfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "The site only has a WHITE logo (ibile-microfinance-bank-nigeria-WHITE.png, 320x466) that won't show on a light background, so the Play icon (dev 'IBILE MFB') is used."
+  },
+  {
+    "bankCode": "90012",
+    "id": "ibom-mortgage-bank",
+    "name": "Ibom Mortgage Bank",
+    "shortName": "Ibom Mortgage",
+    "aliases": ["Ibom Mortgage Bank Limited"],
+    "website": "https://www.ibommortgagebank.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://www.ibommortgagebank.com/images/Logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.ibommortgagebank.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/S5kMbCISXTMMuVaEzYSUINqarYp1RYy62EIy8CAfBmZB3O8sxDUHZ7l1IMj3aekbHR-HbbFKmCN3RAtbpb6S3Q=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.akwasavings.akwasavingsmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Uyo. Logo is an 821x230 PNG. App is listed as 'Ibom Mortgage Bank' under dev 'Akwa Savings' (Akwa Ibom state affiliate)."
+  },
+  {
+    "bankCode": "50439",
+    "id": "ikoyi-osun-mfb",
+    "name": "Ikoyi Osun MFB",
+    "shortName": "Ikoyi Osun",
+    "aliases": ["Ikoyi Osun Microfinance Bank Limited"],
+    "website": "https://ikoyiosunmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://ikoyiosunmfb.com/assets/images/logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://ikoyiosunmfb.com/"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Low res: the header logo is only a 154x60 PNG. No app found."
+  },
+  {
+    "bankCode": "50442",
+    "id": "ilaro-poly-mfb",
+    "name": "Ilaro Poly MFB",
+    "shortName": "Ilaro Poly",
+    "aliases": ["Ilaro Poly Microfinance Bank", "Ilaro Polytechnic Microfinance Bank Ltd"],
+    "website": "https://ilaropolymfb.org",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://ilaropolymfb.org/wp-content/uploads/2024/05/cropped-cropped-Ilaro-Micro-FInance-Bank-Logo-270x270.webp",
+      "format": "webp",
+      "license": "official-site",
+      "sourceUrl": "https://ilaropolymfb.org/"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Low res: the largest official image is the 270x270 WebP site icon (the header logo is only a 130x96 WebP). No app found."
+  },
+  {
+    "bankCode": "50453",
+    "id": "imowo-mfb",
+    "name": "Imowo MFB",
+    "shortName": "Imowo",
+    "aliases": ["Imowo Microfinance Bank"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/Yr6dE4R9PYTrTW2LwhDxKi_vU3Gqsu6eOCQge5V-f7QnZx-hXRFMvt3MqsVW2KcPyF1kKC5iaiIXl2wnDWfQn-g=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.imowomfb.imowomobile"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/Yr6dE4R9PYTrTW2LwhDxKi_vU3Gqsu6eOCQge5V-f7QnZx-hXRFMvt3MqsVW2KcPyF1kKC5iaiIXl2wnDWfQn-g=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.imowomfb.imowomobile"
+    },
+    "sameBrandAs": null,
+    "notes": "App 'ImowoXpress Mobile App' (package com.imowomfb.*, dev 'ImowoDev'). imowomfb.com was unreachable. Play serves this icon as JPEG."
+  },
+  {
+    "bankCode": "415",
+    "id": "imperial-homes-mortgage-bank",
+    "name": "Imperial Homes Mortgage Bank",
+    "shortName": "Imperial Homes",
+    "aliases": ["IMPERIAL HOMES MORTAGE BANK", "Imperial Homes Mortgage Bank Ltd"],
+    "website": "https://www.imperialmortgagebank.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/hYRuwX0tlcOsToSMOQHtu3_spduE-wI1JM9ckBqCQZrXVaG1iOtMkF7yG5ro9J__GpO4Za4w-odF4RAr7pGS7A=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=africa.ivantage.app"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/hYRuwX0tlcOsToSMOQHtu3_spduE-wI1JM9ckBqCQZrXVaG1iOtMkF7yG5ro9J__GpO4Za4w-odF4RAr7pGS7A=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=africa.ivantage.app"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo https://www.imperialmortgagebank.com/assets/img/imperial_logo.png is tiny (95x85), so the 'Imperial+' Play icon (dev 'Imperial Homes Mortgage Bank LTD') is used."
+  },
+  {
+    "bankCode": "51462",
+    "id": "ineba-gogo-mfb",
+    "name": "Ineba Gogo MFB",
+    "shortName": "Ineba Gogo",
+    "aliases": ["INEBA GOGO MFB", "IGMFB"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/Yydzr8wgeVz4I6uy0IUCEOWbZH9BM6GF2nKEqvpBSdM9TDSss8TM2uY8P5JkwBhXlT62u594IfX72cxPEyDA=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.belema.ewallet"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/Yydzr8wgeVz4I6uy0IUCEOWbZH9BM6GF2nKEqvpBSdM9TDSss8TM2uY8P5JkwBhXlT62u594IfX72cxPEyDA=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.belema.ewallet"
+    },
+    "sameBrandAs": null,
+    "notes": "Medium confidence: 'IGMFB Personal Banking' app by vendor Belema Financial Technology. IGMFB is matched to Ineba Gogo MFB by name only. No website found."
+  },
+  {
+    "bankCode": "50457",
+    "id": "infinity-mfb",
+    "name": "Infinity MFB",
+    "shortName": "Infinity",
+    "aliases": ["Infinity Microfinance Bank"],
+    "website": "https://infinitymfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/b4c9na9HVTU1HHsynYzXRrZ8V4Hccz07TJKwAMgVglAEL9dOFp8srr3UFAKER-HJ9HZE82n-3M5Mx3thDkyq=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.infinitymfb.infinitymfbmobile"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/b4c9na9HVTU1HHsynYzXRrZ8V4Hccz07TJKwAMgVglAEL9dOFp8srr3UFAKER-HJ9HZE82n-3M5Mx3thDkyq=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.infinitymfb.infinitymfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "App 'InfinityNowNow', dev 'Infinity Microfinance Bank'. infinitymfb.com has no logo images. Different from Infinity Trust Mortgage Bank (070016)."
+  },
+  {
+    "bankCode": "070016",
+    "id": "infinity-trust-mortgage-bank",
+    "name": "Infinity Trust Mortgage Bank",
+    "shortName": "Infinity Trust",
+    "aliases": ["Infinity trust Mortgage Bank", "Infinity Trust Mortgage Bank Plc", "ITMB"],
+    "website": "https://www.infinitytrustmortgagebank.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://www.infinitytrustmortgagebank.com/assets/navlogo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.infinitytrustmortgagebank.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/KZBFSloTE9oaFEgH1bQZitvcSGQBUweRCX6dVTUG82-d7tbi7rX0skuasjElOqcKJATFtroZ95qHQw8elLi_jw=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.techzultant.infinitymobileapp"
+    },
+    "sameBrandAs": null,
+    "notes": "Header logo is a 5839x2445 PNG ('ITMB' under a house roof). App 'Infinity Mobile', dev 'Infinity Trust Mortgage'."
+  },
+  {
+    "bankCode": "090701",
+    "id": "isua-mfb",
+    "name": "ISUA MFB",
+    "shortName": "ISUA",
+    "aliases": ["ISUA MFB", "Isua Microfinance Bank"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/VB9ayzrlRk8YOVFy2I7JkIZrcPXv7xAWAT__zLenhJIdz0tag6-lHUaCacsurhvmXFyyD18BjTqJmv_EQz6tqLA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.isuamfb.isuamfbmobile"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/VB9ayzrlRk8YOVFy2I7JkIZrcPXv7xAWAT__zLenhJIdz0tag6-lHUaCacsurhvmXFyyD18BjTqJmv_EQz6tqLA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.isuamfb.isuamfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "App 'ISUA MFB Mobile App', dev 'ISUA MFB'. isuamfb.com was unreachable."
+  },
+  {
+    "bankCode": "402",
+    "id": "jubilee-life-mortgage-bank",
+    "name": "Jubilee-Life Mortgage Bank",
+    "shortName": "Jubilee-Life",
+    "aliases": ["Jubilee Life Mortgage Bank", "Jubilee-Life Mortgage Bank Plc"],
+    "website": "https://jubileelifeng.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://jubileelifeng.com/media/2024/04/Jubilee_real_logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://jubileelifeng.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/gr4qLMyvQEtulFK8rERHH1IA_gRNl9L-sSm01zQbGYKBtW7EhnX-DZuP212TbtinDvM2AaT_-HBaZoWtHM_hqg=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.digicore.jubilee"
+    },
+    "sameBrandAs": null,
+    "notes": "Logo is a 1530x452 PNG (full-size version of the header's Jubilee_real_logo-1024x303). App 'Jubilation', dev 'Jubilee Life Mortgage Bank PLC'. Not Jubilee Life Insurance."
+  }
+]

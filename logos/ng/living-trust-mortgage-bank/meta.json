@@ -1,0 +1,20 @@
+{
+  "id": "living-trust-mortgage-bank",
+  "name": "LivingTrust Mortgage Bank",
+  "shortName": "LivingTrust",
+  "aliases": ["Living Trust Mortgage Bank", "LivingTrust Mortgage Bank Plc", "LTMB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://www.livingtrustng.com",
+  "bankCodes": ["031"],
+  "source": {
+    "url": "https://www.livingtrustng.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

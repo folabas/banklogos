@@ -1,0 +1,20 @@
+{
+  "id": "uniuyo-mfb",
+  "name": "UNIUYO MFB",
+  "shortName": "Uniuyo MFB",
+  "aliases": ["UNIUYO Microfinance Bank Ltd"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://uniuyomfb.com",
+  "bankCodes": ["50880"],
+  "source": {
+    "url": "https://uniuyomfb.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "gomoney",
+  "name": "GoMoney",
+  "aliases": ["gomoney", "gomoney - The Digital Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["e-wallet"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://gomoney.global",
+  "bankCodes": ["100022"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.global.gomoney",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

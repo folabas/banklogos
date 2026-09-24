@@ -1,0 +1,20 @@
+{
+  "id": "dillon-mfb",
+  "name": "Dillon Microfinance Bank",
+  "shortName": "Dillon",
+  "aliases": ["Dillon Microfinance Bank Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://dillonmfb.com",
+  "bankCodes": ["51450"],
+  "source": {
+    "url": "https://dillonmfb.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

@@ -22,7 +22,7 @@ describe('lintPng', () => {
   });
 
   it('rejects images too small to be useful or too large to ship', async () => {
-    expect(lintPng(await png(40, 40))[0]).toMatch(/min 48px/);
+    expect(lintPng(await png(24, 24))[0]).toMatch(/min 32px/);
     expect(lintPng(await png(2048, 256))[0]).toMatch(/max 1024px/);
   });
 });

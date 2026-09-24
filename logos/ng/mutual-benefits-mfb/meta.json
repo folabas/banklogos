@@ -1,0 +1,27 @@
+{
+  "id": "mutual-benefits-mfb",
+  "name": "Mutual Benefits MFB",
+  "shortName": "Mutual Benefits",
+  "aliases": ["MUTUAL BENEFITS MICROFINANCE BANK"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.mutualbenefitsmfb.com.ng",
+  "bankCodes": ["090190"],
+  "source": {
+    "url": "https://www.mutualbenefitsmfb.com.ng",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.mutualbenefitsmfb.mutualbenefitsmfbmobile",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

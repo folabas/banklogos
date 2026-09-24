@@ -1,0 +1,26 @@
+{
+  "id": "taj-bank",
+  "name": "TAJBank",
+  "aliases": ["TAJ Bank Limited", "TAJ Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://tajbank.com",
+  "bankCodes": ["302"],
+  "source": {
+    "url": "https://tajbank.com/wp-content/uploads/2022/07/logo.png",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.taj.taj_mobile",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

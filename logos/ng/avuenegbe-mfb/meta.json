@@ -1,0 +1,20 @@
+{
+  "id": "avuenegbe-mfb",
+  "name": "Avuenegbe Microfinance Bank",
+  "shortName": "Avuenegbe",
+  "aliases": ["AVUENEGBE MICROFINANCE BANK"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://avuenegbemfb.com.ng",
+  "bankCodes": ["090478"],
+  "source": {
+    "url": "https://avuenegbemfb.com.ng",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

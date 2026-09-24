@@ -1,0 +1,25 @@
+{
+  "id": "access-bank",
+  "name": "Access Bank",
+  "shortName": "Access",
+  "aliases": ["Access Bank Plc"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://www.accessbankplc.com",
+  "bankCodes": ["044", "063"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.accessbank.nextgen",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "commercial-bank",
+    "registryId": "1"
+  }
+}

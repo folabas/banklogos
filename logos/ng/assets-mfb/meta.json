@@ -1,0 +1,22 @@
+{
+  "id": "assets-mfb",
+  "name": "Assets Microfinance Bank",
+  "shortName": "Assets MFB",
+  "aliases": ["Assets MFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": {
+    "logo": "png"
+  },
+  "website": "https://assetsmfb.com",
+  "bankCodes": ["50092"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.assetsmfb.monie_tree",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

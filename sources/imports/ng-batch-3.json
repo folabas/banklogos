@@ -1,0 +1,673 @@
+[
+  {
+    "bankCode": "50186",
+    "id": "civic-mfb",
+    "name": "Civic Microfinance Bank",
+    "shortName": "Civic",
+    "aliases": ["Civic Microfinance Bank Limited"],
+    "website": "https://civicmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://civicmfb.com/logo/Civiclogo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://civicmfb.com/"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Logo from civicmfb.com maintenance/coming-soon page (footer: Civic Microfinance Bank Limited; logo shows RC 230361). Small 213x123 PNG. No app found (Play com.civic.civic is a US credit union - rejected). Location not confirmed."
+  },
+  {
+    "bankCode": "50910",
+    "id": "consumer-mfb",
+    "name": "Consumer Microfinance Bank",
+    "shortName": "Consumer MFB",
+    "aliases": ["Consumer Microfinance Bank Limited"],
+    "website": "https://consumermfb.com.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://consumermfb.com.ng/wp-content/uploads/2021/04/logo2-1.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://consumermfb.com.ng/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/viHpni5-TxyTG0mS07XWdgoESn8mvPY26UKb95XUmjf4o82oqNwPgxJ1n19ctlL0Silfc1OIjaT-Da_JuU-XNQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.consumermfb.consumermfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Header logo 318x96. Apple app 'Consumer MFB' by Consumer Microfinance Bank Ltd also exists."
+  },
+  {
+    "bankCode": "51458",
+    "id": "cool-mfb",
+    "name": "Cool Microfinance Bank",
+    "shortName": "Cool MFB",
+    "aliases": ["Cool Microfinance Bank Limited", "Cool Bank"],
+    "website": "https://mycoolbank.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://mycoolbank.com/assets/images/logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://mycoolbank.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/kFaSwuiGkG-KHxt3Un8vU42pwuOcR1heUqqi7t3IUGc2-c4PRmHZs5KiGQ8xzlmUzez-WCjdgqzADRwXwAxjaEw=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.coolmfb.coolmfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Site header logo is white text (for dark backgrounds), 199x39; a 60x60 pure-vector favicon SVG exists at https://mycoolbank.com/assets/images/favicon.svg. Play dev 'Cool Bank Limited' links mycoolbank.com; Apple seller COOL MICROFINANCE BANK LIMITED. coolbank.ng is a Hostinger parking page - rejected."
+  },
+  {
+    "bankCode": "90089",
+    "id": "cooperative-mortgage-bank",
+    "name": "Cooperative Mortgage Bank",
+    "shortName": "CMBank",
+    "aliases": ["Cooperative Mortgage Bank", "CMB"],
+    "website": "https://www.cmbankng.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://cmbankng.com/wp-content/uploads/2019/03/CMBanklogo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.cmbankng.com/"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Ibadan-based primary mortgage bank. Logo is small (151x111; cropped variant cropped-CMBanklogo.png 111x65). cmbnigeria.com is an unrelated real-estate firm - rejected. No app found."
+  },
+  {
+    "bankCode": "50204",
+    "id": "corestep-mfb",
+    "name": "Corestep Microfinance Bank",
+    "shortName": "Corestep",
+    "aliases": ["Corestep MFB", "CoreBank Nigeria"],
+    "website": "https://www.corebanknigeria.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.corebanknigeria.com/corebank.svg",
+      "format": "svg",
+      "license": "official-site",
+      "sourceUrl": "https://www.corebanknigeria.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/x_uMpY1xM2GKl7EQIY7d2rGlqkVJ-eHdj7FxrC0Xzu78fdecQlZ4_jxfxOo5rL2uFft7iwH5qVcMgO9HqpDs170=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.Corestep.androidapp"
+    },
+    "sameBrandAs": null,
+    "notes": "Corestep MFB trades as 'Corebank' (site title 'Corebank Nigeria - Powered by Corestep MFB'); corestepmfb.com redirects there. Logo is the CoreBank SVG (pure vector). App 'CoreBank Mobile' by Corestep Microfinance Bank."
+  },
+  {
+    "bankCode": "FC40128",
+    "id": "county-finance",
+    "name": "County Finance Limited",
+    "shortName": "County Finance",
+    "aliases": ["County Finance Ltd"],
+    "website": null,
+    "types": ["bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "CBN-licensed finance company (49 Wemco Road, Ogba, Ikeja, Lagos per CBN lists). No website found (tried countyfinance.ng/.com/.com.ng, countyfinancelimited.com, countyfinanceltd.com), no Play app found; Apple search was rate-limited."
+  },
+  {
+    "bankCode": "40119",
+    "id": "credit-direct",
+    "name": "Credit Direct",
+    "shortName": "Credit Direct",
+    "aliases": ["Credit Direct Limited", "CDL"],
+    "website": "https://www.creditdirect.ng",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://cdn.prod.website-files.com/67daf2b158fcc7fab30b097c/67de25c3cc4eebc34a417a65_CDL%20Logo.svg",
+      "format": "svg",
+      "license": "official-site",
+      "sourceUrl": "https://www.creditdirect.ng/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/oWGjf7kKTRNYuNZwuzaHVpYlCMbAiyJK7b6_CxF-HD8zgvuNuw4qv3UXSyaNuQ6Iaub79YrZz-3gnZ2_t21nFA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.creditdirectmobile.ng.cdlMobileApp"
+    },
+    "sameBrandAs": null,
+    "notes": "Header SVG (pure vector, 232x32). Alternates on site: 67df8f81..._CDL Logo.svg, 67e08cbd..._cdl logo2.svg; square favicon SVG 67e71d40..._Favicon - large.svg. Lender/finance company."
+  },
+  {
+    "bankCode": "51297",
+    "id": "crescent-mfb",
+    "name": "Crescent Microfinance Bank",
+    "shortName": "Crescent MFB",
+    "aliases": ["Crescent MFB", "Crescent Microfinance Bank Limited", "CMFB"],
+    "website": "https://crescentmfb.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://crescentmfb.ng/assets/logoCre-removebg-preview-CY-Osgi3.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://crescentmfb.ng/"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Logo from crescentmfb.ng (Ilorin). LOW CONFIDENCE on matching: could not confirm code 51297 is the Ilorin Crescent MFB. og:image /assets/logoCre.jpg returns HTML (SPA fallback) - used the bundled PNG (512x186) instead. No app found."
+  },
+  {
+    "bankCode": "090560",
+    "id": "crust-mfb",
+    "name": "Crust Microfinance Bank",
+    "shortName": "Crust",
+    "aliases": ["Crust MFB", "Crust Microfinance Bank"],
+    "website": "https://www.crustmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/e25WX0dfZqiH9rJaHAzDnmeYhdr8feLcQA0ffLn6qi8UNDB0ItwCqfsV2Ki0WlQdkx1SGYSEvhgwnQjfx6n5QA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.crust.personal"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/e25WX0dfZqiH9rJaHAzDnmeYhdr8feLcQA0ffLn6qi8UNDB0ItwCqfsV2Ki0WlQdkx1SGYSEvhgwnQjfx6n5QA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.crust.personal"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo SVGs (crustmfb.com/hero/logo.svg, /footer/logo.svg) contain embedded base64 <image> - rejected. Used 'Crust Personal Banking' app icon (dev Crust Africa Inc, links crustmfb.com). Business app: com.crust."
+  },
+  {
+    "bankCode": "50216",
+    "id": "crutech-mfb",
+    "name": "Crutech Community Microfinance Bank",
+    "shortName": "Crutech MFB",
+    "aliases": ["CRUTECH MICROFINANCE BANK LTD", "Crutech Community Microfinance Bank Ltd"],
+    "website": "https://crutechmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://crutechmfb.com/wp-content/uploads/2016/06/ccmfb-mx2.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://crutechmfb.com/"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Header logo 317x75 from crutechmfb.com (Cross River University of Technology). No app found."
+  },
+  {
+    "bankCode": "51368",
+    "id": "dash-mfb",
+    "name": "Dash Microfinance Bank",
+    "shortName": "Dash",
+    "aliases": ["Dash Microfinance Bank Limited"],
+    "website": "https://dash-mfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://dash-mfb.com/assets/dash.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://dash-mfb.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/J4TQCfg2XA4zGWEo5d2Te-T2EZpE2FyxfEPBIaalfeMjchj-VB8YM6aFsPjdRD3n8AoOnDbpy-XIYUEJD8GC1Q=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.dashbank"
+    },
+    "sameBrandAs": null,
+    "notes": "Logo from site JS bundle, small (115x49). Square icon https://dash-mfb.com/assets/logo-icon.png (700x751). Apple: 'Dash mobile banking' by Dash microfinance bank limited."
+  },
+  {
+    "bankCode": "51334",
+    "id": "davenport-mfb",
+    "name": "Davenport Microfinance Bank",
+    "shortName": "Davenport",
+    "aliases": ["Davenport MICROFINANCE BANK"],
+    "website": "https://davenportmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://davenportmfb.com/images/logos/logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://davenportmfb.com/"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Header logo 921x271 (Epe, Lagos). Play 'Davenport Mobile' is a US brokerage - rejected. No app found."
+  },
+  {
+    "bankCode": "51450",
+    "id": "dillon-mfb",
+    "name": "Dillon Microfinance Bank",
+    "shortName": "Dillon",
+    "aliases": ["Dillon Microfinance Bank Limited"],
+    "website": "https://dillonmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://dillonmfb.com/views/assets/images/logo-3.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://dillonmfb.com/"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "logo-3.png is dark-on-transparent (210x51); logo-2.png is the white-text variant. No app found."
+  },
+  {
+    "bankCode": "50162",
+    "id": "dot-mfb",
+    "name": "Dot Microfinance Bank",
+    "shortName": "Dot",
+    "aliases": ["Dot MFB", "Dot Microfinance Bank"],
+    "website": "https://dotmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://dotmfb.com/",
+      "format": "svg",
+      "license": "official-site",
+      "inlineIndex": 0
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/uUkOM-i4yA5lfJOvQsviyLK9wWFQkTQP9TSV_gQ4qVaTnCh224Ra4T_QqmSgFAe-2QpjtK_Qy0vUxSg_m5cBqIg=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.digicore.dot"
+    },
+    "sameBrandAs": null,
+    "notes": "Inline header SVG (index 0, viewBox 0 0 161 45, fill=black, pure vector) on dotmfb.com. Square favicon SVG at https://dotmfb.com/favicon.svg. App 'Dot Personal Banking' by Dot Technologies Ltd (links dotbank.africa)."
+  },
+  {
+    "bankCode": "50922",
+    "id": "ebsu-mfb",
+    "name": "EBSU Microfinance Bank",
+    "shortName": "EBSU MFB",
+    "aliases": ["Ebonyi State University Microfinance Bank Ltd"],
+    "website": "https://ebsumfb.com",
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "ebsumfb.com is a stale 2016 holiday page with no logo; no Play app found; Apple search rate-limited. Not found."
+  },
+  {
+    "bankCode": "50263",
+    "id": "ekimogun-mfb",
+    "name": "Ekimogun Microfinance Bank",
+    "shortName": "Ekimogun MFB",
+    "aliases": ["Ekimogun MFB"],
+    "website": "https://www.ekimogunmicrofinancebank.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.ekimogunmicrofinancebank.com/assets/img/apple-touch-icon.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.ekimogunmicrofinancebank.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/AKVPT3InZynNfRXTJap0vh_22T7lCGWi06_KWevg-Sds66vCQaB2QbYWGaJaSPAmSyuIzc693dP1GCSfKBFToFc=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.qucoon.middlewaremobile.ekimogun"
+    },
+    "sameBrandAs": null,
+    "notes": "Site only has a symbol mark (logo.png 101x102, apple-touch-icon 180x180), no wordmark. App 'Ekimogun MFB' published by NIBSS, links ekimogunmicrofinancebank.com."
+  },
+  {
+    "bankCode": "098",
+    "id": "ekondo-mfb",
+    "name": "Ekondo Microfinance Bank",
+    "shortName": "Ekondo Bank",
+    "aliases": ["Ekondo Microfinance Bank Limited"],
+    "website": "https://www.ekondomfbank.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://ekondomfbank.com/wp-content/uploads/2025/02/LOGO.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.ekondomfbank.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/lftfRz9A9dPBMqS1YMl7HOIMEbLLzoFMTKqmSgv-mU58bDPBfacOvuUwR0CkmXNMqEwX0ByDdKDEl5vkDKIxHw=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.qore.ekondo"
+    },
+    "sameBrandAs": null,
+    "notes": "Green 'EKONDO BANK' logo, 4103x1876. White variant: Logo-2.png."
+  },
+  {
+    "bankCode": "50280",
+    "id": "eso-e-mfb",
+    "name": "Eso-E Microfinance Bank",
+    "shortName": "Eso-E MFB",
+    "aliases": ["ESO-E MICROFINANCE BANK LIMITED"],
+    "website": "https://www.esoemfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.esoemfb.com/wp-content/uploads/2025/01/eso-e-new-gen-logo-2025.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.esoemfb.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/ekYdkjkLqPoNOhU6DTTcgudgD2ZLcgdJpC6zatohvEckpuFl_U8vvn7_lwnFzRZa8_0Kq7W8suTamJzzpdIZ=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.esoe_client.ng"
+    },
+    "sameBrandAs": null,
+    "notes": "Logo 203x50 (small). App 'Eso-E' by SimplifyTech Limited, links esoemfb.com."
+  },
+  {
+    "bankCode": "51475",
+    "id": "ethica-mfb",
+    "name": "Ethica Microfinance Bank",
+    "shortName": "Ethica",
+    "aliases": ["Ethica MFB"],
+    "website": "https://ethicamfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.ethicamfb.com/ethica_logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://ethicamfb.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/uZO-U30CRxFOtL1QjGo4YIUG7k2mkjta1dOPMAjIJ04LR7tX23dAzBrRBUijTGWzGiD2hqFpzr0_Wzi-HsVpvQ=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.ethica.app"
+    },
+    "sameBrandAs": null,
+    "notes": "Logo 334x104. App 'Ethica' by Ethica Microfinance Bank (app.ethica 'Ethica Invest' is a different app - rejected)."
+  },
+  {
+    "bankCode": "090678",
+    "id": "excel-finance-bank",
+    "name": "Excel Finance Bank",
+    "shortName": "Excel Finance",
+    "aliases": ["EXCEL FINANCE BANK"],
+    "website": null,
+    "types": ["bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "No website or app found. Possibly related to Excel Microfinance Bank (Eruwa), which appears inactive - unconfirmed. Tried excelfinancebank.com/.ng, excelfinance.ng, Play search."
+  },
+  {
+    "bankCode": "50126",
+    "id": "eyowo",
+    "name": "Eyowo",
+    "shortName": "Eyowo",
+    "aliases": ["Eyowo Microfinance Bank"],
+    "website": "https://eyowo.com",
+    "types": ["e-wallet"],
+    "logo": {
+      "url": "https://eyowo.com/eyowo-logo.svg",
+      "format": "svg",
+      "license": "official-site",
+      "sourceUrl": "https://eyowo.com/"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Header SVG pure vector (viewBox 0 0 100 24); white variant https://eyowo.com/images/eyowo-white.svg. No current Play/App Store listing found."
+  },
+  {
+    "bankCode": "51318",
+    "id": "fairmoney",
+    "name": "FairMoney",
+    "shortName": "FairMoney",
+    "aliases": ["Fairmoney Microfinance Bank", "FairMoney MFB"],
+    "website": "https://fairmoney.io",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://fairmoney.io/assets/fairmoney-logo-DR-jkARz.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://fairmoney.io/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/Hf2OGzogx5o1QvxJo9BTfXyzpvu0SMRArwyTILJ3OFpLff8_xYxHebPFdCV9XN2Jq_atqlzQobQP19p7rD0nmQ=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=ng.com.fairmoney.fairmoney"
+    },
+    "sameBrandAs": null,
+    "notes": "Consumer-brand PNG 582x96 from site JS bundle. business.fairmoney.io SVG is the 'FairMoney Business' sub-brand - not used. File name is content-hashed and may change on redeploy."
+  },
+  {
+    "bankCode": "51241",
+    "id": "fcmb-mfb",
+    "name": "FCMB Microfinance Bank",
+    "shortName": "FCMB MFB",
+    "aliases": ["FCMB MFB", "FCMB Microfinance Bank Limited"],
+    "website": "https://www.fcmbmfb.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.fcmbmfb.ng/images/logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.fcmbmfb.ng/"
+    },
+    "mark": {
+      "url": "https://www.fcmbmfb.ng/favicon/android-chrome-512x512.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.fcmbmfb.ng/"
+    },
+    "sameBrandAs": null,
+    "notes": "Logo 140x169 (FCMB mark + 'FCMB MICROFINANCE'). Separate from main 'fcmb' entity. No dedicated MFB app found (FCMB Mobile belongs to the main bank)."
+  },
+  {
+    "bankCode": "50298",
+    "id": "clearpay-mfb",
+    "name": "ClearPay Microfinance Bank",
+    "shortName": "ClearPay",
+    "aliases": ["Fedeth MFB", "Fedeth Microfinance Bank Limited", "ClearPay MFB"],
+    "website": "https://clearpaymfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://clearpaymfb.com/wp-content/uploads/2024/03/ClearPay_Logo_Primary.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://clearpaymfb.com/"
+    },
+    "mark": {
+      "url": "https://clearpaymfb.com/wp-content/uploads/2024/03/cropped-FAV-Icon-ClearPay-copy-270x270.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://clearpaymfb.com/"
+    },
+    "sameBrandAs": null,
+    "notes": "Fedeth MFB rebranded to ClearPay Microfinance Bank in March 2024 (per clearpaymfb.com announcement). Primary logo 1709x334; inverted variant ClearPay-Logo-Inverted.png. Play 'ClearPay' app (com.secondcaesar.clearpay) is by Norrenberger Financial Group - not used, unverified link."
+  },
+  {
+    "bankCode": "050002",
+    "id": "fewchore",
+    "name": "Fewchore Finance",
+    "shortName": "Fewchore",
+    "aliases": ["Fewchore Finance Company Limited"],
+    "website": "https://www.fewchorefinance.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://cdn.prod.website-files.com/624d68c3da82bf881be9b900/657c3d2b5bd0d9bcf49bfe7b_Fewchore%20Finance-CBN-Logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.fewchorefinance.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/w7f7n6jQbsCdhfGOBQBYo9KVRzlTJYKvF0WFXYdHfA2tUnQksSBqOa85ZV85QheMtKHkoScdBREDJ_bX4STV=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.exolve.fewchorepay"
+    },
+    "sameBrandAs": null,
+    "notes": "Header PNG 450x128 includes tagline 'Licensed by the Central Bank of Nigeria'. Webclip mark (256x256): 62e25a283ba69f0da53d6bb6_FewchoreWebclip.png."
+  },
+  {
+    "bankCode": "51110",
+    "id": "ffs-mfb",
+    "name": "FFS Microfinance Bank",
+    "shortName": "FFS MFB",
+    "aliases": ["FFS Microfinance Bank"],
+    "website": "https://ffsmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/Fj1jchWp5FRNw8Mg9yZeUdOY2MJstyiXGVsuJnk4P0lHnrbrMwYA9gLJ9EzkvFy7VpxMGroAfCtqb_Ek9Jf7CQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.ffsmfb.ffsmobile"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/Fj1jchWp5FRNw8Mg9yZeUdOY2MJstyiXGVsuJnk4P0lHnrbrMwYA9gLJ9EzkvFy7VpxMGroAfCtqb_Ek9Jf7CQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.ffsmfb.ffsmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo https://ffsmfb.com/assets/images/logo/ffs_logo.jpeg is tiny (75x43) and hotlink-protected (403 without Referer), so used app icon (dev 'FFSMFB MOBILE APP')."
+  },
+  {
+    "bankCode": "51314",
+    "id": "firmus-mfb",
+    "name": "Firmus Microfinance Bank",
+    "shortName": "Firmus",
+    "aliases": ["Firmus MFB"],
+    "website": "https://www.firmusmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.firmusmfb.com/wp-content/uploads/2021/02/logo2.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.firmusmfb.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/Cw51b89Wgb0yrQpD-CwVIV2JG25_F4Dzvx7GSULdc7PEd0zRI5iptfN11d7bqSN6wDh5JikmE8VbL9VMOLSImg=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.firmusmfb.firmusmfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Logo 513x174. Play app developer listed as an individual but app named Firmus Microfinance Bank; site icon cropped-logo-270x270.png is an alternative mark."
+  },
+  {
+    "bankCode": "50934",
+    "id": "first-option-mfb",
+    "name": "First Option Microfinance Bank",
+    "shortName": "First Option",
+    "aliases": ["First Option MFB"],
+    "website": "https://firstoptionbank.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://firstoptionbank.ng/wp-content/uploads/2026/02/cropped-logo-1.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://firstoptionbank.ng/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/RwJWB0Lb8GgzZyPEe4WiNezNs-8Ifdssh84h06-IJcsxOIQicUBp2qOJW8xdDEkyXqkFP-T_xg_XcroTKMo-Zg=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.firstoptionmfb.firstoptionmfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Logo 498x167. Website found via Play listing (dev FIRST OPTION MICROFINANCE BANK)."
+  },
+  {
+    "bankCode": "090164",
+    "id": "first-royal-mfb",
+    "name": "First Royal Microfinance Bank",
+    "shortName": "First Royal",
+    "aliases": ["FIRST ROYAL MICROFINANCE BANK"],
+    "website": "https://firstroyalmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://firstroyalmfb.com/assets/image/first_royal_mfb_logo_dark.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://firstroyalmfb.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/bbiXD2ePFJ-ifEPtit2BecXhwX9LJPaggMDkvllyjuLTPoxxkeFthwlFZ_jXLKJ_X_AgnveA5Iwncqj9rChA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.firstroyalmfb.firstroyalmfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Logo small (246x42); light variant first_royal_mfb_logo_light.png."
+  },
+  {
+    "bankCode": "51333",
+    "id": "firstmidas-mfb",
+    "name": "FirstMidas Microfinance Bank",
+    "shortName": "FirstMidas",
+    "aliases": ["FIRSTMIDAS MFB", "Firstmidas Microfinance Bank Limited"],
+    "website": "https://firstmidasmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.firstmidasmfb.com/wp-content/uploads/2021/01/logomidas.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://firstmidasmfb.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/bgIibvfj9VoZZVJ9VR3n9hh8e9uzYK38bJbudJcWOjLwR2DQz1J_ZuhF29bEK1t-0XmPQUkSRwdgulcsLYun=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.firstmidasmfb.firstmidasmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Full-size original (1024x368) of the header logo logomidas-e1609933219910.png."
+  },
+  {
+    "bankCode": "413",
+    "id": "firsttrust-mortgage-bank",
+    "name": "FirstTrust Mortgage Bank",
+    "shortName": "FirstTrust",
+    "aliases": ["FirstTrust Mortgage Bank Nigeria", "FirstTrust Mortgage Bank Plc"],
+    "website": "https://www.ftmortgagebankplc.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://www.ftmortgagebankplc.com/assets/logo_coloured.svg",
+      "format": "svg",
+      "license": "official-site",
+      "sourceUrl": "https://www.ftmortgagebankplc.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/AE1A_-ezmgsx-O1UTOL5Soxvr9f6p4NtA9dGVnxWUciQQE69A6CM2MPjKBsmq_pG5ifmnzUs41QcB5lHV2fdNA=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.firsttrust"
+    },
+    "sameBrandAs": null,
+    "notes": "Pure-vector SVG. Also: white variant /assets/logo_white.svg and square icon /images/FirstTrust%20Icon.svg."
+  },
+  {
+    "bankCode": "090567",
+    "id": "flutterwave-mfb",
+    "name": "Flutterwave MFB",
+    "shortName": "Flutterwave",
+    "aliases": ["Flutterwave Microfinance Bank"],
+    "website": "https://flutterwave.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://flutterwave.com/ng/",
+      "format": "svg",
+      "license": "official-site",
+      "inlineIndex": 2
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/zWjoyiUrwmVpVz6_LiqY7Ly14t49ZLmRenMiCfAL3xaMPo_OyFPT7KaNvreXe3UsY99DyVnq8N5cWmCkzOkucQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.flutterwave.app"
+    },
+    "sameBrandAs": null,
+    "notes": "Uses Flutterwave brand wordmark: inline SVG index 2 (viewBox 0 0 1013.12 241.26, pure vector) in header of flutterwave.com/ng/. Square icon: https://flutterwave.com/_nuxt/icons/icon_512x512.776a2a.png. flutterwavemfb.com is a parked domain - rejected."
+  }
+]

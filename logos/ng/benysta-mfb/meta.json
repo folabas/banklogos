@@ -1,0 +1,27 @@
+{
+  "id": "benysta-mfb",
+  "name": "Benysta MFB",
+  "shortName": "Benysta",
+  "aliases": ["Benysta Microfinance Bank Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://benystamfb.com",
+  "bankCodes": ["51267"],
+  "source": {
+    "url": "https://benystamfb.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.benystamfb.benystamfbmobile",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

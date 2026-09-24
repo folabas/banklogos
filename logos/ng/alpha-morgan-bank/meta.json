@@ -1,0 +1,32 @@
+{
+  "id": "alpha-morgan-bank",
+  "name": "Alpha Morgan Bank",
+  "shortName": "Alpha Morgan",
+  "aliases": ["Alpha Morgan Bank Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.alphamorganbank.com",
+  "bankCodes": ["108"],
+  "source": {
+    "url": "https://www.alphamorganbank.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.alpha_morgan.bank",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "commercial-bank",
+    "registryId": "9894"
+  }
+}

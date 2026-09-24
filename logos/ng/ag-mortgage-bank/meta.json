@@ -1,0 +1,27 @@
+{
+  "id": "ag-mortgage-bank",
+  "name": "AG Mortgage Bank",
+  "shortName": "AG Mortgage",
+  "aliases": ["AG Mortgage Bank Plc", "AGMB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://agmortgagebankplc.com",
+  "bankCodes": ["90077"],
+  "source": {
+    "url": "https://agmortgagebankplc.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.agmortagemfb",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

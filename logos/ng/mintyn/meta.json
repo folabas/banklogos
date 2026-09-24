@@ -1,0 +1,26 @@
+{
+  "id": "mintyn",
+  "name": "Mintyn",
+  "aliases": ["MINT-FINEX MFB", "Finex MFB", "Mint Finex Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "mark": "png" },
+  "website": "https://mintyn.com",
+  "bankCodes": ["09"],
+  "source": {
+    "url": "https://mintyn.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.mintfintech.app",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "9psb",
+  "name": "9PSB",
+  "aliases": ["9mobile 9Payment Service Bank", "9 Payment Service Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["mobile-money"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://9psb.com.ng",
+  "bankCodes": ["120001"],
+  "source": {
+    "url": "https://9psb.com.ng",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.psbcustomer",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "payment-service-bank",
+    "registryId": "4117"
+  }
+}

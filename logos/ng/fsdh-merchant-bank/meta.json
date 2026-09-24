@@ -1,0 +1,32 @@
+{
+  "id": "fsdh-merchant-bank",
+  "name": "FSDH Merchant Bank",
+  "shortName": "FSDH",
+  "aliases": ["FSDH Merchant Bank Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://fsdhmerchantbank.com",
+  "bankCodes": ["501"],
+  "source": {
+    "url": "https://fsdhmerchantbank.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://apps.apple.com/ng/app/fsdh-mb/id1491030746",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "merchant-bank",
+    "registryId": "3183"
+  }
+}

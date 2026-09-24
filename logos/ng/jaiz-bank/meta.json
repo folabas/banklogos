@@ -7,9 +7,7 @@
   "markets": ["NG"],
   "types": ["bank"],
   "variants": ["logo"],
-  "colors": {
-    "primary": "#004080"
-  },
+  "colors": { "primary": "#004080" },
   "website": "https://jaizbankplc.com",
   "bankCodes": ["301"],
   "source": {
@@ -18,5 +16,10 @@
     "fetchedAt": "2026-09-24"
   },
   "verified": false,
-  "addedIn": "0.1.0"
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "non-interest-bank",
+    "registryId": "4119"
+  }
 }

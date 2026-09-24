@@ -1,0 +1,26 @@
+{
+  "id": "aella",
+  "name": "Aella",
+  "aliases": ["Aella MFB", "Aella Microfinance Bank", "Aella Financial Solutions"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "mark": "png" },
+  "website": "https://aellaapp.com",
+  "bankCodes": ["50315"],
+  "source": {
+    "url": "https://aellaapp.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.aella.comportal",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

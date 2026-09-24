@@ -1,0 +1,693 @@
+[
+  {
+    "bankCode": "51403",
+    "id": "tenn",
+    "name": "TENN",
+    "shortName": "TENN",
+    "aliases": ["TENN Bank", "TENN Group"],
+    "website": "https://www.tenn.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/ZAS71uqEm0aP1J7d-36_CrKQ17WtTADPds3fbldGdq2UD2hTgR9nD3GMlqsvQdeCTC3x9ckXua5v6cj9jKZseA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.tenn.app"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/ZAS71uqEm0aP1J7d-36_CrKQ17WtTADPds3fbldGdq2UD2hTgR9nD3GMlqsvQdeCTC3x9ckXua5v6cj9jKZseA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.tenn.app"
+    },
+    "sameBrandAs": null,
+    "notes": "Digital bank app by TENN Group; tenn.com footer names 'TENN Bank (RC 7212952)', licensed by the CBN. Site wordmark PNGs exist (https://www.tenn.com/_next/static/media/logo_gray.b1872e9c.png 8333x2007, logo-white.1b06d92f.png) but both are near-white and invisible on light backgrounds, so the app icon is used as logo. No SVG found (/logo.svg 404)."
+  },
+  {
+    "bankCode": "677",
+    "id": "think-finance-mfb",
+    "name": "Think Finance MFB",
+    "shortName": "Think Finance",
+    "aliases": ["Think Finance Microfinance Bank", "TF Microfinance Bank"],
+    "website": "https://thinkfinancemfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://thinkfinancemfb.com/assets/images/logo.jpeg",
+      "format": "jpg",
+      "license": "official-site",
+      "sourceUrl": "https://thinkfinancemfb.com"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Site header logo (500x500 JPEG, 'TF MFB'). No app found on Google Play (Apple search API returned 403 throughout this run)."
+  },
+  {
+    "bankCode": "102",
+    "id": "titan-trust-bank",
+    "name": "Titan Trust Bank",
+    "shortName": "Titan",
+    "aliases": ["Titan Bank", "Titan Trust Bank Limited"],
+    "website": "https://www.titantrustbank.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://web.archive.org/web/20210515044913id_/https://titantrustbank.com/wp-content/uploads/2020/12/titan-logo-box.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://web.archive.org/web/2021/https://titantrustbank.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/H1OhVlXjpxaKrYQr9TediUBfORNdTVes36cRVOcgKdbf29mFJ9H16FGCPuXiXT7oG7wlG1-NNRLckmchE3tlRg=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.titantrustbank.titan1"
+    },
+    "sameBrandAs": null,
+    "notes": "Titan Trust Bank merged with Union Bank of Nigeria (032); titantrustbank.com now redirects to unionbankng.com. Logo = the bank's own site asset via Wayback (250x122; a horizontal variant titan-logo-horizontal.png is also archived). Mark = TITAN TRUST MOBILE BANKING app icon (developer 'Titan Trust Bank'). No SVG found."
+  },
+  {
+    "bankCode": "90801",
+    "id": "toprate-mfb",
+    "name": "Toprate MFB",
+    "shortName": "Toprate",
+    "aliases": ["TOPRATE MFB", "Toprate Microfinance Bank"],
+    "website": "https://www.topratemfbank.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/nWqcoGRfqqyxmSJ_-LocfU2s22yYv2OvxzmeOSK6GLgEt30hthFEbi3ZwXy-BxfKlWlQUHtrwc52Nvj7MDrw78I=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.qucoon.middlewaremobile.topratemfb"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/nWqcoGRfqqyxmSJ_-LocfU2s22yYv2OvxzmeOSK6GLgEt30hthFEbi3ZwXy-BxfKlWlQUHtrwc52Nvj7MDrw78I=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.qucoon.middlewaremobile.topratemfb"
+    },
+    "sameBrandAs": null,
+    "notes": "topratemfbank.com timed out. App 'Toprate MFB' is published under developer 'NIBSS' (NIBSS-built app linking topratemfbank.com), so it is official for the bank but published by NIBSS."
+  },
+  {
+    "bankCode": "090708",
+    "id": "transpay-mfb",
+    "name": "TransPay MFB",
+    "shortName": "TransPay",
+    "aliases": ["TransPay Microfinance Bank"],
+    "website": "https://transpaymfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/PQXNyM7MBom9uCWnXZAuDZuyzzEMhlW57k5N1ph7i0SKrms-umdTtUD-kEr9SsiFoJoiGatOBCGrF7zPWgcr=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.transpay.transpaymfbmobile"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/PQXNyM7MBom9uCWnXZAuDZuyzzEMhlW57k5N1ph7i0SKrms-umdTtUD-kEr9SsiFoJoiGatOBCGrF7zPWgcr=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.transpay.transpaymfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "transpaymfb.com is a JS-only SPA (only favicon.ico in HTML); used the Play app icon (developer 'TransPay')."
+  },
+  {
+    "bankCode": "51118",
+    "id": "trustbanc-mfb",
+    "name": "TrustBanc MFB",
+    "shortName": "TrustBanc",
+    "aliases": ["TRUSTBANC J6 MICROFINANCE BANK", "TrustBanc J6 MFB"],
+    "website": "https://trustbancmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://app.trustbancgroup.com/static/backend/asset/img/logos/TrustBanc_Logo_PNG_new.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://app.trustbancgroup.com/accounts/login/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/i7IRHgMpkJxKPgJqYBE36kfWs8wukSLqGjcL1i6SOgE9R2C2Z-teRAm-4cTK-VPtc202iQRRgodH0lsub8wrrgM=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.cwg.trustbanc"
+    },
+    "sameBrandAs": null,
+    "notes": "Logo from the TrustBanc Group internet-banking login page (6000x1365 PNG, parent group). trustbancmfb.com is an SPA. Mark = 'Prime By TrustBanc' app icon (developer TrustBanc, links trustbancmfb.com)."
+  },
+  {
+    "bankCode": "50840",
+    "id": "u-and-c-mfb",
+    "name": "U and C MFB",
+    "shortName": "U&C",
+    "aliases": ["U and C Microfinance Bank", "U & C Microfinance Bank"],
+    "website": "https://uandcmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://uandcmfb.com/_next/static/media/uandcLogo.32432c56.jpg",
+      "format": "jpg",
+      "license": "official-site",
+      "sourceUrl": "https://uandcmfb.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/ruL7dAPfTXSYXefpzUT80FiiNpRUl1M8Dhc_b5cRRl7ZtcRYAXWciCxxEe5ma6dh5lAGmYBJZzEQeR5E5VpO=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.uandcmfb.uandcmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Site header logo 513x513 JPEG. Mark = 'U and C Mobile' app (developer 'U and C MICROFIN')."
+  },
+  {
+    "bankCode": "51396",
+    "id": "ubj-mfb",
+    "name": "UBJ Microfinance Bank",
+    "shortName": "UBJ",
+    "aliases": ["UBJ Microfinance Bank Limited", "UBJ MFB"],
+    "website": "https://ubjmfb.com.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/JONBcWSICLZA9e7Tj-4BFZeakWKXAGi7g1j6ug-8oVU_nHLIuOAz7SzxFf0tspRyIqHfXuFRNMLvb3YbONSF_g=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.ncktech.esan"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/JONBcWSICLZA9e7Tj-4BFZeakWKXAGi7g1j6ug-8oVU_nHLIuOAz7SzxFf0tspRyIqHfXuFRNMLvb3YbONSF_g=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.ncktech.esan"
+    },
+    "sameBrandAs": null,
+    "notes": "UBJ MFB, Ubiaja, Edo State. Site logo https://ubjmfb.com.ng/wp-content/uploads/2023/10/UBJMFB_LOGO.png exists but is hotlink-protected (403 without a Referer header), so the app icon is used; the icon matches the site logo. App 'UBJ:Your Digital Bank' is by developer 'Protech Advance' (pkg com.ncktech.esan). Medium confidence that this is the bank's official app, based only on the identical logo."
+  },
+  {
+    "bankCode": "090706",
+    "id": "ucee-mfb",
+    "name": "UCEE MFB",
+    "shortName": "UCEE",
+    "aliases": ["UCEE Microfinance Bank", "United Capital MFB"],
+    "website": "https://getucee.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://getucee.com/wp-content/uploads/2022/09/ucee-mfb.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://getucee.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/cQq8EXnb-G36IeufLyCVEU4x9zI9VeG2Vq6_vEYpTFK6vR6N7HxWxl8P9tvHfEUGp0dE4BNZwBmCsK4btRCZ1Q=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.mfb.unitedcapital"
+    },
+    "sameBrandAs": null,
+    "notes": "Owned by United Capital Plc. Logo 1024x500 PNG from the site (rejected getucee.com/.../logo.png, which is a strip of press logos). Mark = 'Ucee MFB' app (developer United Capital Plc.)."
+  },
+  {
+    "bankCode": "51322",
+    "id": "uhuru-mfb",
+    "name": "Uhuru MFB",
+    "shortName": "Uhuru",
+    "aliases": ["Uhuru Microfinance Bank"],
+    "website": "https://uhurumfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://uhurumfb.com/wp-content/uploads/2023/04/logo-1024x494.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://uhurumfb.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/3LmNOsL1OVy8G5i2b7zU6Upqo39GYyKzHeeTFsWjtzsUedv8xfsR10Wcv0UyMb_oc-0VD0nGWjqo8xnhIFusgg=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.uhurumfb.app"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo 1024x494 PNG. Mark = 'UHURU MFB APP' (developer Uhuru MicroFinance Bank); a site icon is also at /wp-content/uploads/2023/04/cropped-icon-270x270.png."
+  },
+  {
+    "bankCode": "51080",
+    "id": "ultraviolet-mfb",
+    "name": "Ultraviolet MFB",
+    "shortName": "Ultraviolet",
+    "aliases": ["Ultraviolet Microfinance Bank"],
+    "website": "https://ultravioletmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://ultravioletmfb.com/wp-content/uploads/2024/08/Ultraviolet-MFB-Logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://ultravioletmfb.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/w8pU18_LOF6FtLCXdurUEQn_lsyPOcDzIRuvnx6fPwKnUpqIHbVLPQNsnPHoSq4SoVRMq1o2vSINErkYFjW4lA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.uvmfb.uvmfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo 632x410 PNG. Mark = app icon (developer Ultraviolet MFB)."
+  },
+  {
+    "bankCode": "51097",
+    "id": "umunnachi-mfb",
+    "name": "Umunnachi MFB",
+    "shortName": "Umunnachi",
+    "aliases": ["Umunnachi Microfinance Bank Ltd"],
+    "website": "https://www.umunnachimfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.umunnachimfb.com/img/core-img/logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.umunnachimfb.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/Id9xNotw-tZBr_ZIqFFllVV5l2GkjMmCrCGiVgz8PUG_kjvxjQhxeCfwsIjf0lGlZw-3nCQl5co6cdEAMAKHiA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.interswitch.umunnachi"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo is small (140x70). Mark = 'Umunnachi Mobile' app (developer Umunnachi Microfinance Bank), which has better resolution."
+  },
+  {
+    "bankCode": "50870",
+    "id": "unaab-mfb",
+    "name": "UNAAB Microfinance Bank",
+    "shortName": "UNAAB MFB",
+    "aliases": ["Unaab Microfinance Bank Limited", "UMFB"],
+    "website": "http://microfinancebank.unaab.edu.ng",
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "NOT FOUND. Owned by the Federal University of Agriculture Abeokuta. microfinancebank.unaab.edu.ng timed out; Wayback has no logo asset; FUNAAB's page about the bank shows only the university logo (rejected). FUNAAB mentions an 'unaabmobile' app, but it was not found on Google Play; the Apple search API returned 403 during this run."
+  },
+  {
+    "bankCode": "51447",
+    "id": "uniabuja-mfb",
+    "name": "UNIABUJA MFB",
+    "shortName": "Uniabuja MFB",
+    "aliases": ["University of Abuja Microfinance Bank"],
+    "website": "https://uniabujamfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/fMtA1HpiTQ3uNfbTU0vPa47Ym5CNZDwTN64BM_Xg0wCx_JgVXGiACfk7zPopKOnbuUrqlu2sejjUkmjL8Q7WZSI=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.qucoon.middlewaremobile.uniabuja"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/fMtA1HpiTQ3uNfbTU0vPa47Ym5CNZDwTN64BM_Xg0wCx_JgVXGiACfk7zPopKOnbuUrqlu2sejjUkmjL8Q7WZSI=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.qucoon.middlewaremobile.uniabuja"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logos (uniabumfb-logo-footer.png 1881x560, uniabumfb-logo-white.png) have white text for dark backgrounds, so the app icon is used as logo. App 'Uniabuja Mfb' is published by developer 'NIBSS' (links uniabujamfb.com)."
+  },
+  {
+    "bankCode": "50871",
+    "id": "unical-mfb",
+    "name": "Unical MFB",
+    "shortName": "Unical MFB",
+    "aliases": ["University of Calabar Microfinance Bank Limited"],
+    "website": "https://unicalmfbank.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://unicalmfbank.com/assets/img/logo/logo_01.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://unicalmfbank.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/ctFI7BFX7UU8Un2zUEez5pS36e-O99yQPModQWA5Zaxe3GNjHkzKztoAT5egUPp9vN3cEdDvBXMyeibnHPTD17A=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.sagamy.unicalmfbclient"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo 540x152 ('UMFB LTD' wordmark). Mark = 'Unical MFB Mobile' app (developer Sagamy Technologies, links unicalmfbank.com)."
+  },
+  {
+    "bankCode": "51316",
+    "id": "unilag-mfb",
+    "name": "Unilag MFB",
+    "shortName": "Unilag MFB",
+    "aliases": ["Unilag Microfinance Bank"],
+    "website": "https://www.unilagmfbank.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.unilagmfbank.com/wp-content/uploads/2024/03/UMFB-LOGO-MAIN.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.unilagmfbank.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/ylA19AdCvEe7q-gIn6-cCBu1L0oBQ6ATXHGeFyqGNGQe2IW1C6OVMw7n4feb3NtTmrFUUHWQehIwxRVR0M74PdU=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.unilagmfbank.app"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo 988x309 PNG. Mark = 'Unilag Mfb' app (developer UNILAG MFB)."
+  },
+  {
+    "bankCode": "50875",
+    "id": "unimaid-mfb",
+    "name": "Unimaid MFB",
+    "shortName": "Unimaid MFB",
+    "aliases": ["UNIMAID MICROFINANCE BANK"],
+    "website": "https://unimaidmicrofinancebank.com.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/MvAHOD46DrV51OSxvor1lDn8X31SprB-LT3dl68Vpz2kFeepbLideplof4dByoQ_XIn4oXsfWGGD4lkd8HwX=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.unimaidmfb.unimaidmfbmobile"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/MvAHOD46DrV51OSxvor1lDn8X31SprB-LT3dl68Vpz2kFeepbLideplof4dByoQ_XIn4oXsfWGGD4lkd8HwX=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.unimaidmfb.unimaidmfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "The website listed on Play (unimaidmicrofinancebank.com.ng) did not resolve. App 'Unimaid Mobile' (pkg com.unimaidmfb.unimaidmfbmobile, privacy policy on unimaidmfb.com.ng)."
+  },
+  {
+    "bankCode": "032",
+    "id": "union-bank",
+    "name": "Union Bank",
+    "shortName": "Union Bank",
+    "aliases": ["Union Bank of Nigeria", "Union Bank of Nigeria Plc"],
+    "website": "https://www.unionbankng.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Union_Bank_of_Nigeria_Logo.png",
+      "format": "png",
+      "license": "cc-by",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Union_Bank_of_Nigeria_Logo.png"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/WfG7kOO_RmtFeDjDcA6YNVS5y8G2hP8Kg47gvY48RkYGZej8EZterp0zzhy2GoPJtD8NZ2ORpw9u7UVwvZb8fA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.ceva.ubmobile.stallion"
+    },
+    "sameBrandAs": null,
+    "notes": "unionbankng.com is behind bot protection (not bypassed). Logo from Wikimedia Commons, CC BY 4.0, 1203x1203. Mark = UnionMobile app (developer Union Bank of Nigeria). Titan Trust Bank (102) merged into Union Bank."
+  },
+  {
+    "bankCode": "215",
+    "id": "unity-bank",
+    "name": "Unity Bank",
+    "shortName": "Unity",
+    "aliases": ["Unity Bank Plc"],
+    "website": "https://www.unitybankng.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://web.archive.org/web/20220220175514id_/https://www.unitybankng.com/unifi/img/logo-unity.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://web.archive.org/web/2022/https://www.unitybankng.com/"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Unity Bank merged with Providus Bank to form ProvidusUnity Bank; unitybankng.com no longer resolves. Logo = the last own-site logo via Wayback (200x103, small). Successor logo on Commons: https://upload.wikimedia.org/wikipedia/commons/e/ef/ProvidusUnity_Bank_Logo.png (CC0, 2700x2700). Unity's app was 'Unifi' (com.teamapt.unitymobile), whose icon is product-branded, so it is not used as mark."
+  },
+  {
+    "bankCode": "50880",
+    "id": "uniuyo-mfb",
+    "name": "UNIUYO MFB",
+    "shortName": "Uniuyo MFB",
+    "aliases": ["UNIUYO Microfinance Bank Ltd"],
+    "website": "https://uniuyomfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://uniuyomfb.com/assets/img/logo-black.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://uniuyomfb.com"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Site logo is small (236x44); used the dark-text variant (logo.png is the white-text variant). No app found on Google Play."
+  },
+  {
+    "bankCode": "50894",
+    "id": "uzondu-mfb",
+    "name": "Uzondu MFB",
+    "shortName": "Uzondu",
+    "aliases": ["Uzondu Microfinance Bank Awka Anambra State", "Uzondu Microfinance Bank Limited"],
+    "website": "https://www.uzondumfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/hn70pfHUNjbKdlEU6Y1XXu1LtdFD-cP7yKfUh9zlFJpKI4r9lQvccOL24MiNjkjvNEU3rT7EzpoYTMXR-xFbeeE=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.uzondumfb.uzondumobile"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/hn70pfHUNjbKdlEU6Y1XXu1LtdFD-cP7yKfUh9zlFJpKI4r9lQvccOL24MiNjkjvNEU3rT7EzpoYTMXR-xFbeeE=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.uzondumfb.uzondumobile"
+    },
+    "sameBrandAs": null,
+    "notes": "The site logo (img/core-img/logo.png, 141x52) looks like a cropped banner, so the app icon is used. App 'uzondumfbmobile' (developer UZONDU MICROFINANCE BANK LIMITED)."
+  },
+  {
+    "bankCode": "050020",
+    "id": "vale-finance",
+    "name": "Vale",
+    "shortName": "Vale",
+    "aliases": ["Vale Finance Limited", "Vale Finance"],
+    "website": "https://www.vale.ng",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/SDUAN9-BU9BMvg7JWqystAKkzWXn89F2uQkS0uz1poe5kIyMeWhxwIX9Z5lCISCwEXtC72OhEZE8BovcvU5H=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.app.coralstone.funbae"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Official SVG wordmark, pure vector, BUT all fills are white (made for dark backgrounds), so it may need recolouring; otherwise use the app icon on light UI. Mark = 'Vale Personal' app (developer Vale Finance; pkg com.app.coralstone.funbae suggests earlier 'Fundbae' branding)."
+  },
+  {
+    "bankCode": "566",
+    "id": "vfd-mfb",
+    "name": "VFD Microfinance Bank",
+    "shortName": "VFD MFB",
+    "aliases": ["VFD Microfinance Bank Limited", "V by VFD", "VBank"],
+    "website": "https://vbank.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/3n-7zyyA7OENldSysrOPhZvTvX1p6T5yDXOH_9lS3eyMgULQakPGfe83NR2KFlBXj2ea8iD5FQujpbyhr1Ij78k=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.vfd.app"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/3n-7zyyA7OENldSysrOPhZvTvX1p6T5yDXOH_9lS3eyMgULQakPGfe83NR2KFlBXj2ea8iD5FQujpbyhr1Ij78k=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.vfd.app"
+    },
+    "sameBrandAs": null,
+    "notes": "vbank.ng and vfdgroup.com are behind Cloudflare challenges (not bypassed). Used the 'V by VFD' app icon (developer VFD MFB)."
+  },
+  {
+    "bankCode": "51085",
+    "id": "victory-mfb",
+    "name": "Victory MFB",
+    "shortName": "Victory MFB",
+    "aliases": ["Victory Microfinance Bank"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "NOT FOUND. victorymfb.com.ng is a parked cPanel default page (Wayback has only redirects); no Google Play app; the Apple search API returned 403 during this run. The name is generic, so no unrelated 'Victory' app was used."
+  },
+  {
+    "bankCode": "90787",
+    "id": "vista-mfb",
+    "name": "Vista MFB",
+    "shortName": "Vista",
+    "aliases": ["VISTA MFB", "Vista Microfinance Bank"],
+    "website": "https://vistamfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/-ENYSrxhVkKAKG3V4mfQhShvEKqp42qoln60N1qtz-2pNDIM5QecJw1w3Ig3Kv8qJj7_T7HccsYWTvOVTjaMbTM=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.vistamfb.vista"
+    },
+    "mark": {
+      "url": "https://vistamfb.com/favicon.svg",
+      "format": "svg",
+      "license": "official-site",
+      "sourceUrl": "https://vistamfb.com"
+    },
+    "sameBrandAs": null,
+    "notes": "vistamfb.com is an SPA; its favicon.svg is a pure-vector 'V' mark (used as mark). Logo = 'Vista Personal Banking' app icon (developer Vista MFB)."
+  },
+  {
+    "bankCode": "51355",
+    "id": "waya-mfb",
+    "name": "WayaBank",
+    "shortName": "Waya",
+    "aliases": ["Waya Microfinance Bank"],
+    "website": "https://wayabank.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/U0w66wqU85p3kGXUYSypN_4hw-aNP_2HL-YGvNCXmapAmQqxsGKqSxwMK4q72RCZX1vb_uWROIOxrzq6XTzDy6M=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=ng.wayabank"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/U0w66wqU85p3kGXUYSypN_4hw-aNP_2HL-YGvNCXmapAmQqxsGKqSxwMK4q72RCZX1vb_uWROIOxrzq6XTzDy6M=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=ng.wayabank"
+    },
+    "sameBrandAs": null,
+    "notes": "App 'WayaBank' by developer 'Waya Multilinks Limited' (links wayabank.ng). The site only exposes a small icon.png (144x81)."
+  },
+  {
+    "bankCode": "51386",
+    "id": "weston-charis-mfb",
+    "name": "Weston Charis MFB",
+    "shortName": "Weston-Charis",
+    "aliases": ["Weston Charis Microfinance Bank"],
+    "website": "https://westonmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://westonmfb.com/wp-content/uploads/2024/07/logoma.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://westonmfb.com/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/6PpOXkr_pfbZYZVKvMF0jPJ904w35djEEvk-ZscXAEa_2q6Jfm-wMuFpZeBOtBFhXJAdWkwrumLgC_aQFg8yow=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.westoncharismfb.westoncharismfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo 624x388 PNG. Mark = 'Weston Pay' app (developer Weston Charis)."
+  },
+  {
+    "bankCode": "402001",
+    "id": "whitecrust",
+    "name": "Whitecrust",
+    "shortName": "Whitecrust",
+    "aliases": ["Whitecrust Finance Company"],
+    "website": "https://whitecrust.co",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://whitecrust.co/whitecrust-logo-mark.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://whitecrust.co/"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/41upImy3NP40hvJckV3bj6cpTZ9pYnRhEaxwcvvPtIiPlFccQLY-finolNoQSWtPArJaa8_ld6UJewqZhDaY3A=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.tm30.whitecrustng"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo 537x151 PNG (served through Next image). Mark = 'Whitecrust' app (developer WHITECRUST FINANCE COMPANY)."
+  },
+  {
+    "bankCode": "100040",
+    "id": "xpress-wallet",
+    "name": "Xpress Wallet",
+    "shortName": "Xpress Wallet",
+    "aliases": ["Xpress Payments"],
+    "website": "https://www.xpresspayments.com",
+    "types": ["e-wallet"],
+    "logo": {
+      "url": "https://www.xpresspayments.com/images/xpressLog.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.xpresspayments.com"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Xpress Wallet is a product of Xpress Payment Solutions Ltd; used the parent's site logo (small, 150x53). No dedicated Xpress Wallet app found; xpresswallet.com is a parked lander. The parent's 'Payxpress' app exists but is a different product brand."
+  },
+  {
+    "bankCode": "594",
+    "id": "yes-mfb",
+    "name": "Yes MFB",
+    "shortName": "Yes MFB",
+    "aliases": ["Yes Microfinance Bank"],
+    "website": "https://yesmfbank.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://yesmfbank.com/assets/images/yesmfb_logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://yesmfbank.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/dDaKgNVA0Rw1cCSh8TUg8-SlpzPbuv4WuTqj8xmZvK3R42G7CiGXqsLVpU3uI_3nkbCqMgIJ4alvw9_Fp69e1S8=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.yesmfbank.app"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo 339x95 PNG. Mark = 'Yes Bank' app (developer C24 Group, links yesmfbank.com). Not India's YES BANK."
+  },
+  {
+    "bankCode": "00zap",
+    "id": "zap",
+    "name": "Zap",
+    "shortName": "Zap",
+    "aliases": ["Zap by Paystack"],
+    "website": "https://joinzap.com",
+    "types": ["e-wallet"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/nEO5Zy6kVPYwnMG5RYAAYGJ8P61Mx9RjBsz5HvBRBEGjtI8A9Ivy9b-4RicUQnidvLsEScD5rOCTos_CEPIwraQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.paystack.zap"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/nEO5Zy6kVPYwnMG5RYAAYGJ8P61Mx9RjBsz5HvBRBEGjtI8A9Ivy9b-4RicUQnidvLsEScD5rOCTos_CEPIwraQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.paystack.zap"
+    },
+    "sameBrandAs": null,
+    "notes": "LOW CONFIDENCE on identity: assumed Zap by Paystack (Paystack's consumer bank-transfer app; accounts are funded via Paystack-Titan). The alternative is Zap Technology's crypto exchange (zap.africa, app com.zapmobile). joinzap.com has no logo image or SVG beyond 32px favicons; paystack.com returned 403."
+  },
+  {
+    "bankCode": "51373",
+    "id": "zitra-mfb",
+    "name": "Zitra MFB",
+    "shortName": "Zitra",
+    "aliases": ["Zitra Microfinance Bank", "Zitra Bank"],
+    "website": "https://zitrabank.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/NVA8GyLrvs41kYgS3FSfNKcndeUr_is1LlnYQ8IyfXvAXD3mE28LNCIG7Kfu8cFSYS8dNqYSDMYHz9cFytn6pbo=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.zitrainvestments.app"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/NVA8GyLrvs41kYgS3FSfNKcndeUr_is1LlnYQ8IyfXvAXD3mE28LNCIG7Kfu8cFSYS8dNqYSDMYHz9cFytn6pbo=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.zitrainvestments.app"
+    },
+    "sameBrandAs": null,
+    "notes": "zitrabank.com is an SPA (only a logo192.png manifest icon). Used the 'Zitra Ease' app icon (developer 'Zitra Bank')."
+  }
+]

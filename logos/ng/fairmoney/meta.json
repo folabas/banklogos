@@ -1,0 +1,31 @@
+{
+  "id": "fairmoney",
+  "name": "FairMoney",
+  "aliases": ["Fairmoney Microfinance Bank", "FairMoney MFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://fairmoney.io",
+  "bankCodes": ["51318"],
+  "source": {
+    "url": "https://fairmoney.io/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=ng.com.fairmoney.fairmoney",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "microfinance-bank",
+    "registryId": "3463"
+  }
+}

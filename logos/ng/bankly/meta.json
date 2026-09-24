@@ -1,0 +1,26 @@
+{
+  "id": "bankly",
+  "name": "Bankly",
+  "aliases": ["BANKLY MFB", "Bankly Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "mark": "png" },
+  "website": "https://bankly.ng",
+  "bankCodes": ["51341"],
+  "source": {
+    "url": "https://bankly.ng/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.bankly.bloomm",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

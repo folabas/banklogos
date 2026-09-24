@@ -1,0 +1,20 @@
+{
+  "id": "berachah-mfb",
+  "name": "Berachah MFB",
+  "shortName": "Berachah",
+  "aliases": ["Berachah Microfinance Bank Ltd.", "BERACHAH MICRO - FINANCE BANK LIMITED"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.berachahmfb.com",
+  "bankCodes": ["50122"],
+  "source": {
+    "url": "https://apps.apple.com/ng/app/berachah-mobile/id6465792768",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "refuge-mortgage-bank",
+  "name": "Refuge Mortgage Bank",
+  "shortName": "Refuge",
+  "aliases": ["Refuge Home Savings and Loans"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.refugemortgagebank.com",
+  "bankCodes": ["90067"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.refugebank.refugebankmobile",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

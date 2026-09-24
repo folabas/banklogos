@@ -1,0 +1,27 @@
+{
+  "id": "rockshield-mfb",
+  "name": "Rockshield Microfinance Bank",
+  "shortName": "Rockshield",
+  "aliases": ["ROCKSHIELD MICROFINANCE BANK"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.rockshieldmfb.com",
+  "bankCodes": ["50767"],
+  "source": {
+    "url": "https://www.rockshieldmfb.com/__l5e/assets-v1/0b6b1303-4e4e-42c7-9e03-339d0204a7b8/rockshield-logo.png",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.fintellia.rockshieldmfb",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

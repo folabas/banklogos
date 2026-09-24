@@ -7,9 +7,7 @@
   "markets": ["NG"],
   "types": ["bank"],
   "variants": ["logo", "mark"],
-  "colors": {
-    "primary": "#223E92"
-  },
+  "colors": { "primary": "#223E92" },
   "website": "https://www.optimusbank.com",
   "bankCodes": ["107"],
   "source": {
@@ -25,5 +23,10 @@
     }
   },
   "verified": false,
-  "addedIn": "0.1.0"
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "commercial-bank",
+    "registryId": "9865"
+  }
 }

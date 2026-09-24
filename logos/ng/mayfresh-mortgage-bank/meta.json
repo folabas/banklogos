@@ -1,0 +1,20 @@
+{
+  "id": "mayfresh-mortgage-bank",
+  "name": "Mayfresh Mortgage Bank",
+  "shortName": "Mayfresh",
+  "aliases": ["Mayfresh Mortgage Bank Ltd"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://mayfreshmb.com",
+  "bankCodes": ["90003"],
+  "source": {
+    "url": "https://mayfreshmb.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

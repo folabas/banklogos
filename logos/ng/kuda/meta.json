@@ -1,0 +1,31 @@
+{
+  "id": "kuda",
+  "name": "Kuda",
+  "aliases": ["Kuda Bank", "Kuda Microfinance Bank", "Kuda Technologies"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "mark": "png" },
+  "website": "https://www.kuda.com",
+  "bankCodes": ["50211"],
+  "source": {
+    "url": "https://www.kuda.com/wp-content/uploads/2026/05/Kuda-press-kit.zip",
+    "license": "official-press-kit",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.kudabank.app",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "microfinance-bank",
+    "registryId": "3652"
+  }
+}

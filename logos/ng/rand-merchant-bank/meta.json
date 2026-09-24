@@ -1,0 +1,31 @@
+{
+  "id": "rand-merchant-bank",
+  "name": "Rand Merchant Bank",
+  "shortName": "RMB",
+  "aliases": ["RMB Nigeria", "Rand Merchant Bank Nigeria Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo", "mark"],
+  "website": "https://www.rmb.com.ng",
+  "bankCodes": ["502"],
+  "source": {
+    "url": "https://www.rmb.com.ng/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://www.rmb.co.za/",
+      "license": "official-site",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "merchant-bank",
+    "registryId": "3186"
+  }
+}

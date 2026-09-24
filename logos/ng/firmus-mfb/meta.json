@@ -1,0 +1,27 @@
+{
+  "id": "firmus-mfb",
+  "name": "Firmus Microfinance Bank",
+  "shortName": "Firmus",
+  "aliases": ["Firmus MFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.firmusmfb.com",
+  "bankCodes": ["51314"],
+  "source": {
+    "url": "https://www.firmusmfb.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.firmusmfb.firmusmfbmobile",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

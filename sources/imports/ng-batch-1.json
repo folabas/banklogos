@@ -1,0 +1,672 @@
+[
+  {
+    "bankCode": "51455",
+    "id": "5tt-mfb",
+    "name": "5TT Microfinance Bank",
+    "shortName": "5TT",
+    "aliases": ["5TT MFB", "5TT Bank"],
+    "website": "https://5ttbank.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://5ttbank.com/assets/5tt-bank-logo-ySLSCMoc.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://5ttbank.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/_DaTjiGlkuc_hprbu_wwmVPFaTxGvL8xMDY5AgX9ba7MzfdMMXujM7E8QAXWY_FTdsNLye61wDMKYlP0vA-m=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.fivettmfb.fivettmfbmobile.com"
+    },
+    "sameBrandAs": null,
+    "notes": "Header logo PNG is 679x187, found in the site's JS bundle (SPA). The site also has a 3131px WebP brand mark (/assets/Logofan-DLtgYkwB.webp). App developer is '5TT Partners' and links to 5ttbank.com."
+  },
+  {
+    "bankCode": "40195",
+    "id": "78-finance",
+    "name": "78 Finance",
+    "shortName": "78",
+    "aliases": ["78 Finance Company Ltd", "78 Financials"],
+    "website": "https://78financials.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://78financials.com/_nuxt/img/logo.78a3202.svg",
+      "format": "svg",
+      "license": "official-site",
+      "sourceUrl": "https://78financials.com"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "LOW CONFIDENCE. Pure-vector SVG header logo from 78financials.com. The company is related to Bank78 (bank78.co), whose Play app 'Bank 78' lists a 78financials.com contact. But Bank78 calls itself 'Bank78 Microfinance Bank', so it may be a separate licensed entity. Bank78 assets if needed: https://www.bank78.co/svgs/78logo.png (956x954 PNG), https://www.bank78.co/svgs/favion.svg (pure SVG), and the Play icon com.bank78.mobile_app. Not used as mark because the entity match is unclear."
+  },
+  {
+    "bankCode": "090629",
+    "id": "9japay",
+    "name": "9jaPay",
+    "shortName": "9jaPay",
+    "aliases": ["9jaPay Microfinance Bank"],
+    "website": "https://9japay.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://9japay.com/_next/static/media/9jaPay_Logo.fd996e17.svg",
+      "format": "svg",
+      "license": "official-site",
+      "sourceUrl": "https://9japay.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/a9ihVf39ob6QKURKTIc63lDGTimSrPjwsnSpT8Ag301tpFgQaYBuoYC3qhKbTrGoP5D7b4qxmtTVEOn5lZjtSfo=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.africafintech.superapp"
+    },
+    "sameBrandAs": null,
+    "notes": "Pure-vector SVG header logo. App developer is '9jaPay UK Limited'."
+  },
+  {
+    "bankCode": "120001",
+    "id": "9psb",
+    "name": "9PSB",
+    "shortName": "9PSB",
+    "aliases": ["9mobile 9Payment Service Bank", "9 Payment Service Bank"],
+    "website": "https://9psb.com.ng",
+    "types": ["mobile-money"],
+    "logo": {
+      "url": "https://9psb.com.ng/wp-content/uploads/2024/10/9PSB-NEW-logo-GREEN.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://9psb.com.ng"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/96WK0PiQDMf14P4FYvEuCjD2fWi-jB1Q64zIC5vXaqh046fZT0t3BVRWSm6EW8YP8d3jkkjEsbKtvc5ecumX=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.psbcustomer"
+    },
+    "sameBrandAs": null,
+    "notes": "No SVG found. Header logo PNG is 1583x592. Site icon: /wp-content/uploads/2025/02/cropped-9PSB-NEW-logo-icon-270x270.png. The app is named 'Bank9ja' (developer: 9 Payment Service Bank (9PSB))."
+  },
+  {
+    "bankCode": "404",
+    "id": "abbey-mortgage-bank",
+    "name": "Abbey Mortgage Bank",
+    "shortName": "Abbey",
+    "aliases": ["Abbey Mortgage Bank Plc", "Abbey Bank"],
+    "website": "https://abbeybank.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://abbeybank.com/static/media/new-logo.9ab45e8144f8ec745e0e.PNG",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://abbeybank.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/7fFv55lnd5QBO5QC-oMvwXIwUgEodLyd_FgfeOFvU1loDAY7w1DYLw8EviwEt7n23N9wZFZK3n5OKZU_cpSPR1s=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.abbey.app"
+    },
+    "sameBrandAs": null,
+    "notes": "abbeymortgagebank.com redirects to abbeybank.com (React SPA). The 1529x843 PNG logo was found in the main JS bundle. No SVG found. The site's logo192.png is served as HTML (rejected)."
+  },
+  {
+    "bankCode": "51204",
+    "id": "above-only-mfb",
+    "name": "Above Only MFB",
+    "shortName": "Above Only",
+    "aliases": ["Above Only Microfinance Bank", "AboveOnly MFB"],
+    "website": "https://www.aboveonlymfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://www.aboveonlymfb.com/image/profile.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.aboveonlymfb.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/3DovvtFAUE0vLElyvjBiH98-Ji7t9r630xsQ8iofP3duB3u7Tn4TlXjEVX_3nTGKZQKw557qUhsq1KHoOgvnDw=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.aboveonlymfb.aboveonlymfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Site image with alt 'AboveOnly MFB Logo' (321x305 PNG, round green badge; visually verified)."
+  },
+  {
+    "bankCode": "51312",
+    "id": "abulesoro-mfb",
+    "name": "Abulesoro MFB",
+    "shortName": "Abulesoro",
+    "aliases": ["Abulesoro Microfinance Bank"],
+    "website": "https://abulesoromfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://abulesoromfb.com/assets/logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://abulesoromfb.com"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "The only official logo found is small (76x68 PNG, from the SPA JS; green/yellow mark). The site's logo192.png is the default React placeholder (rejected). No app found on Google Play; Apple search was rate-limited (403) and could not be checked."
+  },
+  {
+    "bankCode": "044",
+    "id": "access-bank",
+    "name": "Access Bank",
+    "shortName": "Access",
+    "aliases": ["Access Bank Plc"],
+    "website": "https://www.accessbankplc.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://www.accessbankplc.com/content/images/access-lg-logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.accessbankplc.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/x-cCXGT3IXHnnveoYZdnPoJXMY2WhAWwnO0jRDTCX-zYP5cxEzvEUqUWVL1TlHugD_bXd9cVtrhETbNOZlZAQA=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.accessbank.nextgen"
+    },
+    "sameBrandAs": null,
+    "notes": "PNG only. access-lg-logo.png is 143x41; access-logo.png is 84x24. /content/images/fx-modal/access.svg wraps a PNG (rejected). The site intermittently returns 403 to scripted requests (bot protection); retry. Verified 200 image/png. The mark is the 'Access More' app icon (served as JPEG)."
+  },
+  {
+    "bankCode": "063",
+    "id": "access-bank-diamond",
+    "name": "Access Bank (Diamond)",
+    "shortName": "Access",
+    "aliases": ["Diamond Bank", "Access Bank (Diamond)"],
+    "website": "https://www.accessbankplc.com",
+    "types": ["bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": "access-bank",
+    "notes": "Legacy Diamond Bank code after the merger with Access Bank. Same brand as access-bank."
+  },
+  {
+    "bankCode": "602",
+    "id": "accion-mfb",
+    "name": "Accion Microfinance Bank",
+    "shortName": "Accion",
+    "aliases": ["Accion MFB", "AccionMonie"],
+    "website": "https://www.accionmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://framerusercontent.com/images/FmIx8T5fNkEQ0nOTvW0W8CNoLUI.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.accionmfb.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/1M6YcwjRMsiQJOczzlUKEFcXAhSRc1hJ6zdljaapFttjv3sMz55ZSIhYI97I_eSmu04Ms-uiOaTbiIC4kXxtyw=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.accion.money.accion_money"
+    },
+    "sameBrandAs": null,
+    "notes": "Header img alt='Logo' is a 3860x2520 PNG on framerusercontent.com (the Framer site's CDN). No standalone SVG found. The app is 'AccionMonie' (developer: Accion Microfinance Bank Limited)."
+  },
+  {
+    "bankCode": "90102",
+    "id": "adamawa-mortgage-bank",
+    "name": "Adamawa Mortgage Bank",
+    "shortName": "AMBL",
+    "aliases": ["Adamawa Mortgage Bank Limited", "AMBL"],
+    "website": "https://adamawamortgagebank.com.ng",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://adamawamortgagebank.com.ng/assets/img/logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://adamawamortgagebank.com.ng/pages/home"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Header logo PNG is 1532x580. /assets/img/logoround.png (1585px, house icon) could work as a square mark. No app found. The site's TLS certificate failed validation (fetched with -k)."
+  },
+  {
+    "bankCode": "090759",
+    "id": "advancly",
+    "name": "Advancly",
+    "shortName": "Advancly",
+    "aliases": ["Advancly MFB", "Advancly Microfinance Bank"],
+    "website": "https://advancly.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://advancly.com/storage/2022/06/advancly-logo.svg",
+      "format": "svg",
+      "license": "official-site",
+      "sourceUrl": "https://advancly.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/_-1AbsiMopUClT2_JA8HIHcdNXARRuvCHKcPMHmhwiN6JaQ1EMiHte-xueo3ue1Jp0_9INBB6jHDAl25A33fDOk=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.advancly"
+    },
+    "sameBrandAs": null,
+    "notes": "Pure-vector SVG header logo."
+  },
+  {
+    "bankCode": "50315",
+    "id": "aella",
+    "name": "Aella",
+    "shortName": "Aella",
+    "aliases": ["Aella MFB", "Aella Microfinance Bank", "Aella Financial Solutions"],
+    "website": "https://aellaapp.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://aellaapp.com/icons/logo-main.svg",
+      "format": "svg",
+      "license": "official-site",
+      "sourceUrl": "https://aellaapp.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/83gcasalHXomDa-OGQPuFXkY9Anq03Tqf66_0kFkzoQrEdVGmJbY0xFke3dYHJnX_fcuso5Sk-FHWYBWdXSVahk=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.aella.comportal"
+    },
+    "sameBrandAs": null,
+    "notes": "Pure-vector SVG (/icons/logo-main.svg)."
+  },
+  {
+    "bankCode": "90077",
+    "id": "ag-mortgage-bank",
+    "name": "AG Mortgage Bank",
+    "shortName": "AG Mortgage",
+    "aliases": ["AG Mortgage Bank Plc", "AGMB"],
+    "website": "https://agmortgagebankplc.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://res.cloudinary.com/dtsbauycz/image/upload/v1682220473/AGMB/home/agmblogo_nmacgl.jpg",
+      "format": "jpg",
+      "license": "official-site",
+      "sourceUrl": "https://agmortgagebankplc.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/nGqxEskPicxUFnziXgleVIpi1JNwcv65xjyV8O7UJewNFdks7Ht9x_uVD9Yv8r6MmBbk7oAlvkRYY1hGogybmg=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.agmortagemfb"
+    },
+    "sameBrandAs": null,
+    "notes": "Logo is a 340x116 JPG hosted on the bank's Cloudinary account and referenced by the site's JS bundle. The site's /logo192.png (276x276) is also available. The app 'AG Mortgage Bank' links to agmortgagebankplc.com."
+  },
+  {
+    "bankCode": "50036",
+    "id": "abu-mfb",
+    "name": "Ahmadu Bello University Microfinance Bank",
+    "shortName": "ABU MFB",
+    "aliases": ["Ahmadu Bello University Microfinance Bank", "ABU Microfinance Bank"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "NOT FOUND. No website found (only a Facebook page, facebook.com/myabubank). No Play app found; Apple search was rate-limited (403). Guessed domains abumfb.com, abumfb.com.ng, abumicrofinancebank.com and abumfbltd.com do not resolve."
+  },
+  {
+    "bankCode": "120004",
+    "id": "smartcash-psb",
+    "name": "Smartcash PSB",
+    "shortName": "Smartcash",
+    "aliases": ["Airtel Smartcash PSB", "Smartcash Payment Service Bank"],
+    "website": "https://smartcashpsb.ng",
+    "types": ["mobile-money"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/OImzbs8ase20b317vVW5GJ3luWx8OmgyvNSY7ZuEwn2hHftkg2-HT4RpXbfprN9A_5cTi_fJyDiiy-HYqj2u8jc=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.africa.smartcash"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/OImzbs8ase20b317vVW5GJ3luWx8OmgyvNSY7ZuEwn2hHftkg2-HT4RpXbfprN9A_5cTi_fJyDiiy-HYqj2u8jc=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.africa.smartcash"
+    },
+    "sameBrandAs": null,
+    "notes": "The brand is Smartcash (Airtel Africa). The own-site SVG wraps a raster (rejected), and smartcashpsb.ng/favicon.png returns HTML. Using the Play app icon (developer: Airtel Africa). Alternative parent logo: https://upload.wikimedia.org/wikipedia/commons/1/18/Airtel_logo.svg (public domain, pure SVG, verified 200), but that is the Airtel brand, not Smartcash."
+  },
+  {
+    "bankCode": "51336",
+    "id": "aku-mfb",
+    "name": "Aku",
+    "shortName": "Aku",
+    "aliases": ["AKU Microfinance Bank", "Aku MFB"],
+    "website": "https://aku.africa",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://aku.africa/logos/main.svg",
+      "format": "svg",
+      "license": "official-site",
+      "sourceUrl": "https://aku.africa"
+    },
+    "mark": {
+      "url": "https://aku.africa/favicon.svg",
+      "format": "svg",
+      "license": "official-site"
+    },
+    "sameBrandAs": null,
+    "notes": "Confirmed as the MFB: aku.africa's terms describe it as 'a full-service digital microfinance bank' licensed by CBN and name 'Aku MFB'. Both SVGs are pure vector. The Play app is com.aku.customer.app (developer 'Aku Fintech'). Caveat: the site footer names 'Akupay Services Limited'."
+  },
+  {
+    "bankCode": "090561",
+    "id": "akuchukwu-mfb",
+    "name": "Akuchukwu Microfinance Bank",
+    "shortName": "Akuchukwu",
+    "aliases": ["Akuchukwu Microfinance Bank Limited", "Akuchukwu MFB"],
+    "website": "https://akuchukwumfbltd.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://akuchukwumfbltd.com/images/logos/akuchukwu%20png.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://akuchukwumfbltd.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/YMfaHRHWKTf3_dP_JvpkQ-vNaVRaKjl5LilQvzTKDQ6hdM56GsFnOQhHwB6fEaqpW7tPuhGzQ6sF2X34faAe5g=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.akuchukwumfb.akuchukwumfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Header logo PNG is 6095x1350. Footer logo: 'akuchukwu logo png 2.png'. Frame-282482.svg contains an embedded base64 image (rejected). The icon is served as JPEG."
+  },
+  {
+    "bankCode": "50055",
+    "id": "al-barakah-mfb",
+    "name": "Al-Barakah MFB",
+    "shortName": "Al-Barakah",
+    "aliases": ["Al-Barakah Microfinance Bank"],
+    "website": "https://albarakahmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/kz2ifnkQjyzsYB03_o60w27ucGMpxUjnseRComeddt3Nt93k40sPvuDHrzX1Ltzz8-XDWFpameyuXxpQ4q4=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.albarakahmfb.albarakahmobile"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/kz2ifnkQjyzsYB03_o60w27ucGMpxUjnseRComeddt3Nt93k40sPvuDHrzX1Ltzz8-XDWFpameyuXxpQ4q4=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.albarakahmfb.albarakahmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "No logo image found in albarakahmfb.com's HTML (WordPress/Astra; only partner and placeholder images). Using the Play app icon (links to albarakahmfb.com). The icon is JPEG."
+  },
+  {
+    "bankCode": "035A",
+    "id": "alat",
+    "name": "ALAT by Wema",
+    "shortName": "ALAT",
+    "aliases": ["ALAT", "ALAT by WEMA"],
+    "website": "https://alat.ng",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/IyHmmGo1JaVjNUJd6iiaWnII2nKsDvUGA8k8yGzh8dpzzcmyjzrRsqSblajbZoGR0qd6mEFQLzj-zztVAusj3fs=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.wemabank.alat.prod"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/IyHmmGo1JaVjNUJd6iiaWnII2nKsDvUGA8k8yGzh8dpzzcmyjzrRsqSblajbZoGR0qd6mEFQLzj-zztVAusj3fs=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.wemabank.alat.prod"
+    },
+    "sameBrandAs": null,
+    "notes": "Wema Bank's digital bank. The inline header SVG on alat.ng (index 0) wraps a raster <image> via a pattern (rejected). og.png is a 1200x630 promo image, not a logo; the favicon is only .ico. Using the Play icon (developer: Wema Bank), served as JPEG."
+  },
+  {
+    "bankCode": "51074",
+    "id": "alert-mfb",
+    "name": "Alert MFB",
+    "shortName": "Alert",
+    "aliases": ["Alert Microfinance Bank"],
+    "website": "https://alertmfb.com.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://alertmfb.com.ng/Logo.svg",
+      "format": "svg",
+      "license": "official-site",
+      "sourceUrl": "https://alertmfb.com.ng"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/YbwJwr7_QF-dMrWJWgm6Zzwe4OfMBhYa-Gj4821D2G5w8ZsHNh7fxNgnuM5stpC25LQinIVR9YMgTGQ1y3WQd5Q=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.alertmfb.mobile"
+    },
+    "sameBrandAs": null,
+    "notes": "Logo.svg is 152KB but contains no <image>, base64 or script. PNG fallback: /assets/logo-BCZb8qjc.png (207x89). The app developer is 'Alert Group'."
+  },
+  {
+    "bankCode": "50059",
+    "id": "allworkers-mfb",
+    "name": "Allworkers MFB",
+    "shortName": "Allworkers",
+    "aliases": ["ALLWORKERS MFB", "Allworkers Microfinance Bank"],
+    "website": "https://allworkersmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://play-lh.googleusercontent.com/ouJGVTqSrO7gZoUP1WxS_dbruJcovGw4y_KJbWTdgn2HCbziD0oAy7XNn9wccvtv6gC3Uwabo5lSiQDZDEks=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.allworkersmfb.allworkersmfbmobile"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/ouJGVTqSrO7gZoUP1WxS_dbruJcovGw4y_KJbWTdgn2HCbziD0oAy7XNn9wccvtv6gC3Uwabo5lSiQDZDEks=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.allworkersmfb.allworkersmfbmobile"
+    },
+    "sameBrandAs": null,
+    "notes": "allworkersmfb.com is a GoDaddy site with a text header logo; no logo image was found. Using the Play app icon (links to allworkersmfb.com)."
+  },
+  {
+    "bankCode": "108",
+    "id": "alpha-morgan-bank",
+    "name": "Alpha Morgan Bank",
+    "shortName": "Alpha Morgan",
+    "aliases": ["Alpha Morgan Bank Limited"],
+    "website": "https://www.alphamorganbank.com",
+    "types": ["bank"],
+    "logo": {
+      "url": "https://www.alphamorganbank.com/images/about/logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://www.alphamorganbank.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/4K7XsUKoo0SFWy2dHNc5uk8vguXMxm_XGk7gOXeZOqCKwaWMFSBbqBF0Zr3CY4GcgvTXNNhVQMyAioZYmtK4gA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.alpha_morgan.bank"
+    },
+    "sameBrandAs": null,
+    "notes": "PNG only (364x113; path found in the Angular bundle). favicon.png is only 34x33."
+  },
+  {
+    "bankCode": "50926",
+    "id": "amju-mfb",
+    "name": "AMJU Unique MFB",
+    "shortName": "AMJU",
+    "aliases": ["Amju Unique MFB", "AMJU Unique Microfinance Bank"],
+    "website": "https://amjuuniquemfbng.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://amjuuniquemfbng.com/img/logo-round.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://amjuuniquemfbng.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/zU6Jv6P9dqiTz3hQ_c0oy_u51guDl_Pj3wQ3rPB_7GrJZf1e4PRTFarM1e-x_KVm7Ba6-uibp1lTcLz0BOEULFA=s512",
+      "format": "jpg",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.amjum"
+    },
+    "sameBrandAs": null,
+    "notes": "Round logo PNG is 1048x1048. The app is 'AMJU MFB' (developer: AMJU Microfinance Bank)."
+  },
+  {
+    "bankCode": "50083",
+    "id": "aramoko-mfb",
+    "name": "Aramoko MFB",
+    "shortName": "Aramoko",
+    "aliases": ["Aramoko Microfinance Bank"],
+    "website": "https://aramokomicrofinancebank.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://aramokomicrofinancebank.com/files/logo.jpg",
+      "format": "jpg",
+      "license": "official-site",
+      "sourceUrl": "https://aramokomicrofinancebank.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/rno8p9AZljH5A11UHTXq3YaNq4ynn0ljphJ9Rgj2sknur-SDk2o5G-6p5_btfN3RYFDGBDzYuXnyMetkzxd4GQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.fintellia.aramoko"
+    },
+    "sameBrandAs": null,
+    "notes": "Logo JPG is 460x460. The favicon links on the site return 404. The site's TLS certificate failed validation."
+  },
+  {
+    "bankCode": "401",
+    "id": "aso-savings",
+    "name": "ASO Savings and Loans",
+    "shortName": "ASO",
+    "aliases": ["ASO Savings and Loans Plc", "ASO Savings & Loans"],
+    "website": "https://www.asoplc.com",
+    "types": ["bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "NOT FOUND. The official domain asoplc.com (and www.) now redirects to unrelated/gambling sites (hijacked or lapsed), so it is not a usable source. No app on Play; Apple search was rate-limited. The only logos found are on third-party sites (seeklogo, brandfetch), which are not allowed."
+  },
+  {
+    "bankCode": "90287",
+    "id": "cashmatrix",
+    "name": "CashMatrix",
+    "shortName": "CashMatrix",
+    "aliases": ["ASSET MATRIX MFB", "Asset Matrix Microfinance Bank"],
+    "website": "https://assetmatrixmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://assetmatrixmfb.com/asset/images/logo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://assetmatrixmfb.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/cSaxpSgH4PaN2kMLexwelaauoIBH0kfVCFDeyUlH8oufeyZtSInd_wAWI7AN_Q-jdL9mnr5dEeJE3yU1UU1oHQ=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.assetcashmatrix.mfb"
+    },
+    "sameBrandAs": null,
+    "notes": "Asset Matrix MFB's consumer brand is CashMatrix (cashmatrix.ng; app developer: ASSET MATRIX MICROFINANCE BANK LIMITED). Logo is the Asset Matrix MFB site logo (294x55 PNG). CashMatrix brand logo alternative: https://cashmatrix.ng/imgs/logo1.png (823x143). Consider id 'asset-matrix-mfb' if the register name is preferred."
+  },
+  {
+    "bankCode": "50092",
+    "id": "assets-mfb",
+    "name": "Assets Microfinance Bank",
+    "shortName": "Assets MFB",
+    "aliases": ["Assets MFB"],
+    "website": "https://assetsmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://assetsmfb.com/apple-touch-icon.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://assetsmfb.com"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/qK_kyC010lgcZ8DD_FSATRZ-muyPONHhx1llE-yMsKZ33r_O-sZJ8tdj4JR3r0gxKUy9Dk7pnMZyDiiXdrKETA=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.assetsmfb.monie_tree"
+    },
+    "sameBrandAs": null,
+    "notes": "Only the apple-touch-icon (180x180) was found on the site. The Play icon (512px, developer: Assets Microfinance Bank) may be better as the logo."
+  },
+  {
+    "bankCode": "MFB50094",
+    "id": "astrapolaris-mfb",
+    "name": "Astra Polaris MFB",
+    "shortName": "Astra Polaris",
+    "aliases": ["Astrapolaris MFB LTD", "Astra-Polaris Microfinance Bank"],
+    "website": "https://astrapolaris.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://astrapolaris.com/assets/img/logo/astra-blue.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://astrapolaris.com"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "Logo PNG (798x312) is visually verified as 'ASTRA POLARIS Micro Finance Bank Nigeria Limited'. /_next/static/media/logo.cb92adc9.png is a blank white template image (rejected). Not related to Polaris Bank. No app found."
+  },
+  {
+    "bankCode": "90451",
+    "id": "atbu-mfb",
+    "name": "ATBU MFB",
+    "shortName": "ATBU MFB",
+    "aliases": ["ATBU Microfinance Bank", "Abubakar Tafawa Balewa University Microfinance Bank"],
+    "website": null,
+    "types": ["microfinance-bank"],
+    "logo": null,
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "NOT FOUND. No website or app found (Play searches and web search; atbumfb.com, atbumfb.com.ng and atbumfb.ng do not resolve). Apple search was rate-limited."
+  },
+  {
+    "bankCode": "090478",
+    "id": "avuenegbe-mfb",
+    "name": "Avuenegbe Microfinance Bank",
+    "shortName": "Avuenegbe",
+    "aliases": ["AVUENEGBE MICROFINANCE BANK"],
+    "website": "https://avuenegbemfb.com.ng",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://avuenegbemfb.com.ng/wp-content/uploads/2026/02/cropped-icon-270x270.jpg",
+      "format": "jpg",
+      "license": "official-site",
+      "sourceUrl": "https://avuenegbemfb.com.ng"
+    },
+    "mark": null,
+    "sameBrandAs": null,
+    "notes": "MEDIUM CONFIDENCE. The site icon (270x270 'A' on hexagons) is the only real brand image. The header custom-logo 'logo@2-MA.png' is a WordPress theme demo logo reading 'ARENA' (rejected). No app found."
+  },
+  {
+    "bankCode": "51351",
+    "id": "awacash-mfb",
+    "name": "Awacash",
+    "shortName": "Awacash",
+    "aliases": ["AWACASH MICROFINANCE BANK", "Awacash MFB"],
+    "website": "https://awacashmfb.com",
+    "types": ["microfinance-bank"],
+    "logo": {
+      "url": "https://awacashmfb.com/en/assets/images/app/awacashLogo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://awacashmfb.com/en/index.html"
+    },
+    "mark": {
+      "url": "https://play-lh.googleusercontent.com/cHJ5iR2sdlIc81JSMAHqGJQ360fTGm2h2cG3Qi6MKeQjSteMlV8b472_moBzThw7cUlIMIj46lwjNOmJELZjIw=s512",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.kreateng.awacash"
+    },
+    "sameBrandAs": null,
+    "notes": "Site logo is small (128x30 PNG). The Play app is 'Awacash' (developer 'Kreateng', links to app.awacashmfb.com). Site icon PNG: /en/assets/images/chatbot/Awacash-main-icon.png (138x218)."
+  }
+]

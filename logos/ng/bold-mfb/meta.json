@@ -1,0 +1,19 @@
+{
+  "id": "bold-mfb",
+  "name": "Bold MFB",
+  "shortName": "Bold",
+  "aliases": ["BOLD MFB", "Bold Microfinance Bank Limited", "Kele"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "bankCodes": ["50725"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.boldmfb.mobile",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

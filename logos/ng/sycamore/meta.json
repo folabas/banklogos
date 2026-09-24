@@ -1,0 +1,19 @@
+{
+  "id": "sycamore",
+  "name": "Sycamore",
+  "aliases": ["Sycamore Microfinance Bank", "Sycamore MFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://sycamore.ng",
+  "bankCodes": ["51056"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=ng.sycamore.app2",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

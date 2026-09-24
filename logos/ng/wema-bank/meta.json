@@ -7,9 +7,7 @@
   "markets": ["NG"],
   "types": ["bank"],
   "variants": ["logo", "mark"],
-  "colors": {
-    "primary": "#981D87"
-  },
+  "colors": { "primary": "#981D87" },
   "website": "https://wemabank.com",
   "bankCodes": ["035"],
   "source": {
@@ -25,5 +23,10 @@
     }
   },
   "verified": false,
-  "addedIn": "0.1.0"
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "commercial-bank",
+    "registryId": "23"
+  }
 }

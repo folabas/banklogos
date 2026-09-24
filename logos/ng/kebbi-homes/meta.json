@@ -1,0 +1,20 @@
+{
+  "id": "kebbi-homes",
+  "name": "Kebbi Home Savings",
+  "shortName": "Kebbi Homes",
+  "aliases": ["Kebbi Homes Savings and Loans Limited", "Kebbi State Home Savings and Loans Ltd", "KHSL"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://kebbihomesavings.com",
+  "bankCodes": ["90028"],
+  "source": {
+    "url": "https://kebbihomesavings.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

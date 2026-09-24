@@ -1,0 +1,20 @@
+{
+  "id": "cashconnect-mfb",
+  "name": "CashConnect MFB",
+  "shortName": "CashConnect",
+  "aliases": ["CASHCONNECT MFB", "Cashconnect Microfinance Bank Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://cashconnectng.com",
+  "bankCodes": ["865"],
+  "source": {
+    "url": "https://cashconnectng.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

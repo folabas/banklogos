@@ -1,0 +1,26 @@
+{
+  "id": "9japay",
+  "name": "9jaPay",
+  "aliases": ["9jaPay Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "mark": "png" },
+  "website": "https://9japay.com",
+  "bankCodes": ["090629"],
+  "source": {
+    "url": "https://9japay.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.africafintech.superapp",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

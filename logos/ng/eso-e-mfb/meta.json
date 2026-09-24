@@ -1,0 +1,27 @@
+{
+  "id": "eso-e-mfb",
+  "name": "Eso-E Microfinance Bank",
+  "shortName": "Eso-E MFB",
+  "aliases": ["ESO-E MICROFINANCE BANK LIMITED"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.esoemfb.com",
+  "bankCodes": ["50280"],
+  "source": {
+    "url": "https://www.esoemfb.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.esoe_client.ng",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

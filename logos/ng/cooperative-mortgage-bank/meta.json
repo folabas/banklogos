@@ -1,0 +1,20 @@
+{
+  "id": "cooperative-mortgage-bank",
+  "name": "Cooperative Mortgage Bank",
+  "shortName": "CMBank",
+  "aliases": ["CMB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://www.cmbankng.com",
+  "bankCodes": ["90089"],
+  "source": {
+    "url": "https://www.cmbankng.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

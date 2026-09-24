@@ -1,0 +1,20 @@
+{
+  "id": "al-barakah-mfb",
+  "name": "Al-Barakah MFB",
+  "shortName": "Al-Barakah",
+  "aliases": ["Al-Barakah Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://albarakahmfb.com",
+  "bankCodes": ["50055"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.albarakahmfb.albarakahmobile",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

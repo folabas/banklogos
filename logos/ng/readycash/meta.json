@@ -1,0 +1,19 @@
+{
+  "id": "readycash",
+  "name": "Readycash",
+  "aliases": ["Parkway - ReadyCash", "Parkway ReadyCash", "Readycash by Parkway", "Parkway Projects"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["mobile-money", "e-wallet"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://readycash.parkway.ng",
+  "bankCodes": ["311"],
+  "source": {
+    "url": "https://play.google.com/store/apps/details?id=com.readycash.app",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

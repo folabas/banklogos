@@ -1,0 +1,26 @@
+{
+  "id": "branch",
+  "name": "Branch",
+  "aliases": ["Branch International Finance Company Limited", "Branch International Financial Services Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "mark": "png" },
+  "website": "https://branch.co/ng/",
+  "bankCodes": ["FC40163"],
+  "source": {
+    "url": "https://branch.co/ng/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.branch_international.branch.branch_demo_android",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

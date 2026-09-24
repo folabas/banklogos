@@ -1,0 +1,27 @@
+{
+  "id": "abbey-mortgage-bank",
+  "name": "Abbey Mortgage Bank",
+  "shortName": "Abbey",
+  "aliases": ["Abbey Mortgage Bank Plc", "Abbey Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://abbeybank.com",
+  "bankCodes": ["404"],
+  "source": {
+    "url": "https://abbeybank.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.abbey.app",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

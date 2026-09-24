@@ -1,0 +1,20 @@
+{
+  "id": "nsuk-mfb",
+  "name": "NSUK Microfinance Bank",
+  "shortName": "NSUK MFB",
+  "aliases": ["NSUK MICROFINANACE BANK", "NSUK Microfinance Bank Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://nsukmfb.ng",
+  "bankCodes": ["51261"],
+  "source": {
+    "url": "https://nsukmfb.ng",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

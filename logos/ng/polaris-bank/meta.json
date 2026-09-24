@@ -1,0 +1,32 @@
+{
+  "id": "polaris-bank",
+  "name": "Polaris Bank",
+  "shortName": "Polaris",
+  "aliases": ["Polaris Bank Limited"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.polarisbanklimited.com",
+  "bankCodes": ["076"],
+  "source": {
+    "url": "https://commons.wikimedia.org/wiki/File:POLARIS_LOGO.png",
+    "license": "cc-by-sa",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://www.polarisbanklimited.com",
+      "license": "official-site",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "commercial-bank",
+    "registryId": "12"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "brent-mortgage-bank",
+  "name": "Brent Mortgage Bank",
+  "shortName": "Brent",
+  "aliases": ["Brent Mortgage bank", "Brent Mortgage Bank Ltd", "Skyfield Savings and Loans"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://brentng.com",
+  "bankCodes": ["90070"],
+  "source": {
+    "url": "https://brentng.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

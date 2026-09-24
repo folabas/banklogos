@@ -1,0 +1,32 @@
+{
+  "id": "mtn-momo",
+  "name": "MTN MoMo",
+  "shortName": "MoMo",
+  "aliases": ["MTN Momo PSB", "MoMo Payment Service Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["mobile-money"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://www.momo.ng",
+  "bankCodes": ["120003"],
+  "source": {
+    "url": "https://www.momo.ng",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.mtngroupfintech.consumerapp",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "payment-service-bank",
+    "registryId": "9846"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "first-option-mfb",
+  "name": "First Option Microfinance Bank",
+  "shortName": "First Option",
+  "aliases": ["First Option MFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://firstoptionbank.ng",
+  "bankCodes": ["50934"],
+  "source": {
+    "url": "https://firstoptionbank.ng/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://play.google.com/store/apps/details?id=com.firstoptionmfb.firstoptionmfbmobile",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

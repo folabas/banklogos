@@ -1,0 +1,20 @@
+{
+  "id": "clearpay-mfb",
+  "name": "ClearPay Microfinance Bank",
+  "shortName": "ClearPay",
+  "aliases": ["Fedeth MFB", "Fedeth Microfinance Bank Limited", "ClearPay MFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://clearpaymfb.com",
+  "bankCodes": ["50298"],
+  "source": {
+    "url": "https://clearpaymfb.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

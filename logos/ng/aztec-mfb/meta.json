@@ -1,0 +1,27 @@
+{
+  "id": "aztec-mfb",
+  "name": "Aztec MFB",
+  "shortName": "Aztec",
+  "aliases": ["AZTEC MICROFINANCE BANK LIMITED", "Aztec MFBank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://aztecmfbank.com",
+  "bankCodes": ["51337"],
+  "source": {
+    "url": "https://aztecmfbank.com/",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://apps.apple.com/ng/app/aztec-mfb-mobile/id1658947539",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}
