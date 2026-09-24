@@ -1,0 +1,15 @@
+{
+  "name": "bank-picker-example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 4179",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "fintech-logos": "file:../../packages/core"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}

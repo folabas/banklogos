@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bank picker — fintech-logos example</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Choose your bank</h1>
+      <p class="hint">A "choose your bank" screen built with <code>fintech-logos</code>.</p>
+      <div class="controls">
+        <input id="search" type="search" placeholder="Search banks (e.g. kuda, gtb, moniepoint)" autocomplete="off" />
+        <input id="code" type="text" placeholder="Bank code (e.g. 058)" autocomplete="off" />
+      </div>
+      <p id="status" class="hint"></p>
+      <ul id="banks"></ul>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

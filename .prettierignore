@@ -4,3 +4,5 @@ packages/core/src/generated/
 logos/**/*.svg
 package-lock.json
 packages/core/assets/
+examples/*/dist/
+examples/*/package-lock.json

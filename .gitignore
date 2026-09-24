@@ -7,3 +7,6 @@ preview/
 .DS_Store
 packages/core/assets/
 import-report.json
+examples/*/node_modules/
+examples/*/dist/
+examples/*/package-lock.json
