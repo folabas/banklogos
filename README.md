@@ -26,17 +26,17 @@ listByType('mobile-money');
 
 Lookups never throw. An unknown id or name returns `undefined`.
 
-The metadata above holds no image data. Import each logo on its own, so your bundle contains only the logos you use:
+The metadata above holds no image data. Import each logo on its own, so your app only ships the logos it uses:
 
 ```ts
-import gtbank from 'fintech-logos/img/gtbank'; // data URI for <img src>, works for every logo (SVG or PNG)
+import gtbank from 'fintech-logos/img/gtbank'; // URL for <img src>, any format
 import gtbankMark from 'fintech-logos/img/gtbank-mark'; // icon-only mark, when the entity has one
-import gtbankSvg from 'fintech-logos/svg/gtbank'; // raw SVG markup, only for logos whose format is svg
+import gtbankSvg from 'fintech-logos/svg/gtbank'; // raw SVG markup, only for logos shipped as SVG
 ```
 
-The raw files are also shipped under `fintech-logos/assets/<id>.<svg|png>` (and `<id>-mark.<ext>`), for bundler URL imports or non-JS use.
+`img/<id>` imports the image file itself, so your bundler (Vite, webpack, Next.js, Parcel, Rollup with an asset plugin) emits it and gives you its URL, in dev and production builds alike. In plain Node, `require('fintech-logos/img/<id>')` returns the `file://` URL of the file inside the installed package. The files are also available directly as `fintech-logos/assets/<id>.<svg|webp>` (and `<id>-mark.<ext>`). Test runners that don't understand image imports (e.g. Jest) need their usual image mock.
 
-Most logos are SVG. Where an institution publishes no vector logo, the package ships its official PNG (logo, or app icon), resized to at most 512px. `entity.formats` tells you which variants are PNG.
+Logos are shipped as SVG where the institution publishes a vector logo, and as WebP otherwise (the institution's official PNG or app icon, at most 512px). `entity.formats` tells you which variants are WebP.
 
 ## Entity metadata
 
@@ -47,7 +47,7 @@ Most logos are SVG. Where an institution publishes no vector logo, the package s
 | `markets`                      | Countries where the brand operates                                                                          |
 | `types`                        | `bank`, `microfinance-bank`, `mobile-money`, `e-wallet`, `payment-gateway`, `card-network`, `crypto`        |
 | `variants`                     | `logo` (always present), `mark` (optional icon-only version)                                                |
-| `formats`                      | Variants that are PNG rather than SVG, e.g. `{ "logo": "png" }`                                             |
+| `formats`                      | Variants shipped as WebP rather than SVG, e.g. `{ "logo": "webp" }`                                         |
 | `bankCodes`                    | Bank codes used by transfer APIs (Nigeria: Paystack/NIBSS codes like `"058"`)                               |
 | `verified`                     | `true` once a maintainer has confirmed the logo is current. Filter on it if you only want reviewed entries. |
 | `source.url`, `source.license` | Where the file came from                                                                                    |

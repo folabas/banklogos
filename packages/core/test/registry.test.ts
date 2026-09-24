@@ -3,16 +3,18 @@ import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
 import { formatOf, getLogo, listAll, listByCountry, listByType, searchLogos } from '../src/index.js';
 
-const module = (kind: 'svg' | 'img', name: string) =>
-  fileURLToPath(new URL(`../src/generated/${kind}/${name}.ts`, import.meta.url));
+const svgModule = (name: string) => fileURLToPath(new URL(`../src/generated/svg/${name}.ts`, import.meta.url));
+const asset = (file: string) => fileURLToPath(new URL(`../assets/${file}`, import.meta.url));
 
 describe('generated registry', () => {
-  it('has an img module for every variant, and an svg module for every SVG variant', () => {
+  it('ships a file for every variant in its reported format, and an svg module for SVG variants', () => {
     for (const entity of listAll()) {
       for (const variant of entity.variants) {
         const name = variant === 'logo' ? entity.id : `${entity.id}-${variant}`;
-        expect(existsSync(module('img', name)), name).toBe(true);
-        expect(existsSync(module('svg', name)), name).toBe(formatOf(entity, variant) === 'svg');
+        const format = formatOf(entity, variant);
+        expect(['svg', 'webp'], name).toContain(format);
+        expect(existsSync(asset(`${name}.${format}`)), name).toBe(true);
+        expect(existsSync(svgModule(name)), name).toBe(format === 'svg');
       }
     }
   });

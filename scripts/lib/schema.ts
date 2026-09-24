@@ -1,5 +1,7 @@
 import { z } from 'zod';
-import { LICENSES, LOGO_FORMATS, LOGO_TYPES, LOGO_VARIANTS, type LogoEntity } from '../../packages/core/src/types.js';
+import { LICENSES, LOGO_TYPES, LOGO_VARIANTS, type LogoEntity } from '../../packages/core/src/types.js';
+
+const SOURCE_FORMATS = ['svg', 'png'] as const;
 
 const countryCode = z.string().regex(/^[A-Z]{2}$/, 'must be an upper-case ISO 3166-1 alpha-2 code');
 const isoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'must be YYYY-MM-DD');
@@ -20,7 +22,8 @@ export const logoMetaSchema = z
       .min(1)
       .refine((v) => v.includes('logo'), 'must include "logo"'),
     formats: z
-      .strictObject({ logo: z.enum(LOGO_FORMATS).optional(), mark: z.enum(LOGO_FORMATS).optional() })
+      // Sources are SVG or lossless PNG; WebP is only produced for the package at build time.
+      .strictObject({ logo: z.enum(SOURCE_FORMATS).optional(), mark: z.enum(SOURCE_FORMATS).optional() })
       .optional(),
     colors: z.strictObject({ primary: hexColor.optional(), secondary: hexColor.optional() }).optional(),
     website: z.url().optional(),
@@ -70,6 +73,7 @@ export const logoMetaSchema = z
 // Compile-time check that the schema and the published type agree.
 type Meta = z.infer<typeof logoMetaSchema>;
 const _metaIsEntity = (m: Meta): LogoEntity => m;
-const _entityIsMeta = (e: LogoEntity): Meta => e;
+// The package may report "webp" formats; source metadata never does, so formats is compared one way only.
+const _entityIsMeta = (e: Omit<LogoEntity, 'formats'>): Omit<Meta, 'formats'> => e;
 void _metaIsEntity;
 void _entityIsMeta;

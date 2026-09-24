@@ -49,6 +49,10 @@ Always set `verified: false`. A maintainer changes it to `true` after reviewing 
 
 Never trace a raster image. If no clean SVG exists, open a "wanted logo" issue instead.
 
+## File formats
+
+Keep originals lossless: `logo.svg` when the brand publishes a vector, otherwise the official image as `logo.png` (with `"formats": { "logo": "png" }`). The importer converts JPEG/WebP sources to PNG. The package build converts PNGs to WebP; never commit WebP.
+
 ## SVG rules (checked by `npm run validate`)
 
 - The root `<svg>` has a valid `viewBox`.

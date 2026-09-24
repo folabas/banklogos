@@ -6,3 +6,4 @@ package-lock.json
 packages/core/assets/
 examples/*/dist/
 examples/*/package-lock.json
+.cache/

@@ -15,6 +15,12 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      # WebP encodes of logos/ PNGs, keyed by content hash; saves ~5 minutes per run.
+      - uses: actions/cache@v4
+        with:
+          path: .cache/webp
+          key: webp-${{ hashFiles('logos/**/*.png') }}
+          restore-keys: webp-
       - run: npm run validate
       - run: npm run normalize -- --check
       - run: npm run format:check

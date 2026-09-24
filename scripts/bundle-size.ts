@@ -20,7 +20,7 @@ const KB = 1024;
 const scenarios: Scenario[] = [
   { name: 'one logo SVG', code: `import svg from 'fintech-logos/svg/gtbank'; console.log(svg);`, budget: 5 * KB },
   {
-    name: 'one logo as <img> data URI',
+    name: 'one logo as <img> URL',
     code: `import src from 'fintech-logos/img/gtbank'; console.log(src);`,
     budget: 5 * KB,
   },
@@ -62,8 +62,11 @@ for (const s of scenarios) {
     platform: 'browser',
     write: false,
     logLevel: 'silent',
+    // img/<id> modules import the image file itself; count it as an emitted file, not as JS.
+    loader: { '.svg': 'file', '.webp': 'file', '.png': 'file' },
+    outdir: join(ROOT, '.cache/size'),
   });
-  const bytes = out.outputFiles[0]!.contents;
+  const bytes = out.outputFiles.find((f) => f.path.endsWith('.js'))!.contents;
   results.push({ ...s, raw: bytes.length, gzip: gzipSync(bytes, { level: 9 }).length });
 }
 

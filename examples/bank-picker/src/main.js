@@ -1,7 +1,10 @@
-import { getLogo, listByCountry, searchLogos, formatOf } from 'fintech-logos';
-// Raw files shipped in the package, turned into URLs by the bundler (only the ones rendered get requested).
-const assetUrls = import.meta.glob('/node_modules/fintech-logos/assets/*', {
-  query: '?url',
+import { getLogo, listByCountry, searchLogos } from 'fintech-logos';
+// An app that knows which logos it needs imports them directly:
+import gtbankLogo from 'fintech-logos/img/gtbank';
+import accessLogo from 'fintech-logos/img/access-bank';
+
+// This picker shows every bank, so it loads all img/<id> modules (each is a one-line URL to the shipped file).
+const imgModules = import.meta.glob('/node_modules/fintech-logos/dist/generated/img/*.js', {
   import: 'default',
   eager: true,
 });
@@ -9,8 +12,11 @@ const assetUrls = import.meta.glob('/node_modules/fintech-logos/assets/*', {
 const urlFor = (entity, variant = 'mark') => {
   const v = entity.variants.includes(variant) ? variant : 'logo';
   const name = v === 'logo' ? entity.id : `${entity.id}-${v}`;
-  return assetUrls[`/node_modules/fintech-logos/assets/${name}.${formatOf(entity, v)}`];
+  return imgModules[`/node_modules/fintech-logos/dist/generated/img/${name}.js`];
 };
+
+document.getElementById('featured').src = gtbankLogo;
+document.getElementById('featured2').src = accessLogo;
 
 const list = document.getElementById('banks');
 const status = document.getElementById('status');

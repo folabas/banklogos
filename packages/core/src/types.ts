@@ -12,7 +12,8 @@ export type LogoType = (typeof LOGO_TYPES)[number];
 export const LOGO_VARIANTS = ['logo', 'mark'] as const;
 export type LogoVariant = (typeof LOGO_VARIANTS)[number];
 
-export const LOGO_FORMATS = ['svg', 'png'] as const;
+/** Shipped formats. Sources in logos/ are svg or png; the package ships rasters as webp. */
+export const LOGO_FORMATS = ['svg', 'png', 'webp'] as const;
 export type LogoFormat = (typeof LOGO_FORMATS)[number];
 
 export const LICENSES = [
@@ -52,7 +53,7 @@ export interface LogoEntity {
   types: LogoType[];
   /** Variants available. `logo` is always present. */
   variants: LogoVariant[];
-  /** File format per variant, when not SVG. Raster logos are used only where the brand publishes no vector. */
+  /** File format per variant, when not SVG (webp in the package, png in logos/). Rasters are used only where the brand publishes no vector. */
   formats?: Partial<Record<LogoVariant, LogoFormat>>;
   colors?: { primary?: string; secondary?: string };
   website?: string;

@@ -10,3 +10,4 @@ import-report.json
 examples/*/node_modules/
 examples/*/dist/
 examples/*/package-lock.json
+.cache/
