@@ -1,18 +1,36 @@
 import { registry } from './generated/registry.js';
-import { createIndex } from './lookup.js';
+import { createIndex, type LogoIndex, type NameQuery } from './lookup.js';
+import type { LogoEntity, LogoType } from './types.js';
 
 export type { LogoEntity, LogoType, LogoVariant, LogoSource, License, Scope } from './types.js';
 export { LOGO_TYPES, LOGO_VARIANTS, LICENSES } from './types.js';
 export type { NameQuery, LogoIndex } from './lookup.js';
 export { createIndex, normalize } from './lookup.js';
 
-const index = createIndex(registry);
+// Built on first use rather than at import time, so bundlers can drop the registry
+// from apps that only import types, constants or createIndex.
+let index: LogoIndex | undefined;
+const getIndex = () => (index ??= createIndex(registry));
 
 /** Look up a logo by id, or by name/alias (optionally preferring a country). Returns undefined when nothing matches. */
-export const getLogo = index.getLogo;
+export function getLogo(query: string | NameQuery): LogoEntity | undefined {
+  return getIndex().getLogo(query);
+}
+
 /** Search names, short names and aliases. Exact matches rank first, then prefix, then substring. */
-export const searchLogos = index.searchLogos;
+export function searchLogos(query: string, options?: { limit?: number }): LogoEntity[] {
+  return getIndex().searchLogos(query, options);
+}
+
 /** Entities scoped to a country or operating in it (e.g. Visa appears in listByCountry("NG")). */
-export const listByCountry = index.listByCountry;
-export const listByType = index.listByType;
-export const listAll = index.all;
+export function listByCountry(countryCode: string): LogoEntity[] {
+  return getIndex().listByCountry(countryCode);
+}
+
+export function listByType(type: LogoType): LogoEntity[] {
+  return getIndex().listByType(type);
+}
+
+export function listAll(): LogoEntity[] {
+  return getIndex().all();
+}
