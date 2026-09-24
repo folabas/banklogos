@@ -1,10 +1,10 @@
 import { registry } from './generated/registry.js';
-import { createIndex, type LogoIndex, type NameQuery } from './lookup.js';
+import { createIndex, type LogoIndex, type LogoQuery } from './lookup.js';
 import type { LogoEntity, LogoType } from './types.js';
 
 export type { LogoEntity, LogoType, LogoVariant, LogoSource, License, Scope } from './types.js';
 export { LOGO_TYPES, LOGO_VARIANTS, LICENSES } from './types.js';
-export type { NameQuery, LogoIndex } from './lookup.js';
+export type { NameQuery, BankCodeQuery, LogoQuery, LogoIndex } from './lookup.js';
 export { createIndex, normalize } from './lookup.js';
 
 // Built on first use rather than at import time, so bundlers can drop the registry
@@ -12,8 +12,11 @@ export { createIndex, normalize } from './lookup.js';
 let index: LogoIndex | undefined;
 const getIndex = () => (index ??= createIndex(registry));
 
-/** Look up a logo by id, or by name/alias (optionally preferring a country). Returns undefined when nothing matches. */
-export function getLogo(query: string | NameQuery): LogoEntity | undefined {
+/**
+ * Look up a logo by id, by name/alias (optionally preferring a country), or by bank code:
+ * getLogo('gtbank'), getLogo({ name: 'GTB' }), getLogo({ bankCode: '058' }). Returns undefined when nothing matches.
+ */
+export function getLogo(query: string | LogoQuery): LogoEntity | undefined {
   return getIndex().getLogo(query);
 }
 

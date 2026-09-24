@@ -45,6 +45,8 @@ export interface LogoEntity {
   variants: LogoVariant[];
   colors?: { primary?: string; secondary?: string };
   website?: string;
+  /** Bank codes used by transfer APIs in the entity's country (Nigeria: CBN/NIBSS codes as Paystack returns them, e.g. "058"). */
+  bankCodes?: string[];
   regulatorRef?: {
     body: string;
     category?: string;

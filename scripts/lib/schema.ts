@@ -21,6 +21,10 @@ export const logoMetaSchema = z
       .refine((v) => v.includes('logo'), 'must include "logo"'),
     colors: z.strictObject({ primary: hexColor.optional(), secondary: hexColor.optional() }).optional(),
     website: z.url().optional(),
+    bankCodes: z
+      .array(z.string().regex(/^\d{2,9}$/, 'must be 2-9 digits'))
+      .min(1)
+      .optional(),
     regulatorRef: z
       .strictObject({
         body: z.string().min(1),
@@ -48,8 +52,8 @@ export const logoMetaSchema = z
       }
     }
     const dupes = (arr: string[]) => arr.filter((v, i) => arr.indexOf(v) !== i);
-    for (const key of ['aliases', 'markets', 'types', 'variants'] as const) {
-      const d = dupes(meta[key] as string[]);
+    for (const key of ['aliases', 'markets', 'types', 'variants', 'bankCodes'] as const) {
+      const d = dupes((meta[key] ?? []) as string[]);
       if (d.length) ctx.addIssue({ code: 'custom', path: [key], message: `duplicate values: ${d.join(', ')}` });
     }
   });

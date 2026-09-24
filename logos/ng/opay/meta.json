@@ -11,6 +11,7 @@
     "secondary": "#210F60"
   },
   "website": "https://www.opayweb.com",
+  "bankCodes": ["999992"],
   "regulatorRef": {
     "body": "CBN",
     "category": "mobile-money-operator"

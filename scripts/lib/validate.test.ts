@@ -103,6 +103,17 @@ describe('validateFolders', () => {
     expect(errors.join('\n')).toMatch(/variantSources.mark: "mark" is not listed in variants/);
   });
 
+  it('rejects a bank code claimed by two entities in the same country', () => {
+    const a = folder({ meta: meta({ bankCodes: ['058'] }) });
+    const b = folder({
+      idDir: 'other',
+      meta: meta({ id: 'other', name: 'Other Bank', aliases: [], bankCodes: ['058'] }),
+    });
+    expect(run([a, b]).errors).toContain('bank code 058 (NG) is claimed by both "gtbank" and "other"');
+    const bad = run([folder({ meta: meta({ bankCodes: ['05A'] }) })]);
+    expect(bad.errors.join(' ')).toMatch(/bankCodes.0: must be 2-9 digits/);
+  });
+
   it('rejects duplicate ids across scopes', () => {
     const gh = folder({ scopeDir: 'gh', meta: meta({ scope: 'GH', markets: ['GH'] }) });
     expect(run([folder(), gh]).errors.join('\n')).toMatch(/already used by logos\/ng\/gtbank/);

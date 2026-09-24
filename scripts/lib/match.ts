@@ -13,7 +13,7 @@ export function matchKey(name: string): string {
 export interface Coverage {
   /** Linked by regulatorRef.registryId. */
   covered: { entry: SourceEntry; entity: LogoEntity }[];
-  /** Same name, but the entity has no registryId yet: add it to meta.json. */
+  /** Same name, but not linked yet: add the registryId or bank code to meta.json. */
   nameOnly: { entry: SourceEntry; entity: LogoEntity }[];
   /** No logo yet. */
   missing: SourceEntry[];
@@ -23,11 +23,14 @@ export interface Coverage {
 
 export function matchCoverage(snapshot: SourceSnapshot, entities: LogoEntity[]): Coverage {
   const inScope = entities.filter((e) => e.scope === snapshot.scope);
-  const byRegistryId = new Map(
-    inScope
-      .filter((e) => e.regulatorRef?.body === snapshot.regulator && e.regulatorRef.registryId)
-      .map((e) => [e.regulatorRef!.registryId!, e]),
-  );
+  // Link keys: the regulator's id for register snapshots, bank codes for payment-network snapshots.
+  const byRegistryId = new Map<string, LogoEntity>();
+  for (const e of inScope) {
+    if (snapshot.matchBy === 'bankCode') for (const code of e.bankCodes ?? []) byRegistryId.set(code, e);
+    else if (e.regulatorRef?.body === snapshot.regulator && e.regulatorRef.registryId) {
+      byRegistryId.set(e.regulatorRef.registryId, e);
+    }
+  }
   const byName = new Map<string, LogoEntity>();
   for (const e of inScope) {
     for (const n of [e.name, e.shortName, ...e.aliases]) if (n) byName.set(matchKey(n), e);
@@ -41,7 +44,8 @@ export function matchCoverage(snapshot: SourceSnapshot, entities: LogoEntity[]):
       continue;
     }
     const named = byName.get(matchKey(entry.legalName));
-    if (named && !named.regulatorRef?.registryId) result.nameOnly.push({ entry, entity: named });
+    const alreadyLinked = snapshot.matchBy === 'bankCode' ? false : Boolean(named?.regulatorRef?.registryId);
+    if (named && !alreadyLinked) result.nameOnly.push({ entry, entity: named });
     else result.missing.push(entry);
   }
   const listed = new Set(snapshot.entries.map((e) => e.registryId));

@@ -75,6 +75,17 @@ export function validateFolders(
     }
   }
 
+  // A bank code must resolve to exactly one entity in its country, or getLogo({ bankCode }) is ambiguous.
+  const codeOwner = new Map<string, string>();
+  for (const entity of entities) {
+    for (const code of entity.bankCodes ?? []) {
+      const key = `${entity.scope}:${code}`;
+      const other = codeOwner.get(key);
+      if (other) errors.push(`bank code ${code} (${entity.scope}) is claimed by both "${other}" and "${entity.id}"`);
+      else codeOwner.set(key, entity.id);
+    }
+  }
+
   entities.sort((a, b) => a.id.localeCompare(b.id));
   return { entities, errors, warnings };
 }

@@ -1,29 +1,36 @@
 import type { LogoType } from '../packages/core/src/types.js';
 
-/** One licensed institution from a regulator's register. */
+/** One institution from a source list. */
 export interface SourceEntry {
-  /** The regulator's own identifier for the institution. Stable across renames. */
+  /** The source's own identifier for the institution. Stable across renames. */
   registryId: string;
-  /** Name as the regulator lists it, with whitespace cleaned up. */
+  /** Name as the source lists it, with whitespace cleaned up. */
   legalName: string;
-  /** Regulator category, e.g. "commercial-bank", "microfinance-bank". */
+  /** Category, e.g. "commercial-bank", "microfinance-bank". */
   category: string;
-  /** The types an entity from this category gets. */
+  /** The types an entity from this category gets by default. */
   types: LogoType[];
+  /** Bank code used by transfer APIs, when the source provides one. */
+  bankCode?: string;
 }
 
-/** A saved copy of a country's source list, committed under sources/snapshots/. */
+/** A saved copy of a source list, committed under sources/snapshots/. */
 export interface SourceSnapshot {
   scope: string;
+  /** Who publishes the list, e.g. "CBN" or "Paystack". */
   regulator: string;
+  /** How entries are linked to logo entities: CBN register id, or bank code. */
+  matchBy: 'registryId' | 'bankCode';
   fetchedAt: string;
   /** Total per category before any curation (e.g. all 796 MFBs), for context. */
   totals: Record<string, number>;
   entries: SourceEntry[];
 }
 
-/** A country's canonical list of institutions that should have logos. */
+/** A canonical list of institutions that should have logos. */
 export interface SourceList {
+  /** Snapshot file name under sources/snapshots/, e.g. "ng-cbn". */
+  name: string;
   scope: string;
   regulator: string;
   fetch(): Promise<SourceSnapshot>;

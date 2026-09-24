@@ -67,7 +67,7 @@ export function buildSnapshot(raw: Record<string, RawRecord[]>, fetchedAt: strin
     }
   }
   entries.sort((a, b) => a.category.localeCompare(b.category) || a.legalName.localeCompare(b.legalName));
-  return { scope: 'NG', regulator: 'CBN', fetchedAt, totals, entries };
+  return { scope: 'NG', regulator: 'CBN', matchBy: 'registryId', fetchedAt, totals, entries };
 }
 
 async function fetchCategory(endpoint: string): Promise<RawRecord[]> {
@@ -83,6 +83,7 @@ async function fetchCategory(endpoint: string): Promise<RawRecord[]> {
 }
 
 export const ng: SourceList = {
+  name: 'ng-cbn',
   scope: 'NG',
   regulator: 'CBN',
   async fetch() {

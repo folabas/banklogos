@@ -11,6 +11,7 @@
     "primary": "#DE4A09"
   },
   "website": "https://www.gtbank.com",
+  "bankCodes": ["058"],
   "regulatorRef": {
     "body": "CBN",
     "category": "commercial-bank",

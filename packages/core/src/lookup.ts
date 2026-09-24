@@ -5,8 +5,16 @@ export interface NameQuery {
   country?: string;
 }
 
+/** Look up by the bank code a transfer API returned (e.g. Paystack/NIBSS "058" for GTBank). */
+export interface BankCodeQuery {
+  bankCode: string;
+  country?: string;
+}
+
+export type LogoQuery = NameQuery | BankCodeQuery;
+
 export interface LogoIndex {
-  getLogo(query: string | NameQuery): LogoEntity | undefined;
+  getLogo(query: string | LogoQuery): LogoEntity | undefined;
   searchLogos(query: string, options?: { limit?: number }): LogoEntity[];
   listByCountry(countryCode: string): LogoEntity[];
   listByType(type: LogoType): LogoEntity[];
@@ -35,14 +43,24 @@ function operatesIn(entity: LogoEntity, country: string): boolean {
 export function createIndex(entities: readonly LogoEntity[]): LogoIndex {
   const byId = new Map(entities.map((e) => [e.id, e]));
   const searchable = entities.map((entity) => ({ entity, names: namesOf(entity) }));
+  const byBankCode = new Map<string, LogoEntity[]>();
+  for (const e of entities) {
+    for (const code of e.bankCodes ?? []) byBankCode.set(code, [...(byBankCode.get(code) ?? []), e]);
+  }
 
-  function getLogo(query: string | NameQuery): LogoEntity | undefined {
+  function getLogo(query: string | LogoQuery): LogoEntity | undefined {
     if (typeof query === 'string') {
       const hit = byId.get(query);
       if (hit) return hit;
       query = { name: query };
     }
-    if (!query || typeof query.name !== 'string') return undefined;
+    if (!query) return undefined;
+    if ('bankCode' in query) {
+      if (typeof query.bankCode !== 'string') return undefined;
+      const hits = byBankCode.get(query.bankCode.trim()) ?? [];
+      return query.country ? hits.find((e) => e.scope === query.country!.toUpperCase()) : hits[0];
+    }
+    if (typeof query.name !== 'string') return undefined;
     const wanted = normalize(query.name);
     if (!wanted) return undefined;
     const matches = searchable.filter((s) => s.names.includes(wanted)).map((s) => s.entity);

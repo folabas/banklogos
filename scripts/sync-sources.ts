@@ -15,12 +15,12 @@ const check = process.argv.includes('--check');
 let changes = 0;
 
 for (const source of SOURCES) {
-  const path = join(SNAPSHOT_DIR, `${source.scope.toLowerCase()}.json`);
+  const path = join(SNAPSHOT_DIR, `${source.name}.json`);
   const before: SourceSnapshot | undefined = existsSync(path) ? JSON.parse(readFileSync(path, 'utf8')) : undefined;
   const after = await source.fetch();
   const { added, removed, renamed } = diffSnapshots(before, after);
 
-  console.log(`${source.scope} (${source.regulator}): ${after.entries.length} institutions`);
+  console.log(`${source.name} (${source.regulator}): ${after.entries.length} institutions`);
   for (const [category, total] of Object.entries(after.totals)) console.log(`  ${category}: ${total} listed`);
   for (const e of added) console.log(`  + ${e.legalName} [${e.category}, id ${e.registryId}]`);
   for (const e of removed) console.log(`  - ${e.legalName} [${e.category}, id ${e.registryId}]`);

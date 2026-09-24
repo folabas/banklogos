@@ -11,6 +11,7 @@
     "secondary": "#808285"
   },
   "website": "https://www.zenithbank.com",
+  "bankCodes": ["057"],
   "regulatorRef": {
     "body": "CBN",
     "category": "commercial-bank",

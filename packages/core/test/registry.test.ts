@@ -35,6 +35,8 @@ describe('generated registry', () => {
     expect(listByType('e-wallet').map((e) => e.id)).toEqual(['opay']);
     expect(listByType('crypto').map((e) => e.id)).toEqual(['usdt']);
     expect(getLogo('usdt')?.variants).toEqual(['logo', 'mark']);
+    expect(getLogo({ bankCode: '058' })?.id).toBe('gtbank');
+    expect(getLogo({ bankCode: '50515' })?.id).toBe('moniepoint');
     expect(getLogo('moniepoint')?.variantSources?.mark?.license).toBe('official-site');
   });
 });

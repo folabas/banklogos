@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { LogoEntity } from '../../packages/core/src/types.js';
+import { buildSnapshot as buildBanksSnapshot, type PaystackBank } from '../../sources/ng-banks.js';
 import { buildSnapshot, cleanName } from '../../sources/ng.js';
 import type { SourceSnapshot } from '../../sources/types.js';
 import { diffSnapshots, matchCoverage, matchKey } from './match.js';
@@ -97,6 +98,7 @@ describe('diffSnapshots', () => {
     const before: SourceSnapshot = {
       scope: 'NG',
       regulator: 'CBN',
+      matchBy: 'registryId',
       fetchedAt: '2026-08-01',
       totals: {},
       entries: [
@@ -115,5 +117,51 @@ describe('diffSnapshots', () => {
     expect(d.added.map((e) => e.registryId)).toEqual(['9895']);
     expect(d.removed.map((e) => e.registryId)).toEqual(['9']);
     expect(d.renamed).toEqual([{ from: 'Guaranty Trust Bank Plc', to: 'Guaranty Trust Bank Ltd', registryId: '8' }]);
+  });
+});
+
+describe('sources/ng-banks buildSnapshot', () => {
+  const bank = (id: number, name: string, code: string, extra: Partial<PaystackBank> = {}): PaystackBank => ({
+    id,
+    name,
+    slug: name.toLowerCase().replace(/\W+/g, '-'),
+    code,
+    active: true,
+    is_deleted: false,
+    type: 'nuban',
+    ...extra,
+  });
+  const snap = buildBanksSnapshot(
+    [
+      bank(1, 'Zenith Bank', '057'),
+      bank(2, 'Zenith Bank', '057'),
+      bank(3, 'Moniepoint MFB', '50515'),
+      bank(4, 'Abbey Mortgage Bank', '801'),
+      bank(5, 'Paystack-Titan', '100039', { slug: 'paystack-titan' }),
+      bank(6, 'Old Bank', '999', { active: false }),
+      bank(7, 'NSUK MICROFINANACE BANK', '090398'),
+    ],
+    '2026-09-24',
+  );
+
+  it('keys entries by bank code, drops duplicates, inactive banks and payment rails', () => {
+    expect(snap.matchBy).toBe('bankCode');
+    expect(snap.entries.map((e) => e.bankCode).sort()).toEqual(['057', '090398', '50515', '801']);
+  });
+
+  it('categorizes by name, tolerating the misspellings in the source', () => {
+    const cat = (code: string) => snap.entries.find((e) => e.bankCode === code)?.category;
+    expect(cat('50515')).toBe('microfinance-bank');
+    expect(cat('090398')).toBe('microfinance-bank');
+    expect(cat('801')).toBe('mortgage-bank');
+    expect(cat('057')).toBe('bank');
+  });
+
+  it('matches entities by bank code', () => {
+    const zenith = entity('zenith-bank', 'Zenith Bank', { bankCodes: ['057'] });
+    const abbey = entity('abbey', 'Abbey Mortgage Bank');
+    const { covered, nameOnly } = matchCoverage(snap, [zenith, abbey]);
+    expect(covered.map((c) => c.entity.id)).toEqual(['zenith-bank']);
+    expect(nameOnly.map((c) => [c.entity.id, c.entry.bankCode])).toEqual([['abbey', '801']]);
   });
 });

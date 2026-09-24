@@ -10,6 +10,7 @@
     "primary": "#0357EE"
   },
   "website": "https://moniepoint.com",
+  "bankCodes": ["50515"],
   "regulatorRef": {
     "body": "CBN",
     "category": "microfinance-bank",

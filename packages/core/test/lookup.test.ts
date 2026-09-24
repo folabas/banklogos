@@ -16,8 +16,14 @@ function entity(overrides: Partial<LogoEntity> & Pick<LogoEntity, 'id' | 'name'>
   };
 }
 
-const gtbank = entity({ id: 'gtbank', name: 'Guaranty Trust Bank', shortName: 'GTBank', aliases: ['GTB', 'GTCO'] });
-const accessNg = entity({ id: 'access-bank', name: 'Access Bank', aliases: ['Access'] });
+const gtbank = entity({
+  id: 'gtbank',
+  name: 'Guaranty Trust Bank',
+  shortName: 'GTBank',
+  aliases: ['GTB', 'GTCO'],
+  bankCodes: ['058'],
+});
+const accessNg = entity({ id: 'access-bank', name: 'Access Bank', aliases: ['Access'], bankCodes: ['044', '063'] });
 const accessGh = entity({ id: 'access-bank-gh', name: 'Access Bank', scope: 'GH', markets: ['GH'] });
 const opay = entity({ id: 'opay', name: 'OPay', types: ['mobile-money', 'e-wallet'] });
 const visa = entity({
@@ -53,6 +59,15 @@ describe('getLogo', () => {
   it('prefers the entity operating in the requested country', () => {
     expect(index.getLogo({ name: 'Access Bank', country: 'GH' })).toBe(accessGh);
     expect(index.getLogo({ name: 'Access Bank', country: 'ng' })).toBe(accessNg);
+  });
+
+  it('finds by bank code, including extra codes for the same brand', () => {
+    expect(index.getLogo({ bankCode: '058' })).toBe(gtbank);
+    expect(index.getLogo({ bankCode: ' 063 ' })).toBe(accessNg);
+    expect(index.getLogo({ bankCode: '044', country: 'ng' })).toBe(accessNg);
+    expect(index.getLogo({ bankCode: '044', country: 'GH' })).toBeUndefined();
+    expect(index.getLogo({ bankCode: '000' })).toBeUndefined();
+    expect(index.getLogo({ bankCode: 58 as unknown as string })).toBeUndefined();
   });
 
   it('returns undefined instead of throwing for unknown or junk input', () => {
