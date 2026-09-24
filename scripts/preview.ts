@@ -2,8 +2,9 @@
  * Writes preview/index.html: every logo at full size and at 32px, on light and dark backgrounds,
  * with its metadata. Used to review logo PRs before flipping `verified: true`.
  */
-import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { mkdirSync, statSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { formatOf } from '../packages/core/src/types.js';
 import { readLogoFolders, ROOT } from './lib/logos.js';
 import { validateFolders } from './lib/validate.js';
 
@@ -16,12 +17,15 @@ const cards = entities
   .map((e) => {
     const variants = e.variants
       .map((v) => {
-        const svg = readFileSync(join(dirById.get(e.id)!, `${v}.svg`), 'utf8');
-        const img = `data:image/svg+xml;base64,${Buffer.from(svg).toString('base64')}`;
+        const format = formatOf(e, v);
+        const file = `${v}.${format}`;
+        const bytes = statSync(join(dirById.get(e.id)!, file)).size;
+        // Linked, not inlined: the page stays small with hundreds of logos.
+        const img = `../logos/${e.scope.toLowerCase()}/${e.id}/${file}`;
         const src = (v !== 'logo' && e.variantSources?.[v]) || e.source;
-        return `<div class="variant"><span class="label">${v} · ${Buffer.byteLength(svg)} B · <a href="${esc(src.url)}">${esc(src.license)}</a></span>
-          <div class="row"><div class="tile light"><img src="${img}" alt=""></div><div class="tile dark"><img src="${img}" alt=""></div></div>
-          <div class="row small"><div class="chip light"><img src="${img}" alt=""></div><div class="chip dark"><img src="${img}" alt=""></div><span class="label">32px</span></div></div>`;
+        return `<div class="variant"><span class="label">${v} · ${format.toUpperCase()} · ${bytes} B · <a href="${esc(src.url)}">${esc(src.license)}</a></span>
+          <div class="row"><div class="tile light"><img src="${img}" alt="" loading="lazy"></div><div class="tile dark"><img src="${img}" alt="" loading="lazy"></div></div>
+          <div class="row small"><div class="chip light"><img src="${img}" alt="" loading="lazy"></div><div class="chip dark"><img src="${img}" alt="" loading="lazy"></div><span class="label">32px</span></div></div>`;
       })
       .join('');
     const swatches = Object.values(e.colors ?? {})
@@ -35,6 +39,7 @@ const cards = entities
         <dt>Name</dt><dd>${esc(e.name)}</dd>
         <dt>Scope</dt><dd>${esc(e.scope)}${e.markets.length ? ` → ${e.markets.join(', ')}` : ''}</dd>
         <dt>Types</dt><dd>${e.types.join(', ')}</dd>
+        <dt>Bank codes</dt><dd>${esc(e.bankCodes?.join(', ') || '—')}</dd>
         <dt>Aliases</dt><dd>${esc(e.aliases.join(', ') || '—')}</dd>
         <dt>Colors</dt><dd>${swatches || '—'}</dd>
         <dt>Source</dt><dd><a href="${esc(e.source.url)}">${esc(e.source.license)}</a> · ${e.source.fetchedAt}</dd>

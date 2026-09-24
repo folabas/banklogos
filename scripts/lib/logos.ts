@@ -5,6 +5,8 @@ import { fileURLToPath } from 'node:url';
 export const ROOT = fileURLToPath(new URL('../../', import.meta.url));
 export const LOGOS_DIR = join(ROOT, 'logos');
 
+const isAsset = (file: string) => /\.(svg|png)$/.test(file);
+
 export interface LogoFolder {
   /** Folder name directly under logos/, e.g. "ng" or "global". */
   scopeDir: string;
@@ -15,8 +17,8 @@ export interface LogoFolder {
   label: string;
   /** Parsed meta.json, or an Error if it is missing or not valid JSON. */
   meta: unknown;
-  /** SVG file names present in the folder, e.g. ["logo.svg", "mark.svg"]. */
-  svgFiles: string[];
+  /** Image files present in the folder, e.g. ["logo.svg", "mark.png"]. */
+  assetFiles: string[];
   /** Any other files in the folder. */
   otherFiles: string[];
 }
@@ -50,8 +52,8 @@ export function readLogoFolders(logosDir = LOGOS_DIR): LogoFolder[] {
         dir,
         label: relative(ROOT, dir).replaceAll('\\', '/'),
         meta,
-        svgFiles: files.filter((f) => f.endsWith('.svg')).sort(),
-        otherFiles: files.filter((f) => !f.endsWith('.svg') && f !== 'meta.json').sort(),
+        assetFiles: files.filter(isAsset).sort(),
+        otherFiles: files.filter((f) => !isAsset(f) && f !== 'meta.json').sort(),
       });
     }
   }

@@ -1,0 +1,29 @@
+{
+  "id": "summit-bank",
+  "name": "Summit Bank",
+  "aliases": [],
+  "scope": "NG",
+  "markets": [
+    "NG"
+  ],
+  "types": [
+    "bank"
+  ],
+  "variants": [
+    "logo"
+  ],
+  "colors": {
+    "primary": "#AF1F23"
+  },
+  "website": "https://summitbankng.com",
+  "bankCodes": [
+    "00305"
+  ],
+  "source": {
+    "url": "https://summitbankng.com/_next/static/media/logo.ad2ce937.svg",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

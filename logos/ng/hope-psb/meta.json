@@ -1,0 +1,32 @@
+{
+  "id": "hope-psb",
+  "name": "Hope PSB",
+  "aliases": [
+    "Hope Payment Service Bank",
+    "HopePSB"
+  ],
+  "scope": "NG",
+  "markets": [
+    "NG"
+  ],
+  "types": [
+    "mobile-money"
+  ],
+  "variants": [
+    "logo"
+  ],
+  "colors": {
+    "primary": "#005EC2"
+  },
+  "website": "https://hopepsbank.com",
+  "bankCodes": [
+    "120002"
+  ],
+  "source": {
+    "url": "https://hopepsbank.com/assets/logo-C5YLvw3_.svg",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

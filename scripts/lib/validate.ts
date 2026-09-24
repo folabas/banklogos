@@ -1,9 +1,10 @@
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { normalize } from '../../packages/core/src/lookup.js';
-import type { LogoEntity } from '../../packages/core/src/types.js';
+import { formatOf, type LogoEntity } from '../../packages/core/src/types.js';
 import type { LogoFolder } from './logos.js';
 import { logoMetaSchema } from './schema.js';
+import { lintPng } from './png-lint.js';
 import { lintSvg } from './svg-lint.js';
 
 export interface ValidationResult {
@@ -15,6 +16,7 @@ export interface ValidationResult {
 export function validateFolders(
   folders: LogoFolder[],
   readSvg = (path: string) => readFileSync(path, 'utf8'),
+  readPng = (path: string): Uint8Array => readFileSync(path),
 ): ValidationResult {
   const entities: LogoEntity[] = [];
   const errors: string[] = [];
@@ -44,13 +46,16 @@ export function validateFolders(
     if (owner) err(`id "${meta.id}" is already used by ${owner}`);
     else idOwners.set(meta.id, folder.label);
 
-    const expected = meta.variants.map((v) => `${v}.svg`);
-    for (const file of expected) if (!folder.svgFiles.includes(file)) err(`variant file ${file} is missing`);
-    for (const file of folder.svgFiles) if (!expected.includes(file)) err(`${file} is not listed in variants`);
-    for (const file of folder.otherFiles) err(`unexpected file ${file} (only meta.json and variant SVGs belong here)`);
+    const expected = meta.variants.map((v) => `${v}.${formatOf(meta, v)}`);
+    for (const file of expected) if (!folder.assetFiles.includes(file)) err(`variant file ${file} is missing`);
+    for (const file of folder.assetFiles) if (!expected.includes(file)) err(`${file} is not listed in variants`);
+    for (const file of folder.otherFiles)
+      err(`unexpected file ${file} (only meta.json and variant images belong here)`);
 
-    for (const file of expected.filter((f) => folder.svgFiles.includes(f))) {
-      for (const problem of lintSvg(readSvg(join(folder.dir, file)))) err(`${file} ${problem}`);
+    for (const file of expected.filter((f) => folder.assetFiles.includes(f))) {
+      const path = join(folder.dir, file);
+      const problems = file.endsWith('.png') ? lintPng(readPng(path)) : lintSvg(readSvg(path));
+      for (const problem of problems) err(`${file} ${problem}`);
     }
 
     if (!meta.verified) warnings.push(`${folder.label}: not verified yet`);

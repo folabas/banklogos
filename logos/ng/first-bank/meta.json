@@ -1,0 +1,41 @@
+{
+  "id": "first-bank",
+  "name": "First Bank of Nigeria",
+  "shortName": "FirstBank",
+  "aliases": [
+    "First Bank",
+    "FBN"
+  ],
+  "scope": "NG",
+  "markets": [
+    "NG"
+  ],
+  "types": [
+    "bank"
+  ],
+  "variants": [
+    "logo",
+    "mark"
+  ],
+  "colors": {
+    "primary": "#003B65"
+  },
+  "website": "https://firstbankgroup.com/ng/",
+  "bankCodes": [
+    "011"
+  ],
+  "source": {
+    "url": "https://firstbankgroup.com/ng/wp-content/uploads/2020/01/First-Bank.svg",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://firstbankgroup.com/ng/wp-content/uploads/2020/08/First-Bank-Logo_Symbol.svg",
+      "license": "official-site",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

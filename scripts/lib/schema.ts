@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { LICENSES, LOGO_TYPES, LOGO_VARIANTS, type LogoEntity } from '../../packages/core/src/types.js';
+import { LICENSES, LOGO_FORMATS, LOGO_TYPES, LOGO_VARIANTS, type LogoEntity } from '../../packages/core/src/types.js';
 
 const countryCode = z.string().regex(/^[A-Z]{2}$/, 'must be an upper-case ISO 3166-1 alpha-2 code');
 const isoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'must be YYYY-MM-DD');
@@ -19,10 +19,14 @@ export const logoMetaSchema = z
       .array(z.enum(LOGO_VARIANTS))
       .min(1)
       .refine((v) => v.includes('logo'), 'must include "logo"'),
+    formats: z
+      .strictObject({ logo: z.enum(LOGO_FORMATS).optional(), mark: z.enum(LOGO_FORMATS).optional() })
+      .optional(),
     colors: z.strictObject({ primary: hexColor.optional(), secondary: hexColor.optional() }).optional(),
     website: z.url().optional(),
     bankCodes: z
-      .array(z.string().regex(/^\d{2,9}$/, 'must be 2-9 digits'))
+      // Mostly digits ("058", "50515"), but some Nigerian codes carry letters ("035A", "MFB50094").
+      .array(z.string().regex(/^[A-Za-z0-9]{2,12}$/, 'must be 2-12 letters or digits'))
       .min(1)
       .optional(),
     regulatorRef: z
@@ -41,6 +45,11 @@ export const logoMetaSchema = z
   .superRefine((meta, ctx) => {
     if (meta.scope !== 'global' && !meta.markets.includes(meta.scope)) {
       ctx.addIssue({ code: 'custom', path: ['markets'], message: `must include the scope "${meta.scope}"` });
+    }
+    for (const variant of Object.keys(meta.formats ?? {}) as (keyof NonNullable<typeof meta.formats>)[]) {
+      if (!meta.variants.includes(variant)) {
+        ctx.addIssue({ code: 'custom', path: ['formats', variant], message: `"${variant}" is not listed in variants` });
+      }
     }
     for (const variant of Object.keys(meta.variantSources ?? {}) as (keyof NonNullable<typeof meta.variantSources>)[]) {
       if (!meta.variants.includes(variant)) {

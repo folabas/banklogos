@@ -1,7 +1,7 @@
 {
   "name": "fintech-logos",
   "version": "0.0.0",
-  "description": "Logos for banks, mobile money, e-wallets, payment gateways and crypto — starting with Nigeria.",
+  "description": "Logos for banks, mobile money, e-wallets, payment gateways and crypto \u2014 starting with Nigeria.",
   "license": "MIT",
   "type": "module",
   "sideEffects": false,
@@ -10,17 +10,26 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
     "./svg/*": {
+      "types": "./dist/generated/svg/*.d.ts",
       "import": "./dist/generated/svg/*.js",
       "require": "./dist/generated/svg/*.cjs"
     },
+    "./img/*": {
+      "types": "./dist/generated/img/*.d.ts",
+      "import": "./dist/generated/img/*.js",
+      "require": "./dist/generated/img/*.cjs"
+    },
+    "./assets/*": "./assets/*",
     "./package.json": "./package.json"
   },
   "files": [
-    "dist"
+    "dist",
+    "assets"
   ],
   "keywords": [
     "logos",
@@ -34,6 +43,6 @@
     "svg"
   ],
   "scripts": {
-    "build": "tsup"
+    "build": "tsup && tsx ../../scripts/write-module-types.ts"
   }
 }

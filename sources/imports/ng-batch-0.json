@@ -1,0 +1,347 @@
+[
+  {
+    "id": "citibank",
+    "name": "Citibank Nigeria",
+    "bankCode": "023",
+    "shortName": "Citi",
+    "aliases": [
+      "Citibank"
+    ],
+    "website": "https://www.citigroup.com/global/about-us/global-presence/nigeria",
+    "colors": {
+      "primary": "#255BE3"
+    },
+    "logo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Citi_logo_March_2023.svg",
+      "format": "svg",
+      "license": "public-domain-textlogo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Citi_logo_March_2023.svg"
+    }
+  },
+  {
+    "id": "ecobank",
+    "name": "Ecobank Nigeria",
+    "bankCode": "050",
+    "shortName": "Ecobank",
+    "website": "https://ecobank.com/ng",
+    "colors": {
+      "primary": "#00577A"
+    },
+    "logo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Ecobank_Logo.svg",
+      "format": "svg",
+      "license": "public-domain-textlogo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ecobank_Logo.svg"
+    }
+  },
+  {
+    "id": "fidelity-bank",
+    "name": "Fidelity Bank",
+    "bankCode": "070",
+    "shortName": "Fidelity",
+    "website": "https://www.fidelitybank.ng",
+    "colors": {
+      "primary": "#002082"
+    },
+    "logo": {
+      "url": "https://www.fidelitybank.ng/wp-content/uploads/2020/07/Fidelity_Bank_Plc_Main_Logo.svg",
+      "format": "svg",
+      "license": "official-site"
+    },
+    "mark": {
+      "url": "https://www.fidelitybank.ng/wp-content/uploads/2020/08/Fidelity-Bank-Icon-FAV-1-1.svg",
+      "format": "svg",
+      "license": "official-site"
+    }
+  },
+  {
+    "id": "first-bank",
+    "name": "First Bank of Nigeria",
+    "bankCode": "011",
+    "shortName": "FirstBank",
+    "aliases": [
+      "First Bank",
+      "FBN"
+    ],
+    "website": "https://firstbankgroup.com/ng/",
+    "colors": {
+      "primary": "#003B65"
+    },
+    "logo": {
+      "url": "https://firstbankgroup.com/ng/wp-content/uploads/2020/01/First-Bank.svg",
+      "format": "svg",
+      "license": "official-site"
+    },
+    "mark": {
+      "url": "https://firstbankgroup.com/ng/wp-content/uploads/2020/08/First-Bank-Logo_Symbol.svg",
+      "format": "svg",
+      "license": "official-site"
+    }
+  },
+  {
+    "id": "fcmb",
+    "name": "First City Monument Bank",
+    "bankCode": "214",
+    "shortName": "FCMB",
+    "website": "https://www.fcmb.com",
+    "colors": {
+      "primary": "#5C068C"
+    },
+    "logo": {
+      "url": "https://www.fcmbgroup.com/images/fcmb_ng.svg",
+      "format": "svg",
+      "license": "official-site"
+    }
+  },
+  {
+    "id": "globus-bank",
+    "name": "Globus Bank",
+    "bankCode": "00103",
+    "shortName": "Globus",
+    "website": "https://www.globusbank.com",
+    "colors": {
+      "primary": "#242E64"
+    },
+    "logo": {
+      "url": "https://www.globusbank.com/Images/Globus%20Logo.svg",
+      "format": "svg",
+      "license": "official-site"
+    }
+  },
+  {
+    "id": "optimus-bank",
+    "name": "Optimus Bank",
+    "bankCode": "107",
+    "shortName": "Optimus",
+    "website": "https://www.optimusbank.com",
+    "colors": {
+      "primary": "#223E92"
+    },
+    "logo": {
+      "url": "https://www.optimusbank.com/_next/static/media/Optimus%20Bank%20RC%20Logo.4c078eb9.svg",
+      "format": "svg",
+      "license": "official-site"
+    },
+    "mark": {
+      "url": "https://www.optimusbank.com/favicon.svg",
+      "format": "svg",
+      "license": "official-site"
+    }
+  },
+  {
+    "id": "premiumtrust-bank",
+    "name": "PremiumTrust Bank",
+    "bankCode": "105",
+    "shortName": "PremiumTrust",
+    "aliases": [
+      "Premium Trust Bank"
+    ],
+    "website": "https://premiumtrustbank.com",
+    "colors": {
+      "primary": "#E43625"
+    },
+    "logo": {
+      "url": "https://premiumtrustbank.com/_next/static/media/logo-premiumtrustbank-lighmode.de003855.svg",
+      "format": "svg",
+      "license": "official-site"
+    }
+  },
+  {
+    "id": "signature-bank",
+    "name": "Signature Bank",
+    "bankCode": "106",
+    "website": "https://signaturebankng.com",
+    "colors": {
+      "primary": "#6C1D45"
+    },
+    "logo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Signature_Bank_Logo.svg",
+      "format": "svg",
+      "license": "cc-by-sa",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Signature_Bank_Logo.svg"
+    }
+  },
+  {
+    "id": "standard-chartered",
+    "name": "Standard Chartered",
+    "bankCode": "068",
+    "aliases": [
+      "Standard Chartered Bank Nigeria"
+    ],
+    "website": "https://www.sc.com/ng/",
+    "colors": {
+      "primary": "#0473EA"
+    },
+    "logo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Standard_Chartered_%282021%29.svg",
+      "format": "svg",
+      "license": "public-domain-textlogo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Standard_Chartered_(2021).svg"
+    },
+    "mark": {
+      "url": "https://av.sc.com/assets/global/images/components/header/logo.svg",
+      "format": "svg",
+      "license": "official-site"
+    }
+  },
+  {
+    "id": "sterling-bank",
+    "name": "Sterling Bank",
+    "bankCode": "232",
+    "shortName": "Sterling",
+    "website": "https://sterling.ng",
+    "colors": {
+      "primary": "#D92128"
+    },
+    "logo": {
+      "url": "https://sterling.ng/wp-content/uploads/2019/02/Sterling-Bank-Logo.svg",
+      "format": "svg",
+      "license": "official-site"
+    }
+  },
+  {
+    "id": "tatum-bank",
+    "name": "Tatum Bank",
+    "bankCode": "109",
+    "extraBankCodes": [
+      "00109"
+    ],
+    "website": "https://www.tatumbank.com",
+    "colors": {
+      "primary": "#002244"
+    },
+    "logo": {
+      "url": "https://www.tatumbank.com/assets/logo-BVkjmgxH.svg",
+      "format": "svg",
+      "license": "official-site"
+    }
+  },
+  {
+    "id": "uba",
+    "name": "United Bank for Africa",
+    "bankCode": "033",
+    "shortName": "UBA",
+    "website": "https://www.ubagroup.com/nigeria/",
+    "colors": {
+      "primary": "#D70900"
+    },
+    "logo": {
+      "url": "https://ibank.ubagroup.com/obng/L001/consumer/images/uba_footer_logo.svg",
+      "format": "svg",
+      "license": "official-site"
+    }
+  },
+  {
+    "id": "wema-bank",
+    "name": "Wema Bank",
+    "bankCode": "035",
+    "shortName": "Wema",
+    "website": "https://wemabank.com",
+    "colors": {
+      "primary": "#981D87"
+    },
+    "logo": {
+      "url": "https://wemabank.com/assets/wemaFull-55brX0lO.svg",
+      "format": "svg",
+      "license": "official-site"
+    },
+    "mark": {
+      "url": "https://wemabank.com/wema.svg",
+      "format": "svg",
+      "license": "official-site"
+    }
+  },
+  {
+    "id": "coronation",
+    "name": "Coronation Merchant Bank",
+    "bankCode": "559",
+    "shortName": "Coronation",
+    "website": "https://www.coronationmb.com",
+    "logo": {
+      "url": "https://www.coronationmb.com/wp-content/uploads/2019/05/new-coronation-logo.svg",
+      "format": "svg",
+      "license": "official-site"
+    }
+  },
+  {
+    "id": "alternative-bank",
+    "name": "The Alternative Bank",
+    "bankCode": "000304",
+    "shortName": "AltBank",
+    "website": "https://altbank.ng",
+    "colors": {
+      "primary": "#B89B45"
+    },
+    "logo": {
+      "url": "https://altbank.ng/wp-content/uploads/2023/07/TAB_LOGO_SVG_FULL_COLOUR-1.svg",
+      "format": "svg",
+      "license": "official-site"
+    }
+  },
+  {
+    "id": "jaiz-bank",
+    "name": "Jaiz Bank",
+    "bankCode": "301",
+    "shortName": "Jaiz",
+    "website": "https://jaizbankplc.com",
+    "colors": {
+      "primary": "#004080"
+    },
+    "logo": {
+      "url": "https://jaizbankplc.com/_next/image?url=http%3A%2F%2Fstrapi%3A1338%2Fuploads%2Fmain_logo_4e73988d8e.svg&w=640&q=75",
+      "format": "svg",
+      "license": "official-site",
+      "sourceUrl": "https://jaizbankplc.com"
+    }
+  },
+  {
+    "id": "summit-bank",
+    "name": "Summit Bank",
+    "bankCode": "00305",
+    "website": "https://summitbankng.com",
+    "colors": {
+      "primary": "#AF1F23"
+    },
+    "logo": {
+      "url": "https://summitbankng.com/_next/static/media/logo.ad2ce937.svg",
+      "format": "svg",
+      "license": "official-site"
+    }
+  },
+  {
+    "id": "hope-psb",
+    "name": "Hope PSB",
+    "bankCode": "120002",
+    "aliases": [
+      "Hope Payment Service Bank"
+    ],
+    "types": [
+      "mobile-money"
+    ],
+    "website": "https://hopepsbank.com",
+    "colors": {
+      "primary": "#005EC2"
+    },
+    "logo": {
+      "url": "https://hopepsbank.com/assets/logo-C5YLvw3_.svg",
+      "format": "svg",
+      "license": "official-site"
+    }
+  },
+  {
+    "id": "mkobo",
+    "name": "Mkobo Microfinance Bank",
+    "snapshot": "ng-cbn",
+    "registryId": "3719",
+    "shortName": "Mkobo",
+    "website": "https://mkobobank.com",
+    "colors": {
+      "primary": "#0047CC"
+    },
+    "logo": {
+      "url": "https://mkobobank.com/asset/mkobo-logo01.svg",
+      "format": "svg",
+      "license": "official-site"
+    }
+  }
+]

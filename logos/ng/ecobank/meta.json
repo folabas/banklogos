@@ -1,0 +1,30 @@
+{
+  "id": "ecobank",
+  "name": "Ecobank Nigeria",
+  "shortName": "Ecobank",
+  "aliases": [],
+  "scope": "NG",
+  "markets": [
+    "NG"
+  ],
+  "types": [
+    "bank"
+  ],
+  "variants": [
+    "logo"
+  ],
+  "colors": {
+    "primary": "#00577A"
+  },
+  "website": "https://ecobank.com/ng",
+  "bankCodes": [
+    "050"
+  ],
+  "source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Ecobank_Logo.svg",
+    "license": "public-domain-textlogo",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

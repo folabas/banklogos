@@ -1,0 +1,38 @@
+{
+  "id": "wema-bank",
+  "name": "Wema Bank",
+  "shortName": "Wema",
+  "aliases": [],
+  "scope": "NG",
+  "markets": [
+    "NG"
+  ],
+  "types": [
+    "bank"
+  ],
+  "variants": [
+    "logo",
+    "mark"
+  ],
+  "colors": {
+    "primary": "#981D87"
+  },
+  "website": "https://wemabank.com",
+  "bankCodes": [
+    "035"
+  ],
+  "source": {
+    "url": "https://wemabank.com/assets/wemaFull-55brX0lO.svg",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://wemabank.com/wema.svg",
+      "license": "official-site",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

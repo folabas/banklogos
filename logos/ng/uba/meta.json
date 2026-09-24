@@ -1,0 +1,32 @@
+{
+  "id": "uba",
+  "name": "United Bank for Africa",
+  "shortName": "UBA",
+  "aliases": [
+    "United Bank For Africa"
+  ],
+  "scope": "NG",
+  "markets": [
+    "NG"
+  ],
+  "types": [
+    "bank"
+  ],
+  "variants": [
+    "logo"
+  ],
+  "colors": {
+    "primary": "#D70900"
+  },
+  "website": "https://www.ubagroup.com/nigeria/",
+  "bankCodes": [
+    "033"
+  ],
+  "source": {
+    "url": "https://ibank.ubagroup.com/obng/L001/consumer/images/uba_footer_logo.svg",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

@@ -16,6 +16,7 @@ npm install fintech-logos
 import { getLogo, searchLogos, listByCountry, listByType } from 'fintech-logos';
 
 getLogo('gtbank'); // by id
+getLogo({ bankCode: '058' }); // by the bank code a transfer API returned (Paystack/NIBSS codes)
 getLogo({ name: 'GTB' }); // by name, short name or alias
 getLogo({ name: 'Access Bank', country: 'GH' }); // prefer a country
 searchLogos('acc', { limit: 5 });
@@ -25,12 +26,17 @@ listByType('mobile-money');
 
 Lookups never throw. An unknown id or name returns `undefined`.
 
-The metadata above holds no SVG content. Import each SVG on its own, so your bundle contains only the logos you use:
+The metadata above holds no image data. Import each logo on its own, so your bundle contains only the logos you use:
 
 ```ts
-import gtbank from 'fintech-logos/svg/gtbank'; // full logo, SVG string
-import gtbankMark from 'fintech-logos/svg/gtbank-mark'; // icon-only mark, when the entity lists a "mark" variant
+import gtbank from 'fintech-logos/img/gtbank'; // data URI for <img src>, works for every logo (SVG or PNG)
+import gtbankMark from 'fintech-logos/img/gtbank-mark'; // icon-only mark, when the entity has one
+import gtbankSvg from 'fintech-logos/svg/gtbank'; // raw SVG markup, only for logos whose format is svg
 ```
+
+The raw files are also shipped under `fintech-logos/assets/<id>.<svg|png>` (and `<id>-mark.<ext>`), for bundler URL imports or non-JS use.
+
+Most logos are SVG. Where an institution publishes no vector logo, the package ships its official PNG (logo, or app icon), resized to at most 512px. `entity.formats` tells you which variants are PNG.
 
 ## Entity metadata
 
@@ -41,6 +47,8 @@ import gtbankMark from 'fintech-logos/svg/gtbank-mark'; // icon-only mark, when 
 | `markets`                      | Countries where the brand operates                                                                          |
 | `types`                        | `bank`, `microfinance-bank`, `mobile-money`, `e-wallet`, `payment-gateway`, `card-network`, `crypto`        |
 | `variants`                     | `logo` (always present), `mark` (optional icon-only version)                                                |
+| `formats`                      | Variants that are PNG rather than SVG, e.g. `{ "logo": "png" }`                                             |
+| `bankCodes`                    | Bank codes used by transfer APIs (Nigeria: Paystack/NIBSS codes like `"058"`)                               |
 | `verified`                     | `true` once a maintainer has confirmed the logo is current. Filter on it if you only want reviewed entries. |
 | `source.url`, `source.license` | Where the file came from                                                                                    |
 | `variantSources.mark`          | Where the mark came from, when that differs from `source`                                                   |

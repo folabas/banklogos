@@ -1,0 +1,30 @@
+{
+  "id": "fcmb",
+  "name": "First City Monument Bank",
+  "shortName": "FCMB",
+  "aliases": [],
+  "scope": "NG",
+  "markets": [
+    "NG"
+  ],
+  "types": [
+    "bank"
+  ],
+  "variants": [
+    "logo"
+  ],
+  "colors": {
+    "primary": "#5C068C"
+  },
+  "website": "https://www.fcmb.com",
+  "bankCodes": [
+    "214"
+  ],
+  "source": {
+    "url": "https://www.fcmbgroup.com/images/fcmb_ng.svg",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

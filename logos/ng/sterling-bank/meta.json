@@ -1,0 +1,30 @@
+{
+  "id": "sterling-bank",
+  "name": "Sterling Bank",
+  "shortName": "Sterling",
+  "aliases": [],
+  "scope": "NG",
+  "markets": [
+    "NG"
+  ],
+  "types": [
+    "bank"
+  ],
+  "variants": [
+    "logo"
+  ],
+  "colors": {
+    "primary": "#D92128"
+  },
+  "website": "https://sterling.ng",
+  "bankCodes": [
+    "232"
+  ],
+  "source": {
+    "url": "https://sterling.ng/wp-content/uploads/2019/02/Sterling-Bank-Logo.svg",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "tatum-bank",
+  "name": "Tatum Bank",
+  "aliases": [],
+  "scope": "NG",
+  "markets": [
+    "NG"
+  ],
+  "types": [
+    "bank"
+  ],
+  "variants": [
+    "logo"
+  ],
+  "colors": {
+    "primary": "#002244"
+  },
+  "website": "https://www.tatumbank.com",
+  "bankCodes": [
+    "109",
+    "00109"
+  ],
+  "source": {
+    "url": "https://www.tatumbank.com/assets/logo-BVkjmgxH.svg",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "coronation",
+  "name": "Coronation Merchant Bank",
+  "shortName": "Coronation",
+  "aliases": [],
+  "scope": "NG",
+  "markets": [
+    "NG"
+  ],
+  "types": [
+    "bank"
+  ],
+  "variants": [
+    "logo"
+  ],
+  "website": "https://www.coronationmb.com",
+  "bankCodes": [
+    "559"
+  ],
+  "source": {
+    "url": "https://www.coronationmb.com/wp-content/uploads/2019/05/new-coronation-logo.svg",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

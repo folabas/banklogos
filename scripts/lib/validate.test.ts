@@ -29,7 +29,7 @@ function folder(overrides: Partial<LogoFolder> = {}): LogoFolder {
     dir: `/logos/${scopeDir}/${idDir}`,
     label: `logos/${scopeDir}/${idDir}`,
     meta: meta(),
-    svgFiles: ['logo.svg'],
+    assetFiles: ['logo.svg'],
     otherFiles: [],
     ...overrides,
   };
@@ -78,15 +78,15 @@ describe('validateFolders', () => {
     const { errors } = run([
       folder({
         meta: meta({ variants: ['logo', 'mark'] }),
-        svgFiles: ['logo.svg', 'extra.svg'],
-        otherFiles: ['logo.png'],
+        assetFiles: ['logo.svg', 'extra.svg'],
+        otherFiles: ['notes.txt'],
       }),
     ]);
     expect(errors).toEqual(
       expect.arrayContaining([
         'logos/ng/gtbank: variant file mark.svg is missing',
         'logos/ng/gtbank: extra.svg is not listed in variants',
-        'logos/ng/gtbank: unexpected file logo.png (only meta.json and variant SVGs belong here)',
+        'logos/ng/gtbank: unexpected file notes.txt (only meta.json and variant images belong here)',
       ]),
     );
   });
@@ -95,7 +95,7 @@ describe('validateFolders', () => {
     const markSource = { url: 'https://www.gtbank.com/icon.svg', license: 'official-site', fetchedAt: '2026-09-24' };
     const withMark = folder({
       meta: meta({ variants: ['logo', 'mark'], variantSources: { mark: markSource } }),
-      svgFiles: ['logo.svg', 'mark.svg'],
+      assetFiles: ['logo.svg', 'mark.svg'],
     });
     expect(run([withMark]).errors).toEqual([]);
 
@@ -110,8 +110,8 @@ describe('validateFolders', () => {
       meta: meta({ id: 'other', name: 'Other Bank', aliases: [], bankCodes: ['058'] }),
     });
     expect(run([a, b]).errors).toContain('bank code 058 (NG) is claimed by both "gtbank" and "other"');
-    const bad = run([folder({ meta: meta({ bankCodes: ['05A'] }) })]);
-    expect(bad.errors.join(' ')).toMatch(/bankCodes.0: must be 2-9 digits/);
+    const bad = run([folder({ meta: meta({ bankCodes: ['05-A'] }) })]);
+    expect(bad.errors.join(' ')).toMatch(/bankCodes.0: must be 2-12 letters or digits/);
   });
 
   it('rejects duplicate ids across scopes', () => {

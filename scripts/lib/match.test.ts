@@ -137,7 +137,7 @@ describe('sources/ng-banks buildSnapshot', () => {
       bank(2, 'Zenith Bank', '057'),
       bank(3, 'Moniepoint MFB', '50515'),
       bank(4, 'Abbey Mortgage Bank', '801'),
-      bank(5, 'Paystack-Titan', '100039', { slug: 'paystack-titan' }),
+      bank(5, 'Paystack-Titan', '100039', { slug: 'titan-paystack' }),
       bank(6, 'Old Bank', '999', { active: false }),
       bank(7, 'NSUK MICROFINANACE BANK', '090398'),
     ],

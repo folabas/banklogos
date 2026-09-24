@@ -1,0 +1,34 @@
+{
+  "id": "mkobo",
+  "name": "Mkobo Microfinance Bank",
+  "shortName": "Mkobo",
+  "aliases": [
+    "MKOBO MFB LTD"
+  ],
+  "scope": "NG",
+  "markets": [
+    "NG"
+  ],
+  "types": [
+    "microfinance-bank"
+  ],
+  "variants": [
+    "logo"
+  ],
+  "colors": {
+    "primary": "#0047CC"
+  },
+  "website": "https://mkobobank.com",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "microfinance-bank",
+    "registryId": "3719"
+  },
+  "source": {
+    "url": "https://mkobobank.com/asset/mkobo-logo01.svg",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

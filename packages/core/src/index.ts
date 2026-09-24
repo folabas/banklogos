@@ -2,8 +2,8 @@ import { registry } from './generated/registry.js';
 import { createIndex, type LogoIndex, type LogoQuery } from './lookup.js';
 import type { LogoEntity, LogoType } from './types.js';
 
-export type { LogoEntity, LogoType, LogoVariant, LogoSource, License, Scope } from './types.js';
-export { LOGO_TYPES, LOGO_VARIANTS, LICENSES } from './types.js';
+export type { LogoEntity, LogoType, LogoVariant, LogoFormat, LogoSource, License, Scope } from './types.js';
+export { LOGO_TYPES, LOGO_VARIANTS, LOGO_FORMATS, LICENSES, formatOf } from './types.js';
 export type { NameQuery, BankCodeQuery, LogoQuery, LogoIndex } from './lookup.js';
 export { createIndex, normalize } from './lookup.js';
 

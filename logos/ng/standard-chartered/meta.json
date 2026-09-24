@@ -1,0 +1,40 @@
+{
+  "id": "standard-chartered",
+  "name": "Standard Chartered",
+  "aliases": [
+    "Standard Chartered Bank Nigeria",
+    "Standard Chartered Bank"
+  ],
+  "scope": "NG",
+  "markets": [
+    "NG"
+  ],
+  "types": [
+    "bank"
+  ],
+  "variants": [
+    "logo",
+    "mark"
+  ],
+  "colors": {
+    "primary": "#0473EA"
+  },
+  "website": "https://www.sc.com/ng/",
+  "bankCodes": [
+    "068"
+  ],
+  "source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Standard_Chartered_(2021).svg",
+    "license": "public-domain-textlogo",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://av.sc.com/assets/global/images/components/header/logo.svg",
+      "license": "official-site",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "fidelity-bank",
+  "name": "Fidelity Bank",
+  "shortName": "Fidelity",
+  "aliases": [],
+  "scope": "NG",
+  "markets": [
+    "NG"
+  ],
+  "types": [
+    "bank"
+  ],
+  "variants": [
+    "logo",
+    "mark"
+  ],
+  "colors": {
+    "primary": "#002082"
+  },
+  "website": "https://www.fidelitybank.ng",
+  "bankCodes": [
+    "070"
+  ],
+  "source": {
+    "url": "https://www.fidelitybank.ng/wp-content/uploads/2020/07/Fidelity_Bank_Plc_Main_Logo.svg",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://www.fidelitybank.ng/wp-content/uploads/2020/08/Fidelity-Bank-Icon-FAV-1-1.svg",
+      "license": "official-site",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

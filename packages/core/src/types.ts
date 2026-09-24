@@ -12,9 +12,14 @@ export type LogoType = (typeof LOGO_TYPES)[number];
 export const LOGO_VARIANTS = ['logo', 'mark'] as const;
 export type LogoVariant = (typeof LOGO_VARIANTS)[number];
 
+export const LOGO_FORMATS = ['svg', 'png'] as const;
+export type LogoFormat = (typeof LOGO_FORMATS)[number];
+
 export const LICENSES = [
   'official-press-kit',
   'official-site',
+  /** The institution's own app icon from Google Play or the App Store. */
+  'official-app-icon',
   'cc-by-sa',
   'public-domain-textlogo',
   'manual',
@@ -41,8 +46,10 @@ export interface LogoEntity {
   /** Countries where the brand operates. Always includes `scope` unless scope is "global". */
   markets: string[];
   types: LogoType[];
-  /** SVG variants available. `logo` is always present. */
+  /** Variants available. `logo` is always present. */
   variants: LogoVariant[];
+  /** File format per variant, when not SVG. Raster logos are used only where the brand publishes no vector. */
+  formats?: Partial<Record<LogoVariant, LogoFormat>>;
   colors?: { primary?: string; secondary?: string };
   website?: string;
   /** Bank codes used by transfer APIs in the entity's country (Nigeria: CBN/NIBSS codes as Paystack returns them, e.g. "058"). */
@@ -62,4 +69,9 @@ export interface LogoEntity {
   verified: boolean;
   /** Package version the entity first shipped in. */
   addedIn: string;
+}
+
+/** The file format of one of an entity's variants (SVG unless listed in `formats`). */
+export function formatOf(entity: Pick<LogoEntity, 'formats'>, variant: LogoVariant): LogoFormat {
+  return entity.formats?.[variant] ?? 'svg';
 }

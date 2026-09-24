@@ -19,6 +19,11 @@ interface Scenario {
 const KB = 1024;
 const scenarios: Scenario[] = [
   { name: 'one logo SVG', code: `import svg from 'fintech-logos/svg/gtbank'; console.log(svg);`, budget: 5 * KB },
+  {
+    name: 'one logo as <img> data URI',
+    code: `import src from 'fintech-logos/img/gtbank'; console.log(src);`,
+    budget: 5 * KB,
+  },
   { name: 'one mark SVG', code: `import svg from 'fintech-logos/svg/usdt-mark'; console.log(svg);`, budget: 5 * KB },
   {
     name: 'two logo SVGs',

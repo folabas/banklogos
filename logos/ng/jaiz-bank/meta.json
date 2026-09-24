@@ -1,0 +1,30 @@
+{
+  "id": "jaiz-bank",
+  "name": "Jaiz Bank",
+  "shortName": "Jaiz",
+  "aliases": [],
+  "scope": "NG",
+  "markets": [
+    "NG"
+  ],
+  "types": [
+    "bank"
+  ],
+  "variants": [
+    "logo"
+  ],
+  "colors": {
+    "primary": "#004080"
+  },
+  "website": "https://jaizbankplc.com",
+  "bankCodes": [
+    "301"
+  ],
+  "source": {
+    "url": "https://jaizbankplc.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

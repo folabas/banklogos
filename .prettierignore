@@ -3,3 +3,4 @@ dist/
 packages/core/src/generated/
 logos/**/*.svg
 package-lock.json
+packages/core/assets/

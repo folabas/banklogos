@@ -11,7 +11,7 @@ const check = process.argv.includes('--check');
 let changed = 0;
 
 for (const folder of readLogoFolders()) {
-  for (const file of folder.svgFiles) {
+  for (const file of folder.assetFiles.filter((f) => f.endsWith('.svg'))) {
     const path = join(folder.dir, file);
     const before = readFileSync(path, 'utf8');
     const after = optimizeSvg(before, path);

@@ -22,7 +22,7 @@ export interface PaystackBank {
 
 // Entries that are payment rails or duplicates of another entry, not banks a user picks.
 const SKIP: Record<string, string> = {
-  'paystack-titan': 'Paystack settlement account at Titan Trust, not a consumer bank',
+  'titan-paystack': 'Paystack settlement account at Titan Trust, not a consumer bank',
 };
 
 function categorize(name: string): { category: string; types: LogoType[] } {
