@@ -16,2520 +16,1960 @@
       "bankCode": "51455",
       "legalName": "5TT MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "40195",
       "bankCode": "40195",
       "legalName": "78 Finance Company Ltd",
       "category": "finance-company",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "090629",
       "bankCode": "090629",
       "legalName": "9jaPay Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "120001",
       "bankCode": "120001",
       "legalName": "9mobile 9Payment Service Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "404",
       "bankCode": "404",
       "legalName": "Abbey Mortgage Bank",
       "category": "mortgage-bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "51204",
       "bankCode": "51204",
       "legalName": "Above Only MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51312",
       "bankCode": "51312",
       "legalName": "Abulesoro MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "044",
       "bankCode": "044",
       "legalName": "Access Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "063",
       "bankCode": "063",
       "legalName": "Access Bank (Diamond)",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "602",
       "bankCode": "602",
       "legalName": "Accion Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "90102",
       "bankCode": "90102",
       "legalName": "Adamawa Mortgage Bank Limited",
       "category": "mortgage-bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "090759",
       "bankCode": "090759",
       "legalName": "Advancly MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50315",
       "bankCode": "50315",
       "legalName": "Aella MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "90077",
       "bankCode": "90077",
       "legalName": "AG Mortgage Bank",
       "category": "mortgage-bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "50036",
       "bankCode": "50036",
       "legalName": "Ahmadu Bello University Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "120004",
       "bankCode": "120004",
       "legalName": "Airtel Smartcash PSB",
       "category": "payment-service-bank",
-      "types": [
-        "mobile-money"
-      ]
+      "types": ["mobile-money"]
     },
     {
       "registryId": "51336",
       "bankCode": "51336",
       "legalName": "AKU Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "090561",
       "bankCode": "090561",
       "legalName": "Akuchukwu Microfinance Bank Limited",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50055",
       "bankCode": "50055",
       "legalName": "Al-Barakah Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "035A",
       "bankCode": "035A",
       "legalName": "ALAT by WEMA",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "51074",
       "bankCode": "51074",
       "legalName": "Alert MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50059",
       "bankCode": "50059",
       "legalName": "ALLWORKERS MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "108",
       "bankCode": "108",
       "legalName": "Alpha Morgan Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "000304",
       "bankCode": "000304",
       "legalName": "Alternative bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "50926",
       "bankCode": "50926",
       "legalName": "Amju Unique MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50083",
       "bankCode": "50083",
       "legalName": "Aramoko MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "401",
       "bankCode": "401",
       "legalName": "ASO Savings and Loans",
       "category": "mortgage-bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "90287",
       "bankCode": "90287",
       "legalName": "ASSET MATRIX MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50092",
       "bankCode": "50092",
       "legalName": "Assets Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "MFB50094",
       "bankCode": "MFB50094",
       "legalName": "Astrapolaris MFB LTD",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "90451",
       "bankCode": "90451",
       "legalName": "ATBU MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "090478",
       "bankCode": "090478",
       "legalName": "AVUENEGBE MICROFINANCE BANK",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51351",
       "bankCode": "51351",
       "legalName": "AWACASH MICROFINANCE BANK",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51337",
       "bankCode": "51337",
       "legalName": "AZTEC MICROFINANCE BANK LIMITED",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51229",
       "bankCode": "51229",
       "legalName": "Bainescredit MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50117",
       "bankCode": "50117",
       "legalName": "Banc Corp Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "90367",
       "bankCode": "90367",
       "legalName": "BANK OF AGRICULTURE",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "11072",
       "bankCode": "11072",
       "legalName": "Bank78 Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50572",
       "bankCode": "50572",
       "legalName": "BANKIT MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51341",
       "bankCode": "51341",
       "legalName": "BANKLY MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "MFB50992",
       "bankCode": "MFB50992",
       "legalName": "Baobab Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51212",
       "bankCode": "51212",
       "legalName": "BC Kash Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51100",
       "bankCode": "51100",
       "legalName": "BellBank Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51267",
       "bankCode": "51267",
       "legalName": "Benysta Microfinance Bank Limited",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50122",
       "bankCode": "50122",
       "legalName": "Berachah Microfinance Bank Ltd.",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50123",
       "bankCode": "50123",
       "legalName": "Beststar Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51411",
       "bankCode": "51411",
       "legalName": "BLOC MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50725",
       "bankCode": "50725",
       "legalName": "BOLD MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51449",
       "bankCode": "51449",
       "legalName": "Boost Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "650",
       "bankCode": "650",
       "legalName": "Bosak Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50931",
       "bankCode": "50931",
       "legalName": "Bowen Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "FC40163",
       "bankCode": "FC40163",
       "legalName": "Branch International Finance Company Limited",
       "category": "finance-company",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "90070",
       "bankCode": "90070",
       "legalName": "Brent Mortgage bank",
       "category": "mortgage-bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "50645",
       "bankCode": "50645",
       "legalName": "BuyPower MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "90774",
       "bankCode": "90774",
       "legalName": "BWAY MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "565",
       "bankCode": "565",
       "legalName": "Carbon",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "51353",
       "bankCode": "51353",
       "legalName": "Cashbridge Microfinance Bank Limited",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "865",
       "bankCode": "865",
       "legalName": "CASHCONNECT MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51437",
       "bankCode": "51437",
       "legalName": "Cedrus MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50823",
       "bankCode": "50823",
       "legalName": "CEMCS Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "050032",
       "bankCode": "050032",
       "legalName": "Centrum Finance",
       "category": "finance-company",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "100036",
       "bankCode": "100036",
       "legalName": "CHAMS MOBILE MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50171",
       "bankCode": "50171",
       "legalName": "Chanelle Microfinance Bank Limited",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "312",
       "bankCode": "312",
       "legalName": "Chikum Microfinance bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "023",
       "bankCode": "023",
       "legalName": "Citibank Nigeria",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "070027",
       "bankCode": "070027",
       "legalName": "CITYCODE MORTAGE BANK",
       "category": "mortgage-bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "50186",
       "bankCode": "50186",
       "legalName": "Civic Microfinance Bank Limited",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50910",
       "bankCode": "50910",
       "legalName": "Consumer Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51458",
       "bankCode": "51458",
       "legalName": "Cool Microfinance Bank Limited",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "90089",
       "bankCode": "90089",
       "legalName": "Cooperative Mortgage Bank",
       "category": "mortgage-bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "50204",
       "bankCode": "50204",
       "legalName": "Corestep MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "559",
       "bankCode": "559",
       "legalName": "Coronation Merchant Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "FC40128",
       "bankCode": "FC40128",
       "legalName": "County Finance Limited",
       "category": "finance-company",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "40119",
       "bankCode": "40119",
       "legalName": "Credit Direct Limited",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "51297",
       "bankCode": "51297",
       "legalName": "Crescent MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "090560",
       "bankCode": "090560",
       "legalName": "Crust Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50216",
       "bankCode": "50216",
       "legalName": "CRUTECH MICROFINANCE BANK LTD",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51368",
       "bankCode": "51368",
       "legalName": "Dash Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51334",
       "bankCode": "51334",
       "legalName": "Davenport MICROFINANCE BANK",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51450",
       "bankCode": "51450",
       "legalName": "Dillon Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50162",
       "bankCode": "50162",
       "legalName": "Dot Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50922",
       "bankCode": "50922",
       "legalName": "EBSU Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "050",
       "bankCode": "050",
       "legalName": "Ecobank Nigeria",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "50263",
       "bankCode": "50263",
       "legalName": "Ekimogun MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "098",
       "bankCode": "098",
       "legalName": "Ekondo Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50280",
       "bankCode": "50280",
       "legalName": "ESO-E MICROFINANCE BANK LIMITED",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51475",
       "bankCode": "51475",
       "legalName": "Ethica MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "090678",
       "bankCode": "090678",
       "legalName": "EXCEL FINANCE BANK",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "50126",
       "bankCode": "50126",
       "legalName": "Eyowo",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "51318",
       "bankCode": "51318",
       "legalName": "Fairmoney Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51241",
       "bankCode": "51241",
       "legalName": "FCMB MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50298",
       "bankCode": "50298",
       "legalName": "Fedeth MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "050002",
       "bankCode": "050002",
       "legalName": "Fewchore Finance Company Limited",
       "category": "finance-company",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "51110",
       "bankCode": "51110",
       "legalName": "FFS Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "070",
       "bankCode": "070",
       "legalName": "Fidelity Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "51314",
       "bankCode": "51314",
       "legalName": "Firmus MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "011",
       "bankCode": "011",
       "legalName": "First Bank of Nigeria",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "214",
       "bankCode": "214",
       "legalName": "First City Monument Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "50934",
       "bankCode": "50934",
       "legalName": "First Option MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "090164",
       "bankCode": "090164",
       "legalName": "FIRST ROYAL MICROFINANCE BANK",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51333",
       "bankCode": "51333",
       "legalName": "FIRSTMIDAS MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "413",
       "bankCode": "413",
       "legalName": "FirstTrust Mortgage Bank Nigeria",
       "category": "mortgage-bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "090567",
       "bankCode": "090567",
       "legalName": "Flutterwave MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "D53",
       "bankCode": "D53",
       "legalName": "Fortress MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "501",
       "bankCode": "501",
       "legalName": "FSDH Merchant Bank Limited",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "832",
       "bankCode": "832",
       "legalName": "FUTMINNA MICROFINANCE BANK",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "MFB51093",
       "bankCode": "MFB51093",
       "legalName": "Garun Mallam MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "812",
       "bankCode": "812",
       "legalName": "Gateway Mortgage Bank LTD",
       "category": "mortgage-bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "00103",
       "bankCode": "00103",
       "legalName": "Globus Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "90278",
       "bankCode": "90278",
       "legalName": "GLORY MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "090574",
       "bankCode": "090574",
       "legalName": "Goldman MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "90586",
       "bankCode": "90586",
       "legalName": "GOMBE MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "100022",
       "bankCode": "100022",
       "legalName": "GoMoney",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "090664",
       "bankCode": "090664",
       "legalName": "GOOD SHEPHERD MICROFINANCE BANK",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50739",
       "bankCode": "50739",
       "legalName": "Goodnews Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "90335",
       "bankCode": "90335",
       "legalName": "GRANTS MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "562",
       "bankCode": "562",
       "legalName": "Greenwich Merchant Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "51276",
       "bankCode": "51276",
       "legalName": "GROOMING MICROFINANCE BANK",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50368",
       "bankCode": "50368",
       "legalName": "GTI MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "058",
       "bankCode": "058",
       "legalName": "Guaranty Trust Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "51251",
       "bankCode": "51251",
       "legalName": "Hackman Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "90065",
       "bankCode": "90065",
       "legalName": "Haggai Mortgage Bank",
       "category": "mortgage-bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "50383",
       "bankCode": "50383",
       "legalName": "Hasal Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51364",
       "bankCode": "51364",
       "legalName": "Hayat Trust MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "120002",
       "bankCode": "120002",
       "legalName": "HopePSB",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "51211",
       "bankCode": "51211",
       "legalName": "IBANK Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51279",
       "bankCode": "51279",
       "legalName": "IBBU MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51244",
       "bankCode": "51244",
       "legalName": "Ibile Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "90012",
       "bankCode": "90012",
       "legalName": "Ibom Mortgage Bank",
       "category": "mortgage-bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "50439",
       "bankCode": "50439",
       "legalName": "Ikoyi Osun MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50442",
       "bankCode": "50442",
       "legalName": "Ilaro Poly Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50453",
       "bankCode": "50453",
       "legalName": "Imowo MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "415",
       "bankCode": "415",
       "legalName": "IMPERIAL HOMES MORTAGE BANK",
       "category": "mortgage-bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "51462",
       "bankCode": "51462",
       "legalName": "INEBA GOGO MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50457",
       "bankCode": "50457",
       "legalName": "Infinity MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "070016",
       "bankCode": "070016",
       "legalName": "Infinity trust Mortgage Bank",
       "category": "mortgage-bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "090701",
       "bankCode": "090701",
       "legalName": "ISUA MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "301",
       "bankCode": "301",
       "legalName": "Jaiz Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "402",
       "bankCode": "402",
       "legalName": "Jubilee Life Mortgage Bank",
       "category": "mortgage-bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "50502",
       "bankCode": "50502",
       "legalName": "Kadpoly MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51308",
       "bankCode": "51308",
       "legalName": "KANOPOLY MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "90667",
       "bankCode": "90667",
       "legalName": "KAYI MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "5129",
       "bankCode": "5129",
       "legalName": "Kayvee Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "90028",
       "bankCode": "90028",
       "legalName": "Kebbi Homes Savings and Loans Limited",
       "category": "mortgage-bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "082",
       "bankCode": "082",
       "legalName": "Keystone Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "899",
       "bankCode": "899",
       "legalName": "Kolomoni MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "100025",
       "bankCode": "100025",
       "legalName": "Kolomoni Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50200",
       "bankCode": "50200",
       "legalName": "Kredi Money MFB LTD",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50211",
       "bankCode": "50211",
       "legalName": "Kuda Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "90052",
       "bankCode": "90052",
       "legalName": "Lagos Building Investment Company Plc.",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "091003",
       "bankCode": "091003",
       "legalName": "Lemmy MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "090420",
       "bankCode": "090420",
       "legalName": "Letshego Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50549",
       "bankCode": "50549",
       "legalName": "Links MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "031",
       "bankCode": "031",
       "legalName": "Living Trust Mortgage Bank",
       "category": "mortgage-bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "50491",
       "bankCode": "50491",
       "legalName": "LOMA MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "303",
       "bankCode": "303",
       "legalName": "Lotus Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "51444",
       "bankCode": "51444",
       "legalName": "Maal MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "90825",
       "bankCode": "90825",
       "legalName": "MAHFUZ MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "090171",
       "bankCode": "090171",
       "legalName": "MAINSTREET MICROFINANCE BANK",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51474",
       "bankCode": "51474",
       "legalName": "Mayden Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50563",
       "bankCode": "50563",
       "legalName": "Mayfair MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "90003",
       "bankCode": "90003",
       "legalName": "Mayfresh Mortgage Bank",
       "category": "mortgage-bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "50570",
       "bankCode": "50570",
       "legalName": "Mega Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "MFB51116M",
       "bankCode": "MFB51116M",
       "legalName": "Michael Okpara UniAgric Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50304",
       "bankCode": "50304",
       "legalName": "Mint MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "09",
       "bankCode": "09",
       "legalName": "MINT-FINEX MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "946",
       "bankCode": "946",
       "legalName": "Money Master PSB",
       "category": "payment-service-bank",
-      "types": [
-        "mobile-money"
-      ]
+      "types": ["mobile-money"]
     },
     {
       "registryId": "50515",
       "bankCode": "50515",
       "legalName": "Moniepoint MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "90979",
       "bankCode": "90979",
       "legalName": "MOVASCO MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "120003",
       "bankCode": "120003",
       "legalName": "MTN Momo PSB",
       "category": "payment-service-bank",
-      "types": [
-        "mobile-money"
-      ]
+      "types": ["mobile-money"]
     },
     {
       "registryId": "090190",
       "bankCode": "090190",
       "legalName": "MUTUAL BENEFITS MICROFINANCE BANK",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "090679",
       "bankCode": "090679",
       "legalName": "NDCC MICROFINANCE BANK",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51361",
       "bankCode": "51361",
       "legalName": "NET MICROFINANCE BANK",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51142",
       "bankCode": "51142",
       "legalName": "Nigerian Navy Microfinance Bank Limited",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51304",
       "bankCode": "51304",
       "legalName": "NIRSAL MICROFINANCE",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50072",
       "bankCode": "50072",
       "legalName": "Nombank MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "561",
       "bankCode": "561",
       "legalName": "NOVA BANK",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "51371",
       "bankCode": "51371",
       "legalName": "Novus MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50629",
       "bankCode": "50629",
       "legalName": "NPF MICROFINANCE BANK",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51261",
       "bankCode": "51261",
       "legalName": "NSUK MICROFINANACE BANK",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51392",
       "bankCode": "51392",
       "legalName": "NUVION MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50689",
       "bankCode": "50689",
       "legalName": "Olabisi Onabanjo University Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50697",
       "bankCode": "50697",
       "legalName": "OLUCHUKWU MICROFINANCE BANK LTD",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "999992",
       "bankCode": "999992",
       "legalName": "OPay Digital Services Limited (OPay)",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "107",
       "bankCode": "107",
       "legalName": "Optimus Bank Limited",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "51477",
       "bankCode": "51477",
       "legalName": "Pact Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "100002",
       "bankCode": "100002",
       "legalName": "Paga",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "999991",
       "bankCode": "999991",
       "legalName": "PalmPay",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "104",
       "bankCode": "104",
       "legalName": "Parallex Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "311",
       "bankCode": "311",
       "legalName": "Parkway - ReadyCash",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "090680",
       "bankCode": "090680",
       "legalName": "PATHFINDER MICROFINANCE BANK LIMITED",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "90317",
       "bankCode": "90317",
       "legalName": "PATRICKGOLD MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51457",
       "bankCode": "51457",
       "legalName": "Paystack MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50743",
       "bankCode": "50743",
       "legalName": "Peace Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51226",
       "bankCode": "51226",
       "legalName": "PECANTRUST MICROFINANCE BANK LIMITED",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51146",
       "bankCode": "51146",
       "legalName": "Personal Trust MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50746",
       "bankCode": "50746",
       "legalName": "Petra Mircofinance Bank Plc",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "MFB51452",
       "bankCode": "MFB51452",
       "legalName": "Pettysave MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "050021",
       "bankCode": "050021",
       "legalName": "PFI FINANCE COMPANY LIMITED",
       "category": "finance-company",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "268",
       "bankCode": "268",
       "legalName": "Platinum Mortgage Bank",
       "category": "mortgage-bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "00716",
       "bankCode": "00716",
       "legalName": "Pocket App",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "076",
       "bankCode": "076",
       "legalName": "Polaris Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "50864",
       "bankCode": "50864",
       "legalName": "Polyunwana MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "105",
       "bankCode": "105",
       "legalName": "PremiumTrust Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "050023",
       "bankCode": "050023",
       "legalName": "PROSPERIS FINANCE LIMITED",
       "category": "finance-company",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "101",
       "bankCode": "101",
       "legalName": "Providus Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "51293",
       "bankCode": "51293",
       "legalName": "QuickFund MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "502",
       "bankCode": "502",
       "legalName": "Rand Merchant Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "090496",
       "bankCode": "090496",
       "legalName": "RANDALPHA MICROFINANCE BANK",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50130",
       "bankCode": "50130",
       "legalName": "Rank MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "90067",
       "bankCode": "90067",
       "legalName": "Refuge Mortgage Bank",
       "category": "mortgage-bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "50761",
       "bankCode": "50761",
       "legalName": "REHOBOTH MICROFINANCE BANK",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51049",
       "bankCode": "51049",
       "legalName": "RenMoney Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50994",
       "bankCode": "50994",
       "legalName": "Rephidim Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51375",
       "bankCode": "51375",
       "legalName": "Retrust Mfb",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51108",
       "bankCode": "51108",
       "legalName": "Rex Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51286",
       "bankCode": "51286",
       "legalName": "Rigo Microfinance Bank Limited",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50767",
       "bankCode": "50767",
       "legalName": "ROCKSHIELD MICROFINANCE BANK",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50622",
       "bankCode": "50622",
       "legalName": "RSU MICROFINANCE BANK",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "125",
       "bankCode": "125",
       "legalName": "Rubies MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51113",
       "bankCode": "51113",
       "legalName": "Safe Haven MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "40165",
       "bankCode": "40165",
       "legalName": "SAGE GREY FINANCE LIMITED",
       "category": "finance-company",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "50582",
       "bankCode": "50582",
       "legalName": "Shield MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "106",
       "bankCode": "106",
       "legalName": "Signature Bank Ltd",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "51062",
       "bankCode": "51062",
       "legalName": "Solid Allianze MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50800",
       "bankCode": "50800",
       "legalName": "Solid Rock MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "90641",
       "bankCode": "90641",
       "legalName": "SOURCE MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51310",
       "bankCode": "51310",
       "legalName": "Sparkle Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50756",
       "bankCode": "50756",
       "legalName": "SPECTRUM MFB LTD",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51429",
       "bankCode": "51429",
       "legalName": "Springfield Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "221",
       "bankCode": "221",
       "legalName": "Stanbic IBTC Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "068",
       "bankCode": "068",
       "legalName": "Standard Chartered Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "090162",
       "bankCode": "090162",
       "legalName": "STANFORD MICROFINANCE BANK",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50809",
       "bankCode": "50809",
       "legalName": "STATESIDE MICROFINANCE BANK",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "070022",
       "bankCode": "070022",
       "legalName": "STB Mortgage Bank",
       "category": "mortgage-bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "51253",
       "bankCode": "51253",
       "legalName": "Stellas MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "232",
       "bankCode": "232",
       "legalName": "Sterling Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "00305",
       "bankCode": "00305",
       "legalName": "Summit Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "100",
       "bankCode": "100",
       "legalName": "Suntrust Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "50968",
       "bankCode": "50968",
       "legalName": "Supreme MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51056",
       "bankCode": "51056",
       "legalName": "Sycamore Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "302",
       "bankCode": "302",
       "legalName": "TAJ Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "51269",
       "bankCode": "51269",
       "legalName": "Tangerine Money",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "109",
       "bankCode": "109",
       "legalName": "Tatum Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "00109",
       "bankCode": "00109",
       "legalName": "Tatum Bank Ltd",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "51403",
       "bankCode": "51403",
       "legalName": "TENN",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "677",
       "bankCode": "677",
       "legalName": "Think Finance Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "102",
       "bankCode": "102",
       "legalName": "Titan Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "90801",
       "bankCode": "90801",
       "legalName": "TOPRATE MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "090708",
       "bankCode": "090708",
       "legalName": "TransPay MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51118",
       "bankCode": "51118",
       "legalName": "TRUSTBANC J6 MICROFINANCE BANK",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50840",
       "bankCode": "50840",
       "legalName": "U and C MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51396",
       "bankCode": "51396",
       "legalName": "UBJ Microfinance Bank Limited",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "090706",
       "bankCode": "090706",
       "legalName": "UCEE MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51322",
       "bankCode": "51322",
       "legalName": "Uhuru MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51080",
       "bankCode": "51080",
       "legalName": "Ultraviolet Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51097",
       "bankCode": "51097",
       "legalName": "Umunnachi Microfinance Bank Ltd",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50870",
       "bankCode": "50870",
       "legalName": "Unaab Microfinance Bank Limited",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51447",
       "bankCode": "51447",
       "legalName": "UNIABUJA MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50871",
       "bankCode": "50871",
       "legalName": "Unical MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51316",
       "bankCode": "51316",
       "legalName": "Unilag Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50875",
       "bankCode": "50875",
       "legalName": "UNIMAID MICROFINANCE BANK",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "032",
       "bankCode": "032",
       "legalName": "Union Bank of Nigeria",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "033",
       "bankCode": "033",
       "legalName": "United Bank For Africa",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "215",
       "bankCode": "215",
       "legalName": "Unity Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "50880",
       "bankCode": "50880",
       "legalName": "UNIUYO Microfinance Bank Ltd",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "50894",
       "bankCode": "50894",
       "legalName": "Uzondu Microfinance Bank Awka Anambra State",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "050020",
       "bankCode": "050020",
       "legalName": "Vale Finance Limited",
       "category": "finance-company",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "566",
       "bankCode": "566",
       "legalName": "VFD Microfinance Bank Limited",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51085",
       "bankCode": "51085",
       "legalName": "Victory MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "90787",
       "bankCode": "90787",
       "legalName": "VISTA MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "51355",
       "bankCode": "51355",
       "legalName": "Waya Microfinance Bank",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "035",
       "bankCode": "035",
       "legalName": "Wema Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "51386",
       "bankCode": "51386",
       "legalName": "Weston Charis MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "402001",
       "bankCode": "402001",
       "legalName": "Whitecrust Finance Company",
       "category": "finance-company",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "100040",
       "bankCode": "100040",
       "legalName": "Xpress Wallet",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "594",
       "bankCode": "594",
       "legalName": "Yes MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     },
     {
       "registryId": "00zap",
       "bankCode": "00zap",
       "legalName": "Zap",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "057",
       "bankCode": "057",
       "legalName": "Zenith Bank",
       "category": "bank",
-      "types": [
-        "bank"
-      ]
+      "types": ["bank"]
     },
     {
       "registryId": "51373",
       "bankCode": "51373",
       "legalName": "Zitra MFB",
       "category": "microfinance-bank",
-      "types": [
-        "microfinance-bank"
-      ]
+      "types": ["microfinance-bank"]
     }
   ]
 }

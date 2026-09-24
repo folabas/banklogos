@@ -2,26 +2,16 @@
   "id": "alternative-bank",
   "name": "The Alternative Bank",
   "shortName": "AltBank",
-  "aliases": [
-    "Alternative bank"
-  ],
+  "aliases": ["Alternative bank"],
   "scope": "NG",
-  "markets": [
-    "NG"
-  ],
-  "types": [
-    "bank"
-  ],
-  "variants": [
-    "logo"
-  ],
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo"],
   "colors": {
     "primary": "#B89B45"
   },
   "website": "https://altbank.ng",
-  "bankCodes": [
-    "000304"
-  ],
+  "bankCodes": ["000304"],
   "source": {
     "url": "https://altbank.ng/wp-content/uploads/2023/07/TAB_LOGO_SVG_FULL_COLOUR-1.svg",
     "license": "official-site",

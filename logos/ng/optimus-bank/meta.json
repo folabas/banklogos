@@ -2,27 +2,16 @@
   "id": "optimus-bank",
   "name": "Optimus Bank",
   "shortName": "Optimus",
-  "aliases": [
-    "Optimus Bank Limited"
-  ],
+  "aliases": ["Optimus Bank Limited"],
   "scope": "NG",
-  "markets": [
-    "NG"
-  ],
-  "types": [
-    "bank"
-  ],
-  "variants": [
-    "logo",
-    "mark"
-  ],
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo", "mark"],
   "colors": {
     "primary": "#223E92"
   },
   "website": "https://www.optimusbank.com",
-  "bankCodes": [
-    "107"
-  ],
+  "bankCodes": ["107"],
   "source": {
     "url": "https://www.optimusbank.com/_next/static/media/Optimus%20Bank%20RC%20Logo.4c078eb9.svg",
     "license": "official-site",

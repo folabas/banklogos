@@ -2,19 +2,11 @@
   "id": "mkobo",
   "name": "Mkobo Microfinance Bank",
   "shortName": "Mkobo",
-  "aliases": [
-    "MKOBO MFB LTD"
-  ],
+  "aliases": ["MKOBO MFB LTD"],
   "scope": "NG",
-  "markets": [
-    "NG"
-  ],
-  "types": [
-    "microfinance-bank"
-  ],
-  "variants": [
-    "logo"
-  ],
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
   "colors": {
     "primary": "#0047CC"
   },

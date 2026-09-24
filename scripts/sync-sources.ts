@@ -3,7 +3,7 @@
  * and reports institutions added, removed or renamed since the last saved snapshot.
  * `--check` fetches and diffs without writing.
  */
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { SOURCES } from '../sources/index.js';
 import type { SourceSnapshot } from '../sources/types.js';

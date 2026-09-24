@@ -4,23 +4,14 @@
   "shortName": "Fidelity",
   "aliases": [],
   "scope": "NG",
-  "markets": [
-    "NG"
-  ],
-  "types": [
-    "bank"
-  ],
-  "variants": [
-    "logo",
-    "mark"
-  ],
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo", "mark"],
   "colors": {
     "primary": "#002082"
   },
   "website": "https://www.fidelitybank.ng",
-  "bankCodes": [
-    "070"
-  ],
+  "bankCodes": ["070"],
   "source": {
     "url": "https://www.fidelitybank.ng/wp-content/uploads/2020/07/Fidelity_Bank_Plc_Main_Logo.svg",
     "license": "official-site",

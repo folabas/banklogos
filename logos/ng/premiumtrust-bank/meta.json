@@ -2,26 +2,16 @@
   "id": "premiumtrust-bank",
   "name": "PremiumTrust Bank",
   "shortName": "PremiumTrust",
-  "aliases": [
-    "Premium Trust Bank"
-  ],
+  "aliases": ["Premium Trust Bank"],
   "scope": "NG",
-  "markets": [
-    "NG"
-  ],
-  "types": [
-    "bank"
-  ],
-  "variants": [
-    "logo"
-  ],
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo"],
   "colors": {
     "primary": "#E43625"
   },
   "website": "https://premiumtrustbank.com",
-  "bankCodes": [
-    "105"
-  ],
+  "bankCodes": ["105"],
   "source": {
     "url": "https://premiumtrustbank.com/_next/static/media/logo-premiumtrustbank-lighmode.de003855.svg",
     "license": "official-site",

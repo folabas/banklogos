@@ -4,9 +4,7 @@
     "name": "Citibank Nigeria",
     "bankCode": "023",
     "shortName": "Citi",
-    "aliases": [
-      "Citibank"
-    ],
+    "aliases": ["Citibank"],
     "website": "https://www.citigroup.com/global/about-us/global-presence/nigeria",
     "colors": {
       "primary": "#255BE3"
@@ -59,10 +57,7 @@
     "name": "First Bank of Nigeria",
     "bankCode": "011",
     "shortName": "FirstBank",
-    "aliases": [
-      "First Bank",
-      "FBN"
-    ],
+    "aliases": ["First Bank", "FBN"],
     "website": "https://firstbankgroup.com/ng/",
     "colors": {
       "primary": "#003B65"
@@ -133,9 +128,7 @@
     "name": "PremiumTrust Bank",
     "bankCode": "105",
     "shortName": "PremiumTrust",
-    "aliases": [
-      "Premium Trust Bank"
-    ],
+    "aliases": ["Premium Trust Bank"],
     "website": "https://premiumtrustbank.com",
     "colors": {
       "primary": "#E43625"
@@ -165,9 +158,7 @@
     "id": "standard-chartered",
     "name": "Standard Chartered",
     "bankCode": "068",
-    "aliases": [
-      "Standard Chartered Bank Nigeria"
-    ],
+    "aliases": ["Standard Chartered Bank Nigeria"],
     "website": "https://www.sc.com/ng/",
     "colors": {
       "primary": "#0473EA"
@@ -203,9 +194,7 @@
     "id": "tatum-bank",
     "name": "Tatum Bank",
     "bankCode": "109",
-    "extraBankCodes": [
-      "00109"
-    ],
+    "extraBankCodes": ["00109"],
     "website": "https://www.tatumbank.com",
     "colors": {
       "primary": "#002244"
@@ -312,12 +301,8 @@
     "id": "hope-psb",
     "name": "Hope PSB",
     "bankCode": "120002",
-    "aliases": [
-      "Hope Payment Service Bank"
-    ],
-    "types": [
-      "mobile-money"
-    ],
+    "aliases": ["Hope Payment Service Bank"],
+    "types": ["mobile-money"],
     "website": "https://hopepsbank.com",
     "colors": {
       "primary": "#005EC2"

@@ -4,19 +4,11 @@
   "shortName": "Coronation",
   "aliases": [],
   "scope": "NG",
-  "markets": [
-    "NG"
-  ],
-  "types": [
-    "bank"
-  ],
-  "variants": [
-    "logo"
-  ],
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo"],
   "website": "https://www.coronationmb.com",
-  "bankCodes": [
-    "559"
-  ],
+  "bankCodes": ["559"],
   "source": {
     "url": "https://www.coronationmb.com/wp-content/uploads/2019/05/new-coronation-logo.svg",
     "license": "official-site",

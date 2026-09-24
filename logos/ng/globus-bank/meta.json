@@ -4,22 +4,14 @@
   "shortName": "Globus",
   "aliases": [],
   "scope": "NG",
-  "markets": [
-    "NG"
-  ],
-  "types": [
-    "bank"
-  ],
-  "variants": [
-    "logo"
-  ],
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo"],
   "colors": {
     "primary": "#242E64"
   },
   "website": "https://www.globusbank.com",
-  "bankCodes": [
-    "00103"
-  ],
+  "bankCodes": ["00103"],
   "source": {
     "url": "https://www.globusbank.com/Images/Globus%20Logo.svg",
     "license": "official-site",

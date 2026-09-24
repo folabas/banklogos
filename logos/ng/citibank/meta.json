@@ -2,26 +2,16 @@
   "id": "citibank",
   "name": "Citibank Nigeria",
   "shortName": "Citi",
-  "aliases": [
-    "Citibank"
-  ],
+  "aliases": ["Citibank"],
   "scope": "NG",
-  "markets": [
-    "NG"
-  ],
-  "types": [
-    "bank"
-  ],
-  "variants": [
-    "logo"
-  ],
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo"],
   "colors": {
     "primary": "#255BE3"
   },
   "website": "https://www.citigroup.com/global/about-us/global-presence/nigeria",
-  "bankCodes": [
-    "023"
-  ],
+  "bankCodes": ["023"],
   "source": {
     "url": "https://commons.wikimedia.org/wiki/File:Citi_logo_March_2023.svg",
     "license": "public-domain-textlogo",

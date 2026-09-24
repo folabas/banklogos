@@ -1,26 +1,16 @@
 {
   "id": "signature-bank",
   "name": "Signature Bank",
-  "aliases": [
-    "Signature Bank Ltd"
-  ],
+  "aliases": ["Signature Bank Ltd"],
   "scope": "NG",
-  "markets": [
-    "NG"
-  ],
-  "types": [
-    "bank"
-  ],
-  "variants": [
-    "logo"
-  ],
+  "markets": ["NG"],
+  "types": ["bank"],
+  "variants": ["logo"],
   "colors": {
     "primary": "#6C1D45"
   },
   "website": "https://signaturebankng.com",
-  "bankCodes": [
-    "106"
-  ],
+  "bankCodes": ["106"],
   "source": {
     "url": "https://commons.wikimedia.org/wiki/File:Signature_Bank_Logo.svg",
     "license": "cc-by-sa",
