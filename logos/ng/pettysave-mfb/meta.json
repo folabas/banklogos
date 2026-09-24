@@ -7,13 +7,15 @@
   "markets": ["NG"],
   "types": ["microfinance-bank"],
   "variants": ["logo"],
-  "formats": { "logo": "png" },
+  "formats": {
+    "logo": "png"
+  },
   "bankCodes": ["MFB51452"],
   "source": {
     "url": "https://play.google.com/store/apps/details?id=com.pettysavemfb.pettysavemfbmobile",
     "license": "official-app-icon",
     "fetchedAt": "2026-09-24"
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0"
 }

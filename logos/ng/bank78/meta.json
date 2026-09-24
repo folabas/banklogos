@@ -6,13 +6,16 @@
   "markets": ["NG"],
   "types": ["microfinance-bank"],
   "variants": ["logo", "mark"],
-  "formats": { "logo": "png", "mark": "png" },
+  "formats": {
+    "logo": "png",
+    "mark": "png"
+  },
   "bankCodes": ["11072"],
   "source": {
     "url": "https://play.google.com/store/apps/details?id=com.bank78.mobile_app",
     "license": "official-app-icon",
     "fetchedAt": "2026-09-24"
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0"
 }

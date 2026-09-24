@@ -6,7 +6,10 @@
   "markets": ["NG"],
   "types": ["microfinance-bank"],
   "variants": ["logo", "mark"],
-  "formats": { "logo": "png", "mark": "png" },
+  "formats": {
+    "logo": "png",
+    "mark": "png"
+  },
   "website": "https://nsmbanklimited.com",
   "bankCodes": ["090679"],
   "source": {

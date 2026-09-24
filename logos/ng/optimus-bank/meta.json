@@ -7,7 +7,9 @@
   "markets": ["NG"],
   "types": ["bank"],
   "variants": ["logo", "mark"],
-  "colors": { "primary": "#223E92" },
+  "colors": {
+    "primary": "#223E92"
+  },
   "website": "https://www.optimusbank.com",
   "bankCodes": ["107"],
   "source": {
@@ -22,7 +24,7 @@
       "fetchedAt": "2026-09-24"
     }
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0",
   "regulatorRef": {
     "body": "CBN",

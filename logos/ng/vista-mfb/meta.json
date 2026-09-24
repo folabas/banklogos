@@ -7,7 +7,9 @@
   "markets": ["NG"],
   "types": ["microfinance-bank"],
   "variants": ["logo", "mark"],
-  "formats": { "logo": "png" },
+  "formats": {
+    "logo": "png"
+  },
   "website": "https://vistamfb.com",
   "bankCodes": ["90787"],
   "source": {
@@ -22,6 +24,6 @@
       "fetchedAt": "2026-09-24"
     }
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0"
 }

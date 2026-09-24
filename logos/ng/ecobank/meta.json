@@ -7,7 +7,9 @@
   "markets": ["NG"],
   "types": ["bank"],
   "variants": ["logo"],
-  "colors": { "primary": "#00577A" },
+  "colors": {
+    "primary": "#00577A"
+  },
   "website": "https://ecobank.com/ng",
   "bankCodes": ["050"],
   "source": {
@@ -15,7 +17,7 @@
     "license": "public-domain-textlogo",
     "fetchedAt": "2026-09-24"
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0",
   "regulatorRef": {
     "body": "CBN",

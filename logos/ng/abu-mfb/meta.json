@@ -7,13 +7,15 @@
   "markets": ["NG"],
   "types": ["microfinance-bank"],
   "variants": ["logo"],
-  "formats": { "logo": "png" },
+  "formats": {
+    "logo": "png"
+  },
   "bankCodes": ["50036"],
   "source": {
     "url": "https://www.facebook.com/myabubank",
     "license": "official-social",
     "fetchedAt": "2026-09-24"
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0"
 }

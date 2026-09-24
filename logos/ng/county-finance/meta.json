@@ -6,7 +6,10 @@
   "markets": ["NG"],
   "types": ["bank"],
   "variants": ["logo", "mark"],
-  "formats": { "logo": "png", "mark": "png" },
+  "formats": {
+    "logo": "png",
+    "mark": "png"
+  },
   "website": "https://www.countyfinanceng.com",
   "bankCodes": ["FC40128"],
   "source": {

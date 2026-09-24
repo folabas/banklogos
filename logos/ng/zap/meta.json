@@ -6,7 +6,10 @@
   "markets": ["NG"],
   "types": ["e-wallet"],
   "variants": ["logo", "mark"],
-  "formats": { "logo": "png", "mark": "png" },
+  "formats": {
+    "logo": "png",
+    "mark": "png"
+  },
   "website": "https://joinzap.com",
   "bankCodes": ["00zap"],
   "source": {

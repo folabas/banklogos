@@ -6,7 +6,9 @@
   "markets": ["NG"],
   "types": ["microfinance-bank"],
   "variants": ["logo", "mark"],
-  "formats": { "mark": "png" },
+  "formats": {
+    "mark": "png"
+  },
   "website": "https://paystack.com",
   "bankCodes": ["51457"],
   "source": {
@@ -21,6 +23,6 @@
       "fetchedAt": "2026-09-24"
     }
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0"
 }

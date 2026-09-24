@@ -7,7 +7,9 @@
   "markets": ["NG"],
   "types": ["bank"],
   "variants": ["logo"],
-  "colors": { "primary": "#D70900" },
+  "colors": {
+    "primary": "#D70900"
+  },
   "website": "https://www.ubagroup.com/nigeria/",
   "bankCodes": ["033"],
   "source": {
@@ -15,7 +17,7 @@
     "license": "official-site",
     "fetchedAt": "2026-09-24"
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0",
   "regulatorRef": {
     "body": "CBN",

@@ -7,7 +7,9 @@
   "markets": ["NG"],
   "types": ["microfinance-bank"],
   "variants": ["logo", "mark"],
-  "formats": { "mark": "png" },
+  "formats": {
+    "mark": "png"
+  },
   "website": "https://groomingmfb.com",
   "bankCodes": ["51276"],
   "source": {
@@ -22,6 +24,6 @@
       "fetchedAt": "2026-09-24"
     }
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0"
 }

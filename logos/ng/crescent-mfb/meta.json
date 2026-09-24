@@ -7,7 +7,9 @@
   "markets": ["NG"],
   "types": ["microfinance-bank"],
   "variants": ["logo"],
-  "formats": { "logo": "png" },
+  "formats": {
+    "logo": "png"
+  },
   "website": "https://crescentmfb.ng",
   "bankCodes": ["51297"],
   "source": {

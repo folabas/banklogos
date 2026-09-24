@@ -7,7 +7,9 @@
   "markets": ["NG"],
   "types": ["bank"],
   "variants": ["logo"],
-  "colors": { "primary": "#004080" },
+  "colors": {
+    "primary": "#004080"
+  },
   "website": "https://jaizbankplc.com",
   "bankCodes": ["301"],
   "source": {
@@ -15,7 +17,7 @@
     "license": "official-site",
     "fetchedAt": "2026-09-24"
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0",
   "regulatorRef": {
     "body": "CBN",

@@ -7,7 +7,9 @@
   "markets": ["NG"],
   "types": ["bank"],
   "variants": ["logo"],
-  "colors": { "primary": "#255BE3" },
+  "colors": {
+    "primary": "#255BE3"
+  },
   "website": "https://www.citigroup.com/global/about-us/global-presence/nigeria",
   "bankCodes": ["023"],
   "source": {
@@ -15,7 +17,7 @@
     "license": "public-domain-textlogo",
     "fetchedAt": "2026-09-24"
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0",
   "regulatorRef": {
     "body": "CBN",

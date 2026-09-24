@@ -6,7 +6,9 @@
   "markets": ["NG"],
   "types": ["mobile-money"],
   "variants": ["logo"],
-  "colors": { "primary": "#005EC2" },
+  "colors": {
+    "primary": "#005EC2"
+  },
   "website": "https://hopepsbank.com",
   "bankCodes": ["120002"],
   "source": {
@@ -14,7 +16,7 @@
     "license": "official-site",
     "fetchedAt": "2026-09-24"
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0",
   "regulatorRef": {
     "body": "CBN",

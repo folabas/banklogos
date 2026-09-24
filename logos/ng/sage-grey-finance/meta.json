@@ -7,7 +7,10 @@
   "markets": ["NG"],
   "types": ["bank"],
   "variants": ["logo", "mark"],
-  "formats": { "logo": "png", "mark": "png" },
+  "formats": {
+    "logo": "png",
+    "mark": "png"
+  },
   "bankCodes": ["40165"],
   "source": {
     "url": "https://play.google.com/store/apps/details?id=com.sagamy.sagegreymobile",

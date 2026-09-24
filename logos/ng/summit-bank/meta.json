@@ -6,7 +6,9 @@
   "markets": ["NG"],
   "types": ["bank"],
   "variants": ["logo"],
-  "colors": { "primary": "#AF1F23" },
+  "colors": {
+    "primary": "#AF1F23"
+  },
   "website": "https://summitbankng.com",
   "bankCodes": ["00305"],
   "source": {
@@ -14,7 +16,7 @@
     "license": "official-site",
     "fetchedAt": "2026-09-24"
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0",
   "regulatorRef": {
     "body": "CBN",

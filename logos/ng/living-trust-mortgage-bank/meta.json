@@ -7,7 +7,9 @@
   "markets": ["NG"],
   "types": ["bank"],
   "variants": ["logo"],
-  "formats": { "logo": "png" },
+  "formats": {
+    "logo": "png"
+  },
   "website": "https://www.livingtrustng.com",
   "bankCodes": ["031"],
   "source": {
@@ -15,6 +17,6 @@
     "license": "official-site",
     "fetchedAt": "2026-09-24"
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0"
 }

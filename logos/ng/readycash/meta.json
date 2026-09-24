@@ -6,7 +6,9 @@
   "markets": ["NG"],
   "types": ["mobile-money", "e-wallet"],
   "variants": ["logo"],
-  "formats": { "logo": "png" },
+  "formats": {
+    "logo": "png"
+  },
   "website": "https://readycash.parkway.ng",
   "bankCodes": ["311"],
   "source": {
@@ -14,6 +16,6 @@
     "license": "official-app-icon",
     "fetchedAt": "2026-09-24"
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0"
 }
