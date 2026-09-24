@@ -14,6 +14,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import type { License, LogoEntity, LogoFormat, LogoType, LogoVariant } from '../packages/core/src/types.js';
 import type { SourceEntry, SourceSnapshot } from '../sources/types.js';
+import { writeJson } from './lib/json.js';
 import { LOGOS_DIR, readLogoFolders, ROOT } from './lib/logos.js';
 import { optimizeSvg } from './lib/optimize.js';
 import { lintPng } from './lib/png-lint.js';
@@ -191,7 +192,7 @@ for (const entry of manifest.filter((e) => !e.sameBrandAs)) {
     if (!dryRun) {
       mkdirSync(dir, { recursive: true });
       for (const v of variants) writeFileSync(join(dir, `${v}.${files[v]!.format}`), files[v]!.bytes);
-      writeFileSync(join(dir, 'meta.json'), JSON.stringify(meta, null, 2) + '\n');
+      await writeJson(join(dir, 'meta.json'), meta);
     }
     newEntities.set(entry.id, { dir, meta });
     imported.push(entry.id);
@@ -220,7 +221,7 @@ for (const entry of manifest.filter((e) => e.sameBrandAs)) {
   const codes = target.meta.bankCodes ?? [];
   if (!codes.includes(entry.bankCode)) {
     target.meta.bankCodes = [...codes, entry.bankCode];
-    if (!dryRun) writeFileSync(join(target.dir, 'meta.json'), JSON.stringify(target.meta, null, 2) + '\n');
+    if (!dryRun) await writeJson(join(target.dir, 'meta.json'), target.meta);
   }
   merged.push(`${entry.bankCode} -> ${target.meta.id}`);
 }

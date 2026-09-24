@@ -7,6 +7,7 @@ import { existsSync, mkdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { SOURCES } from '../sources/index.js';
 import type { SourceSnapshot } from '../sources/types.js';
+import { writeJson } from './lib/json.js';
 import { ROOT } from './lib/logos.js';
 import { diffSnapshots } from './lib/match.js';
 
@@ -32,7 +33,7 @@ for (const source of SOURCES) {
     // Keep the old date when nothing changed, so the file only shows up in git diffs on real changes.
     const unchanged = before && !added.length && !removed.length && !renamed.length;
     const toWrite = unchanged ? { ...after, fetchedAt: before.fetchedAt } : after;
-    writeFileSync(path, JSON.stringify(toWrite, null, 2) + '\n');
+    await writeJson(path, toWrite);
   }
 }
 
