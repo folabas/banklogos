@@ -1,12 +1,15 @@
 {
   "id": "taj-bank",
   "name": "TAJBank",
-  "aliases": ["TAJ Bank Limited", "TAJ Bank"],
+  "aliases": ["TAJ Bank Limited", "TAJ Bank", "TAJ"],
   "scope": "NG",
   "markets": ["NG"],
   "types": ["bank"],
   "variants": ["logo", "mark"],
-  "formats": { "logo": "png", "mark": "png" },
+  "formats": {
+    "logo": "png",
+    "mark": "png"
+  },
   "website": "https://tajbank.com",
   "bankCodes": ["302"],
   "source": {
@@ -22,5 +25,10 @@
     }
   },
   "verified": false,
-  "addedIn": "0.1.0"
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "non-interest-bank",
+    "registryId": "4121"
+  }
 }

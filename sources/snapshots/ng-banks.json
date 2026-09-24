@@ -4,7 +4,7 @@
   "matchBy": "bankCode",
   "fetchedAt": "2026-09-24",
   "totals": {
-    "microfinance-bank": 188,
+    "microfinance-bank": 187,
     "finance-company": 10,
     "bank": 59,
     "mortgage-bank": 20,
@@ -988,13 +988,6 @@
       "registryId": "50502",
       "bankCode": "50502",
       "legalName": "Kadpoly MFB",
-      "category": "microfinance-bank",
-      "types": ["microfinance-bank"]
-    },
-    {
-      "registryId": "51308",
-      "bankCode": "51308",
-      "legalName": "KANOPOLY MFB",
       "category": "microfinance-bank",
       "types": ["microfinance-bank"]
     },

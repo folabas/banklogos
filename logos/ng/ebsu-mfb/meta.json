@@ -1,0 +1,19 @@
+{
+  "id": "ebsu-mfb",
+  "name": "EBSU Microfinance Bank",
+  "aliases": ["EBSU MFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://ebsu.edu.ng",
+  "bankCodes": ["50922"],
+  "source": {
+    "url": "https://ebsu.edu.ng",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

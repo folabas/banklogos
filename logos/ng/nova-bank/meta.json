@@ -2,12 +2,21 @@
   "id": "nova-bank",
   "name": "Nova Bank",
   "shortName": "Nova",
-  "aliases": ["NOVA BANK", "Nova Merchant Bank", "Nova Merchant Bank Limited"],
+  "aliases": [
+    "NOVA BANK",
+    "Nova Merchant Bank",
+    "Nova Merchant Bank Limited",
+    "Nova Commercial Bank",
+    "Nova Commercial Bank Limited"
+  ],
   "scope": "NG",
   "markets": ["NG"],
   "types": ["bank"],
   "variants": ["logo", "mark"],
-  "formats": { "logo": "png", "mark": "png" },
+  "formats": {
+    "logo": "png",
+    "mark": "png"
+  },
   "website": "https://www.novabank.ng",
   "bankCodes": ["561"],
   "source": {
@@ -16,5 +25,10 @@
     "fetchedAt": "2026-09-24"
   },
   "verified": false,
-  "addedIn": "0.1.0"
+  "addedIn": "0.1.0",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "commercial-bank",
+    "registryId": "9870"
+  }
 }

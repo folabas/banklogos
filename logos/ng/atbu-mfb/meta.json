@@ -1,0 +1,19 @@
+{
+  "id": "atbu-mfb",
+  "name": "ATBU Microfinance Bank",
+  "aliases": ["ATBU MFB"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://atbu.edu.ng",
+  "bankCodes": ["90451"],
+  "source": {
+    "url": "https://atbu.edu.ng",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

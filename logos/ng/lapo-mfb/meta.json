@@ -1,0 +1,24 @@
+{
+  "id": "lapo-mfb",
+  "name": "LAPO Microfinance Bank",
+  "shortName": "LAPO",
+  "aliases": ["LAPO MFB", "Lift Above Poverty Organisation"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo"],
+  "formats": { "logo": "png" },
+  "website": "https://www.lapo-nigeria.org",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "microfinance-bank",
+    "registryId": "3663"
+  },
+  "source": {
+    "url": "https://apps.apple.com/ng/app/lapo-mobile-app/id6448030325",
+    "license": "official-app-icon",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

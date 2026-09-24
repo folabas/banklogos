@@ -1,0 +1,26 @@
+{
+  "id": "prospa",
+  "name": "Prospa",
+  "aliases": ["Goodnews Microfinance Bank", "Prospa Capital Microfinance Bank"],
+  "scope": "NG",
+  "markets": ["NG"],
+  "types": ["microfinance-bank"],
+  "variants": ["logo", "mark"],
+  "formats": { "logo": "png", "mark": "png" },
+  "website": "https://getprospa.com",
+  "bankCodes": ["50739"],
+  "source": {
+    "url": "https://getprospa.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "variantSources": {
+    "mark": {
+      "url": "https://apps.apple.com/ng/app/prospa-business-account/id6739344740",
+      "license": "official-app-icon",
+      "fetchedAt": "2026-09-24"
+    }
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

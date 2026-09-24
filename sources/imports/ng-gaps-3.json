@@ -1,0 +1,80 @@
+[
+  {
+    "id": "atbu-mfb",
+    "bankCode": "90451",
+    "name": "ATBU Microfinance Bank",
+    "aliases": ["ATBU MFB"],
+    "types": ["microfinance-bank"],
+    "website": "https://atbu.edu.ng",
+    "logo": {
+      "url": "https://atbu.edu.ng/wp-content/uploads/2021/05/logo-atbu.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://atbu.edu.ng"
+    },
+    "mark": {
+      "url": "https://atbu.edu.ng/wp-content/uploads/2021/05/cropped-logo-atbu-alumni-192x192.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://atbu.edu.ng"
+    },
+    "notes": "Owned by Abubakar Tafawa Balewa University; the bank has no logo of its own, so the parent university crest is used (owner decision 2026-09-24)."
+  },
+  {
+    "id": "futminna-mfb",
+    "bankCode": "832",
+    "name": "FUTMINNA Microfinance Bank",
+    "aliases": ["FUT Minna MFB"],
+    "types": ["microfinance-bank"],
+    "website": "https://futminna.edu.ng",
+    "logo": {
+      "url": "https://futminna.edu.ng/wp-content/uploads/2022/11/cropped-futlogo1-192x192.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://futminna.edu.ng"
+    },
+    "notes": "Owned by Federal University of Technology Minna; parent university crest used (owner decision 2026-09-24)."
+  },
+  {
+    "id": "ebsu-mfb",
+    "bankCode": "50922",
+    "name": "EBSU Microfinance Bank",
+    "aliases": ["EBSU MFB"],
+    "types": ["microfinance-bank"],
+    "website": "https://ebsu.edu.ng",
+    "logo": {
+      "url": "https://ebsu.edu.ng/wp-content/uploads/2023/05/ebsulogo.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://ebsu.edu.ng"
+    },
+    "mark": {
+      "url": "https://ebsu.edu.ng/wp-content/uploads/2023/05/fav.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://ebsu.edu.ng"
+    },
+    "notes": "Owned by Ebonyi State University; parent university logo/crest used (owner decision 2026-09-24)."
+  },
+  {
+    "id": "prospa",
+    "bankCode": "50739",
+    "name": "Prospa",
+    "aliases": ["Goodnews Microfinance Bank", "Prospa Capital Microfinance Bank"],
+    "types": ["microfinance-bank"],
+    "website": "https://getprospa.com",
+    "logo": {
+      "url": "https://getprospa.com/wp-content/uploads/2023/11/Group-3664511.png",
+      "format": "png",
+      "license": "official-site",
+      "sourceUrl": "https://getprospa.com"
+    },
+    "mark": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/30/08/a2300812-a543-8c74-3931-65d6007385ef/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.png",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://apps.apple.com/ng/app/prospa-business-account/id6739344740"
+    },
+    "notes": "Code 50739 is listed by Paystack as both Goodnews Microfinance Bank and Prospa Capital Microfinance Bank; Prospa brand used (owner decision 2026-09-24)."
+  }
+]

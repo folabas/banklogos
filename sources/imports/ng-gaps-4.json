@@ -1,0 +1,19 @@
+[
+  {
+    "id": "lapo-mfb",
+    "snapshot": "ng-cbn",
+    "registryId": "3663",
+    "name": "LAPO Microfinance Bank",
+    "shortName": "LAPO",
+    "aliases": ["LAPO MFB", "Lift Above Poverty Organisation"],
+    "types": ["microfinance-bank"],
+    "website": "https://www.lapo-nigeria.org",
+    "logo": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/29/d4/0c/29d40cf6-cadd-1994-3931-62c7a11b35f0/AppIcon-0-0-1x_U007ephone-0-11-0-sRGB-85-220.png/512x512bb.png",
+      "format": "png",
+      "license": "official-app-icon",
+      "sourceUrl": "https://apps.apple.com/ng/app/lapo-mobile-app/id6448030325"
+    },
+    "notes": "Not on the Paystack bank list (no transfer code there); linked via the CBN register. Site logo SVG wraps a PNG, so the official app icon is used."
+  }
+]

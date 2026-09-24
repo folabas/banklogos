@@ -20,9 +20,10 @@ export interface PaystackBank {
   type: string;
 }
 
-// Entries that are payment rails or duplicates of another entry, not banks a user picks.
+// Entries that are payment rails, duplicates of another entry, or no longer licensed.
 const SKIP: Record<string, string> = {
   'titan-paystack': 'Paystack settlement account at Titan Trust, not a consumer bank',
+  'kanopoly-mfb-ng': 'Kano Poly MFB: CBN licence revoked July 2026',
 };
 
 function categorize(name: string): { category: string; types: LogoType[] } {
