@@ -1,0 +1,25 @@
+{
+  "id": "opay",
+  "name": "OPay",
+  "aliases": ["OPay Digital Services", "Paycom"],
+  "scope": "NG",
+  "markets": ["NG", "EG"],
+  "types": ["mobile-money", "e-wallet"],
+  "variants": ["logo"],
+  "colors": {
+    "primary": "#1DCF9F",
+    "secondary": "#210F60"
+  },
+  "website": "https://www.opayweb.com",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "mobile-money-operator"
+  },
+  "source": {
+    "url": "https://www.opayweb.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

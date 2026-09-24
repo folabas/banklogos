@@ -1,0 +1,25 @@
+{
+  "id": "zenith-bank",
+  "name": "Zenith Bank",
+  "aliases": ["Zenith"],
+  "scope": "NG",
+  "markets": ["NG", "GH"],
+  "types": ["bank"],
+  "variants": ["logo"],
+  "colors": {
+    "primary": "#ED1C24",
+    "secondary": "#808285"
+  },
+  "website": "https://www.zenithbank.com",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "commercial-bank"
+  },
+  "source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Zenith_Bank_Logo.svg",
+    "license": "public-domain-textlogo",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

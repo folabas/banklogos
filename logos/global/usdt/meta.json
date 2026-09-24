@@ -1,0 +1,21 @@
+{
+  "id": "usdt",
+  "name": "Tether USDt",
+  "shortName": "USDT",
+  "aliases": ["Tether"],
+  "scope": "global",
+  "markets": [],
+  "types": ["crypto"],
+  "variants": ["logo"],
+  "colors": {
+    "primary": "#26A17B"
+  },
+  "website": "https://tether.to",
+  "source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Tether_Logo.svg",
+    "license": "public-domain-textlogo",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

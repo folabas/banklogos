@@ -1,0 +1,20 @@
+{
+  "id": "visa",
+  "name": "Visa",
+  "aliases": ["Visa Inc."],
+  "scope": "global",
+  "markets": ["NG", "GH", "KE", "ZA", "EG"],
+  "types": ["card-network"],
+  "variants": ["logo"],
+  "colors": {
+    "primary": "#1434CB"
+  },
+  "website": "https://www.visa.com",
+  "source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Visa_Inc._logo_(2021%E2%80%93present).svg",
+    "license": "public-domain-textlogo",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}

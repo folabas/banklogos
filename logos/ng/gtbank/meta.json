@@ -1,0 +1,25 @@
+{
+  "id": "gtbank",
+  "name": "Guaranty Trust Bank",
+  "shortName": "GTBank",
+  "aliases": ["GTB", "Guaranty Trust"],
+  "scope": "NG",
+  "markets": ["NG", "GH", "KE"],
+  "types": ["bank"],
+  "variants": ["logo"],
+  "colors": {
+    "primary": "#DE4A09"
+  },
+  "website": "https://www.gtbank.com",
+  "regulatorRef": {
+    "body": "CBN",
+    "category": "commercial-bank"
+  },
+  "source": {
+    "url": "https://commons.wikimedia.org/wiki/File:GTBank_logo.svg",
+    "license": "public-domain-textlogo",
+    "fetchedAt": "2026-09-24"
+  },
+  "verified": false,
+  "addedIn": "0.1.0"
+}
