@@ -1,0 +1,39 @@
+{
+  "name": "fintech-logos",
+  "version": "0.0.0",
+  "description": "Logos for banks, mobile money, e-wallets, payment gateways and crypto — starting with Nigeria.",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./svg/*": {
+      "import": "./dist/generated/svg/*.js",
+      "require": "./dist/generated/svg/*.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "logos",
+    "fintech",
+    "banks",
+    "nigeria",
+    "africa",
+    "mobile-money",
+    "payments",
+    "crypto",
+    "svg"
+  ],
+  "scripts": {
+    "build": "tsup"
+  }
+}
