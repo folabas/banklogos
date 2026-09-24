@@ -91,6 +91,18 @@ describe('validateFolders', () => {
     );
   });
 
+  it('accepts a separate source for the mark, but only when the mark exists', () => {
+    const markSource = { url: 'https://www.gtbank.com/icon.svg', license: 'official-site', fetchedAt: '2026-09-24' };
+    const withMark = folder({
+      meta: meta({ variants: ['logo', 'mark'], variantSources: { mark: markSource } }),
+      svgFiles: ['logo.svg', 'mark.svg'],
+    });
+    expect(run([withMark]).errors).toEqual([]);
+
+    const { errors } = run([folder({ meta: meta({ variantSources: { mark: markSource } }) })]);
+    expect(errors.join('\n')).toMatch(/variantSources.mark: "mark" is not listed in variants/);
+  });
+
   it('rejects duplicate ids across scopes', () => {
     const gh = folder({ scopeDir: 'gh', meta: meta({ scope: 'GH', markets: ['GH'] }) });
     expect(run([folder(), gh]).errors.join('\n')).toMatch(/already used by logos\/ng\/gtbank/);

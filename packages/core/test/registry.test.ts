@@ -34,5 +34,7 @@ describe('generated registry', () => {
     expect(listByCountry('NG').map((e) => e.id)).toContain('visa');
     expect(listByType('e-wallet').map((e) => e.id)).toEqual(['opay']);
     expect(listByType('crypto').map((e) => e.id)).toEqual(['usdt']);
+    expect(getLogo('usdt')?.variants).toEqual(['logo', 'mark']);
+    expect(getLogo('moniepoint')?.variantSources?.mark?.license).toBe('official-site');
   });
 });

@@ -24,6 +24,13 @@ export type License = (typeof LICENSES)[number];
 /** ISO 3166-1 alpha-2 code (upper case), or "global" for multinational brands. */
 export type Scope = string;
 
+export interface LogoSource {
+  url: string;
+  license: License;
+  /** YYYY-MM-DD */
+  fetchedAt: string;
+}
+
 export interface LogoEntity {
   /** Stable slug. Never reused or renamed once published. */
   id: string;
@@ -39,7 +46,10 @@ export interface LogoEntity {
   colors?: { primary?: string; secondary?: string };
   website?: string;
   regulatorRef?: { body: string; category?: string; licenseNo?: string };
-  source: { url: string; license: License; fetchedAt: string };
+  /** Where the `logo` variant came from, and the default for other variants. */
+  source: LogoSource;
+  /** Per-variant source, for variants that came from somewhere other than `source`. */
+  variantSources?: Partial<Record<Exclude<LogoVariant, 'logo'>, LogoSource>>;
   /** True once a maintainer has confirmed the logo is current and correct. */
   verified: boolean;
   /** Package version the entity first shipped in. */

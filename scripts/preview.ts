@@ -18,7 +18,8 @@ const cards = entities
       .map((v) => {
         const svg = readFileSync(join(dirById.get(e.id)!, `${v}.svg`), 'utf8');
         const img = `data:image/svg+xml;base64,${Buffer.from(svg).toString('base64')}`;
-        return `<div class="variant"><span class="label">${v} · ${Buffer.byteLength(svg)} B</span>
+        const src = (v !== 'logo' && e.variantSources?.[v]) || e.source;
+        return `<div class="variant"><span class="label">${v} · ${Buffer.byteLength(svg)} B · <a href="${esc(src.url)}">${esc(src.license)}</a></span>
           <div class="row"><div class="tile light"><img src="${img}" alt=""></div><div class="tile dark"><img src="${img}" alt=""></div></div>
           <div class="row small"><div class="chip light"><img src="${img}" alt=""></div><div class="chip dark"><img src="${img}" alt=""></div><span class="label">32px</span></div></div>`;
       })

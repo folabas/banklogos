@@ -25,7 +25,15 @@
 }
 ```
 
-4. Run `npm run normalize && npm run validate`.
+If `mark.svg` comes from a different place than `logo.svg`, record where in `variantSources`:
+
+```json
+"variantSources": {
+  "mark": { "url": "https://moniepoint.com/icon.svg", "license": "official-site", "fetchedAt": "2026-09-24" }
+}
+```
+
+4. Run `npm run normalize && npm run validate`, then `npm run preview` to check how the logo looks on light and dark backgrounds and at 32px.
 
 Always set `verified: false`. A maintainer changes it to `true` after reviewing the logo.
 

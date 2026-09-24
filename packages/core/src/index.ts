@@ -1,7 +1,7 @@
 import { registry } from './generated/registry.js';
 import { createIndex } from './lookup.js';
 
-export type { LogoEntity, LogoType, LogoVariant, License, Scope } from './types.js';
+export type { LogoEntity, LogoType, LogoVariant, LogoSource, License, Scope } from './types.js';
 export { LOGO_TYPES, LOGO_VARIANTS, LICENSES } from './types.js';
 export type { NameQuery, LogoIndex } from './lookup.js';
 export { createIndex, normalize } from './lookup.js';

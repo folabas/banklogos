@@ -43,6 +43,7 @@ import gtbankMark from 'fintech-logos/svg/gtbank-mark'; // icon-only mark, when 
 | `variants`                     | `logo` (always present), `mark` (optional icon-only version)                                                |
 | `verified`                     | `true` once a maintainer has confirmed the logo is current. Filter on it if you only want reviewed entries. |
 | `source.url`, `source.license` | Where the file came from                                                                                    |
+| `variantSources.mark`          | Where the mark came from, when that differs from `source`                                                   |
 
 ## Contributing
 

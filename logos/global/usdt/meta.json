@@ -6,14 +6,14 @@
   "scope": "global",
   "markets": [],
   "types": ["crypto"],
-  "variants": ["logo"],
+  "variants": ["logo", "mark"],
   "colors": {
-    "primary": "#26A17B"
+    "primary": "#009393"
   },
   "website": "https://tether.to",
   "source": {
-    "url": "https://commons.wikimedia.org/wiki/File:Tether_Logo.svg",
-    "license": "public-domain-textlogo",
+    "url": "https://tether.to/en/media/",
+    "license": "official-press-kit",
     "fetchedAt": "2026-09-24"
   },
   "verified": false,

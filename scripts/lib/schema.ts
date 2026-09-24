@@ -4,6 +4,7 @@ import { LICENSES, LOGO_TYPES, LOGO_VARIANTS, type LogoEntity } from '../../pack
 const countryCode = z.string().regex(/^[A-Z]{2}$/, 'must be an upper-case ISO 3166-1 alpha-2 code');
 const isoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'must be YYYY-MM-DD');
 const hexColor = z.string().regex(/^#[0-9A-Fa-f]{6}$/, 'must be a 6-digit hex colour like #FF4713');
+const source = z.strictObject({ url: z.url(), license: z.enum(LICENSES), fetchedAt: isoDate });
 
 export const logoMetaSchema = z
   .strictObject({
@@ -23,13 +24,23 @@ export const logoMetaSchema = z
     regulatorRef: z
       .strictObject({ body: z.string().min(1), category: z.string().optional(), licenseNo: z.string().optional() })
       .optional(),
-    source: z.strictObject({ url: z.url(), license: z.enum(LICENSES), fetchedAt: isoDate }),
+    source,
+    variantSources: z.strictObject({ mark: source.optional() }).optional(),
     verified: z.boolean(),
     addedIn: z.string().regex(/^\d+\.\d+\.\d+$/, 'must be a semver version'),
   })
   .superRefine((meta, ctx) => {
     if (meta.scope !== 'global' && !meta.markets.includes(meta.scope)) {
       ctx.addIssue({ code: 'custom', path: ['markets'], message: `must include the scope "${meta.scope}"` });
+    }
+    for (const variant of Object.keys(meta.variantSources ?? {}) as (keyof NonNullable<typeof meta.variantSources>)[]) {
+      if (!meta.variants.includes(variant)) {
+        ctx.addIssue({
+          code: 'custom',
+          path: ['variantSources', variant],
+          message: `"${variant}" is not listed in variants`,
+        });
+      }
     }
     const dupes = (arr: string[]) => arr.filter((v, i) => arr.indexOf(v) !== i);
     for (const key of ['aliases', 'markets', 'types', 'variants'] as const) {
