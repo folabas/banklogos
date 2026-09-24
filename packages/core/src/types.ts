@@ -45,7 +45,13 @@ export interface LogoEntity {
   variants: LogoVariant[];
   colors?: { primary?: string; secondary?: string };
   website?: string;
-  regulatorRef?: { body: string; category?: string; licenseNo?: string };
+  regulatorRef?: {
+    body: string;
+    category?: string;
+    licenseNo?: string;
+    /** The regulator's own identifier (e.g. the CBN register id), used to match against sources/. */
+    registryId?: string;
+  };
   /** Where the `logo` variant came from, and the default for other variants. */
   source: LogoSource;
   /** Per-variant source, for variants that came from somewhere other than `source`. */

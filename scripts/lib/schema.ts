@@ -22,7 +22,12 @@ export const logoMetaSchema = z
     colors: z.strictObject({ primary: hexColor.optional(), secondary: hexColor.optional() }).optional(),
     website: z.url().optional(),
     regulatorRef: z
-      .strictObject({ body: z.string().min(1), category: z.string().optional(), licenseNo: z.string().optional() })
+      .strictObject({
+        body: z.string().min(1),
+        category: z.string().optional(),
+        licenseNo: z.string().optional(),
+        registryId: z.string().min(1).optional(),
+      })
       .optional(),
     source,
     variantSources: z.strictObject({ mark: source.optional() }).optional(),

@@ -13,7 +13,8 @@
   "website": "https://www.zenithbank.com",
   "regulatorRef": {
     "body": "CBN",
-    "category": "commercial-bank"
+    "category": "commercial-bank",
+    "registryId": "24"
   },
   "source": {
     "url": "https://commons.wikimedia.org/wiki/File:Zenith_Bank_Logo.svg",

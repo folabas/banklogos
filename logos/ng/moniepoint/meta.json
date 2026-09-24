@@ -12,7 +12,8 @@
   "website": "https://moniepoint.com",
   "regulatorRef": {
     "body": "CBN",
-    "category": "microfinance-bank"
+    "category": "microfinance-bank",
+    "registryId": "3916"
   },
   "source": {
     "url": "https://commons.wikimedia.org/wiki/File:Moniepoint_Logo.svg",

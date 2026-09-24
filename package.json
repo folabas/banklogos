@@ -19,7 +19,9 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "preview": "tsx scripts/preview.ts",
-    "size": "tsx scripts/bundle-size.ts"
+    "size": "tsx scripts/bundle-size.ts",
+    "sources:sync": "tsx scripts/sync-sources.ts",
+    "coverage": "tsx scripts/coverage.ts"
   },
   "devDependencies": {
     "@types/node": "^26.6.2",

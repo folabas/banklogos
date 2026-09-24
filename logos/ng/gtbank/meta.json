@@ -13,7 +13,8 @@
   "website": "https://www.gtbank.com",
   "regulatorRef": {
     "body": "CBN",
-    "category": "commercial-bank"
+    "category": "commercial-bank",
+    "registryId": "8"
   },
   "source": {
     "url": "https://commons.wikimedia.org/wiki/File:GTBank_logo.svg",

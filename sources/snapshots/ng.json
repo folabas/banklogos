@@ -1,0 +1,350 @@
+{
+  "scope": "NG",
+  "regulator": "CBN",
+  "fetchedAt": "2026-09-24",
+  "totals": {
+    "commercial-bank": 28,
+    "merchant-bank": 5,
+    "non-interest-bank": 6,
+    "payment-service-bank": 5,
+    "microfinance-bank": 796
+  },
+  "entries": [
+    {
+      "registryId": "1",
+      "legalName": "Access Bank Plc",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "9894",
+      "legalName": "Alpha Morgan Bank Limited",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "2",
+      "legalName": "Citibank Nigeria Limited",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "3",
+      "legalName": "Ecobank Nigeria Plc",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "4",
+      "legalName": "Fidelity Bank Plc",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "5",
+      "legalName": "First Bank Nigeria Limited",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "6",
+      "legalName": "First City Monument Bank Plc",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "7",
+      "legalName": "Globus Bank Limited",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "8",
+      "legalName": "Guaranty Trust Bank Plc",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "10",
+      "legalName": "Keystone Bank Limited",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "9870",
+      "legalName": "Nova Commercial Bank Limited",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "9865",
+      "legalName": "Optimus Bank",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "11",
+      "legalName": "Parallex Bank Ltd",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "12",
+      "legalName": "Polaris Bank Plc",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "13",
+      "legalName": "Premium Trust Bank",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "14",
+      "legalName": "Providus Bank",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "9866",
+      "legalName": "Signature Bank Limited",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "15",
+      "legalName": "Stanbic IBTC Bank Plc",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "16",
+      "legalName": "Standard Chartered Bank Nigeria Ltd.",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "17",
+      "legalName": "Sterling Bank Plc",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "18",
+      "legalName": "SunTrust Bank Nigeria Limited",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "9895",
+      "legalName": "Tatum Bank Limited",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "19",
+      "legalName": "Titan Trust Bank Ltd",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "20",
+      "legalName": "Union Bank of Nigeria Plc",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "21",
+      "legalName": "United Bank For Africa Plc",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "22",
+      "legalName": "Unity Bank Plc",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "23",
+      "legalName": "Wema Bank Plc",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "24",
+      "legalName": "Zenith Bank Plc",
+      "category": "commercial-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "3181",
+      "legalName": "CORONATION MERCHANT BANK",
+      "category": "merchant-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "3183",
+      "legalName": "FSDH MERCHANT BANK",
+      "category": "merchant-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "3184",
+      "legalName": "GREENWICH MERCHANT BANK",
+      "category": "merchant-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "3182",
+      "legalName": "QUEST MERCHANT BANK",
+      "category": "merchant-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "3186",
+      "legalName": "RAND MERCHANT BANK",
+      "category": "merchant-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "3199",
+      "legalName": "Accion Microfinance Bank Limited",
+      "category": "microfinance-bank",
+      "types": ["microfinance-bank"]
+    },
+    {
+      "registryId": "3287",
+      "legalName": "Baobab Microfinance Bank",
+      "category": "microfinance-bank",
+      "types": ["microfinance-bank"]
+    },
+    {
+      "registryId": "3349",
+      "legalName": "CARBON MFB",
+      "category": "microfinance-bank",
+      "types": ["microfinance-bank"]
+    },
+    {
+      "registryId": "3463",
+      "legalName": "FAIRMONEY MFB LTD",
+      "category": "microfinance-bank",
+      "types": ["microfinance-bank"]
+    },
+    {
+      "registryId": "3652",
+      "legalName": "KUDA MFB",
+      "category": "microfinance-bank",
+      "types": ["microfinance-bank"]
+    },
+    {
+      "registryId": "3663",
+      "legalName": "LAPO MFB",
+      "category": "microfinance-bank",
+      "types": ["microfinance-bank"]
+    },
+    {
+      "registryId": "3719",
+      "legalName": "MKOBO MFB LTD",
+      "category": "microfinance-bank",
+      "types": ["microfinance-bank"]
+    },
+    {
+      "registryId": "3916",
+      "legalName": "Moniepoint MFB",
+      "category": "microfinance-bank",
+      "types": ["microfinance-bank"]
+    },
+    {
+      "registryId": "3906",
+      "legalName": "RENMONEY MFB",
+      "category": "microfinance-bank",
+      "types": ["microfinance-bank"]
+    },
+    {
+      "registryId": "3921",
+      "legalName": "RUBIES MFB",
+      "category": "microfinance-bank",
+      "types": ["microfinance-bank"]
+    },
+    {
+      "registryId": "3952",
+      "legalName": "SPARKLE MFB",
+      "category": "microfinance-bank",
+      "types": ["microfinance-bank"]
+    },
+    {
+      "registryId": "4039",
+      "legalName": "VFD MFB LTD",
+      "category": "microfinance-bank",
+      "types": ["microfinance-bank"]
+    },
+    {
+      "registryId": "9845",
+      "legalName": "Alternative Bank Limited",
+      "category": "non-interest-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "4119",
+      "legalName": "JAIZ BANK PLC",
+      "category": "non-interest-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "4120",
+      "legalName": "LOTUS BANK LTD",
+      "category": "non-interest-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "10055",
+      "legalName": "Mint Microfinance Bank Limited",
+      "category": "non-interest-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "9917",
+      "legalName": "SUMMIT BANK LIMITED",
+      "category": "non-interest-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "4121",
+      "legalName": "TAJ",
+      "category": "non-interest-bank",
+      "types": ["bank"]
+    },
+    {
+      "registryId": "4117",
+      "legalName": "9 PSB Ltd",
+      "category": "payment-service-bank",
+      "types": ["mobile-money"]
+    },
+    {
+      "registryId": "4113",
+      "legalName": "Hope PSB Ltd",
+      "category": "payment-service-bank",
+      "types": ["mobile-money"]
+    },
+    {
+      "registryId": "9846",
+      "legalName": "MOMO PAYMENT SERVICE BANK",
+      "category": "payment-service-bank",
+      "types": ["mobile-money"]
+    },
+    {
+      "registryId": "4115",
+      "legalName": "Moneymaster PSB Ltd",
+      "category": "payment-service-bank",
+      "types": ["mobile-money"]
+    },
+    {
+      "registryId": "9883",
+      "legalName": "SMARTCASH PSB LIMITED",
+      "category": "payment-service-bank",
+      "types": ["mobile-money"]
+    }
+  ]
+}
