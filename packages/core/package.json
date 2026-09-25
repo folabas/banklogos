@@ -29,12 +29,17 @@
         "default": "./dist/generated/img/*.cjs"
       }
     },
+    "./native/*": {
+      "types": "./native/*.d.ts",
+      "default": "./native/*.js"
+    },
     "./assets/*": "./assets/*",
     "./package.json": "./package.json"
   },
   "files": [
     "dist",
-    "assets"
+    "assets",
+    "native"
   ],
   "keywords": [
     "bank logos",

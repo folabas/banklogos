@@ -5,6 +5,7 @@ import { formatOf, getLogo, listAll, listByCountry, listByType, searchLogos } fr
 
 const svgModule = (name: string) => fileURLToPath(new URL(`../src/generated/svg/${name}.ts`, import.meta.url));
 const asset = (file: string) => fileURLToPath(new URL(`../assets/${file}`, import.meta.url));
+const nativePng = (name: string) => fileURLToPath(new URL(`../assets/native/${name}.png`, import.meta.url));
 
 describe('generated registry', () => {
   it('ships a file for every variant in its reported format, and an svg module for SVG variants', () => {
@@ -15,6 +16,8 @@ describe('generated registry', () => {
         expect(['svg', 'webp'], name).toContain(format);
         expect(existsSync(asset(`${name}.${format}`)), name).toBe(true);
         expect(existsSync(svgModule(name)), name).toBe(format === 'svg');
+        // React Native can't draw SVG, so every SVG logo also ships as a PNG rendering.
+        if (format === 'svg') expect(existsSync(nativePng(name)), `${name} native png`).toBe(true);
       }
     }
   });

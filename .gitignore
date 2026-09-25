@@ -14,3 +14,6 @@ examples/*/package-lock.json
 packages/core/README.md
 examples/*/.next/
 examples/*/next-env.d.ts
+packages/core/native/
+examples/*/dist-*/
+examples/*/.expo/

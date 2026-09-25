@@ -36,6 +36,20 @@ import gtbankSvg from 'banklogos/svg/gtbank'; // raw SVG markup, only for logos 
 
 `img/<id>` imports the image file itself, so your bundler emits it and gives you its URL, in dev and production builds alike. Tested with Next.js 16 (Turbopack and webpack, server and client components) and Vite; see `examples/nextjs` and `examples/bank-picker`. Other bundlers that handle image imports (Parcel, Rollup with an asset plugin) work the same way. In plain Node, `require('banklogos/img/<id>')` returns the `file://` URL of the file inside the installed package. The files are also available directly as `banklogos/assets/<id>.<svg|webp>` (and `<id>-mark.<ext>`). Test runners that don't understand image imports (e.g. Jest) need their usual image mock.
 
+### React Native / Expo
+
+Use `banklogos/native/<id>`: an image source for `<Image>` (PNG or WebP; SVG logos ship as a PNG rendering, since React Native's `<Image>` can't draw SVG). Metro bundles only the logos you import.
+
+```tsx
+import { Image } from 'react-native';
+import gtbank from 'banklogos/native/gtbank';
+import kudaMark from 'banklogos/native/kuda-mark';
+
+<Image source={gtbank} style={{ width: 40, height: 40 }} resizeMode="contain" />;
+```
+
+Tested with Expo SDK 57 / React Native 0.86 (Android, iOS and web bundles); see `examples/expo-app`.
+
 Need a plain HTTPS URL instead (server-rendered HTML, API responses, emails)? `logoUrl` points at the same file on jsDelivr (or unpkg), pinned to the installed version, so nothing needs hosting:
 
 ```ts

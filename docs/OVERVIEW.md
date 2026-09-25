@@ -66,6 +66,7 @@ scripts/                validate, normalize, import, coverage, sync, build-regis
 packages/core/          the published package (banklogos): lookup API, types, generated registry, assets/
 examples/bank-picker/   Vite "choose your bank" app used as an end-to-end consumer test
 examples/nextjs/        Next.js 16 app (server + client components), tested with Turbopack and webpack
+examples/expo-app/       Expo SDK 57 / React Native 0.86 app using banklogos/native/<id>
 docs/                   this file
 ```
 

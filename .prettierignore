@@ -9,3 +9,6 @@ examples/*/package-lock.json
 .cache/
 examples/*/.next/
 examples/*/next-env.d.ts
+packages/core/native/
+examples/*/dist-*/
+examples/*/.expo/

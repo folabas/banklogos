@@ -31,7 +31,9 @@ jobs:
           restore-keys: webp-
       - run: npm test
       # Fail early with a clear message instead of npm's ENEEDAUTH when the publish token is missing.
+      # Only on publish runs (no pending changesets); version-PR runs don't need the token.
       - name: Check npm token
+        if: hashFiles('.changeset/*.md', '!.changeset/README.md') == ''
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
