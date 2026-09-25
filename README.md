@@ -53,6 +53,10 @@ Logos are shipped as SVG where the institution publishes a vector logo, and as W
 | `source.url`, `source.license` | Where the file came from                                                                                    |
 | `variantSources.mark`          | Where the mark came from, when that differs from `source`                                                   |
 
+## How it's built
+
+See [docs/OVERVIEW.md](docs/OVERVIEW.md) for the problem this solves, how the pipeline works, the stack, and the decisions behind it.
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Each logo lives in `logos/<scope>/<id>/` as `meta.json` plus `logo.svg` (and optionally `mark.svg`).
