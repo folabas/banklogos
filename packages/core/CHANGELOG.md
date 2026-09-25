@@ -1,5 +1,11 @@
 # banklogos
 
+## 0.1.3
+
+### Patch Changes
+
+- d5a2cd4: Refreshed README: current status (published, 272 of 279 Nigerian bank codes, 192 verified logos, npm provenance), React Native / Expo usage with `banklogos/native/<id>`, and a link to the release process.
+
 ## 0.1.2
 
 ### Patch Changes
