@@ -1,5 +1,11 @@
 # banklogos
 
+## 0.1.2
+
+### Patch Changes
+
+- f908227: Published with npm provenance: each release is now built and signed by GitHub Actions from `folabas/banklogos`, and npm shows the provenance badge.
+
 ## 0.1.1
 
 ### Patch Changes
