@@ -34,7 +34,7 @@ import gtbankMark from 'banklogos/img/gtbank-mark'; // icon-only mark, when the 
 import gtbankSvg from 'banklogos/svg/gtbank'; // raw SVG markup, only for logos shipped as SVG
 ```
 
-`img/<id>` imports the image file itself, so your bundler (Vite, webpack, Next.js, Parcel, Rollup with an asset plugin) emits it and gives you its URL, in dev and production builds alike. In plain Node, `require('banklogos/img/<id>')` returns the `file://` URL of the file inside the installed package. The files are also available directly as `banklogos/assets/<id>.<svg|webp>` (and `<id>-mark.<ext>`). Test runners that don't understand image imports (e.g. Jest) need their usual image mock.
+`img/<id>` imports the image file itself, so your bundler emits it and gives you its URL, in dev and production builds alike. Tested with Next.js 16 (Turbopack and webpack, server and client components) and Vite; see `examples/nextjs` and `examples/bank-picker`. Other bundlers that handle image imports (Parcel, Rollup with an asset plugin) work the same way. In plain Node, `require('banklogos/img/<id>')` returns the `file://` URL of the file inside the installed package. The files are also available directly as `banklogos/assets/<id>.<svg|webp>` (and `<id>-mark.<ext>`). Test runners that don't understand image imports (e.g. Jest) need their usual image mock.
 
 Need a plain HTTPS URL instead (server-rendered HTML, API responses, emails)? `logoUrl` points at the same file on jsDelivr (or unpkg), pinned to the installed version, so nothing needs hosting:
 

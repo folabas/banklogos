@@ -12,3 +12,5 @@ examples/*/dist/
 examples/*/package-lock.json
 .cache/
 packages/core/README.md
+examples/*/.next/
+examples/*/next-env.d.ts

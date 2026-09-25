@@ -7,3 +7,5 @@ packages/core/assets/
 examples/*/dist/
 examples/*/package-lock.json
 .cache/
+examples/*/.next/
+examples/*/next-env.d.ts

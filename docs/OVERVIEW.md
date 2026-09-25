@@ -65,6 +65,7 @@ sources/                source-list fetchers (ng-banks.ts, ng.ts), snapshots/, i
 scripts/                validate, normalize, import, coverage, sync, build-registry, write-image-modules, preview, size
 packages/core/          the published package (banklogos): lookup API, types, generated registry, assets/
 examples/bank-picker/   Vite "choose your bank" app used as an end-to-end consumer test
+examples/nextjs/        Next.js 16 app (server + client components), tested with Turbopack and webpack
 docs/                   this file
 ```
 
@@ -117,11 +118,11 @@ Everything is TypeScript on Node 22, in an npm-workspaces monorepo.
 
 ### 4. How apps load an image
 
-| Option                                                                                   | Verdict                | Why                                                                                                            |
-| ---------------------------------------------------------------------------------------- | ---------------------- | -------------------------------------------------------------------------------------------------------------- |
-| One bundle with every logo inside                                                        | Rejected               | Every app would ship all 465 images                                                                            |
-| `new URL('../assets/x', import.meta.url)` modules                                        | Rejected after testing | Worked in production builds but broke in Vite's dev mode, because pre-bundling moves the file                  |
-| **One module per image that imports the file; CommonJS version returns a `file://` URL** | **Chosen**             | Bundlers emit only the logos used. Tested in Vite dev and build and in Node; Next.js image objects are handled |
+| Option                                                                                   | Verdict                | Why                                                                                                                                                   |
+| ---------------------------------------------------------------------------------------- | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| One bundle with every logo inside                                                        | Rejected               | Every app would ship all 465 images                                                                                                                   |
+| `new URL('../assets/x', import.meta.url)` modules                                        | Rejected after testing | Worked in production builds but broke in Vite's dev mode, because pre-bundling moves the file                                                         |
+| **One module per image that imports the file; CommonJS version returns a `file://` URL** | **Chosen**             | Bundlers emit only the logos used. Tested in Vite (dev, build), Next.js 16 (dev, Turbopack and webpack builds; server and client components) and Node |
 
 ### 5. Package shape and repo layout
 
