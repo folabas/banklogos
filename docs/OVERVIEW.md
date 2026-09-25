@@ -6,14 +6,14 @@ What the project is, the problem it solves, how it works, the stack, and the dec
 
 `banklogos` is an npm package that gives developers the official logo of every Nigerian bank, microfinance bank, mobile money provider and wallet. Apps can look a logo up by bank code, name or search. The data model and pipeline work for any country, and Nigeria is covered first.
 
-| Measure                       | Today                                                                                                               |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| Logos                         | 273 (48 SVG, 225 WebP), plus 184 icon-only marks                                                                    |
-| Nigerian bank codes covered   | 272 of 279 (97%)                                                                                                    |
-| CBN-licensed banks covered    | 55 of 56 (98%)                                                                                                      |
-| Package size                  | 4.1 MB download, 5.1 MB installed                                                                                   |
-| Size added to an app per logo | about 0.1 KB of code, plus the image file                                                                           |
-| Status                        | Pre-release. 192 logos verified (grade A); 81 graded B/C and marked `verified: false` (see `sources/verification/`) |
+| Measure                       | Today                                                                                                                                                    |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Logos                         | 273 (48 SVG, 225 WebP), plus 184 icon-only marks                                                                                                         |
+| Nigerian bank codes covered   | 272 of 279 (97%)                                                                                                                                         |
+| CBN-licensed banks covered    | 55 of 56 (98%)                                                                                                                                           |
+| Package size                  | 4.1 MB download, 5.1 MB installed                                                                                                                        |
+| Size added to an app per logo | about 0.1 KB of code, plus the image file                                                                                                                |
+| Status                        | Published on npm (latest 0.1.2, with provenance). 192 logos verified (grade A); 81 graded B/C and marked `verified: false` (see `sources/verification/`) |
 
 ## The problem it solves
 
@@ -44,7 +44,8 @@ flowchart LR
 2. **Research.** For every code, the institution's official logo is found: its website, its App Store or Google Play icon, Wikimedia Commons, or an archived copy of its own site. Each finding is recorded in a manifest in `sources/imports/`, with its source and research notes.
 3. **Import.** `npm run import -- <manifest>` downloads each file, optimizes SVGs, converts rasters to PNG, and rejects anything unsafe, blank or too small. It writes `logos/<scope>/<id>/`, containing the image and a `meta.json` with the bank codes, source URL and license.
 4. **Checks.** `npm run validate`, `npm run coverage` and `npm run preview` check the schema and SVG safety, show which codes still lack a logo, and render a visual review sheet.
-5. **Build.** `npm run build` creates the lookup registry, converts PNGs to WebP, and writes one small module per image.
+5. **Build.** `npm run build` creates the lookup registry, converts PNGs to WebP, renders PNG copies of SVG logos for React Native, and writes one small module per image.
+6. **Release.** A changeset describes each change. Pushing to `main` opens a "Version packages" PR; merging it makes GitHub Actions publish to npm with provenance through trusted publishing, then tag and create a GitHub Release. See [CONTRIBUTING.md → Releasing](../CONTRIBUTING.md#releasing).
 
 Using the package:
 
@@ -74,21 +75,22 @@ docs/                   this file
 
 Everything is TypeScript on Node 22, in an npm-workspaces monorepo.
 
-| Area          | Tool                            | Used for                                                                            |
-| ------------- | ------------------------------- | ----------------------------------------------------------------------------------- |
-| Language      | TypeScript 5.9                  | All code (pinned to 5.x because tsup can't generate type files with TS 7)           |
-| Repo          | npm workspaces                  | Monorepo, with `packages/core` published as `banklogos`                             |
-| Package build | tsup (esbuild)                  | ESM + CommonJS builds, with type declarations for the main API                      |
-| Script runner | tsx                             | Running the TypeScript pipeline scripts directly                                    |
-| Schema        | Zod 4                           | Validating every `meta.json`, with a compile-time check against the published types |
-| SVG           | SVGO 4                          | Optimizing SVGs and removing unsafe content                                         |
-| Raster images | sharp                           | Converting to PNG, resizing, encoding WebP, and rendering oversized SVGs            |
-| Tests         | Vitest                          | 44 tests: lookups, validator, SVG/PNG checks, source parsing, matching              |
-| Formatting    | Prettier                        | Code and all generated JSON                                                         |
-| Bundle checks | esbuild                         | `npm run size`, which enforces per-logo and registry size budgets                   |
-| Example app   | Vite                            | `examples/bank-picker`                                                              |
-| CI            | GitHub Actions                  | validate, normalize, format, test, typecheck, build and size, with a WebP cache     |
-| Data sources  | Paystack bank API, CBN JSON API | Bank codes and license categories                                                   |
+| Area          | Tool                                | Used for                                                                            |
+| ------------- | ----------------------------------- | ----------------------------------------------------------------------------------- |
+| Language      | TypeScript 5.9                      | All code (pinned to 5.x because tsup can't generate type files with TS 7)           |
+| Repo          | npm workspaces                      | Monorepo, with `packages/core` published as `banklogos`                             |
+| Package build | tsup (esbuild)                      | ESM + CommonJS builds, with type declarations for the main API                      |
+| Script runner | tsx                                 | Running the TypeScript pipeline scripts directly                                    |
+| Schema        | Zod 4                               | Validating every `meta.json`, with a compile-time check against the published types |
+| SVG           | SVGO 4                              | Optimizing SVGs and removing unsafe content                                         |
+| Raster images | sharp                               | Converting to PNG, resizing, encoding WebP, and rendering oversized SVGs            |
+| Tests         | Vitest                              | 44 tests: lookups, validator, SVG/PNG checks, source parsing, matching              |
+| Formatting    | Prettier                            | Code and all generated JSON                                                         |
+| Bundle checks | esbuild                             | `npm run size`, which enforces per-logo and registry size budgets                   |
+| Example app   | Vite                                | `examples/bank-picker`                                                              |
+| CI            | GitHub Actions                      | validate, normalize, format, test, typecheck, build and size, with a WebP cache     |
+| Releases      | Changesets + npm trusted publishing | Version PRs and changelogs; publishing with provenance from `release.yml`, no token |
+| Data sources  | Paystack bank API, CBN JSON API     | Bank codes and license categories                                                   |
 
 ## Decisions and the alternatives we considered
 
@@ -141,7 +143,17 @@ Everything is TypeScript on Node 22, in an npm-workspaces monorepo.
 | Match by name only                                                                                                     | Rejected   | Many microfinance banks share generic names (Peace, Glory, Victory)                                                                                                                     |
 | **Key by bank code; link CBN register IDs; record source, research notes and a graded verification record per entity** | **Chosen** | Bank codes are exact. The weak link is name to website for small banks, which the planned check (two code lists, licence or RC-number proof, confidence grades A/B/C) is meant to close |
 
-### 7. Owner decisions for edge cases
+### 7. Releasing and publishing
+
+| Option                                                                                                                  | Verdict        | Why                                                                                                                                        |
+| ----------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Publish from a maintainer's machine (`npm publish`)                                                                     | Emergency only | Needs a 2FA code each time and carries no provenance. Used once, for 0.1.0                                                                 |
+| GitHub Actions with an `NPM_TOKEN` secret (granular, bypass-2FA)                                                        | Rejected       | A long-lived secret to store and rotate; npm is removing direct publishing with bypass-2FA tokens in January 2027                          |
+| **npm trusted publishing (GitHub OIDC)**                                                                                | **Chosen**     | No secret at all: npm trusts this repo's `release.yml`. Adds provenance, so every version links to its commit and run                      |
+| `changeset publish` does the npm publish                                                                                | Replaced       | Ran npm quietly with `--json` and only reported pass/fail: 0.1.1 went out without provenance while the run was green                       |
+| **Changesets for versioning only; the workflow runs `npm publish --provenance` itself and waits for npm's attestation** | **Chosen**     | npm's documented path. The run fails if the attestation never appears, so a green release means a signed release (first proven with 0.1.2) |
+
+### 8. Owner decisions for edge cases
 
 - **University-owned microfinance banks** (ATBU, FUTMINNA, EBSU) use their parent university's crest.
 - **Code 50739** (Goodnews / Prospa Capital) uses Prospa's logo.
@@ -152,6 +164,7 @@ Everything is TypeScript on Node 22, in an npm-workspaces monorepo.
 
 - [x] **Identity verification.** Every entity was graded A/B/C with evidence (`sources/verification/ng.json`): 190 A, 53 B, 28 C for Nigeria, plus Visa and USDT (A). Only A-grade entries are `verified: true`. The pass found and fixed one wrong logo (Alpha Morgan used its sister company's), a template favicon (Good Shepherd), a seasonal icon (Waya), a white-on-white file (Keystone) and several parent-brand logos. B/C follow-ups are listed per entity.
 - [ ] **7 bank codes with no official logo.** Adamawa Mortgage, Banc Corp, Garun Mallam, Nuvion, Pathfinder, Randalpha and Victory. These need direct contact with each bank.
-- [ ] **Release setup.** Changesets, a publish workflow with npm provenance, then `0.1.0`.
-- [ ] **GitHub repository.** Create it and push the local history.
-- [ ] **Before adding more countries.** Split the lookup data per country (it is at 15.7 of the 25 KB budget), and add React and React Native components.
+- [x] **Release setup.** Changesets, npm trusted publishing and provenance. Published 0.1.0 (manual), 0.1.1 (React Native support) and 0.1.2 (first release with provenance).
+- [x] **React Native / Expo.** `banklogos/native/<id>`, tested with Expo SDK 57 / RN 0.86.
+- [x] **GitHub repository.** github.com/folabas/banklogos.
+- [ ] **Before adding more countries.** Split the lookup data per country (it is at 15.7 of the 25 KB budget), and add React and React Native `<Logo>` components.

@@ -2,7 +2,7 @@
 
 Official logos for banks, microfinance banks, mobile money providers and wallets, looked up by bank code, name or search. One package, one consistent format. Nigeria first, expanding worldwide.
 
-> **Status:** pre-release (M0). No logos are published yet.
+> **Status:** published on npm. Covers 272 of 279 Nigerian bank codes; 192 logos are verified (`entity.verified`). Every release is built and signed by GitHub Actions with npm provenance.
 
 ## Install
 
@@ -84,7 +84,7 @@ See [docs/OVERVIEW.md](docs/OVERVIEW.md) for the problem this solves, how the pi
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Each logo lives in `logos/<scope>/<id>/` as `meta.json` plus `logo.svg` (and optionally `mark.svg`).
+See [CONTRIBUTING.md](CONTRIBUTING.md) for adding logos and for the [release process](CONTRIBUTING.md#releasing). Each logo lives in `logos/<scope>/<id>/` as `meta.json` plus `logo.svg` (and optionally `mark.svg`).
 
 ```bash
 npm install
