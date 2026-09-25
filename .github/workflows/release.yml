@@ -30,6 +30,15 @@ jobs:
           key: webp-${{ hashFiles('logos/**/*.png') }}
           restore-keys: webp-
       - run: npm test
+      # Fail early with a clear message instead of npm's ENEEDAUTH when the publish token is missing.
+      - name: Check npm token
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          if [ -z "$NPM_TOKEN" ]; then
+            echo "::error::The NPM_TOKEN repository secret is empty or missing. Add it under Settings > Secrets and variables > Actions (name: NPM_TOKEN)."
+            exit 1
+          fi
       # With pending changesets: opens/updates the "Version packages" PR.
       # After that PR is merged: builds and publishes to npm with provenance.
       - uses: changesets/action@v2
@@ -41,5 +50,7 @@ jobs:
           # v2 requires the token as an input (the GITHUB_TOKEN env var is no longer used).
           github-token: ${{ secrets.GITHUB_TOKEN }}
         env:
+          # setup-node's .npmrc reads NODE_AUTH_TOKEN; changesets reads NPM_TOKEN. Set both.
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_CONFIG_PROVENANCE: true
