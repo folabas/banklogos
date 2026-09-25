@@ -7,7 +7,7 @@
     "build": "vite build"
   },
   "dependencies": {
-    "fintech-logos": "file:../../packages/core"
+    "banklogos": "file:../../packages/core"
   },
   "devDependencies": {
     "vite": "^7.0.0"

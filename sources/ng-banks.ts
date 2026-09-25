@@ -63,7 +63,7 @@ export const ngBanks: SourceList = {
   regulator: 'Paystack',
   async fetch() {
     const res = await fetch(URL, {
-      headers: { 'User-Agent': 'fintech-logos source sync', Accept: 'application/json' },
+      headers: { 'User-Agent': 'banklogos source sync', Accept: 'application/json' },
     });
     if (!res.ok) throw new Error(`Paystack bank list: HTTP ${res.status}`);
     const body = (await res.json()) as { status?: boolean; data?: unknown };

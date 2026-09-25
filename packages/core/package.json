@@ -1,7 +1,7 @@
 {
-  "name": "fintech-logos",
+  "name": "banklogos",
   "version": "0.0.0",
-  "description": "Logos for banks, mobile money, e-wallets, payment gateways and crypto — starting with Nigeria.",
+  "description": "Official logos for banks, microfinance banks, mobile money and wallets, looked up by bank code or name. Nigeria first, expanding worldwide.",
   "license": "MIT",
   "type": "module",
   "sideEffects": false,
@@ -37,15 +37,18 @@
     "assets"
   ],
   "keywords": [
-    "logos",
-    "fintech",
+    "bank logos",
     "banks",
+    "bank codes",
+    "logos",
     "nigeria",
     "africa",
+    "microfinance",
     "mobile-money",
+    "fintech",
     "payments",
-    "crypto",
-    "svg"
+    "svg",
+    "webp"
   ],
   "scripts": {
     "build": "tsup && tsx ../../scripts/write-image-modules.ts",
@@ -56,14 +59,14 @@
     "provenance": "true"
   },
   "author": "Basit",
-  "homepage": "https://github.com/OWNER/fintech-logos#readme",
+  "homepage": "https://github.com/OWNER/banklogos#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OWNER/fintech-logos.git",
+    "url": "git+https://github.com/OWNER/banklogos.git",
     "directory": "packages/core"
   },
   "bugs": {
-    "url": "https://github.com/OWNER/fintech-logos/issues"
+    "url": "https://github.com/OWNER/banklogos/issues"
   },
   "engines": {
     "node": ">=18"

@@ -18,31 +18,31 @@ interface Scenario {
 
 const KB = 1024;
 const scenarios: Scenario[] = [
-  { name: 'one logo SVG', code: `import svg from 'fintech-logos/svg/gtbank'; console.log(svg);`, budget: 5 * KB },
+  { name: 'one logo SVG', code: `import svg from 'banklogos/svg/gtbank'; console.log(svg);`, budget: 5 * KB },
   {
     name: 'one logo as <img> URL',
-    code: `import src from 'fintech-logos/img/gtbank'; console.log(src);`,
+    code: `import src from 'banklogos/img/gtbank'; console.log(src);`,
     budget: 5 * KB,
   },
-  { name: 'one mark SVG', code: `import svg from 'fintech-logos/svg/usdt-mark'; console.log(svg);`, budget: 5 * KB },
+  { name: 'one mark SVG', code: `import svg from 'banklogos/svg/usdt-mark'; console.log(svg);`, budget: 5 * KB },
   {
     name: 'two logo SVGs',
-    code: `import a from 'fintech-logos/svg/gtbank'; import b from 'fintech-logos/svg/opay'; console.log(a, b);`,
+    code: `import a from 'banklogos/svg/gtbank'; import b from 'banklogos/svg/opay'; console.log(a, b);`,
   },
   {
     name: 'getLogo (metadata registry)',
-    code: `import { getLogo } from 'fintech-logos'; console.log(getLogo('gtbank'));`,
+    code: `import { getLogo } from 'banklogos'; console.log(getLogo('gtbank'));`,
     // Tripwire: the whole registry ships with getLogo (~460 B minified per entity). Past this,
-    // split the registry into per-country entry points (e.g. fintech-logos/ng).
+    // split the registry into per-country entry points (e.g. banklogos/ng).
     budget: 25 * KB,
   },
   {
     name: 'getLogo + one logo SVG',
-    code: `import { getLogo } from 'fintech-logos'; import svg from 'fintech-logos/svg/gtbank'; console.log(getLogo('gtbank'), svg);`,
+    code: `import { getLogo } from 'banklogos'; import svg from 'banklogos/svg/gtbank'; console.log(getLogo('gtbank'), svg);`,
   },
   {
     name: 'createIndex only (no registry)',
-    code: `import { createIndex } from 'fintech-logos'; console.log(createIndex([]));`,
+    code: `import { createIndex } from 'banklogos'; console.log(createIndex([]));`,
   },
 ];
 

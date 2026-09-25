@@ -117,11 +117,9 @@ describe('logoFile / logoUrl', () => {
   });
 
   it('builds a version-pinned CDN URL', () => {
-    expect(logoUrl(kuda, { version: '0.1.0' })).toBe(
-      'https://cdn.jsdelivr.net/npm/fintech-logos@0.1.0/assets/kuda.svg',
-    );
+    expect(logoUrl(kuda, { version: '0.1.0' })).toBe('https://cdn.jsdelivr.net/npm/banklogos@0.1.0/assets/kuda.svg');
     expect(logoUrl(kuda, { version: '0.1.0', cdn: 'unpkg', variant: 'mark' })).toBe(
-      'https://unpkg.com/fintech-logos@0.1.0/assets/kuda-mark.webp',
+      'https://unpkg.com/banklogos@0.1.0/assets/kuda-mark.webp',
     );
   });
 });

@@ -1,10 +1,10 @@
-import { getLogo, listByCountry, searchLogos } from 'fintech-logos';
+import { getLogo, listByCountry, searchLogos } from 'banklogos';
 // An app that knows which logos it needs imports them directly:
-import gtbankLogo from 'fintech-logos/img/gtbank';
-import accessLogo from 'fintech-logos/img/access-bank';
+import gtbankLogo from 'banklogos/img/gtbank';
+import accessLogo from 'banklogos/img/access-bank';
 
 // This picker shows every bank, so it loads all img/<id> modules (each is a one-line URL to the shipped file).
-const imgModules = import.meta.glob('/node_modules/fintech-logos/dist/generated/img/*.js', {
+const imgModules = import.meta.glob('/node_modules/banklogos/dist/generated/img/*.js', {
   import: 'default',
   eager: true,
 });
@@ -12,7 +12,7 @@ const imgModules = import.meta.glob('/node_modules/fintech-logos/dist/generated/
 const urlFor = (entity, variant = 'mark') => {
   const v = entity.variants.includes(variant) ? variant : 'logo';
   const name = v === 'logo' ? entity.id : `${entity.id}-${v}`;
-  return imgModules[`/node_modules/fintech-logos/dist/generated/img/${name}.js`];
+  return imgModules[`/node_modules/banklogos/dist/generated/img/${name}.js`];
 };
 
 document.getElementById('featured').src = gtbankLogo;

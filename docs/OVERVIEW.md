@@ -1,10 +1,10 @@
-# fintech-logos: project overview
+# banklogos: project overview
 
 What the project is, the problem it solves, how it works, the stack, and the decisions behind it (including the alternatives we rejected). Last updated 2026-09-25.
 
 ## What it is
 
-`fintech-logos` is an npm package that gives developers the official logo of every Nigerian bank, microfinance bank, mobile money provider and wallet. Apps can look a logo up by bank code, name or search. The data model and pipeline work for any country, and Nigeria is covered first.
+`banklogos` is an npm package that gives developers the official logo of every Nigerian bank, microfinance bank, mobile money provider and wallet. Apps can look a logo up by bank code, name or search. The data model and pipeline work for any country, and Nigeria is covered first.
 
 | Measure                       | Today                                                                                                               |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------- |
@@ -49,8 +49,8 @@ flowchart LR
 Using the package:
 
 ```ts
-import { getLogo, searchLogos } from 'fintech-logos';
-import gtbank from 'fintech-logos/img/gtbank';
+import { getLogo, searchLogos } from 'banklogos';
+import gtbank from 'banklogos/img/gtbank';
 
 getLogo({ bankCode: '058' }); // GTBank
 searchLogos('kuda');
@@ -63,7 +63,7 @@ searchLogos('kuda');
 logos/<scope>/<id>/     logo.svg|png, mark.svg|png (optional), meta.json: the source of truth
 sources/                source-list fetchers (ng-banks.ts, ng.ts), snapshots/, imports/ (research manifests)
 scripts/                validate, normalize, import, coverage, sync, build-registry, write-image-modules, preview, size
-packages/core/          the published package (fintech-logos): lookup API, types, generated registry, assets/
+packages/core/          the published package (banklogos): lookup API, types, generated registry, assets/
 examples/bank-picker/   Vite "choose your bank" app used as an end-to-end consumer test
 docs/                   this file
 ```
@@ -75,7 +75,7 @@ Everything is TypeScript on Node 22, in an npm-workspaces monorepo.
 | Area          | Tool                            | Used for                                                                            |
 | ------------- | ------------------------------- | ----------------------------------------------------------------------------------- |
 | Language      | TypeScript 5.9                  | All code (pinned to 5.x because tsup can't generate type files with TS 7)           |
-| Repo          | npm workspaces                  | Monorepo, with `packages/core` published as `fintech-logos`                         |
+| Repo          | npm workspaces                  | Monorepo, with `packages/core` published as `banklogos`                             |
 | Package build | tsup (esbuild)                  | ESM + CommonJS builds, with type declarations for the main API                      |
 | Script runner | tsx                             | Running the TypeScript pipeline scripts directly                                    |
 | Schema        | Zod 4                           | Validating every `meta.json`, with a compile-time check against the published types |
@@ -125,12 +125,12 @@ Everything is TypeScript on Node 22, in an npm-workspaces monorepo.
 
 ### 5. Package shape and repo layout
 
-| Option                                                               | Verdict                       | Why                                                                  |
-| -------------------------------------------------------------------- | ----------------------------- | -------------------------------------------------------------------- |
-| Folders by type (`logos/ng/bank/…`)                                  | Rejected                      | OPay is both mobile money and an e-wallet, so it would be duplicated |
-| **One folder per entity (`logos/<scope>/<id>/`), types in metadata** | **Chosen**                    | One place per brand; global brands (Visa, USDT) go under `global`    |
-| Scoped vs unscoped npm name                                          | **`fintech-logos`, unscoped** | The name is free on npm and easy to find                             |
-| pnpm workspaces                                                      | Rejected                      | Owner preference: npm workspaces                                     |
+| Option                                                               | Verdict                   | Why                                                                                                                                                                                               |
+| -------------------------------------------------------------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Folders by type (`logos/ng/bank/…`)                                  | Rejected                  | OPay is both mobile money and an e-wallet, so it would be duplicated                                                                                                                              |
+| **One folder per entity (`logos/<scope>/<id>/`), types in metadata** | **Chosen**                | One place per brand; global brands (Visa, USDT) go under `global`                                                                                                                                 |
+| Package name: `fintech-logos` vs `bank-logos`-style names            | **`banklogos`, unscoped** | Started as `fintech-logos`; renamed before the first release to something simple and global that doesn't tie the project to "fintech" or one country. Free on npm, and what developers search for |
+| pnpm workspaces                                                      | Rejected                  | Owner preference: npm workspaces                                                                                                                                                                  |
 
 ### 6. Identifying each bank
 

@@ -72,7 +72,7 @@ export function buildSnapshot(raw: Record<string, RawRecord[]>, fetchedAt: strin
 
 async function fetchCategory(endpoint: string): Promise<RawRecord[]> {
   const res = await fetch(`${BASE}/${endpoint}?format=json`, {
-    headers: { 'User-Agent': 'fintech-logos source sync', Accept: 'application/json' },
+    headers: { 'User-Agent': 'banklogos source sync', Accept: 'application/json' },
   });
   if (!res.ok) throw new Error(`CBN ${endpoint}: HTTP ${res.status}`);
   const data: unknown = await res.json();

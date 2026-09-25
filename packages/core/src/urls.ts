@@ -28,7 +28,7 @@ export function logoUrl(entity: LogoEntity, options: LogoUrlOptions = {}): strin
   const version = options.version ?? VERSION;
   const base =
     options.cdn === 'unpkg'
-      ? `https://unpkg.com/fintech-logos@${version}`
-      : `https://cdn.jsdelivr.net/npm/fintech-logos@${version}`;
+      ? `https://unpkg.com/banklogos@${version}`
+      : `https://cdn.jsdelivr.net/npm/banklogos@${version}`;
   return `${base}/assets/${logoFile(entity, options)}`;
 }
