@@ -32,10 +32,10 @@ jobs:
       # After that PR is merged: builds and publishes to npm with provenance.
       - uses: changesets/action@v2
         with:
-          version: npm run version-packages
-          publish: npm run release
-          title: Version packages
-          commit: Version packages
+          version-script: npm run version-packages
+          publish-script: npm run release
+          pr-title: Version packages
+          commit-message: Version packages
           # v2 requires the token as an input (the GITHUB_TOKEN env var is no longer used).
           github-token: ${{ secrets.GITHUB_TOKEN }}
         env:
