@@ -8,16 +8,15 @@
   "types": ["microfinance-bank"],
   "variants": ["logo", "mark"],
   "formats": {
-    "logo": "png",
     "mark": "png"
   },
   "website": "https://blocmfb.com",
   "bankCodes": ["51411"],
   "source": {
-    "url": "https://play.google.com/store/apps/details?id=com.blocmfb.mobile",
-    "license": "official-app-icon",
-    "fetchedAt": "2026-09-24"
+    "url": "https://blocmfb.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-25"
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0"
 }

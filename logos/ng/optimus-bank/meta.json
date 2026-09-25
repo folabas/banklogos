@@ -13,7 +13,7 @@
   "website": "https://www.optimusbank.com",
   "bankCodes": ["107"],
   "source": {
-    "url": "https://www.optimusbank.com/_next/static/media/Optimus%20Bank%20RC%20Logo.4c078eb9.svg",
+    "url": "https://www.optimusbank.com/api/uploads/Optimus_Bank_RC_Logo_Compliant_1_7f3086f129.svg",
     "license": "official-site",
     "fetchedAt": "2026-09-24"
   },
@@ -24,7 +24,7 @@
       "fetchedAt": "2026-09-24"
     }
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0",
   "regulatorRef": {
     "body": "CBN",

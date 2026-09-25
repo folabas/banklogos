@@ -14,9 +14,9 @@
   "website": "https://www.esoemfb.com",
   "bankCodes": ["50280"],
   "source": {
-    "url": "https://www.esoemfb.com/",
+    "url": "https://www.esoemfb.com",
     "license": "official-site",
-    "fetchedAt": "2026-09-24"
+    "fetchedAt": "2026-09-25"
   },
   "variantSources": {
     "mark": {

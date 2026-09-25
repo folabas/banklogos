@@ -10,13 +10,13 @@
     "logo": "png",
     "mark": "png"
   },
-  "website": "https://stellas.com",
+  "website": "https://stellasbank.com",
   "bankCodes": ["51253"],
   "source": {
     "url": "https://play.google.com/store/apps/details?id=com.androidapp.stellas",
     "license": "official-app-icon",
     "fetchedAt": "2026-09-24"
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0"
 }

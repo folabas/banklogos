@@ -11,13 +11,13 @@
     "logo": "png",
     "mark": "png"
   },
-  "website": "https://www.refugemortgagebank.com",
+  "website": "https://refugebank.com.ng",
   "bankCodes": ["90067"],
   "source": {
     "url": "https://play.google.com/store/apps/details?id=com.refugebank.refugebankmobile",
     "license": "official-app-icon",
     "fetchedAt": "2026-09-24"
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0"
 }

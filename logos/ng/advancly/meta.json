@@ -9,12 +9,12 @@
   "formats": {
     "mark": "png"
   },
-  "website": "https://advancly.com",
+  "website": "https://advanclymfb.com",
   "bankCodes": ["090759"],
   "source": {
-    "url": "https://advancly.com",
+    "url": "https://advanclymfb.com",
     "license": "official-site",
-    "fetchedAt": "2026-09-24"
+    "fetchedAt": "2026-09-25"
   },
   "variantSources": {
     "mark": {

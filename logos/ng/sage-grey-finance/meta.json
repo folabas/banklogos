@@ -13,10 +13,11 @@
   },
   "bankCodes": ["40165"],
   "source": {
-    "url": "https://play.google.com/store/apps/details?id=com.sagamy.sagegreymobile",
-    "license": "official-app-icon",
-    "fetchedAt": "2026-09-24"
+    "url": "https://sage-grey.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-25"
   },
-  "verified": false,
-  "addedIn": "0.1.0"
+  "verified": true,
+  "addedIn": "0.1.0",
+  "website": "https://sage-grey.com"
 }

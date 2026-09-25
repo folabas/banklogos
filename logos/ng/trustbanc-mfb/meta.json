@@ -14,9 +14,9 @@
   "website": "https://trustbancmfb.com",
   "bankCodes": ["51118"],
   "source": {
-    "url": "https://app.trustbancgroup.com/accounts/login/",
+    "url": "https://trustbancmfb.com",
     "license": "official-site",
-    "fetchedAt": "2026-09-24"
+    "fetchedAt": "2026-09-25"
   },
   "variantSources": {
     "mark": {
@@ -25,6 +25,6 @@
       "fetchedAt": "2026-09-24"
     }
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0"
 }

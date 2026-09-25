@@ -9,14 +9,14 @@
   "colors": {
     "primary": "#6C1D45"
   },
-  "website": "https://signaturebankng.com",
+  "website": "https://www.signaturebankng.com",
   "bankCodes": ["106"],
   "source": {
     "url": "https://commons.wikimedia.org/wiki/File:Signature_Bank_Logo.svg",
     "license": "cc-by-sa",
     "fetchedAt": "2026-09-24"
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0",
   "regulatorRef": {
     "body": "CBN",

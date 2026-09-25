@@ -9,20 +9,13 @@
   "formats": {
     "mark": "png"
   },
-  "website": "https://paystack.com",
+  "website": "https://paystackmfb.com",
   "bankCodes": ["51457"],
   "source": {
-    "url": "https://commons.wikimedia.org/wiki/File:Paystack_Logo.svg",
-    "license": "public-domain-textlogo",
-    "fetchedAt": "2026-09-24"
+    "url": "https://paystackmfb.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-25"
   },
-  "variantSources": {
-    "mark": {
-      "url": "https://play.google.com/store/apps/details?id=com.paystack.go",
-      "license": "official-app-icon",
-      "fetchedAt": "2026-09-24"
-    }
-  },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0"
 }

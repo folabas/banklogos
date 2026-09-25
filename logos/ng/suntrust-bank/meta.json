@@ -25,7 +25,7 @@
       "fetchedAt": "2026-09-24"
     }
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0",
   "regulatorRef": {
     "body": "CBN",

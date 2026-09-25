@@ -6,14 +6,14 @@ What the project is, the problem it solves, how it works, the stack, and the dec
 
 `fintech-logos` is an npm package that gives developers the official logo of every Nigerian bank, microfinance bank, mobile money provider and wallet. Apps can look a logo up by bank code, name or search. The data model and pipeline work for any country, and Nigeria is covered first.
 
-| Measure                       | Today                                                                         |
-| ----------------------------- | ----------------------------------------------------------------------------- |
-| Logos                         | 273 (48 SVG, 225 WebP), plus 184 icon-only marks                              |
-| Nigerian bank codes covered   | 272 of 279 (97%)                                                              |
-| CBN-licensed banks covered    | 55 of 56 (98%)                                                                |
-| Package size                  | 4.1 MB download, 5.1 MB installed                                             |
-| Size added to an app per logo | about 0.1 KB of code, plus the image file                                     |
-| Status                        | Pre-release. All logos are `verified: false` until the identity check is done |
+| Measure                       | Today                                                                                                               |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| Logos                         | 273 (48 SVG, 225 WebP), plus 184 icon-only marks                                                                    |
+| Nigerian bank codes covered   | 272 of 279 (97%)                                                                                                    |
+| CBN-licensed banks covered    | 55 of 56 (98%)                                                                                                      |
+| Package size                  | 4.1 MB download, 5.1 MB installed                                                                                   |
+| Size added to an app per logo | about 0.1 KB of code, plus the image file                                                                           |
+| Status                        | Pre-release. 192 logos verified (grade A); 81 graded B/C and marked `verified: false` (see `sources/verification/`) |
 
 ## The problem it solves
 
@@ -134,10 +134,10 @@ Everything is TypeScript on Node 22, in an npm-workspaces monorepo.
 
 ### 6. Identifying each bank
 
-| Option                                                                                   | Verdict                                       | Why                                                                                                                                                                                     |
-| ---------------------------------------------------------------------------------------- | --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Match by name only                                                                       | Rejected                                      | Many microfinance banks share generic names (Peace, Glory, Victory)                                                                                                                     |
-| **Key by bank code; link CBN register IDs; record source and research notes per entity** | **Chosen, but verification is still pending** | Bank codes are exact. The weak link is name to website for small banks, which the planned check (two code lists, licence or RC-number proof, confidence grades A/B/C) is meant to close |
+| Option                                                                                                                 | Verdict    | Why                                                                                                                                                                                     |
+| ---------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Match by name only                                                                                                     | Rejected   | Many microfinance banks share generic names (Peace, Glory, Victory)                                                                                                                     |
+| **Key by bank code; link CBN register IDs; record source, research notes and a graded verification record per entity** | **Chosen** | Bank codes are exact. The weak link is name to website for small banks, which the planned check (two code lists, licence or RC-number proof, confidence grades A/B/C) is meant to close |
 
 ### 7. Owner decisions for edge cases
 
@@ -148,7 +148,7 @@ Everything is TypeScript on Node 22, in an npm-workspaces monorepo.
 
 ## Where it stands and what's next
 
-- [ ] **Identity verification.** Check each bank against two code lists and official license or RC-number proof, then grade it A/B/C. Only A-grade entries get `verified: true`.
+- [x] **Identity verification.** Every entity was graded A/B/C with evidence (`sources/verification/ng.json`): 190 A, 53 B, 28 C for Nigeria, plus Visa and USDT (A). Only A-grade entries are `verified: true`. The pass found and fixed one wrong logo (Alpha Morgan used its sister company's), a template favicon (Good Shepherd), a seasonal icon (Waya), a white-on-white file (Keystone) and several parent-brand logos. B/C follow-ups are listed per entity.
 - [ ] **7 bank codes with no official logo.** Adamawa Mortgage, Banc Corp, Garun Mallam, Nuvion, Pathfinder, Randalpha and Victory. These need direct contact with each bank.
 - [ ] **Release setup.** Changesets, a publish workflow with npm provenance, then `0.1.0`.
 - [ ] **GitHub repository.** Create it and push the local history.

@@ -10,12 +10,12 @@
     "logo": "png",
     "mark": "png"
   },
-  "website": "https://whitecrust.co",
+  "website": "https://www.whitecrustfinance.com",
   "bankCodes": ["402001"],
   "source": {
-    "url": "https://whitecrust.co/",
+    "url": "https://www.whitecrustfinance.com",
     "license": "official-site",
-    "fetchedAt": "2026-09-24"
+    "fetchedAt": "2026-09-25"
   },
   "variantSources": {
     "mark": {

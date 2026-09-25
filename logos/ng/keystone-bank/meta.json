@@ -6,30 +6,22 @@
   "scope": "NG",
   "markets": ["NG"],
   "types": ["bank"],
-  "variants": ["logo", "mark"],
-  "formats": {
-    "logo": "png",
-    "mark": "png"
-  },
+  "variants": ["logo"],
   "website": "https://www.keystonebankng.com",
   "bankCodes": ["082"],
   "source": {
-    "url": "https://www.keystonebankng.com",
-    "license": "official-site",
+    "url": "https://play.google.com/store/apps/details?id=com.qucoon.keystonemobilebankingapp",
+    "license": "official-app-icon",
     "fetchedAt": "2026-09-24"
   },
-  "variantSources": {
-    "mark": {
-      "url": "https://play.google.com/store/apps/details?id=com.qucoon.keystonemobilebankingapp",
-      "license": "official-app-icon",
-      "fetchedAt": "2026-09-24"
-    }
-  },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0",
   "regulatorRef": {
     "body": "CBN",
     "category": "commercial-bank",
     "registryId": "10"
+  },
+  "formats": {
+    "logo": "png"
   }
 }

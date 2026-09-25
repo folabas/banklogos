@@ -17,6 +17,7 @@
     "license": "official-app-icon",
     "fetchedAt": "2026-09-24"
   },
-  "verified": false,
-  "addedIn": "0.1.0"
+  "verified": true,
+  "addedIn": "0.1.0",
+  "website": "https://statesidebank.com"
 }

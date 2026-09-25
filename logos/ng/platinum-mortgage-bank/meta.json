@@ -13,10 +13,10 @@
   "website": "https://pmbl-ng.com",
   "bankCodes": ["268"],
   "source": {
-    "url": "https://web.archive.org/web/20220221171849/https://pmbl-ng.com/",
+    "url": "https://pmbl-ng.com/uploads/setting/1557609466.png",
     "license": "official-site",
     "fetchedAt": "2026-09-24"
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0"
 }

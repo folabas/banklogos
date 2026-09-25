@@ -12,10 +12,9 @@
   "scope": "NG",
   "markets": ["NG"],
   "types": ["microfinance-bank"],
-  "variants": ["logo", "mark"],
+  "variants": ["logo"],
   "formats": {
-    "logo": "png",
-    "mark": "png"
+    "logo": "png"
   },
   "website": "https://first-allymfb.com",
   "bankCodes": ["51146"],
@@ -24,13 +23,6 @@
     "license": "official-site",
     "fetchedAt": "2026-09-24"
   },
-  "variantSources": {
-    "mark": {
-      "url": "https://play.google.com/store/apps/details?id=com.moninow.ptmfb",
-      "license": "official-app-icon",
-      "fetchedAt": "2026-09-24"
-    }
-  },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0"
 }

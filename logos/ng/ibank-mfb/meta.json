@@ -13,10 +13,10 @@
   "website": "https://ibankmfb.com",
   "bankCodes": ["51211"],
   "source": {
-    "url": "https://apps.apple.com/ng/app/innovative-mfb/id1482057553",
-    "license": "official-app-icon",
-    "fetchedAt": "2026-09-24"
+    "url": "https://ibankmfb.com",
+    "license": "official-site",
+    "fetchedAt": "2026-09-25"
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0"
 }

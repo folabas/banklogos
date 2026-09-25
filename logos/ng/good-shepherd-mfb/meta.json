@@ -15,8 +15,8 @@
   "source": {
     "url": "https://www.goodshepherdmfb.com/",
     "license": "official-site",
-    "fetchedAt": "2026-09-24"
+    "fetchedAt": "2026-09-25"
   },
-  "verified": false,
+  "verified": true,
   "addedIn": "0.1.0"
 }

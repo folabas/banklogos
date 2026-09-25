@@ -1,0 +1,18 @@
+{
+  "scope": "global",
+  "checkedAt": "2026-09-25",
+  "entities": [
+    {
+      "id": "usdt",
+      "grade": "A",
+      "verifiedAt": "2026-09-25",
+      "summary": "Logo and coin mark downloaded from Tether's official media kit (tether.to/en/media); current teal brand."
+    },
+    {
+      "id": "visa",
+      "grade": "A",
+      "verifiedAt": "2026-09-25",
+      "summary": "Wikimedia Commons \"Visa Inc. logo (2021\u2013present)\" (public-domain text logo); matches the current wordmark on visa.com."
+    }
+  ]
+}

@@ -25,7 +25,8 @@
     "import": "tsx scripts/import-logos.ts",
     "version-packages": "changeset version && prettier --write .",
     "release": "npm run build && changeset publish",
-    "changeset": "changeset"
+    "changeset": "changeset",
+    "replace-logo": "tsx scripts/replace-logo.ts"
   },
   "devDependencies": {
     "@changesets/cli": "^3.0.3",
