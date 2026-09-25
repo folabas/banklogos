@@ -22,9 +22,13 @@
     "size": "tsx scripts/bundle-size.ts",
     "sources:sync": "tsx scripts/sync-sources.ts",
     "coverage": "tsx scripts/coverage.ts",
-    "import": "tsx scripts/import-logos.ts"
+    "import": "tsx scripts/import-logos.ts",
+    "version-packages": "changeset version && prettier --write .",
+    "release": "npm run build && changeset publish",
+    "changeset": "changeset"
   },
   "devDependencies": {
+    "@changesets/cli": "^3.0.3",
     "@types/node": "^26.6.2",
     "esbuild": "^0.27.7",
     "prettier": "^3.9.9",

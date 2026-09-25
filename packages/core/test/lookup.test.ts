@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { createIndex, normalize } from '../src/lookup.js';
+import { logoFile, logoUrl } from '../src/urls.js';
 import type { LogoEntity } from '../src/types.js';
 
 function entity(overrides: Partial<LogoEntity> & Pick<LogoEntity, 'id' | 'name'>): LogoEntity {
@@ -103,5 +104,24 @@ describe('listByCountry / listByType', () => {
     expect(index.listByType('e-wallet')).toEqual([opay]);
     expect(index.listByType('mobile-money')).toEqual([opay]);
     expect(index.listByType('crypto')).toEqual([usdt]);
+  });
+});
+
+describe('logoFile / logoUrl', () => {
+  const kuda = entity({ id: 'kuda', name: 'Kuda', variants: ['logo', 'mark'], formats: { mark: 'webp' } });
+
+  it('names the shipped file, falling back to the logo when there is no mark', () => {
+    expect(logoFile(kuda)).toBe('kuda.svg');
+    expect(logoFile(kuda, { variant: 'mark' })).toBe('kuda-mark.webp');
+    expect(logoFile(gtbank, { variant: 'mark' })).toBe('gtbank.svg');
+  });
+
+  it('builds a version-pinned CDN URL', () => {
+    expect(logoUrl(kuda, { version: '0.1.0' })).toBe(
+      'https://cdn.jsdelivr.net/npm/fintech-logos@0.1.0/assets/kuda.svg',
+    );
+    expect(logoUrl(kuda, { version: '0.1.0', cdn: 'unpkg', variant: 'mark' })).toBe(
+      'https://unpkg.com/fintech-logos@0.1.0/assets/kuda-mark.webp',
+    );
   });
 });

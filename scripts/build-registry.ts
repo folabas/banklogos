@@ -77,6 +77,13 @@ for (const entity of entities) {
   shipped.push(Object.keys(formats).length ? { ...rest, formats } : rest);
 }
 
+const version: string = JSON.parse(readFileSync(join(CORE, 'package.json'), 'utf8')).version;
+writeFileSync(
+  join(OUT_DIR, 'version.ts'),
+  `${HEADER}export const VERSION = ${JSON.stringify(version)};
+`,
+);
+
 writeFileSync(
   join(OUT_DIR, 'registry.ts'),
   `${HEADER}import type { LogoEntity } from '../types.js';\n\nexport const registry: LogoEntity[] = ${JSON.stringify(shipped, null, 2)};\n`,

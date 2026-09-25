@@ -36,6 +36,17 @@ import gtbankSvg from 'fintech-logos/svg/gtbank'; // raw SVG markup, only for lo
 
 `img/<id>` imports the image file itself, so your bundler (Vite, webpack, Next.js, Parcel, Rollup with an asset plugin) emits it and gives you its URL, in dev and production builds alike. In plain Node, `require('fintech-logos/img/<id>')` returns the `file://` URL of the file inside the installed package. The files are also available directly as `fintech-logos/assets/<id>.<svg|webp>` (and `<id>-mark.<ext>`). Test runners that don't understand image imports (e.g. Jest) need their usual image mock.
 
+Need a plain HTTPS URL instead (server-rendered HTML, API responses, emails)? `logoUrl` points at the same file on jsDelivr (or unpkg), pinned to the installed version, so nothing needs hosting:
+
+```ts
+import { getLogo, logoUrl, logoFile } from 'fintech-logos';
+
+const bank = getLogo({ bankCode: '058' })!;
+logoUrl(bank); // https://cdn.jsdelivr.net/npm/fintech-logos@<version>/assets/gtbank.svg
+logoUrl(bank, { variant: 'mark', cdn: 'unpkg' });
+logoFile(bank); // "gtbank.svg": the file name under fintech-logos/assets/, if you serve the files yourself
+```
+
 Logos are shipped as SVG where the institution publishes a vector logo, and as WebP otherwise (the institution's official PNG or app icon, at most 512px). `entity.formats` tells you which variants are WebP.
 
 ## Entity metadata

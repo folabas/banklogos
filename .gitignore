@@ -11,3 +11,4 @@ examples/*/node_modules/
 examples/*/dist/
 examples/*/package-lock.json
 .cache/
+packages/core/README.md

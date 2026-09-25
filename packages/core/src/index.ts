@@ -6,6 +6,8 @@ export type { LogoEntity, LogoType, LogoVariant, LogoFormat, LogoSource, License
 export { LOGO_TYPES, LOGO_VARIANTS, LOGO_FORMATS, LICENSES, formatOf } from './types.js';
 export type { NameQuery, BankCodeQuery, LogoQuery, LogoIndex } from './lookup.js';
 export { createIndex, normalize } from './lookup.js';
+export { logoFile, logoUrl, type LogoFileOptions, type LogoUrlOptions } from './urls.js';
+export { VERSION } from './generated/version.js';
 
 // Built on first use rather than at import time, so bundlers can drop the registry
 // from apps that only import types, constants or createIndex.
