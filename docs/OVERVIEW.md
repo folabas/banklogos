@@ -45,7 +45,7 @@ flowchart LR
 3. **Import.** `npm run import -- <manifest>` downloads each file, optimizes SVGs, converts rasters to PNG, and rejects anything unsafe, blank or too small. It writes `logos/<scope>/<id>/`, containing the image and a `meta.json` with the bank codes, source URL and license.
 4. **Checks.** `npm run validate`, `npm run coverage` and `npm run preview` check the schema and SVG safety, show which codes still lack a logo, and render a visual review sheet.
 5. **Build.** `npm run build` creates the lookup registry, converts PNGs to WebP, renders PNG copies of SVG logos for React Native, and writes one small module per image.
-6. **Release.** A changeset describes each change. Pushing to `main` opens a "Version packages" PR; merging it makes GitHub Actions publish to npm with provenance through trusted publishing, then tag and create a GitHub Release. See [CONTRIBUTING.md → Releasing](../CONTRIBUTING.md#releasing).
+6. **Release.** A changeset describes each change. Pushing it to `main` makes GitHub Actions bump the version, commit the changelog, publish to npm with provenance through trusted publishing, then tag and create a GitHub Release, all in one run with no PR to merge. See [CONTRIBUTING.md → Releasing](../CONTRIBUTING.md#releasing).
 
 Using the package:
 
@@ -75,22 +75,22 @@ docs/                   this file
 
 Everything is TypeScript on Node 22, in an npm-workspaces monorepo.
 
-| Area          | Tool                                | Used for                                                                            |
-| ------------- | ----------------------------------- | ----------------------------------------------------------------------------------- |
-| Language      | TypeScript 5.9                      | All code (pinned to 5.x because tsup can't generate type files with TS 7)           |
-| Repo          | npm workspaces                      | Monorepo, with `packages/core` published as `banklogos`                             |
-| Package build | tsup (esbuild)                      | ESM + CommonJS builds, with type declarations for the main API                      |
-| Script runner | tsx                                 | Running the TypeScript pipeline scripts directly                                    |
-| Schema        | Zod 4                               | Validating every `meta.json`, with a compile-time check against the published types |
-| SVG           | SVGO 4                              | Optimizing SVGs and removing unsafe content                                         |
-| Raster images | sharp                               | Converting to PNG, resizing, encoding WebP, and rendering oversized SVGs            |
-| Tests         | Vitest                              | 44 tests: lookups, validator, SVG/PNG checks, source parsing, matching              |
-| Formatting    | Prettier                            | Code and all generated JSON                                                         |
-| Bundle checks | esbuild                             | `npm run size`, which enforces per-logo and registry size budgets                   |
-| Example app   | Vite                                | `examples/bank-picker`                                                              |
-| CI            | GitHub Actions                      | validate, normalize, format, test, typecheck, build and size, with a WebP cache     |
-| Releases      | Changesets + npm trusted publishing | Version PRs and changelogs; publishing with provenance from `release.yml`, no token |
-| Data sources  | Paystack bank API, CBN JSON API     | Bank codes and license categories                                                   |
+| Area          | Tool                                | Used for                                                                                     |
+| ------------- | ----------------------------------- | -------------------------------------------------------------------------------------------- |
+| Language      | TypeScript 5.9                      | All code (pinned to 5.x because tsup can't generate type files with TS 7)                    |
+| Repo          | npm workspaces                      | Monorepo, with `packages/core` published as `banklogos`                                      |
+| Package build | tsup (esbuild)                      | ESM + CommonJS builds, with type declarations for the main API                               |
+| Script runner | tsx                                 | Running the TypeScript pipeline scripts directly                                             |
+| Schema        | Zod 4                               | Validating every `meta.json`, with a compile-time check against the published types          |
+| SVG           | SVGO 4                              | Optimizing SVGs and removing unsafe content                                                  |
+| Raster images | sharp                               | Converting to PNG, resizing, encoding WebP, and rendering oversized SVGs                     |
+| Tests         | Vitest                              | 44 tests: lookups, validator, SVG/PNG checks, source parsing, matching                       |
+| Formatting    | Prettier                            | Code and all generated JSON                                                                  |
+| Bundle checks | esbuild                             | `npm run size`, which enforces per-logo and registry size budgets                            |
+| Example app   | Vite                                | `examples/bank-picker`                                                                       |
+| CI            | GitHub Actions                      | validate, normalize, format, test, typecheck, build and size, with a WebP cache              |
+| Releases      | Changesets + npm trusted publishing | Automatic versioning and changelogs; publishing with provenance from `release.yml`, no token |
+| Data sources  | Paystack bank API, CBN JSON API     | Bank codes and license categories                                                            |
 
 ## Decisions and the alternatives we considered
 
@@ -152,6 +152,8 @@ Everything is TypeScript on Node 22, in an npm-workspaces monorepo.
 | **npm trusted publishing (GitHub OIDC)**                                                                                | **Chosen**     | No secret at all: npm trusts this repo's `release.yml`. Adds provenance, so every version links to its commit and run                      |
 | `changeset publish` does the npm publish                                                                                | Replaced       | Ran npm quietly with `--json` and only reported pass/fail: 0.1.1 went out without provenance while the run was green                       |
 | **Changesets for versioning only; the workflow runs `npm publish --provenance` itself and waits for npm's attestation** | **Chosen**     | npm's documented path. The run fails if the attestation never appears, so a green release means a signed release (first proven with 0.1.2) |
+| A "Version packages" PR that a maintainer merges to release                                                             | Replaced       | An extra manual merge for every release. The workflow now commits the version bump to `main` itself and publishes in the same run          |
+| **Fully automatic: a changeset on `main` releases in the same run**                                                     | **Chosen**     | No manual step. Trade-off: no review between pushing a changeset and publishing, so only push changesets when you mean to release          |
 
 ### 8. Owner decisions for edge cases
 

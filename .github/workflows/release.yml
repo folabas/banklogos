@@ -1,16 +1,21 @@
 name: Release
 
+# Fully automatic: a push to main that includes a changeset is versioned, committed back to main, published to
+# npm with provenance, tagged and given a GitHub Release, all in this one run. Pushes without a changeset do
+# nothing. See CONTRIBUTING.md -> Releasing.
 on:
   push:
     branches: [main]
-  # Lets you start a release run by hand from the Actions tab.
+  # Lets you start a release run by hand from the Actions tab (e.g. to retry a failed publish).
   workflow_dispatch:
 
-concurrency: release-${{ github.ref }}
+# One release at a time, and never cancel a run halfway through a publish.
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
 
 permissions:
-  contents: write # push the "Version packages" commit, tags and GitHub Releases
-  pull-requests: write # open the "Version packages" PR
+  contents: write # push the release commit, tags and GitHub Releases
   id-token: write # npm trusted publishing (OIDC) and provenance
 
 jobs:
@@ -32,18 +37,26 @@ jobs:
       - run: npm test
       # npm trusted publishing (OIDC, no token) needs npm >= 11.5.1; Node 22 ships npm 10.
       - run: npm install -g npm@^11.5.1
-      # Changesets handles versioning only: with pending changesets it opens/updates the "Version packages" PR.
-      - id: changesets
-        uses: changesets/action@v2
-        with:
-          version-script: npm run version-packages
-          pr-title: Version packages
-          commit-message: Version packages
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-      # With no pending changesets (the version PR was merged): publish the new version ourselves, exactly as
-      # npm documents for trusted publishing + provenance, then verify the attestation really landed.
+
+      # Apply pending changesets: bump the version, write the CHANGELOG, commit that to main.
+      # (Pushes made with GITHUB_TOKEN don't trigger new workflow runs, so this doesn't loop.)
+      - name: Version
+        run: |
+          if ! ls .changeset/*.md 2>/dev/null | grep -qv '/README.md$'; then
+            echo "No pending changesets."
+            exit 0
+          fi
+          npm run version-packages
+          VERSION=$(node -p "require('./packages/core/package.json').version")
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Release banklogos@$VERSION"
+          git push origin HEAD:main
+
+      # Publish the current version if npm doesn't have it yet, exactly as npm documents for trusted publishing +
+      # provenance, then verify the attestation really landed before tagging.
       - name: Publish to npm with provenance
-        if: steps.changesets.outputs.has-changesets == 'false'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -63,6 +76,6 @@ jobs:
             if [ "$i" = 30 ]; then echo "::error::$NAME@$VERSION has no provenance attestation on npm."; exit 1; fi
             sleep 20
           done
-          # Tag and GitHub Release, with this version's CHANGELOG section as notes.
+          # Tag and GitHub Release on the release commit, with this version's CHANGELOG section as notes.
           awk -v v="## $VERSION" '$0==v{f=1;next} /^## /{f=0} f' packages/core/CHANGELOG.md > release-notes.md
-          gh release create "$NAME@$VERSION" --target "$GITHUB_SHA" --title "$NAME@$VERSION" --notes-file release-notes.md
+          gh release create "$NAME@$VERSION" --target "$(git rev-parse HEAD)" --title "$NAME@$VERSION" --notes-file release-notes.md

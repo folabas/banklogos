@@ -61,7 +61,7 @@ Keep originals lossless: `logo.svg` when the brand publishes a vector, otherwise
 
 ## Releasing
 
-Releases are automated: you describe the change, merge one pull request, and GitHub Actions publishes to npm with provenance.
+Releases are fully automatic: push a change with a changeset to `main` and GitHub Actions versions it, publishes it to npm with provenance, and tags it. There is no pull request to merge.
 
 ### 1. Add a changeset with your change
 
@@ -77,17 +77,18 @@ Pick the bump and write one or two sentences for the changelog:
 | **minor** | New logos or countries, new API                                             |
 | **major** | Breaking API changes, or removing/renaming an entity id (ids are permanent) |
 
-Commit the generated `.changeset/*.md` file with your change and merge it to `main`.
+Commit the generated `.changeset/*.md` file with your change and push (or merge) it to `main`. That's it.
 
-### 2. Merge the "Version packages" pull request
+### 2. What happens automatically
 
 On every push to `main`, the **Release** workflow (`.github/workflows/release.yml`) runs:
 
 ```mermaid
 flowchart LR
-  A[Push to main] --> B{Pending<br/>changesets?}
-  B -- yes --> C[Open/update<br/>Version packages PR]
-  C -- you merge it --> A
+  A[Push to main] --> T[npm test]
+  T --> B{Pending<br/>changesets?}
+  B -- yes --> C[Bump version + CHANGELOG,<br/>commit to main]
+  C --> D
   B -- no --> D{Version already<br/>on npm?}
   D -- no --> E[npm publish<br/>--provenance]
   E --> F[Wait for npm<br/>attestation]
@@ -95,28 +96,28 @@ flowchart LR
   D -- yes --> H[Nothing to do]
 ```
 
-- **With pending changesets**, it opens (or updates) a **"Version packages"** PR that bumps the version in `packages/core/package.json` and writes `packages/core/CHANGELOG.md`. Its CI check waits for a maintainer: click **Approve and run**.
-- **Merging that PR** triggers the publish: the workflow builds, runs `npm publish --provenance --access public`, waits until npm serves the provenance attestation (npm can take a few minutes to list a new version), then creates the `banklogos@<version>` git tag and GitHub Release with the changelog section as notes. If the attestation never appears, the run fails instead of reporting success.
+- **With pending changesets**, it runs `npm run version-packages` (bumps `packages/core/package.json`, writes `packages/core/CHANGELOG.md`, deletes the changeset files) and pushes a `Release banklogos@<version>` commit to `main` as `github-actions[bot]`. Pull before your next change.
+- **Then, in the same run**, it builds, runs `npm publish --provenance --access public`, waits until npm serves the provenance attestation (npm can take a few minutes to list a new version), and creates the `banklogos@<version>` git tag and GitHub Release with the changelog section as notes. If the attestation never appears, the run fails instead of reporting success.
+- **Without a changeset**, nothing is released. Several changesets pushed together become one release.
 
-You can also start the workflow by hand from **Actions → Release → Run workflow**. It only publishes a version that isn't on npm yet, so re-running is safe.
+There is no review step between pushing and publishing, so only push changesets to `main` when you mean to release. You can also start the workflow by hand from **Actions → Release → Run workflow**; it only publishes a version that isn't on npm yet, so re-running is safe.
 
 ### How publishing is authorised
 
 There is no npm token. npm **trusted publishing** trusts this repository's `release.yml` through GitHub's OIDC identity, and the package gets a provenance attestation that links each version to the exact commit and workflow run. One-time setup (already done):
 
 - npmjs.com → `banklogos` → Settings → **Trusted Publisher**: GitHub Actions, `folabas` / `banklogos`, workflow `release.yml`, no environment.
-- GitHub → Settings → Actions → General → **Allow GitHub Actions to create and approve pull requests** (for the Version packages PR).
+- If you add branch protection to `main`, allow GitHub Actions to push to it (the workflow commits the version bump directly).
 - The workflow needs `id-token: write` and npm 11.5.1 or later (it installs it; Node 22 ships npm 10).
 
 Check a release with `npm audit signatures` in any project that installs it: it should report a verified registry signature and a verified attestation.
 
 ### If something goes wrong
 
-| Symptom                                                                                 | Cause and fix                                                                                                                       |
-| --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| Release fails with "GitHub Actions is not permitted to create or approve pull requests" | Turn on the GitHub setting above, then re-run.                                                                                      |
-| Publish fails with an authentication error (`ENEEDAUTH`, 403, OIDC)                     | The Trusted Publisher on npmjs.com doesn't match: check owner, repo and the workflow **file name** (`release.yml`, not the path).   |
-| "has no provenance attestation on npm"                                                  | The version may be on npm without provenance. It can't be republished; add a patch changeset and release the next version.          |
-| A version PR shows "Checks 0" or "Action required"                                      | GitHub doesn't run workflows on bot-created PRs until a maintainer approves them. Approving is optional; `main` was already tested. |
+| Symptom                                                             | Cause and fix                                                                                                                     |
+| ------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| The Version step fails on `git push` (rejected or protected branch) | Someone pushed to `main` mid-run, or branch protection blocks Actions. Re-run the workflow, or allow Actions to push to `main`.   |
+| Publish fails with an authentication error (`ENEEDAUTH`, 403, OIDC) | The Trusted Publisher on npmjs.com doesn't match: check owner, repo and the workflow **file name** (`release.yml`, not the path). |
+| "has no provenance attestation on npm"                              | The version may be on npm without provenance. It can't be republished; add a patch changeset and release the next version.        |
 
 **Manual publish (emergency only).** From `packages/core`, after `npm run build` at the root: `npm publish --provenance=false --access public` (needs `npm login` and your 2FA code). It won't carry provenance, and you must create the tag yourself: `git tag -a banklogos@<version> -m "banklogos <version>"` and `git push origin banklogos@<version>`.
