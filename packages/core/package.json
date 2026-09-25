@@ -1,6 +1,6 @@
 {
   "name": "banklogos",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Official logos for banks, microfinance banks, mobile money and wallets, looked up by bank code or name. Nigeria first, expanding worldwide.",
   "license": "MIT",
   "type": "module",
