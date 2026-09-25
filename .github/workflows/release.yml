@@ -9,7 +9,7 @@ on:
 concurrency: release-${{ github.ref }}
 
 permissions:
-  contents: write # push the "Version packages" commit and tags
+  contents: write # push the "Version packages" commit, tags and GitHub Releases
   pull-requests: write # open the "Version packages" PR
   id-token: write # npm trusted publishing (OIDC) and provenance
 
@@ -32,17 +32,37 @@ jobs:
       - run: npm test
       # npm trusted publishing (OIDC, no token) needs npm >= 11.5.1; Node 22 ships npm 10.
       - run: npm install -g npm@^11.5.1
-      # With pending changesets: opens/updates the "Version packages" PR.
-      # After that PR is merged: builds and publishes to npm with provenance.
-      - uses: changesets/action@v2
+      # Changesets handles versioning only: with pending changesets it opens/updates the "Version packages" PR.
+      - id: changesets
+        uses: changesets/action@v2
         with:
           version-script: npm run version-packages
-          publish-script: npm run release
           pr-title: Version packages
           commit-message: Version packages
-          # v2 requires the token as an input (the GITHUB_TOKEN env var is no longer used).
           github-token: ${{ secrets.GITHUB_TOKEN }}
-        # Publishing uses npm trusted publishing: npmjs.com trusts this repo's release.yml via GitHub OIDC
-        # (id-token: write above), so no NPM_TOKEN secret is needed and provenance is attached automatically.
+      # With no pending changesets (the version PR was merged): publish the new version ourselves, exactly as
+      # npm documents for trusted publishing + provenance, then verify the attestation really landed.
+      - name: Publish to npm with provenance
+        if: steps.changesets.outputs.has-changesets == 'false'
         env:
-          NPM_CONFIG_PROVENANCE: true
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          NAME=$(node -p "require('./packages/core/package.json').name")
+          VERSION=$(node -p "require('./packages/core/package.json').version")
+          if [ "$(npm view "$NAME@$VERSION" version 2>/dev/null)" = "$VERSION" ]; then
+            echo "$NAME@$VERSION is already on npm; nothing to publish."
+            exit 0
+          fi
+          npm run build
+          (cd packages/core && npm publish --provenance --access public)
+          # npm can take a few minutes to list trusted-publishing releases; wait for the version and its provenance.
+          for i in $(seq 1 30); do
+            if curl -sf "https://registry.npmjs.org/-/npm/v1/attestations/$NAME@$VERSION" >/dev/null; then
+              echo "$NAME@$VERSION is on npm with provenance."; break
+            fi
+            if [ "$i" = 30 ]; then echo "::error::$NAME@$VERSION has no provenance attestation on npm."; exit 1; fi
+            sleep 20
+          done
+          # Tag and GitHub Release, with this version's CHANGELOG section as notes.
+          awk -v v="## $VERSION" '$0==v{f=1;next} /^## /{f=0} f' packages/core/CHANGELOG.md > release-notes.md
+          gh release create "$NAME@$VERSION" --target "$GITHUB_SHA" --title "$NAME@$VERSION" --notes-file release-notes.md

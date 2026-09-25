@@ -61,7 +61,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "provenance": "true"
+    "provenance": true
   },
   "author": "Basit",
   "homepage": "https://github.com/folabas/banklogos#readme",
