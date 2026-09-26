@@ -86,4 +86,7 @@ jobs:
           # Tag the commit that set this version, with this version's CHANGELOG section as notes.
           awk -v v="## $VERSION" '$0==v{f=1;next} /^## /{f=0} f' packages/core/CHANGELOG.md > release-notes.md
           TARGET=$(git log -1 --format=%H -- packages/core/package.json)
-          gh release create "$NAME@$VERSION" --target "$TARGET" --title "$NAME@$VERSION" --notes-file release-notes.md
+          if ! gh release create "$NAME@$VERSION" --target "$TARGET" --title "$NAME@$VERSION" --notes-file release-notes.md 2>gh-error.txt; then
+            echo "::error::gh release create $NAME@$VERSION (target $TARGET) failed: $(tr -s '[:space:]' ' ' < gh-error.txt)"
+            exit 1
+          fi
