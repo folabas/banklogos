@@ -97,7 +97,7 @@ flowchart LR
 ```
 
 - **With pending changesets**, it runs `npm run version-packages` (bumps `packages/core/package.json`, writes `packages/core/CHANGELOG.md`, deletes the changeset files) and pushes a `Release banklogos@<version>` commit to `main` as `github-actions[bot]`. Pull before your next change.
-- **Then, in the same run**, it builds, runs `npm publish --provenance --access public`, waits until npm serves the provenance attestation (npm can take a few minutes to list a new version), and creates the `banklogos@<version>` git tag and GitHub Release with the changelog section as notes. If the attestation never appears, the run fails instead of reporting success.
+- **Then, in the same run**, it builds, runs `npm publish --provenance --access public`, waits until npm serves the provenance attestation (npm can take anywhere from a few minutes to over half an hour to list a new version; the run waits up to 60), and creates the `banklogos@<version>` git tag and GitHub Release with the changelog section as notes. If the attestation never appears, the run fails instead of reporting success. Every run also creates the tag and Release for the current version if they're missing, so after a timeout, once the version shows up on npm, **Actions → Release → Run workflow** finishes the job.
 - **Without a changeset**, nothing is released. Several changesets pushed together become one release.
 
 There is no review step between pushing and publishing, so only push changesets to `main` when you mean to release. You can also start the workflow by hand from **Actions → Release → Run workflow**; it only publishes a version that isn't on npm yet, so re-running is safe.
@@ -114,10 +114,10 @@ Check a release with `npm audit signatures` in any project that installs it: it 
 
 ### If something goes wrong
 
-| Symptom                                                             | Cause and fix                                                                                                                     |
-| ------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| The Version step fails on `git push` (rejected or protected branch) | Someone pushed to `main` mid-run, or branch protection blocks Actions. Re-run the workflow, or allow Actions to push to `main`.   |
-| Publish fails with an authentication error (`ENEEDAUTH`, 403, OIDC) | The Trusted Publisher on npmjs.com doesn't match: check owner, repo and the workflow **file name** (`release.yml`, not the path). |
-| "has no provenance attestation on npm"                              | The version may be on npm without provenance. It can't be republished; add a patch changeset and release the next version.        |
+| Symptom                                                             | Cause and fix                                                                                                                                                                                                                                       |
+| ------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| The Version step fails on `git push` (rejected or protected branch) | Someone pushed to `main` mid-run, or branch protection blocks Actions. Re-run the workflow, or allow Actions to push to `main`.                                                                                                                     |
+| Publish fails with an authentication error (`ENEEDAUTH`, 403, OIDC) | The Trusted Publisher on npmjs.com doesn't match: check owner, repo and the workflow **file name** (`release.yml`, not the path).                                                                                                                   |
+| "has no provenance attestation on npm"                              | npm is slow to list it. Check `npm view banklogos versions` later; once it's there, **Run workflow** to create the tag and Release. If it's on npm without provenance, it can't be republished: add a patch changeset and release the next version. |
 
 **Manual publish (emergency only).** From `packages/core`, after `npm run build` at the root: `npm publish --provenance=false --access public` (needs `npm login` and your 2FA code). It won't carry provenance, and you must create the tag yourself: `git tag -a banklogos@<version> -m "banklogos <version>"` and `git push origin banklogos@<version>`.

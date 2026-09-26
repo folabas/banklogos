@@ -23,6 +23,8 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0 # full history, to tag the commit that set the version
       - uses: actions/setup-node@v7
         with:
           node-version: 22
@@ -55,7 +57,8 @@ jobs:
           git push origin HEAD:main
 
       # Publish the current version if npm doesn't have it yet, exactly as npm documents for trusted publishing +
-      # provenance, then verify the attestation really landed before tagging.
+      # provenance, and verify the attestation really landed. Then make sure the tag and GitHub Release exist, so a
+      # later run (or "Run workflow") fills them in if an earlier run stopped after publishing.
       - name: Publish to npm with provenance
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -63,19 +66,24 @@ jobs:
           NAME=$(node -p "require('./packages/core/package.json').name")
           VERSION=$(node -p "require('./packages/core/package.json').version")
           if [ "$(npm view "$NAME@$VERSION" version 2>/dev/null)" = "$VERSION" ]; then
-            echo "$NAME@$VERSION is already on npm; nothing to publish."
+            echo "$NAME@$VERSION is already on npm."
+          else
+            npm run build
+            (cd packages/core && npm publish --provenance --access public)
+            # npm can take over half an hour to list trusted-publishing releases; wait up to 60 minutes.
+            for i in $(seq 1 120); do
+              if curl -sf "https://registry.npmjs.org/-/npm/v1/attestations/$NAME@$VERSION" >/dev/null; then
+                echo "$NAME@$VERSION is on npm with provenance."; break
+              fi
+              if [ "$i" = 120 ]; then echo "::error::$NAME@$VERSION has no provenance attestation on npm after 60 minutes. If it appears later, run this workflow again to tag it."; exit 1; fi
+              sleep 30
+            done
+          fi
+          if gh release view "$NAME@$VERSION" >/dev/null 2>&1; then
+            echo "GitHub Release $NAME@$VERSION already exists."
             exit 0
           fi
-          npm run build
-          (cd packages/core && npm publish --provenance --access public)
-          # npm can take a few minutes to list trusted-publishing releases; wait for the version and its provenance.
-          for i in $(seq 1 30); do
-            if curl -sf "https://registry.npmjs.org/-/npm/v1/attestations/$NAME@$VERSION" >/dev/null; then
-              echo "$NAME@$VERSION is on npm with provenance."; break
-            fi
-            if [ "$i" = 30 ]; then echo "::error::$NAME@$VERSION has no provenance attestation on npm."; exit 1; fi
-            sleep 20
-          done
-          # Tag and GitHub Release on the release commit, with this version's CHANGELOG section as notes.
+          # Tag the commit that set this version, with this version's CHANGELOG section as notes.
           awk -v v="## $VERSION" '$0==v{f=1;next} /^## /{f=0} f' packages/core/CHANGELOG.md > release-notes.md
-          gh release create "$NAME@$VERSION" --target "$(git rev-parse HEAD)" --title "$NAME@$VERSION" --notes-file release-notes.md
+          TARGET=$(git log -1 --format=%H -- packages/core/package.json)
+          gh release create "$NAME@$VERSION" --target "$TARGET" --title "$NAME@$VERSION" --notes-file release-notes.md
